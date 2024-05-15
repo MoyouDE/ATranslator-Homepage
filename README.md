@@ -29,3 +29,6 @@ tip： 低于 `1.0.3` 版本的请通过此仓库下载新版启动器重新安�
 补完使用说明    
 文字大小/界面风格切换  
 本地翻译模型  
+
+## 查看历史版本
+[点此前往包体仓库](https://github.com/MoyouDE/ATranslator-Release/releases)
