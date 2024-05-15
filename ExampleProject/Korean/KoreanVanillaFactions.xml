@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Korean" nowhitespace="true" translatedname="한국어">
+
+
+<!-- Modified values -->
+<entityname.piratehelmet>분리파 헬멧</entityname.piratehelmet>
+<entitydescription.piratehelmet>개조된 방탄 헬멧입니다. 투박한 개조에도 불구하고, 놀라울 정도로 튼튼해 보입니다.</entitydescription.piratehelmet>
+<entityname.piratebodyarmor>분리파 방어구</entityname.piratebodyarmor>
+<entitydescription.piratebodyarmor>목성 분리주의자들이 만든 급조 방어구입니다. 보기보다 무겁습니다.</entitydescription.piratebodyarmor>
+<entityname.piratecaptainhat>분리파 함장 모자</entityname.piratecaptainhat>
+<entityname.piratebandana>분리파 머리띠</entityname.piratebandana>
+<entityname.pirateclothes>분리파 의상</entityname.pirateclothes>
+<entitydescription.pirateclothes>목성 분리주의자들이 수작업으로 만든 투박한 의복입니다. 유로파 해저 환경의 혹독함을 견딜 수 있도록 설계되었습니다. 이 의복은 가벼운 장갑판으로 강화되었습니다.</entitydescription.pirateclothes>
+<entityname.piratesubexterior>분리파 잠수함 외부 부속</entityname.piratesubexterior>
+<entityname.piratesubdeco>분리파 잠수함 장식</entityname.piratesubdeco>
+<missionname.escort1>연합 인원 수송</missionname.escort1>
+<missiondescription.escort1>연합이 [location1]에서 다수의 민간인을 고용했습니다. 이들을 [location2]로 수송해야 하며, 그들이 무사할 때에만 보상금을 지급받을 수 있습니다. 그들이 죽지 않도록 주의하십시오.</missiondescription.escort1>
+<missiondescription.escort3>분리파 포로에 대한 보상으로 [reward] 마르크를 받기 위해 이들을 [location2]로 이송해야 합니다. 이 포로들이 탈출을 시도할 수도 있으니 항해 중 경계를 유지해야 할 것입니다. 포로들이 죽지 않도록 주의하십시오.</missiondescription.escort3>
+<missionname.escort2>연합 장교 수송</missionname.escort2>
+<missiondescription.escort2>매우 중요한 연합 장교와 무장한 호위병을 [location2]로 이송해야 합니다. 해당 인물에게 불필요한 위험이 생기지 않도록 주의하십시오. 대상이 살아남은 경우에만 보상이 지급됩니다.</missiondescription.escort2>
+<missionname.pirate1>분리파 잠수함</missionname.pirate1>
+<missiondescription.pirate1>지역을 공포로 몰아넣고 있는 목성 분리파 잠수함을 찾아 승조원들을 제거해야합니다. 표시된 위치는 그 잠수함이 마지막으로 목격된 위치를 표시합니다.</missiondescription.pirate1>
+<missionsuccess.pirate1>분리파 함선의 승조원이 성공적으로 제거되었습니다.</missionsuccess.pirate1>
+<missionfailure.pirate1>분리파 함선의 승조원이 제거되지 않았습니다.</missionfailure.pirate1>
+<missionsonarlabel.pirate1>분리파 세력이 목격되었습니다.</missionsonarlabel.pirate1>
+<missionheader0.pirate1>분리파 세력이 발견되었습니다.</missionheader0.pirate1>
+<missionheader1.pirate1>분리파 세력이 제거되었습니다.</missionheader1.pirate1>
+<eventtext.missionevent_escort1.c1>"일거리를 찾고 계십니까? 연합이 우리 전초기지에서 신병을 모집했는데, 이들을 근처 전초기지로 배치했죠. 신병들을 안전하게 그쪽으로 데려갈 수 있다면 보상을 받을 겁니다."</eventtext.missionevent_escort1.c1>
+<eventtext.missionevent_escort2.c1>"당신이 연합 고위 간부들에게 이름을 알리고 싶으시다면 딱 맞는 일이 있습니다... 연합 측 고위 간부와 그쪽 무장 호위병력이 전초기지에 방문했었는데, 이제 근처 전초기지로 이동할 운송편을 찾고 있죠. 그들을 안전하게 데려갈 수 있다면 당신에게 떨어지는 게 있을 겁니다."</eventtext.missionevent_escort2.c1>
+<eventtext.missionevent_escort3.c1>"최근에 분리주의자들을 붙잡았습니다. 이들을 근처 전초기지로 이송시킬 사람을 찾고 있었죠. 제가 결정권자면 이 자식들을 에어로크 밖으로 던져버리겠습니다만, 연합 간부님들은 심문을 하고 싶어 하시는 것 같더군요. 보상은 잘 챙겨줄 테지만, 잘 보호하셔야 할 겁니다."</eventtext.missionevent_escort3.c1>
+<eventtext.missionevent_escort4.c1>"분리주의자 테러리스트들이 다음에 떠나는 무고한 민간인들 사이에 숨어든 것 같습니다. 만약 당신이 배를 운송편으로 사용해주신다면, 그 테러리스트 놈들을 밖으로 끌어내서 사로잡을 수 있을 겁니다. 부디 민간인들에게 피해가 없도록 해주십시오."</eventtext.missionevent_escort4.c1>
+<missiondescription.cargocompoundn>목성 분리주의자들이 고폭탄을 [location2]로 운반해주는 대가로 [reward] 마르크를 제공한다고 합니다.</missiondescription.cargocompoundn>
+<lockedpathtooltipcoalitionreputation>통로가 봉쇄되어 있습니다. 더 멀리 이동하기 위해서는 ‖color:faction.coalition‖유로파 연합‖end‖에 [requiredreputation] 이상의 평판과 전초기지 장교의 허가가 있어야 합니다. 정보 탭에서 평판을 확인할 수 있습니다.\n\n현재 평판: [currentreputation]</lockedpathtooltipcoalitionreputation>
+
+<!-- New values -->
+<missionname.separatistattack1>분리주의자들의 매복</missionname.separatistattack1>
+<missionheader0.separatistattack1>수신중</missionheader0.separatistattack1>
+<missionmessage0.separatistattack1>"이 통로는 목성 분리주의 세력의 통치아래에 있다. 즉시 침로를 돌려라. 그렇지 않으면 너희 파시스트놈들은 누구도 살아서 빠져나가지 못할 것이다."</missionmessage0.separatistattack1>
+<missionname.coalitionattack1>연합의 매복</missionname.coalitionattack1>
+<missionheader0.coalitionattack1>수신중</missionheader0.coalitionattack1>
+<missionmessage0.coalitionattack1>"막다른 길이다, 배신자놈들! 연합을 반역한 대가는 죽음뿐이다!"</missionmessage0.coalitionattack1>
+<missionname.escort1separatists>분리주의자 수송</missionname.escort1separatists>
+<missiondescription.escort1separatists>한 무리의 목성 분리주의자들이 [location2]로 이송되어야 합니다. 그들은 중요한 임무를 수행 중이며, 모두 무사히 목적지에 도착해야 합니다. 그들 모두가 무사한 경우에만 보상금이 지급될 것입니다.</missiondescription.escort1separatists>
+<missionname.escort2separatists>분리주의 운동가 수송</missionname.escort2separatists>
+<missiondescription.escort2separatists>영향력있는 운동가가 그의 무장 호위 세력과 함께 [location2]로 이송되어야 합니다. 해당 인물에게 불필요한 위험을 초래하지 않도록 주의하십시오. 대상이 살아남은 경우에만 보상이 지급됩니다.</missiondescription.escort2separatists>
+<missionname.escort3separatists>포로 수송</missionname.escort3separatists>
+<missiondescription.escort3separatists>목성 분리주의자들이 포로로 잡은 연합 병사들을 [location2]로 이송해준다면 [reward] 마르크를 지불하겠다고 합니다. 이 포로들이 탈출을 시도할 수도 있으니 항해 중 경계를 유지해야 할 것입니다. 포로들이 죽지 않도록 주의하십시오.</missiondescription.escort3separatists>
+<missionname.escort4separatists>역공작</missionname.escort4separatists>
+<missiondescription.escort4separatists>이 지역에 숨어있는 연합 공작원이 분리주의 세력을 감시중이라는 보고가 있습니다. 이들이 무고한 승객들 사이에 숨어 당신의 배로 몰래 들어올 수도 있습니다. 민간인들을 무사히 [location2]로 이송하고, 모습을 드러낸 공작원을 처리한다면 [reward] 마르크의 보상을 받을 것입니다.</missiondescription.escort4separatists>
+<missionsuccess.escort4separatists>인원 수송에 성공했으며, 연합 공작원이 처리되었습니다.</missionsuccess.escort4separatists>
+<missionfailure.escort4separatists>인원들이 목적지에 도달하지 못했거나, 연합 공작원이 발견되지 않아 무력화할 수 없었습니다.</missionfailure.escort4separatists>
+<missionheader1.escort4separatists>연합 공작원이 제거되었습니다.</missionheader1.escort4separatists>
+<missionmessage1.escort4separatists>그게 마지막 공작원이었던 것 같습니다. 잠수함을 [location2]로 이동하여 보상을 수령하십시오.</missionmessage1.escort4separatists>
+<eventtext.missionevent_escort1separatists.c1>"인근 전초기지로 이동하고자 하는 목성 분리주의 운동가 무리가 있습니다. 자세한 것은 말씀드릴 수 없겠습니다만, 이들에게는 중요한 임무가 있습니다. 만약 당신이 대의를 위해 힘을 쓰실 생각이 있으시다면 이들을 안전하게 이송해주십시오. 그들이 안전하게 도착한다면 당신의 수고에 반드시 대가를 지불해드리겠습니다."</eventtext.missionevent_escort1separatists.c1>
+<eventtext.missionevent_escort2separatists.c1>"만약 당신이 연합 파시스트와 싸우는 것에 도움이 되고 싶으시다면, 당신을 위한 일거리가 있습니다... 우리 대의에 매우 중요한 운동가가 그를 호위하는 병력과 함께 근처 전초기지로 이동할 운송편을 찾고 있죠. 그들을 안전히 그곳으로 데려가주신다면 반드시 당신의 노력에 성의를 보일 것입니다."</eventtext.missionevent_escort2separatists.c1>
+<eventtext.missionevent_escort3separatists.c1>"연합의 공격 잠수함과 관련된 약간의 소란이 있었습니다. 긴 이야기지만 짧게 말씀드리자면, 그 잠수함의 생존자들을 우리 함선에 가둬놨죠. 약간의 협상 끝에 그들을 다음 전초기지로 옮기기로 합의했습니다. 만약 당신이 그들을 그곳에 데려갈 생각이 있으시다면 마르크를 약간 드리겠습니다. 그들이 보호되어야 한다는 사실을 잊지 말아주십시오."</eventtext.missionevent_escort3separatists.c1>
+<eventtext.missionevent_escort4separatists.c1>"우리 소식통에 따르면 연합이 이 지역 주변의 분리주의 활동을 감시하기 위해 공작원을 몇 명 파견했다고 합니다. 그들 중 일부가 다음 운송편에 무고한 민간인으로 위장해 빠져나갈 것이라는 믿을만한 첩보도 있죠. 만약 당신이 당신의 배를 운송편으로 사용할 의향이 있으시다면, 공작원을 밖으로 끌어내서 사로잡을 수 있을 것입니다. 민간인들이 무사하도록 해주십시오."</eventtext.missionevent_escort4separatists.c1>
+<missionname.escort1huskcult>이교도 수송</missionname.escort1huskcult>
+<missiondescription.escort1huskcult>허스크 교단에서 한 무리의 견습사제들을 [location2]로 이동시켜준다면 [reward] 마르크의 보상을 제공한다고 합니다. 그들 중 일부가 너무 이른 교단식 "성찬식"을 계획하고 있고, 의식 이후 차가운 바다로 탈출할 것이라는 믿을만한 정보가 있지만, 교단은 당신에게 그들을 감시해 인간의 형태로 [location2]로 데려와달라고 요청했습니다.</missiondescription.escort1huskcult>
+<EventText.missionevent_escort1huskcult.c1>"쉿! 일자리를 찾고 계십니까? 우리 견습사제 두 명이 다음 전초기지로 이동할 운송편을 찾고 있습니다. 아직 우리는 준비가 되지 않았다고 분명히 말했습니다만, 이들이 자신들만의 성찬식을 계획하고 있는 것 같군요. 그러니 당신이 이들을 감시해서 함내에서 어리석은 짓을 벌이지 않도록 해주셨으면 합니다."</EventText.missionevent_escort1huskcult.c1>
+<eventtext.missionevent_cargohuskcult>"일거리를 찾고 계십니까? 일감이 있긴 한데요... 인근 전초기지에서 필요로 하는 연구 자재가 있죠. 뭔지는 묻지 마시고, 배달만 해주시지요. 그러면 당신에게 돈을 지불해 드리겠습니다."</eventtext.missionevent_cargohuskcult>
+<missionname.huskcultspecialassassinate>침묵의 수호자</missionname.huskcultspecialassassinate>
+<missiondescription.huskcultspecialassassinate>교단이 그들의 활동을 감시하는 연합 공작원을 파악했습니다. 공작원이 이미 교단의 비밀에 대해 너무 깊이 파고들었기 때문에 영원한 침묵을 안겨주는 것 말고는 다른 선택의 여지가 없습니다. [location1]로 이동하여 가능한 한 신중히 공작원을 제거하십시오.</missiondescription.huskcultspecialassassinate>
+<missionsuccess.huskcultspecialassassinate>타깃이 제거되었고, 교단의 비밀은 지켜졌습니다.</missionsuccess.huskcultspecialassassinate>
+<missionfailure.huskcultspecialassassinate>타깃이 아직 살아있습니다. 가능한 한 빠르게 제거되어야 합니다.</missionfailure.huskcultspecialassassinate>
+<missionname.huskcultrescuesubra>수브라 구출</missionname.huskcultrescuesubra>
+<missiondescription.huskcultrescuesubra>허스크 교단의 "지도자" 야코프 수브라가 [location1]에 몸을 숨겼습니다. 교단에서는 그의 현 위치가 교단을 적대시하는 세력에게 발견됐다고 보고 있습니다. [location1]으로 이동해 다른 사람에게 발견되기 전에 그를 데려와야 합니다.</missiondescription.huskcultrescuesubra>
+<missionsuccess.huskcultrescuesubra>야코프 수브라가 안전하게 잠수함에 탑승했습니다.</missionsuccess.huskcultrescuesubra>
+<missionfailure.huskcultrescuesubra>야코프 수브라가 아직 [location1]에 있습니다. 가능한 한 빨리 구출해야 합니다.</missionfailure.huskcultrescuesubra>
+<missionname.escort1clowns>광대 수송</missionname.escort1clowns>
+<missiondescription.escort1clowns>한 무리의 광대들이 [location2]로 향하는 운송편에 대해 [reward] 마르크를 지불하겠다고 합니다. 당신은 그들이 다소 다루기 힘들 수도 있거나, 잠수함에 타는 것에 익숙하지 않을 수도 있다는 경고를 받았습니다.</missiondescription.escort1clowns>
+<EventText.missionevent_escort1clowns.c1>"이봐요! 혹시 두 명의 추가 승객을 위해 함내에 객실을 좀 마련해주실 수 있겠습니까? 제 친구들이 다음 전초기지로 갈 교통편을 찾고 있었거든요. 기꺼이 돈을 지불할 용의가 있습니다." 광대가 목소리를 낮춥니다. "당신이 그 녀석들을 감시할 수도 있으니 말해드리는데, 다락방에 크롤러가 있죠. 무슨 말인지 아시겠습니까? 게다가 그 녀석들은 잠수함은 한 번도 타본 적이 없어서요. 녀석들이 어떻게 행동할지 감도 안 잡히는군요."</EventText.missionevent_escort1clowns.c1>
+<missionname.gotoclownhaven>궁극의 농담</missionname.gotoclownhaven>
+<missiondescription.gotoclownhaven>광대의 어머니의 자식들이 전초기지를 되찾아달라는 임무를 맡겼습니다. 그들이 제시한 계획은 원 주민들이 그곳을 떠날 수 밖에 없도록 짜증나는 상황을 만드는 것입니다. 당신은 그 일을 위한 특별한 엑소슈트를 받았습니다.</missiondescription.gotoclownhaven>
+<missionsuccess.gotoclownhaven>전초기지에 거주하는 주민들이 이곳을 포기하고 광대들에게 넘기기로 합니다. 계획이 통한 것 같습니다.</missionsuccess.gotoclownhaven>
+<eventtext.missionevent_pirate1separatists.c1>"연합 잠수함 한 척이 최근 우리 전초기지 주변에서 초계 임무를 수행하며 들어오는 화물 수송선을 나포하고 우리 잠수함을 공격했습니다. 저희 측에서는 지금까지 상황이 악화되는 것을 피해왔습니다만, 슬슬 보급이 부족해지기 시작했습니다. 만약 당신께서 저희를 돕고 그 잠수함을 격침시킬 수 있으시다면 저희 전초기지와 분리파에 큰 도움이 될 것입니다. 물론 보상도 드리고요."</eventtext.missionevent_pirate1separatists.c1>
+<EventText.missionevent_cargocompoundn.c1>"당신께서 연합과의 싸움을 도우실 생각이 있으시다면 일거리가 있습니다. 이웃 전초기지에 있는 공작원 몇 명이 임무에 필요한 폭발물을 요청하고 있습니다. 보급품을 안전하게 전달해 주신다면 보상을 드리도록 하겠습니다."</EventText.missionevent_cargocompoundn.c1>
+<missionname.cargoweaponscoalition>무기상</missionname.cargoweaponscoalition>
+<missiondescription.cargoweaponscoalition>연합이 [location2]에서의 분리주의자들의 활동을 감시하기 위해 공작원을 파견했습니다. 그들은 현재 무기와 탄약 보급이 시급하다고 합니다. 그것들을 배달하면 [reward] 마르크를 받을 것입니다.</missiondescription.cargoweaponscoalition>
+<missionsuccess.cargoweaponscoalition>무기가 성공적으로 배달되었습니다.</missionsuccess.cargoweaponscoalition>
+<EventText.missionevent_cargoweaponscoalition.c1>"중요한 일이 있습니다. 연합이 공작원 두 명을 배치해 이웃 전초기지에서 벌어지는 분리주의자들의 활동을 감시하고 있죠. 자세한 이야기는 말씀드리기 힘듭니다만, 무기와 탄약이 필요하다고 합니다. 보급품을 안전하게 전달해 주신다면 연합에 큰 도움이 될 겁니다. 물론 보상도 드리도록 하겠습니다."</EventText.missionevent_cargoweaponscoalition.c1>
+<missionname.pirate1separatists>연합 잠수함</missionname.pirate1separatists>
+<missiondescription.pirate1separatists>지역을 공포로 몰아넣고 있는 연합 잠수함을 찾아 승조원들을 제거해야 합니다. 표시된 위치는 그 잠수함이 마지막으로 목격된 위치를 표시합니다.</missiondescription.pirate1separatists>
+<missionsuccess.pirate1separatists>연합 함선의 승조원이 성공적으로 제거되었습니다.</missionsuccess.pirate1separatists>
+<missionfailure.pirate1separatists>연합 함선의 승조원이 제거되지 않았습니다.</missionfailure.pirate1separatists>
+<missionsonarlabel.pirate1separatists>연합 함선이 목격되었습니다.</missionsonarlabel.pirate1separatists>
+<missionheader0.pirate1separatists>연합 함선이 탐지되었습니다.</missionheader0.pirate1separatists>
+<missionmessage0.pirate1separatists>승조원을 무력화시키거나 잠수함을 깊은 바다 밑으로 가라앉히십시오!</missionmessage0.pirate1separatists>
+<missionheader1.pirate1separatists>연합 함선이 제거되었습니다.</missionheader1.pirate1separatists>
+<missionmessage1.pirate1separatists>[location2]로 이동해 보상을 받으십시오.</missionmessage1.pirate1separatists>
+<missionname.tormsdalereport>톰스데일 보고서</missionname.tormsdalereport>
+<missiondescription.tormsdalereport>목성 분리주의자들이 당신에게 소위 "톰스데일 사건" 이라고 알려진 사건의 보고서를 회수하라는 임무를 맡겼습니다. 분리주의자 세력은 연합이 그들의 정적을 제거하기 위해 사건을 조작했다고 여기고 있습니다.</missiondescription.tormsdalereport>
+<missionsuccess.tormsdalereport>문서가 성공적으로 회수되었습니다.</missionsuccess.tormsdalereport>
+<missionfailure.tormsdalereport>문서를 회수하지 못했습니다.</missionfailure.tormsdalereport>
+<missionmessage0.tormsdalereport>당신은 톰스데일 사건과 관련된 문서를 발견했습니다. 이 문서를 분리주의자 세력이 통제중인 전초기지로 이송해야 합니다.</missionmessage0.tormsdalereport>
+<entityname.tormsdalereport>톰스데일 보고서</entityname.tormsdalereport>
+<entitydescription.tormsdalereport>기밀 정보가 들어있는 것처럼 보이는 봉인된 마닐라지 봉투.</entitydescription.tormsdalereport>
+<missionname.jailbreak>탈옥</missionname.jailbreak>
+<missiondescription.jailbreak_separatists>목성 분리주의자들이 당신에게 연합에 포로로 잡혀있는 그들의 공작원을 구출하라는 임무를 맡겼습니다.</missiondescription.jailbreak_separatists>
+<missiondescription.jailbreak_coalition>유로파 연합이 당신에게 목성 분리주의자들에게 포로로 잡혀있는 그들의 공작원을 구출하라는 임무를 맡겼습니다.</missiondescription.jailbreak_coalition>
+<missiondescription.jailbreak_sootman>목성 분리주의자들이 당신에게 연합에 포로로 잡혀있는 그들의 이름난 공작원을 구출하라는 임무를 맡겼습니다.</missiondescription.jailbreak_sootman>
+<missionsuccess.jailbreak>포로 구출에 성공했습니다.</missionsuccess.jailbreak>
+<missionfailure.jailbreak>포로 구출에 실패했습니다.</missionfailure.jailbreak>
+<missionsuccess.jailbreak_singletarget>포로 구출에 성공했습니다.</missionsuccess.jailbreak_singletarget>
+<missionfailure.jailbreak_singletarget>포로 구출에 실패했습니다.</missionfailure.jailbreak_singletarget>
+<missionheader0.prisonerrescue>포로 구출됨</missionheader0.prisonerrescue>
+<missionmessage0.prisonerrescue>포로가 모두 안전하게 잠수함에 탑승했습니다. 전초기지에서 도킹을 해제하여 임무를 완료하십시오.</missionmessage0.prisonerrescue>
+<missionheader0.prisonerrescue_singletarget>포로 구출됨</missionheader0.prisonerrescue_singletarget>
+<missionmessage0.prisonerrescue_singletarget>포로가 안전하게 잠수함에 탑승했습니다. 전초기지에서 도킹을 해제하여 임무를 완료하십시오.</missionmessage0.prisonerrescue_singletarget>
+<prisonerkilled>임무 실패: 포로 한 명이 사망했습니다.</prisonerkilled>
+<dialogundercoverannounce>해당 함선은 유로파 연합에 의해 압류되었습니다!</dialogundercoverannounce>
+<dialogundercoverannounce>연합에 대한 반역의 대가는 죽음 뿐이다!</dialogundercoverannounce>
+<dialogundercoverannounce>테러리스트 놈들이 여기서 살아서 돌아가게 둘 순 없다!</dialogundercoverannounce>
+<dialogundercoverannounce>네녀석이 분리파 놈들과 음모를 꾸미고 있다는 것을 알고 있다! 그 계획에 종말을 고하러 왔다!</dialogundercoverannounce>
+<dialogundercoverannounce>연합 만세!</dialogundercoverannounce>
+<label.securespecimenenclosure>표본 케이스 보호</label.securespecimenenclosure>
+<faction>파벌</faction>
+<locationchange.none.changeto.outpost.separatists>‖color:faction.separatists‖목성 분리파‖end‖ 세력이 [previousname] 지역을 점령하고 새 전초기지를 세웠습니다.</locationchange.none.changeto.outpost.separatists>
+<locationchange.none.changeto.outpost.coalition>‖color:faction.coalition‖연합‖end‖ 세력이 [previousname] 지역을 점령하고 새 전초기지를 세웠습니다.</locationchange.none.changeto.outpost.coalition>
+<locationchange.outpost.changeto.military.separatists>‖color:faction.separatists‖분리파‖end‖ 세력의 무장 단체가 [previousname](으)로 이동해 그 지역에 병력을 주둔시켰습니다.</locationchange.outpost.changeto.military.separatists>
+<locationchange.outpost.changeto.military.coalition>‖color:faction.coalition‖연합‖end‖ 세력이 [previousname](으)로 이동하여 그 지역에 병력을 주둔시켰습니다.</locationchange.outpost.changeto.military.coalition>
+<locationchange.military.changeto.city.separatists>[previousname]의 지휘관이 총독으로 임명되어 [name]이(가) 공식적으로 도시가 되었습니다.</locationchange.military.changeto.city.separatists>
+<locationchange.military.changeto.city.coalition>[previousname]의 인구가 [name]이(가) 공식적으로 도시가 될 정도로 충분히 성장했습니다.</locationchange.military.changeto.city.coalition>
+<locationchange.outpost.changeto.mine.separatists>‖color:faction.separatists‖목성 분리파‖end‖ 세력이 [previousname]에서 채굴 작업을 시작했습니다.</locationchange.outpost.changeto.mine.separatists>
+<locationchange.outpost.changeto.mine.coalition>‖color:faction.coalition‖연합‖end‖ 세력이 [previousname]에서 채굴 작업을 시작했습니다.</locationchange.outpost.changeto.mine.coalition>
+<locationchange.outpost.changeto.research.separatists>프리랜서 연구자 한 무리가 [previousname]을(를) ‖color:faction.separatists‖분리파‖end‖들의 지원을 받는 독립적인 연구소로 변경하였습니다.</locationchange.outpost.changeto.research.separatists>
+<locationchange.outpost.changeto.research.coalition>‖color:faction.coalition‖연합‖end‖이 [previousname]을(를) 주변의 생물군을 연구하는 연구소로 변경하였습니다.</locationchange.outpost.changeto.research.coalition>
+<location.clownhaven>클라운헤븐</location.clownhaven>
+<breakingnews>긴급 속보</breakingnews>
+<randomnews1>이번 주 목성 방사선 예보는 여전히 암울합니다.</randomnews1>
+<randomnews2>승선 광대들이 작업현장 내에서 적대성과 부정적인 사고가 증가 추세라며 지적했습니다.</randomnews2>
+<randomnews3>연합 관계자는 분리주의자들과 관련된 전초기지에 허가받지 않은 물건을 판매하는 행위는 범죄가 될 수 있음을 다시 한 번 경고했습니다.</randomnews3>
+<randomnews4>과학계는 유로파의 눈 연구를 위해 더 많은 자금 지원을 호소했습니다.</randomnews4>
+<randomnews5>유로파의 눈을 향한 잠항은 계속될 것입니다.</randomnews5>
+<randomnews6>엔드웜 목격담이 증가 추세입니다.</randomnews6>
+<randomnews7>허스크 교단이 칼릭사나이드 부족 현상을 가속화시켰다는 의혹이 제기되었습니다.</randomnews7>
+<randomnews8>던소민 구역 정착지와의 연락이 두절되었습니다.</randomnews8>
+<randomnews9>주택 거래가가 상승중입니다, 연말까지 사상 최고치에 달할 것으로 예상되고 있습니다.</randomnews9>
+<randomnews10>수브라가 아직 수배중입니다. 무장하고 있으며, 예측할 수 없는 위험분자입니다.</randomnews10>
+<randomnews11>화재가 윈터할터급을 침몰시켰습니다. 가족 친지들이 8명의 승조원들에게 애도를 표했습니다.</randomnews11>
+<randomnews12>혼케코인의 가치가 0.0001 마르크 이하로 급락했습니다.</randomnews12>
+<randomnews13>파이어볼 포드가 던위스에서 1위를 차지했습니다.</randomnews13>
+<randomnews14>인간은 유로파의 첫 거주자가 아니었습니다. 과학자들: "우리가 최초는 아니었습니다. 제길"</randomnews14>
+<randomnews15>허스크 알: 섭취시에 눈에 띄는 건강상의 이점이 없다는 연구 결과가 발표되었습니다.</randomnews15>
+<randomnews16>멜트워터에서 기자들이 실종되었습니다. "유로파"에서 조사에 착수했습니다.</randomnews16>
+<randomnews17>현직 연합 대통령이 중임 선거에서 압도적인 승리를 거머쥐었습니다.</randomnews17>
+<randomnews18>긍정적인 결과가 꼭 선호되지는 않는다는 사실에 해당 시험을 둘러싸고 대중에 혼란이 퍼지고 있습니다.</randomnews18>
+<randomnews19>수상한 조각이 된 돌이 스톰번 수면에 나타났습니다. 발견자는 "만지면 따뜻하다"고 전했습니다.</randomnews19>
+<randomnews20>피우는 것은 안전하지 않다고 여겨지는 물양귀비, 보건 당국은 "거의 그렇지만, 담배만큼은 아니다"고 전했습니다.</randomnews20>
+<randomnews21>EHO가 방사능에 노출된 크롤러 소시지에 대해 리콜을 명령했습니다.</randomnews21>
+<randomnews22>기술자는 정비사를 제치고 가장 인기 있는 직업이지만, 사제는 여전히 가장 인기가 없습니다.</randomnews22>
+<randomnews23>헤드라인 작가들이 고독함에 시름하고 있습니다.</randomnews23>
+<randomnews24>지구 온난화는 더 이상 유로파인들의 관심사가 아닙니다.</randomnews24>
+<randomnews25>지구에서 온 통신으로 오인한 지역 아이들의 장난이 있었습니다.</randomnews25>
+<randomnews26>지구는 여전히 침묵중입니다.</randomnews26>
+<randomnews27>"앤트 도리스와 함께하는 좋은 식사, TV판"의 17번째 시즌 제작이 결정되었습니다.</randomnews27>
+<randomnews28>"앤트 도리스"가 운영하는 푸드 키오스크 프랜차이즈가 식품 안전법 위반으로 기소되었습니다.</randomnews28>
+<randomnews29>연합이 "숫만"이라고 불리는 미스터리한 테러리스트에게 현상금을 걸었습니다.</randomnews29>
+<randomnews30>연합 조선소가 화재로 파괴되었습니다. 보안팀에서는 마스크를 쓴 테러리스트의 정체가 "숫만"의 짓이 틀림없다며 혐의를 제기했습니다.</randomnews30>
+<randomnews31>오늘 밤 딥플릭스에서 "숫만, 마스크 쓴 반역의 신화"가 공개됩니다.</randomnews31>
+<randomnews32>허스크 광신도 집단의 우두머리인 야코프 수브라가 여전히 수배중에 있습니다.</randomnews32>
+<randomnews33>이그나티우스 메이가 내무부 장관으로 재선출 되면서 연고주의로 인한 선거비리 의혹이 일고 있습니다.</randomnews33>
+<randomnews34>암호 해독이 고대 외계인들의 문화를 조명해 목성 숭배와 시공간에 대한 비선형적 개념이 새로이 밝혀졌습니다.</randomnews34>
+<npctitle.merchantclown>광대 상인</npctitle.merchantclown>
+<npctitle.merchanthusk>광신도 상인</npctitle.merchanthusk>
+<npctitle.huskcultecclesiast>전도사</npctitle.huskcultecclesiast>
+<npctitle.coalitionspy>연합 공작원</npctitle.coalitionspy>
+<npctitle.separatistcaptain>분리주의자 함장</npctitle.separatistcaptain>
+<npctitle.separatistcaptainlord>분리주의자 제독</npctitle.separatistcaptainlord>
+<npctitle.separatistsecurityrecruit>분리주의자 신병</npctitle.separatistsecurityrecruit>
+<npctitle.separatistsecuritygunner>분리주의자 사수</npctitle.separatistsecuritygunner>
+<npctitle.separatistsecuritybrute>분리주의자 돌격병</npctitle.separatistsecuritybrute>
+<npctitle.separatistsecurityelite>분리주의자 정예병</npctitle.separatistsecurityelite>
+<npctitle.separatistmechanicrecruit>분리주의자 정비사</npctitle.separatistmechanicrecruit>
+<npctitle.separatistmechanicveteran>분리주의자 베테랑 정비사</npctitle.separatistmechanicveteran>
+<npctitle.separatistengineerrecruit>분리주의자 기술자</npctitle.separatistengineerrecruit>
+<npctitle.separatistengineerveteran>분리주의자 베테랑 기술자</npctitle.separatistengineerveteran>
+<npctitle.coalitioncaptain>연합 함장</npctitle.coalitioncaptain>
+<npctitle.coalitioncaptainlord>연합 제독</npctitle.coalitioncaptainlord>
+<npctitle.coalitionsecurityrecruit>연합 신병</npctitle.coalitionsecurityrecruit>
+<npctitle.coalitionsecuritygunner>연합 사수</npctitle.coalitionsecuritygunner>
+<npctitle.coalitionsecuritybrute>연합 상병</npctitle.coalitionsecuritybrute>
+<npctitle.coalitionsecurityelite>연합 소위</npctitle.coalitionsecurityelite>
+<npctitle.coalitionmechanicrecruit>연합 정비사</npctitle.coalitionmechanicrecruit>
+<npctitle.coalitionmechanicveteran>연합 베테랑 정비사</npctitle.coalitionmechanicveteran>
+<npctitle.coalitionengineerrecruit>연합 기술자</npctitle.coalitionengineerrecruit>
+<npctitle.coalitionengineerveteran>연합 베테랑 기술자</npctitle.coalitionengineerveteran>
+<npctitle.hireablecoalitionsecurityofficer>연합 상병</npctitle.hireablecoalitionsecurityofficer>
+<npctitle.hireablecoalitionsecurityofficerveteran>연합 소위</npctitle.hireablecoalitionsecurityofficerveteran>
+<npctitle.hireablecoalitionmechanic>연합 정비사</npctitle.hireablecoalitionmechanic>
+<npctitle.hireablecoalitionmechanicveteran>연합 베테랑 정비사</npctitle.hireablecoalitionmechanicveteran>
+<npctitle.hireablecoalitionengineer>연합 기술자</npctitle.hireablecoalitionengineer>
+<npctitle.hireablecoalitionengineerveteran>연합 베테랑 기술자</npctitle.hireablecoalitionengineerveteran>
+<npctitle.hireablecoalitionmedic>연합 의사</npctitle.hireablecoalitionmedic>
+<npctitle.hireablecoalitionmedicveteran>연합 베테랑 의사</npctitle.hireablecoalitionmedicveteran>
+<npctitle.hireableseparatistsecurityofficer>분리주의자 상병</npctitle.hireableseparatistsecurityofficer>
+<npctitle.hireableseparatistsecurityofficerveteran>분리주의자 소위</npctitle.hireableseparatistsecurityofficerveteran>
+<npctitle.hireableseparatistmechanic>분리주의자 정비사</npctitle.hireableseparatistmechanic>
+<npctitle.hireableseparatistmechanicveteran>분리주의자 베테랑 정비사</npctitle.hireableseparatistmechanicveteran>
+<npctitle.hireableseparatistengineer>분리주의자 기술자</npctitle.hireableseparatistengineer>
+<npctitle.hireableseparatistengineerveteran>분리주의자 베테랑 기술자</npctitle.hireableseparatistengineerveteran>
+<npctitle.hireableseparatistmedic>분리주의자 의사</npctitle.hireableseparatistmedic>
+<npctitle.hireableseparatistmedicveteran>분리주의자 베테랑 의사</npctitle.hireableseparatistmedicveteran>
+<entityname.op_husktable>부검대</entityname.op_husktable>
+<entityname.op_huskscribble>오컬트 낙서</entityname.op_huskscribble>
+<entityname.op_huskstatue1>오컬트 조각상</entityname.op_huskstatue1>
+<entityname.op_huskgraffiti>오컬트 심볼</entityname.op_huskgraffiti>
+<entityname.op_husklabel>비어있는 표지</entityname.op_husklabel>
+<entityname.op_husklabel1>색바랜 명찰</entityname.op_husklabel1>
+<entityname.op_huskbody>유아 시체</entityname.op_huskbody>
+<entityname.op_humantank>실험용 탱크</entityname.op_humantank>
+<entityname.op_huskincubator>유아 인큐베이터</entityname.op_huskincubator>
+<entityname.op_huskphoto1>모호한 그림</entityname.op_huskphoto1>
+<entityname.op_huskcloak>추종자 망토</entityname.op_huskcloak>
+<entityname.op_huskstroller1>유모차</entityname.op_huskstroller1>
+<entityname.op_huskposter1>제약사 포스터</entityname.op_huskposter1>
+<entityname.op_husksign>골판지 표지</entityname.op_husksign>
+<entityname.op_sepsandbag>분리주의자 장식</entityname.op_sepsandbag>
+<entityname.op_clowncurtain2>장식용 커튼</entityname.op_clowncurtain2>
+<entityname.op_clownmannequin1>마네킹</entityname.op_clownmannequin1>
+<entityname.op_clownjukebox>주크박스</entityname.op_clownjukebox>
+<entityname.op_clowninstrument1>첼로</entityname.op_clowninstrument1>
+<entityname.op_clownball1>풍선</entityname.op_clownball1>
+<entityname.op_clownmic>극장 마이크</entityname.op_clownmic>
+<entityname.op_clownsign1>극장 표지</entityname.op_clownsign1>
+<entityname.op_clownmask2>장식용 가면</entityname.op_clownmask2>
+<entityname.op_clownshow1>쇼 현수막</entityname.op_clownshow1>
+<entityname.op_clownmarquee>차양</entityname.op_clownmarquee>
+<entityname.op_clowninstrument2>드럼 세트</entityname.op_clowninstrument2>
+<entityname.op_clownfence>극장 울타리</entityname.op_clownfence>
+<entityname.op_clownball2>거대한 공</entityname.op_clownball2>
+<entityname.op_clownposter1>광고용 포스터</entityname.op_clownposter1>
+<entityname.banana>바나나</entityname.banana>
+<entitydescription.banana>지구에서 온 이국적인 과일. 꽤 맛있고 칼륨이 풍부합니다.</entitydescription.banana>
+<entityname.bananapeel>바나나 껍질</entityname.bananapeel>
+<entitydescription.bananapeel>칼륨이 풍부합니다. 바닥에 그대로 두면 안전상의 위험이 생길 수 있습니다.</entitydescription.bananapeel>
+<entityname.cymbals>디멘토나이트 심벌즈</entityname.cymbals>
+<entitydescription.cymbals>광대의 어머니의 아이들의 명상 수행에 사용되는 심벌즈. 디멘토나이트의 독특한 음향적 특성은 심벌즈가 매우 독특하고 터무니없는 큰 소리를 내게 하는데, 이 소리는 특별한 지식이 없는 이들이 극도로 방향을 잃게 만들 수 있습니다.</entitydescription.cymbals>
+<entityname.clowncrate>광대 상자</entityname.clowncrate>
+<entitydescription.clowncrate>내부에 장난을 치려는 사람이 들어갈 수 있을 정도로 큰 상자.</entitydescription.clowncrate>
+<itemmsggoinside>[[use]] 들어가기</itemmsggoinside>
+<entityname.clownexosuit>유쾌인도자 3000</entityname.clownexosuit>
+<entitydescription.clownexosuit>광대의 어머니들의 자식 기술의 광대스러운 성취입니다. 대량의 장난용 무기를 장착한 원자력 엑소슈트입니다.</entitydescription.clownexosuit>
+<clownexosuitweapon>빵빵 클랙슨</clownexosuitweapon>
+<entityname.honkmotherianscriptures1>광대의 어머니의 아이들 경전: 재미를 향한 아홉 기둥 (I-III)</entityname.honkmotherianscriptures1>
+<pillarsoffun1>I.말로서 표현할 수 있는 경적은 영원한 경적이 아니다. 이름을 붙일 수 있는 광대의 어머니는 영원한 광대의 어머니가 아니다. 이름 없는 것이 무대를 만드는 것이다. 이름이란 연극, 배우, 관객과 그들 사이의 벽을 의미한다. 진지함에서 벗어나면 숨겨진 신비를 볼 수 있다. 진지함이 있는 눈은 보이는 진짜만을 눈에 담는다. \n\nII. 우리가 풍선을 이용해 동물의 모양을 만들지만, 풍선이 모양을 갖추도록 하는 것은 내부의 빈 공간이다. 우리가 실제하는 것을 가지고 만들지만, 그 껍데기 사이에 있는 것이 우리가 사용하는 것이다. \n\nIII.최고의 재미란 재미를 창조하려 하는 것이 아니라 스스로 그 재미가 되도록 하는 것이다. 진지한 사람이 재미있는 일을 하려고 노력해봐야 그들은 계속 할 수 없다는 것을 깨닫게 될 것이다. 진지한 사람들은 그들이 받은 레몬에서 모든 재미를 짜내려고 하지만, 그 즙이 시다는 것을 발견할 것이다.</pillarsoffun1>
+<entityname.honkmotherianscriptures2>광대의 어머니의 아이들 경전: 재미를 향한 아홉 기둥 (IV-VI)</entityname.honkmotherianscriptures2>
+<pillarsoffun2>IV.광대는 우주구급 농담을 들었을 때, 그것을 지침으로 삼는 이들이다. 평범한 사람들은 우주구급 농담을 들으면 절반은 믿고 절반은 의심할 것이다. 어리석은 사람들은 우주구급 농담을 들으면 바로 그거에 크게 웃음을 터뜨릴 것이다. 만약 그들이 웃지 않는다면 그건 농담이 아닌 거다. 그렇지 않겠는가?\n\nV.최고의 광대는 존재하는 것을 알아차리기 힘든 자들이다. 그다음으로 좋은 광대는 사랑받고 칭찬받는 광대다. 그다음은 두려움을 불러일으키는 자들이다. 가장 나쁜 것은 경멸받는 광대다. 위대한 광대가 그들의 임무를 완수했을 때, 사람들은 재미의 흐름 위에 뭐가 있는지 모르고, 마치 그들이 최고의 광대로서, 높은 곳의 존재라고만 생각하고, 최고로 깨끗한 슬레이트가 뭔지 모르는 듯이 이렇게만 말할 것이다. "정말 재밌었어".\n\nVI. 최고로 깨끗한 슬레이트처럼 광대의 마음도 깨끗하다. 그들은 사람들의 마음을 자신들의 내면으로 느낀다. 착한 사람들에게 그들은 친절히 군다. 불친절한 사람들에게도 그들은 친절히 군다. 이들은 신뢰할 수 있는 이들을 신뢰한다. 또한 신뢰할 수 없는 사람들도 신뢰한다. 그리하여 그들은 오물 같은 생각을 좋아하는 진지한 사람들이 재미의 흐름을 멈추지 못하도록, 그에 반하는 다른 이들에게 친절과 신뢰를 살 수 있을 것이다.</pillarsoffun2>
+<entityname.honkmotherianscriptures3>광대의 어머니의 아이들 경전: 재미를 향한 아홉 기둥 (VII-IX)</entityname.honkmotherianscriptures3>
+<pillarsoffun3>VII. 죽음을 두려워하지 않는다면 죽음이 어떻게 당신을 위협하겠는가? 진정으로 이것을 이해하는 법은 자전거 경적의 길을 따라 큰 걸음으로 따라가는 것이다. 부자연스럽게 생명을 연장하는 것은 죽음을 두려워하는 것과 같다. 숨결을 바꾸려 하는 것은 곧 죽음을 두려워하는 것과도 같다. 광대는 어떤 것이 절정이라는 수준에 달하면 곧 쇠퇴하기 시작하리라는 사실을 잘 이해한다. 자연스러운 것을 바꾸는 것은 자전거 경적을 따르는 길에서 벗어나는 것이다. 그리 하는 자들은 결국 재미를 느끼지 못할 것이다.\n\nVIII. 동정심이 있다면 당신은 용감해질 수 있을 것이다. 적당히만 있다면 재미를 세상에 널리 알릴 수 있을 것이다. 겸손함으로, 당신은 다른 사람들을 인도할 수 있을 것이다. 용기를 추구하며 동정심을 버리거나, 재미를 추구하면서 적당함을 버리거나, 인도하는 길을 추구하며 겸손을 버린다면 결코 재미로 이어지지 않을 것이다.\n\nIX. 연이 하늘 높이 날아오르고, 광대가 그것을 날리고, 광대가 그것의 연줄을 끊어 멀리 날아가게 한다. 광대는 소유하고 있지만 소유하지 않고, 행동하지만 결과를 기대하지 않는다. 일이 끝나면 잊어버린다. 그것이 최고의 광대처럼 영원히 계속되는 이유인 것이다. 광대의 어머니를 찬양하라!</pillarsoffun3>
+<storename.merchantclown>광대 보급품</storename.merchantclown>
+<storename.merchanthusk>신도 보급품</storename.merchanthusk>
+<entityname.cultistrobes>추종자 로브</entityname.cultistrobes>
+<entitydescription.cultistrobes>허스크 교단의 견습사제들이 전통적으로 입는 어두운 복장. 야생 허스크를 진정시키는 페로몬으로 채워져 있어 견습사제들이 승천할 준비가 될 때까지 그들을 안전하게 지켜줍니다.</entitydescription.cultistrobes>
+<entityname.zealotrobes>광신도 로브</entityname.zealotrobes>
+<entitydescription.zealotrobes>허스크 교단의 고위 간부들이 입는 어두운 복장. 유전자 기술과 호르몬 주입기가 내장되어 있어 착용자에게 공생체의 높은 재생 능력을 제공해주며, 공생체를 온순한 상태로 유지합니다.</entitydescription.zealotrobes>
+<entityname.rituallantern>의식용 등불</entityname.rituallantern>
+<entitydescription.rituallantern>주로 허스크 교단의 의식에 사용됩니다. 야생 허스크를 진정시키는 페로몬과 가벼운 치유 특성을 가진 화학 물질이 함유되어 있습니다.</entitydescription.rituallantern>
+<entityname.huskcontainerspawner>허스크 보관함</entityname.huskcontainerspawner>
+<entitydescription.huskcontainerspawner>보관함에 담긴 벨로나켑스 칼릭스의 표본입니다. 허스크가 무기물로 된 표면에서 오래 생존할 수 없다는 점이 고려된, 수명이 짧지만 자동화된 보관함입니다.</entitydescription.huskcontainerspawner>
+<entityname.bookofchalices1>성찬식의 서: 세 가지 변화</entityname.bookofchalices1>
+<threemetamorphoses>내가 그대들에게 영혼의 세 가지 변화를 이르노라. 이는 영혼이 사람의 강고함을 형상화한 성배로 화하고, 오래된 포도주가 든 성배를 비워내, 다시 성배를 신선한 포도주로 채우는 법이니라.\n\n영혼이 담을 수 있는 많은 것들, 경건함이 깃든 강인한 정신은 그곳에 있느니라.\n\n무엇을 짊어져야 하는가? 그러면 영혼이 손을 내밀며 물을 것이다. 가장 무거운 것이란 무엇이더냐? 영혼이 묻는 방식이니라. 내가 이를 짊어지고, 내 힘으로서 기뻐하려면 어떻게 해야 하겠느냐?\n\n유혹을 달래기 위하여 가장 깊은 심연으로 내려가는 것이더냐?\n\n아니면 지식의 과실을 탐하며, 진실을 향한 영혼의 굶주림을 겪는 것이더냐?\n\n그 또한 아니라면 진리의 물이 설령 더러운 물일지라도 기꺼이 들어가 그 안에 있는 모든 해충과 기생충을 받아들이는 것이더냐?\n\n그마저도 아니라면 우리를 경멸하는 이들을 사랑하며, 우리를 겁주는 유령에게 스스로 다가가는 것이더냐?\n\n이 모든 역경은 우리의 영혼에 대한 가혹한 시련이니라. 성배는 인간의 강고함을 형상화하니, 견뎌내는 강인함에 기뻐하리라.\n\n허나 그러면 성배에서 독기가 올라오리라. 인간의 강고함이란 낡고, 때타고, 더러움을 짊어지고 있기 때문이니라.\n\n그리고 독기가 영혼에게 이르리라. "그리할지어다!"\n\n지난 수천 년간의 사고와 모든 가치관이 독기에 악취와 같이 서린다. 독기가 말하니라. "온갖 사물들의 가치가 나를 영원케한다. 나는 이미 만들어진 가치와, 만들어질 모든 가치를 대표한다. 참으로 이 이상 '자신의 의지'는 없을 것이다." \n\n 형제들이여, 성배를 비울 필요는 어디에서 오는가? 선하다고 알려진 인간의 영혼이 강고함이 부족한 이유는 무엇이더냐? 새로운 가치를 만들어낼지어다. 단순히 인간이 이를 수 없는, 새로운 창조를 위한 자유 자체를 창조하는 것이니라. 이것은 인간의 강고함이 할 수 있는 일이니라.\n\n스스로 자유를 창조하라. 인간으로서의 의무와 인간성을 향해 거룩한 반대를 표하라. 형제들이여, 이를 위하여 인간은 필요 없느니라. 새로운 가치를 인정하는 것은 경건한 영혼을 향한 가장 숭고한 인정이니라.\n\n그러나 형제들이여, 말해보거라. 빈 성배의 가치는 무엇이더냐? 포도주가 성배에 용도를 부여하는 것이 아니더냐? 그러므로 우리는 인간의 강고함을 넘어선 신선하고도 오염되지 않은 새 포도주를 찾아내야 하느니라. 그러나 모든 것들은 우리의 이해 안에 있는 것들을 찾아야 하느니라.\n\n그러므로 형제들이여, 창조라는 투쟁을 위해서는 생명 그 자체의 강고함과 거룩한 긍정이 필요할지어다. 강고함은 세상이 우리에게 내려준 은총과 같이 감히 손을 뻗을 수 있는 자가 도달할 수 있는 곳에 있느니라.\n\n그리하면 세 번째이자 마지막 변화, 승천의 때가 오리라. 인간의 영혼이 새 생명으로 가득 찰 것이며, 인간의 강고함과 세상의 강고함이 하나가 되리라. 그리고 영혼은 자신의 의지를 얻을 것이니라. 세상에서 버림받은 자가 세상에 승리하리라. 그것이 본질적인 형태라.</threemetamorphoses>
+<entityname.bookofchalices2>성찬식의 서: 조류의 전령이 되는 것이란</entityname.bookofchalices2>
+<heraldofthetide>인간은 동물과 본질적인 형태 사이에 뻗어있는, 즉 심연을 가로지르는 다리와 같은 존재니라.\n\n위험한 횡단, 뒤를 돌아보아도 위험한 여정, 불확실성에 떨고 멈춰서야 하리라.\n\n인간이 위대한 점은 목표가 아닌 다리라는 점이다. 인간에게 사랑스러운 점이란 인간이 모든 것을 극복하고도 몰락한다는 것이다. 다리를 건널 수 있는 이는 별로 없지만, 이겨낸 이들은 큰 덕을 지니고 있도다.\n\n그들은 이겨낸 이들이기에 몰락자들을 모른다. \n\n그들이 먼저 별을 넘어 내려가 희생하는 이유를 찾을 것이 아니라, 본질적인 형태의 세계가 도래하도록 세상에 자신을 희생하는 것이다.\n\n그들은 알기 위해 살 것이고, 본질적인 형태가 그 이후로도 살아갈 수 있도록 무언가를 찾아내리라. 그러므로 스스로 몰락을 추구하리라.\n\n그들이 노동하여 발명하니 본질적인 형태로서 집을 지어 바다와 동물, 식물 그리고 몸을 준비하리라. 그로서 스스로의 몰락을 찾을 수 있으리.\n\n그들은 그들의 신을 사랑하기에 신을 탓할 것이다. 그들은 신의 진노로서 굴복을 경험해야 하리라.\n\n그들의 영혼은 상처 속에서도 깊은 곳에 있으며, 작은 일에도 굴복할 수 있을 것이다. 그러므로 그들이 기꺼이 다리를 건널 수 있으리.\n\n그들의 영혼은 열려있으며, 마음 역시 열려있도다. 그들의 머리는 마음의 그릇일 뿐이다. 그러나 그들의 마음은 스스로의 몰락을 야기하리라.\n\n보라, 나는 조류의 전령이 되어 물 속의 강한 흐름이 되려 한다. 조류는 본질적인 형태라.</heraldofthetide>
+<character.huskcontainer>허스크로 덮인 보관함</character.huskcontainer>
+<entityname.40mmnuke>40mm 소형 핵탄두</entityname.40mmnuke>
+<entitydescription.40mmnuke>유탄 발사기에서 발사할 수 있는 소형 핵 장치입니다.</entitydescription.40mmnuke>
+<entityname.molotovcoctail>화염병</entityname.molotovcoctail>
+<entitydescription.molotovcoctail>급조된 저렴한 소이 무기 입니다.</entitydescription.molotovcoctail>
+<campaignstore.reputationrequired>[faction]에 명성이 [amount] 필요합니다.</campaignstore.reputationrequired>
+<charactername.ignatiusmay>이그나티우스 메이</charactername.ignatiusmay>
+<charactername.auntdoris>앤트 도리스</charactername.auntdoris>
+<charactername.victoriapetran>빅토리아 페트란</charactername.victoriapetran>
+<charactername.sootman>숫만</charactername.sootman>
+<charactername.jestmaster>농담의 달인</charactername.jestmaster>
+<eventtext.separatistspecialhire1.c1>험악하게 생긴 여성이 당신에게 다가옵니다. 잠시동안 당신은 왜 그녀가 그리 낯이 익었는지 궁금해졌습니다. 뉴스에서 이 얼굴을 자주 봤음을 깨닫기 전까지는 말이죠. \n\n그녀가 손을 뻗어 당신에게 악수를 청합니다. "안녕하십니까. 당신을 만나는 순간을 기다리고 있었답니다. 목성 분리주의 세력의 중위인 빅토리아 페트란이라고 합니다."</eventtext.separatistspecialhire1.c1>
+<eventtext.separatistspecialhire1.o1>"만나서 영광입니다. 어떻게 도와드리면 되겠습니까?"</eventtext.separatistspecialhire1.o1>
+<eventtext.separatistspecialhire1.o1.c1>"사실 당신에게 도움을 청하려고 온 것이 아니라, 그 반대에 가깝습니다. 지금까지 당신과 승조원들의 노력을 추적했습니다만, 우리의 대의를 위한 당신의 헌신은 정말 놀라웠습니다. 당신 같은 사람들이 우리의 대열에 더 많았다면 연합은 이미 유로파 표면에서 제거됐을 겁니다."</eventtext.separatistspecialhire1.o1.c1>
+<eventtext.separatistspecialhire1.o1.o1>"감사합니다. 최선을 다했을 뿐입니다."</eventtext.separatistspecialhire1.o1.o1>
+<eventtext.separatistspecialhire1.o1.o1.c1>"실제로 당신이 해온 일이 매우 특별하다고 생각합니다. 사무실 한 켠에서 사무작업을 하는 것보다 당신의 배에서 함께 하는 것이 더 의미가 있으리라 여기게 되었죠. 당신들에게도 이득이 될 거라고 생각합니다. 저는 잠수함 생활의 상당 부분 봐왔고, 무기와 의약품에 대한 지식이 약간 있습니다. 그래서, 어떻습니까? 보안 요원 자리를 마련해 주실 수 있겠습니까?"</eventtext.separatistspecialhire1.o1.o1.c1>
+<eventtext.separatistspecialhire1.o1.o1.o1>"제가 반대할 리가 있습니까! 승함을 환영합니다, 중위님!"</eventtext.separatistspecialhire1.o1.o1.o1>
+<eventtext.separatistspecialhire1.o1.o1.o1.c1>"좋군요! 이렇게 되면, 중위님이라는 호칭을 빼시는게 좋을 것 같군요. 직급 상으로도 당신의 상급자가 아니고, 당신의 승조원이니까요. 첫 번째 임무가 기대되는군요!"</eventtext.separatistspecialhire1.o1.o1.o1.c1>
+<eventtext.separatistspecialhire1.o1.o1.o2>"영광입니다만, 이에 대해 생각이 좀 필요할 것 같습니다."</eventtext.separatistspecialhire1.o1.o1.o2>
+<eventtext.separatistspecialhire1.o1.o1.o2.c1>"이해합니다. 음, 만약에 당신이 지금 당장 저를 고용하시는 것을 미루신다면 나중에라도 분리파 세력의 전초기지 중 하나에서 다시 만날 수 있을 겁니다."</eventtext.separatistspecialhire1.o1.o1.o2.c1>
+<eventtext.separatistspecialhire1.repeat>"다시 만나는군요. 제 제안에 대해 생각해 보셨습니까? 저를 승조원으로 고용하시는 것에 관심이 있으십니까?"</eventtext.separatistspecialhire1.repeat>
+<eventtext.separatistspecialhire1.o1.o1.repeat>"네, 추가 보안 요원을 위한 자리가 있습니다. 승함을 환영합니다, 중위님!"</eventtext.separatistspecialhire1.o1.o1.repeat>
+<eventtext.separatistspecialhire1.o1.o2.repeat>"유감스럽습니다만, 승조원을 더 태울 여유가 없습니다. 만약 상황이 바뀌면 알려드리도록 하지요!"</eventtext.separatistspecialhire1.o1.o2.repeat>
+<eventtext.separatistspecialhire2.c1>디젤 발전기의 배기관에서 막 튀어나온 것 같은 사람이 당신에게 다가옵니다. \n\n"이봐, 당신을 찾고 있었지."</eventtext.separatistspecialhire2.c1>
+<eventtext.separatistspecialhire2.o1>"낯이 익는데요. 우리가 만난 적 있습니까?"</eventtext.separatistspecialhire2.o1>
+<eventtext.separatistspecialhire2.o1.c1>"나를 연합 녀석들 감방에서 꺼내준 게 당신의 승조원들이었지. 그렇지 않던가? 그때는 소개할 여유가 없었지만 말이야, 연합 놈들은 나를 숫만이라고 부르더군. 이름은 그렇다치고 말이야, 혹시 승조원이 추가로 필요하지 않나?"</eventtext.separatistspecialhire2.o1.c1>
+<eventtext.separatistspecialhire2.o1.o1>"숫만? 연합이 오래도록 추적해온 그 가면쓴 분리주의자 말이죠? 지금 장난하십니까?"</eventtext.separatistspecialhire2.o1.o1>
+<eventtext.separatistspecialhire2.o1.o1.c1>"그래, 그게 나야. 전초기지 주변에서 들리는 소문으로는 너희들이 연합에 대항해서 훌륭한 싸움을 해왔다던데. 나는 거기에 동참하고 싶어. 그래서, 어떻게 생각하시나?"</eventtext.separatistspecialhire2.o1.o1.c1>
+<eventtext.separatistspecialhire2.o1.o1.o1>"정말 좋군요! 당신같은 능력을 가진 사람이 저희와 함께 한다면 영광일 겁니다."</eventtext.separatistspecialhire2.o1.o1.o1>
+<eventtext.separatistspecialhire2.o1.o1.o1.c1>"좋군. 배에서 보자고."</eventtext.separatistspecialhire2.o1.o1.o1.c1>
+<eventtext.separatistspecialhire2.o1.o1.o2>"이에 대해 조금 생각할 시간이 필요합니다."</eventtext.separatistspecialhire2.o1.o1.o2>
+<eventtext.separatistspecialhire2.o1.o1.o2.c1>"좋아."</eventtext.separatistspecialhire2.o1.o1.o2.c1>
+<eventtext.separatistspecialhire2.repeat>"그래서? 내가 탈 자리는 있나?"</eventtext.separatistspecialhire2.repeat>
+<eventtext.coalitionspecialhire2.c1>당신은 낯익는 얼굴을 한 노년의 여성을 발견합니다. 앤트 도리스였습니다! 그녀의 푸드 키오스크 프랜차이즈는 아쉬운 점이 있을 순 있었어도, 도리스의 요리 프로는 항상 훌륭한 방송이었습니다.\n\n놀랍게도 도리스가 당신에게 다가옵니다. "안녕하세요! 당신과 당신네 승조원들이 근처에 있다고 들어서, 당신과 마주치길 바라며 여기에서 기다리고 있었답니다."</eventtext.coalitionspecialhire2.c1>
+<eventtext.coalitionspecialhire2.o1>"만나서 반갑습니다, 여사님! 도움이 필요하신가요?"</eventtext.coalitionspecialhire2.o1>
+<eventtext.coalitionspecialhire2.o1.c1>"조금 바보같이 들릴 지도 모르겠지만요, 뭐 물어보는 게 나쁠 건 없겠지요! 보다시피 저는 요즘, 이 노년의 위기를 어떻게 표현해야 할지 고민하던 참이랍니다. 잘 아시겠지만, 저는 요리 프로를 진행하고, 식당도 운영하며 지금까지 40년동안이나 달려왔답니다. 잠수함 승조원의 삶도 궁금하고, 우리의 이 작은 위성, 유로파를 더 좋게 만들기 위해 당신이 해온 모든 것을 듣고 싶어서 궁금함을 참을 수가 없지요."</eventtext.coalitionspecialhire2.o1.c1>
+<eventtext.coalitionspecialhire2.o1.o1>"모두를 위한 삶은 아닙니다만."</eventtext.coalitionspecialhire2.o1.o1>
+<eventtext.coalitionspecialhire2.o1.o1.c1>"그래요, 그렇겠죠! 하지만 솔직히 그건 제가 해보고 싶은 일들이랍니다. 그리고 아시다시피, 저는 보기만큼 순하지 않아요. 젊은 시절에는 운동가로서 시간도 보냈고, 당신이 생각하는 것보다도 더 많은 수의 분리주의자놈들의 머리를 후려쳤죠. 그 순간이 언제나 너무 즐거웠답니다! 저는 의학에 대해 조금 알고 있고, 유로파 동물 중에 어떻게 손질을 해야할 지 모르는 종이 없지요.\n\n그래서, 어떻게 생각하시나요? 이 늙은이에게 승조원으로서 헌신할 기회를 주실 수 있을까요? 저는 더 나은 유로파를 위한 이 싸움에서 한 몫 하는 것 외에는 그 어떤 것도 하고 싶지 않답니다!"</eventtext.coalitionspecialhire2.o1.o1.c1>
+<eventtext.coalitionspecialhire2.o1.o1.o1>"제가 반대할 리가 있습니까! 승함을 환영합니다, 여사님!"</eventtext.coalitionspecialhire2.o1.o1.o1>
+<eventtext.coalitionspecialhire2.o1.o1.o1.c1>"오, 최고네요! 몇 가지 짐만 챙기고 배에서 뵙지요!"</eventtext.coalitionspecialhire2.o1.o1.o1.c1>
+<eventtext.coalitionspecialhire2.o1.o1.o2.c1>"이해할 수 있답니다. 충분히 생각하고 결정해주세요, 젊은이!"</eventtext.coalitionspecialhire2.o1.o1.o2.c1>
+<eventtext.coalitionspecialhire2.repeat>"다시 뵙네요! 저를 당신과 함께하게 해주실 생각은 있나요?"</eventtext.coalitionspecialhire2.repeat>
+<eventtext.clownspecialhire1.c1>"당신들과 만날 수 있어서 정말 기분이 좋은데요! 사실 당신과 재미있게 이야기하고 싶었거든요."</eventtext.clownspecialhire1.c1>
+<eventtext.clownspecialhire1.o1>"그러시군요! 한 번 이야기 해보시죠."</eventtext.clownspecialhire1.o1>
+<eventtext.clownspecialhire1.o1.c1>"보시면 알겠지만, 이 전초기지 끄트머리의 삶은 꽤나 지루해지기 십상이죠. 제가 길안내를 해줄만한 방문객이 자주 오지도 않지만 말입니다. 그래서 제가 당신과 같이 여행을 떠난다면 얼마나 즐거움을 줄 수 있을지 참 궁금하거든요. 처음 듣는 농담이 같은 농담을 천 번 만 번 듣는 것보다 즐겁지 않겠어요?"</eventtext.clownspecialhire1.o1.c1>
+<eventtext.clownspecialhire1.o1.o1>"무슨 뜻인지 알 거 같은데요. 당신의 생각을 말씀해주시죠!"</eventtext.clownspecialhire1.o1.o1>
+<eventtext.clownspecialhire1.o1.o1.c1>"혹시 조수를 추가로 고용하실 여유가 있으신가요? 당신과 함께 모험을 하는 건, 당신이 상상하는 것보다도 더 이 늙은 바보를 더 행복하게 만들어줄 것 같아서요. 비록 제가 잠수함 승조원으로서의 경험은 없지만, 꽤 쓸만한 재주를 몇 개 가지고 있어요."</eventtext.clownspecialhire1.o1.o1.c1>
+<eventtext.clownspecialhire1.o1.o1.o1>"광대의 어머니께 맹세코, 물론입니다! 승선을 환영합니다!"</eventtext.clownspecialhire1.o1.o1.o1>
+<eventtext.clownspecialhire1.o1.o1.o1.c1>"좋군요! 함께 할 수 있어 영광입니다."</eventtext.clownspecialhire1.o1.o1.o1.c1>
+<eventtext.clownspecialhire1.o1.o1.o2>"이에 대해 조금 생각할 시간이 필요합니다."</eventtext.clownspecialhire1.o1.o1.o2>
+<eventtext.clownspecialhire1.o1.o1.o2.c1>"이해할 수 있어요. 틀림없이 저를 다시 만나게 될 겁니다. 결정되시면 말씀해주시죠!"</eventtext.clownspecialhire1.o1.o1.o2.c1>
+<eventtext.clownspecialhire1.repeat>"즐거운 하루 되시길! 제 제안은 생각해 보셨나요? 제가 당신과 함께할 수 있게 해주시겠나요?"</eventtext.clownspecialhire1.repeat>
+<eventtext.clownspecialhire1.o1.o1.repeat>"조수를 한 명 더 고용할 여유가 있습니다. 승선을 환영합니다!"</eventtext.clownspecialhire1.o1.o1.repeat>
+<eventtext.clownspecialhire1.o1.o2.repeat>"유감스럽습니다만, 승조원을 더 태울 여유가 없습니다. 만약 상황이 바뀌면 알려드리도록 하지요!"</eventtext.clownspecialhire1.o1.o2.repeat>
+<eventtext.huskcultspecialhire1.c1>낯익은 남성이 당신에게 다가옵니다. "이봐, 당신! 사실 당신과 다시 만나길 바라고 있었지."</eventtext.huskcultspecialhire1.c1>
+<eventtext.huskcultspecialhire1.o1>"다시 만나서 반갑습니다, 수브라 씨!"</eventtext.huskcultspecialhire1.o1>
+<eventtext.huskcultspecialhire1.o1.c1>"우리 서로 예의는 신경쓰지 말자고. 매일 당신처럼 열린 마음을 가진 잠수함 승조원을 만나는게 아니라서 말이야. 하물며 이렇게 유능한 잠수함 승조원은 말할 것도 없지. 그래서 말이야, 내가 당신과 교단의 협력관계를 더 진전시킬만한 제안이 있어. 그리고, 음, 솔직히 말하자면, 이건 내게도 꽤 은혜로운 선물이 될 제안이지."</eventtext.huskcultspecialhire1.o1.c1>
+<eventtext.huskcultspecialhire1.o1.o1>"말씀하시죠."</eventtext.huskcultspecialhire1.o1.o1>
+<eventtext.huskcultspecialhire1.o1.o1.c1>"간단히 말해서, 현상금 사냥꾼 녀석들과 불쾌한 일이 있기 전부터 당신의 승조원들과 함께 일하고 싶어서 몸이 근질근질했었어. 당신이 교단을 위해 해준 일은 정말 대단했지. 만약 내가 당신과 힘을 합친다면, 우리 신의 은총으로 세상을 물에 잠기게 할 수 있을 거야. 다시 말하지만, 솔직히 말해서, 나는 전초기지 밖의 사람의 손이 타지 않은 바닷속의 삶을 맛보고 싶어서 궁금해 죽을 지경이었지. 그래서, 어떻게 생각하시나?"</eventtext.huskcultspecialhire1.o1.o1.c1>
+<eventtext.huskcultspecialhire1.o1.o1.o1>"제가 어떻게 거절할 수 있겠습니까, 형제여! 승선을 환영합니다."</eventtext.huskcultspecialhire1.o1.o1.o1>
+<eventtext.huskcultspecialhire1.o1.o1.o1.c1>"환상적이군! 배에서 보자고."</eventtext.huskcultspecialhire1.o1.o1.o1.c1>
+<eventtext.huskcultspecialhire1.o1.o1.o2>"이에 대해 조금 생각할 시간이 필요합니다."</eventtext.huskcultspecialhire1.o1.o1.o2>
+<eventtext.huskcultspecialhire1.o1.o1.o2.c1>"그래. 필요한 만큼 생각을 해보라고."</eventtext.huskcultspecialhire1.o1.o1.o2.c1>
+<eventtext.huskcultspecialhire1.repeat>"다시 만나서 반갑군, 형제여. 제안에 대해 생각은 해봤나? 승조원을 태울 공간이 있나?"</eventtext.huskcultspecialhire1.repeat>
+<eventtext.huskcultspecialhire1.o1.o1.repeat>"당신이 함께한다면 정말 기쁠 것 같군요."</eventtext.huskcultspecialhire1.o1.o1.repeat>
+<eventtext.huskcultspecialhire1.o1.o2.repeat>"유감스럽습니다만, 승조원을 더 태울 여유가 없습니다. 만약 상황이 바뀌면 알려드리도록 하지요!"</eventtext.huskcultspecialhire1.o1.o2.repeat>
+<eventtext.coalitionspecialhire1.announcement>방송이 흘러나옵니다. "방금 입항한 잠수함의 함장은 즉각 행정실에 보고할 것."</eventtext.coalitionspecialhire1.announcement>
+<eventtext.coalitionspecialhire1.c1>비싸보이는 옷을 입고 있는 노인이 다가와 악수를 청합니다. "아, 오셨군요. 방송 시스템이 제대로 작동하긴 했는지 궁금하던 참이었습니다. 아무튼, 만나서 반갑습니다! 당신과 승조원이 탄 잠수함이 이쪽으로 향한다는 소식을 들었었습니다. 당신과 직접 만나기 위해 이곳으로 와야 했죠. 잠시 시간을 내주신다면 제안하고 싶은 것이 있습니다."</eventtext.coalitionspecialhire1.c1>
+<eventtext.coalitionspecialhire1.o1>"죄송합니다만, 당신은 누구십니까?"</eventtext.coalitionspecialhire1.o1>
+<eventtext.coalitionspecialhire1.o1.c1>"아, 내 정신좀 보게, 이런 국민적 영웅을 만나는 날이 흔치가 않아서 말입니다! 이그나티우스 메이라고 합니다. 유로파 연합 내무부의 장을 맡고 있지요. 지금까지 당신과 승조원들의 업적을 주시해왔습니다. 사실, 당신이 그동안 수행해왔던 많은 임무들은 다 제가 의뢰한 일들이었지요. 유로파 연합을 대표하여, 저는 당신과 승조원들의 헌신과 노고에 감사를 표하고 싶습니다."</eventtext.coalitionspecialhire1.o1.c1>
+<eventtext.coalitionspecialhire1.o1.o1>"감사합니다! 혹시 당신께서 언급하실 제안이 무엇인지 물어도 되겠습니까?</eventtext.coalitionspecialhire1.o1.o1>
+<eventtext.coalitionspecialhire1.o1.o1.c1>"바로 본론으로 들어가자는 거지요? 좋아요! 마음에 드는군요. 그래서 본론은, 저는 당신의 승조원들과 함께하고 싶습니다. 현장직을 경험한 지 오래됐지만, 당신과 승조원들의 노고를 보니 저도 현장으로 돌아가 연합을 위해 손을 더럽히고 싶어졌지요."</eventtext.coalitionspecialhire1.o1.o1.c1>
+<eventtext.coalitionspecialhire1.o1.o1.o1>"당신과 함께할 수 있어 영광입니다!"</eventtext.coalitionspecialhire1.o1.o1.o1>
+<eventtext.coalitionspecialhire1.o1.o1.o1.c1>"환상적이군요! 배에서 뵙겠습니다."</eventtext.coalitionspecialhire1.o1.o1.o1.c1>
+<eventtext.coalitionspecialhire1.o1.o1.o2>"이에 대해 조금 생각할 시간이 필요합니다."</eventtext.coalitionspecialhire1.o1.o1.o2>
+<eventtext.coalitionspecialhire1.o1.o1.o2.c1>"아, 바로 받아들이지 않으시리라 생각했었지요. 당신과 승조원들의 의견을 존중하기 위해, 재차 강요는 하지 않겠습니다. 언젠가 다시 마주칠 수 있을 겁니다. 만약 그때 결정이 됐다면, 말씀해주시지요."</eventtext.coalitionspecialhire1.o1.o1.o2.c1>
+<eventtext.coalitionspecialhire1.repeat>"다시 뵙는군요. 그래서, 제안은 어떻게 생각하십니까?"</eventtext.coalitionspecialhire1.repeat>
+<eventtext.coalitionspecialhire1.o1.o1.repeat>"당신이 함께해주신다면 정말 기쁠 것 같습니다."</eventtext.coalitionspecialhire1.o1.o1.repeat>
+<eventtext.coalitionspecialhire1.o1.o2.repeat>"유감스럽습니다만, 승조원을 더 태울 여유가 없습니다. 만약 상황이 바뀌면 알려드리도록 하지요!"</eventtext.coalitionspecialhire1.o1.o2.repeat>
+<EventText.youngcultists.c1>바닥에 쓰러져있는 누군가를 중심으로 두어 명의 로브를 입은 사람이 모여있습니다. 당신이 보기에 저 사람들이 발작을 일으키는 것처럼 격렬한 경련을 일으키는 사람을 제지하려고 하는 것인지, 아니면 치료하려고 하는지 확신을 내리지 못하는 상황입니다. 그러던 중 로브를 입은 사람 중 한 명이 당신을 알아차립니다. "거기, 당신! 캐비닛에서 칼릭사나이드 주사기를 꺼내!"</EventText.youngcultists.c1>
+<EventText.youngcultists.o1>옆에 있는 캐비닛에서 주사기를 꺼내 던진다.</EventText.youngcultists.o1>
+<EventText.youngcultists.o1.c1>당신이 "칼릭사나이드"라는 주사를 던져주자, 그들이 경련을 일으키는 남자의 목에 주사합니다. 그러자 그가 늘어지고, 로브를 입은 사람 중 한 명이 화가 난 듯 소리칩니다. "마크, 이 참을 줄도 모르는 멍청한 놈. 네가 아직 은총을 받을 준비가 되지 않았다고 몇 번이나 말했잖아?!"</EventText.youngcultists.o1.c1>
+<EventText.youngcultists.o1.o1>"무슨 일이 일어나고 있는 겁니까?"</EventText.youngcultists.o1.o1>
+<EventText.youngcultists.o1.o1.c1>로브를 입은 사람들이 당신을 바라봅니다. 그들의 얼굴을 자세히 들여다보니, 상당히 젊어 보입니다. "방금 일종의 응급 상황을 겪었지. 우리 친구가 재미있는 일종의... 모험을 했거든. 무슨 뜻인지 알겠지. 아무튼 도와줘서 고맙군! 괜찮다면 이 일은 우리끼리만 알고 넘어갔으면 하는데."</EventText.youngcultists.o1.o1.c1>
+<EventText.youngcultists.o1.o1.o1>"꽤나 수상하군요. 그 사람에게 무슨 짓을 하고 있었는지 말해주지 않겠다면 당국에 신고하겠습니다."</EventText.youngcultists.o1.o1.o1>
+<EventText.youngcultists.o1.o1.o1.c1>무리가 서로를 신경질적으로 쳐다봅니다. "이봐, 우리는 그 어떤 문제도 일으키고 싶지 않아. 여기 있는 우리 형제는 위대한 허스크를 영접하고자 너무 열중했었지. 그러다보니 허스크가 이 형제를 삼켜버렸던 거야. 하지만 방금 그걸 억제했고, 모두 안전해졌지. 다시는 이런 일이 없을 거야. 이 문제에 대해 전초기지나 우리 종파에 이야기하지마. 그들이 이 녀석이 선을 넘으려 했다는 사실을 알게 된다면 우리의 경력이 망가질 거라고!"</EventText.youngcultists.o1.o1.o1.c1>
+<EventText.youngcultists.o1.o1.o1.o1>"우리 종파요? 허스크 교단의 일원이십니까? 당신네들은 기생충에게 홀린 게 아니었던가요?"</EventText.youngcultists.o1.o1.o1.o1>
+<EventText.youngcultists.o1.o1.o1.o1.c1>"기생충? 기생충은 먹어치우는 것 말고는 아무것도 하지 않아. 하지만 허스크는 베풀어주는 존재야! 허스크는 당신이 몸이라고 부르는 그 살덩어리의 한계를 훨씬 뛰어넘도록 해주지! 하지만 이런 식으로는 안 돼. 받아들일 준비가 안 됐다면 받아들여서는 안 돼. 아니면, 흠흠. 아무튼 전도사님들의 말씀이야."</EventText.youngcultists.o1.o1.o1.o1.c1>
+<EventText.youngcultists.o1.o1.o1.o1.o1>추종자들의 헛소리를 무시하고 전초기지 보안팀에 알린다.</EventText.youngcultists.o1.o1.o1.o1.o1>
+<EventText.youngcultists.o1.o1.o1.o1.o1.c1>무선으로 전초기지 보안팀에 연락해 이 구획에서 진행 중이던 의심스러운 활동을 알렸습니다.</EventText.youngcultists.o1.o1.o1.o1.o1.c1>
+<EventText.youngcultists.o1.o1.o1.o1.o2>"저는 이 살덩어리가 꽤나 마음에 들어서 말입니다, 감사합니다. 가보도록 하죠."</EventText.youngcultists.o1.o1.o1.o1.o2>
+<EventText.youngcultists.o1.o1.o1.o1.o3>"만약 제가 이 살덩어리의 한계를 넘어서고 싶다면, 어떻게 해야 합니까?"</EventText.youngcultists.o1.o1.o1.o1.o3>
+<EventText.youngcultists.o1.o1.o2>"진정하시죠, 형제들. 저는 그저 여러분이 왜 이 남자가 허스크로 변하는 과정을 막으려 하는 것인지 알고 싶을 뿐입니다."</EventText.youngcultists.o1.o1.o2>
+<EventText.youngcultists.o1.o1.o2.c1>그들의 굳은 표정이 누그러집니다. "당신은 이 녀석이 경련을 일으키는 모습을 봤을 거야. 하지만 승천 과정은 그렇지 않아. 공생체가 녀석을 집어삼키려 했어. 아직 이 녀석은 공생체와 하나가 될 준비가 되지 않은 게 분명하다는 것이지."</EventText.youngcultists.o1.o1.o2.c1>
+<EventText.youngcultists.o1.o1.o2.o1>"그렇군요. '공생체와 하나가 되는 것'에 관심이 있다면 어떻게 해야 합니까?"</EventText.youngcultists.o1.o1.o2.o1>
+<EventText.youngcultists.o1.o1.o2.o1.c1>"글쎄, 솔직히 말하자면, 우리도 갓 개종된 자들이라서 말이야. 그 말에 괜찮은 답을 할 자격이 있는지는 모르겠지만, 교단의 전도사들은 성찬식을 거행하기 전에 은총을 받을 준비가 되어야 한다고 말했어. 진심으로 가슴과, 정신과, 육신의 모든 부분을 열어야 한다고도 했지. 그리고... 의식에는, 성스러운 공생체를 환영하며, 변화를 일으키게 하는 도구들도 있고. 물론, 우리도 그렇게 많이 알지는 않아. 만약 당신이 전도사를 만날 수 있다면 당신에게 기꺼이 더 많은 것을 말해줄 수 있을 것 같군!"</EventText.youngcultists.o1.o1.o2.o1.c1>
+<EventText.youngcultists.o1.o1.o2.o1.o1>이 매력적인 젊은 신도들이 당신에게 작별을 고하고, 즐거이 승천의 시기를 마주하기를 빌어주었습니다.</EventText.youngcultists.o1.o1.o2.o1.o1>
+<EventText.youngcultists.o1.o1.o2.o1.o2>추종자들의 헛소리를 무시하고 전초기지 보안팀에 알린다.</EventText.youngcultists.o1.o1.o2.o1.o2>
+<EventText.youngcultists.o1.o1.o2.o2>"당신네들은 기생충에게 홀린 게 아니었던가요?"</EventText.youngcultists.o1.o1.o2.o2>
+<EventText.youngcultists.o2>수상해보인다. 관여하지 않는 것이 좋을 것 같다.</EventText.youngcultists.o2>
+<EventText.waytoascension1.c2>당신은 우연히 심도깊은 토론을 하고 있던 로브를 쓴 두 사람의 말을 들었습니다. "고백하건데, 그런 약물을 이용한 남색질 모임은 질색입니다. 우리의 진정한 성찬식을 더럽히는 것 같습니다." 더 정교한 장식이 된 로브를 입은 사람이 어깨를 으쓱합니다. "교단의 전도사로서 나 역시 동의하네. 자네와 나만 있으니 하는 말이지만, 가끔은 견습사제들이 스스로의 한계를 시험해보는 것도 좋을 수 있다고 생각하네. 한계를 뛰어넘기 위해 노력하려면 자신의 한계가 어디까지인지는 알아야 하지 않겠나!"</EventText.waytoascension1.c2>
+<EventText.waytoascension1.o5>"실례합니다만, 허스크 교단의 전도사라고 하셨습니까?"</EventText.waytoascension1.o5>
+<EventText.waytoascension1.o5.c1>로브를 입은 남자가 당신을 바라봅니다. 그의 표정을 보니, 그들은 당신이 들어선 안 될 것을 들었다고 여기는 것 같습니다. 그리고 그가 입을 엽니다. "당신은 누구고, 여기서 뭘 하는 거지?"</EventText.waytoascension1.o5.c1>
+<EventText.waytoascension1.o5.o1>"저희 승조원들은 교단에 대해 더 배울 방법을 찾고 있었습니다. 그리고 전도사님이라면 저희를 인도해 주실 거라 들었죠."</EventText.waytoascension1.o5.o1>
+<EventText.waytoascension1.o5.o1.c1>남자가 코웃음칩니다. "여기가 학교로 보이나? 내가 우연히 주변에서 기웃대던 잠수함의 승조원들을 가르치는 데 관심이 있다고 치더라도 말이야, 당신이 연합의 스파이나 염탐하던 광대놈들이 아니라는 것을 어떻게 증명하지?"</EventText.waytoascension1.o5.o1.c1>
+<EventText.waytoascension1.o5.o1.o1>"어떻게 교단을 도와드려야 저희의 신실함을 증명할 수 있겠습니까?"</EventText.waytoascension1.o5.o1.o1>
+<EventText.waytoascension1.o5.o1.o1.c1>"영성적으로 부족한 잠수함의 승조원들은 하나같이 자기들이 어떤 집단을 지지하는지, 그리고 도덕과 상관없이 아무에게서나 임무를 수주해 받곤 하지. 하지만 교단이 사람들에게 바라는 것은 당신이 무엇을 위해 헌신하는지, 그리고 그러한 염원에 도달하기 위해 얼마나 기꺼이 희생할 것인지만 관심이 있을 뿐."</EventText.waytoascension1.o5.o1.o1.c1>
+<EventText.waytoascension1.o5.o1.o1.o1>"저희가 신실함을 증명할 다른 방법은 없습니까?"</EventText.waytoascension1.o5.o1.o1.o1>
+<EventText.waytoascension1.o5.o1.o1.o1.c1>"그러기엔 아직 이르군. 젊은이. 하지만 그래, 뭐가 있을까. 최소한 우리 교단의 교리를 이해하고 있음을 증명하기 위해 질문에 답해보시지. 영혼의 두 번째 변화란 무엇인가?"</EventText.waytoascension1.o5.o1.o1.o1.c1>
+<EventText.waytoascension1.o5.o1.o1.o1.o1>"인간의 몸이라는 고치에서 나오는 것입니다."</EventText.waytoascension1.o5.o1.o1.o1.o1>
+<EventText.waytoascension1.o5.o1.o1.o1.o1.c1>남자가 껄껄 웃으며 고개를 끄덕입니다. "그 말이 맞아. 당신은 아직 스스로 깨우쳐야 할 것이 많아. 그 과정이 끝날 때까지, 나는 당신에게 더 해줄 말이 없군."</EventText.waytoascension1.o5.o1.o1.o1.o1.c1>
+<EventText.waytoascension1.o5.o1.o1.o1.o2>"공생체와 하나가 되는 것입니다."</EventText.waytoascension1.o5.o1.o1.o1.o2>
+<EventText.waytoascension1.o5.o1.o1.o1.o3>"오래된 성배의 포도주를 비우는 것입니다."</EventText.waytoascension1.o5.o1.o1.o1.o3>
+<EventText.waytoascension1.o5.o1.o1.o1.o3.c1>"잠수함 승조원들도 세 변화에 대해 잘 알고있다는 사실이 놀랍군. 이건 인정하지. 하지만 당신이 스스로의 신실함을 증명하기엔 아직 멀었어. 하지만 한 가지 괜찮은 게 있네. 교단에서는 모든 신도들이 먹을 만큼 방대한 양의 '밀빵'이 필요한 행사를 앞두고 있어. 내가 무슨 말을 하는지 잘 알 테지."</EventText.waytoascension1.o5.o1.o1.o1.o3.c1>
+<EventText.waytoascension1.o5.o1.o1.o1.o3.o1>"허스크의 알을 구해오라는 뜻이십니까?"</EventText.waytoascension1.o5.o1.o1.o1.o3.o1>
+<EventText.waytoascension1.o5.o1.o1.o1.o3.o1.c1>"그렇게도 부르네만, 그래, 맞네. 이건 당신의 교단을 향한 헌신을 시험하는 것 뿐 아니라, 당신과 그 선원들이 첫 번째 변화로 향하는 데 도움이 되리라 생각하네. 가장 깊은 곳으로 내려가고, 용감하게 가장 더러운 물 속으로 잠항하게. 쉽게 말하자면 이렇다네. 나, 혹은 내 동료에게 허스크의 알 12병을 가져오게. 그러면 더 많은 이야기를 할 수 있을 게야."</EventText.waytoascension1.o5.o1.o1.o1.o3.o1.c1>
+<EventText.waytoascension1.o5.o1.o1.o1.o4>"아직은 잘 모르겠습니다."</EventText.waytoascension1.o5.o1.o1.o1.o4>
+<EventText.waytoascension1.o5.o1.o1.o1.o4.c1>"스스로의 한계를 깨닫고 인정하는 지혜라는 것이 있다네. 당신은 아직 배워야 할 것이 더 많지. 그 전까지는 더 이상 해줄 말이 없어."</EventText.waytoascension1.o5.o1.o1.o1.o4.c1>
+<EventText.waytoascension1.o5.o1.o2>"만약 그 일이 가치가 있다면, 저희는 기꺼이 문제 해결에 힘을 보태겠습니다."</EventText.waytoascension1.o5.o1.o2>
+<EventText.waytoascension1.o5.o1.o2.c1>"물론 가치는 있네. 하지만 자네는 잠수함 승조원으로서 합당한 가치를 제공하는 방식만이 누군가에게 의뢰를 맡기는 유일한 방법이라 생각했을 거야. 하지만 그런 사고방식이야말로 당신이 우리 교단이 무엇을 위해 고군분투하는 것인지 이해하지 못한다는 것을 암시한다네."</EventText.waytoascension1.o5.o1.o2.c1>
+<EventText.waytoascension1.o5.o2>"어, 죄송합니다. 제가 다른 분과 착각한 것 같군요. 저는 가보겠습니다!"</EventText.waytoascension1.o5.o2>
+<EventText.waytoascension1.o6>이 남자는 허스크 교단의 높은 위치에 있는 것이 분명하다. 전초기지 경비에 알린다.</EventText.waytoascension1.o6>
+<EventText.waytoascension1.o6.c1>무선으로 전초기지 보안팀에게 연락해 이 구획에서 진행 중이던 의심스러운 활동을 알렸습니다.</EventText.waytoascension1.o6.c1>
+<EventText.waytoascension1.o7>수상해보인다. 관여하지 않는 것이 좋을 것 같다.</EventText.waytoascension1.o7>
+<EventText.waytoascension1.c1>"나는 당신의 승조원들이 우리 교단에 대해 더 많은 것을 배우기 위해 관심을 보이는 것 같은데. 더 나아가기 전에, 내 동료가 했던 것과 비슷한 질문을 하겠어. 영혼의 두 번째 변화란 뭐지?"</EventText.waytoascension1.c1>
+<EventText.waytoascension2.c1>"교단이 당신에게 일종의 과업을 부여한 것 같은데. '밀빵'은 얻었나?"</EventText.waytoascension2.c1>
+<EventText.waytoascension2.o1>"요청하신 대로 허스크 알 12 병을 구했습니다."</EventText.waytoascension2.o1>
+<EventText.waytoascension2.o1.c1>병을 꺼내자 전도사의 눈이 휘둥그레집니다. 그의 손이 빠르게 움직여 병을 낚아채고는 로브 속으로 집어 넣었습니다. "당신의 승조원들을 향한 우리의 의심은 과오였던 것 같군. 우리의 무례를 용서해주길 바라네. 잠수함 승조원들이 교단을 향해 이 정도의 헌신을 보이는 것이 흔한 일이 아니다보니 말일세. 하지만 다른 이들이 저러는 것도 그럴 수 있다고 생각한다네. 우리 같은 이들이 야생 허스크에 대해서만 아는 다른 이들의 이해를 기대해서는 안 되는 것이니."</EventText.waytoascension2.o1.c1>
+<EventText.waytoascension2.o1.o1>"괜찮습니다. 이제 교단에 대해서 더 말씀해주시겠습니까?"</EventText.waytoascension2.o1.o1>
+<EventText.waytoascension2.o1.o1.c1>"지식을 향한 그런 갈망은 좋은 징조라네. 그래, 우리는 자네의 문제에 대해 전도회에 안건을 올렸었지. 자네가 바란다면 우리는 기꺼이 자네를 허스크 교단의 견습사제로 임명할걸세."</EventText.waytoascension2.o1.o1.c1>
+<EventText.waytoascension2.o1.o1.o1>"그게 실제로 무슨 의미인지 여쭤도 되겠습니까?"</EventText.waytoascension2.o1.o1.o1>
+<EventText.waytoascension2.o1.o1.o1.c1>"우리는 자네의 승천을 향한 여정을 도울 것이고, 자네는 인간을 뛰어넘고자 하는, 아니, 인간 이상이 되고자 하는 우리 교단의 공통적 교리를 추구하기 위해 도와야 한다는 뜻이지. 우리 교단의 소속으로서 봉사해야 할 의무가 그리 많지는 않네. 각자 자신의 의지와 역량을 고려해 봉사하니 말이야. 하지만, 여태까지 그래왔듯 자네가 우리 교단을 위해 계속 헌신해주길 바란다네. 제안은 천천히 고려해보게. 마음이 정해지면 말해주길 바라네."</EventText.waytoascension2.o1.o1.o1.c1>
+<EventText.waytoascension2.o1.c2>"그것들을 가져온다면 이 주제를 계속하도록 하지."</EventText.waytoascension2.o1.c2>
+<EventText.waytoascension2.o2>"아직 진행 중입니다."</EventText.waytoascension2.o2>
+<EventText.waytoascension2.c2>"결정을 내렸는가? 교단의 견습사제가 되고 싶은가?"</EventText.waytoascension2.c2>
+<EventText.waytoascension2.o3>"네, 함께 하고 싶습니다."</EventText.waytoascension2.o3>
+<EventText.waytoascension2.o3.c1>"그렇다면 우리는 그리 하리라. 승천이야말로 인류의 목적지의 정점이자 최대의 목표라는 것을 받아들이는가?"</EventText.waytoascension2.o3.c1>
+<EventText.waytoascension2.o3.o1>"네."</EventText.waytoascension2.o3.o1>
+<EventText.waytoascension2.o3.o1.c1>"그렇다면 우리는 그리 하리라. 당신은 인간성을 놓아버리고 본질적인 형상을 이끌어내는 것을 받아들이는가?"</EventText.waytoascension2.o3.o1.c1>
+<EventText.waytoascension2.o3.o1.o1.c1>"그렇다면 우리는 그리 하리라. 당신은 세상의 강고함과 하나가 되고 본질적인 형상을 이끌어내는 것을 받아들이는가?</EventText.waytoascension2.o3.o1.o1.c1>
+<EventText.waytoascension2.o3.o1.o1.o1.c1>"그렇다면 우리는 그리 하리라. 자네가 우리의 가족이 된 것을 환영하네. 자네가 함께할 수 있어서 기쁘군! 사실, 대 전도사회의에 이르기까지 우리 교단 전체가 이 소식을 들으면 기뻐할 걸세."</EventText.waytoascension2.o3.o1.o1.o1.c1>
+<EventText.waytoascension2.o3.o1.o1.o1.o1>"그러면 이제 어떻게 하면 됩니까?"</EventText.waytoascension2.o3.o1.o1.o1.o1>
+<EventText.waytoascension2.o3.o1.o1.o1.o1.c1>"이제 대부분 자네의 손에 달렸네. 말했듯이, 교단의 모든 이들은 자신의 의지에 따라 봉사하니 말일세. 만약 자네가 조언자를 찾고 있다면, 성찬식의 서가 좋은 출발점이 될게야." 전도사가 종이 두루마리를 건네줍니다. "가슴 속에 새겨두게. 그러면 다음 임무가 찾아올 때쯤 자네는 더욱더 준비가 되어있을 걸세."</EventText.waytoascension2.o3.o1.o1.o1.o1.c1>
+<EventText.waytoascension2.thinkaboutthis>"이것에 대해 생각할 시간이 더 필요합니다."</EventText.waytoascension2.thinkaboutthis>
+<EventText.waytoascension3.c1>"다시 만나게 되어 기쁘군. 교단이 자네의 도움이 필요하던 참이었는데, 참으로 적절한 시기였네. 이 일은 자네가 지금까지 해왔던 그 어떤 일들보다 더 훨씬 민감한 일이야. 교단은 믿을 수 있는 유능한 사람이 필요하네. 우리는 자네와 승조원들이 이 요구에 적합하리라 생각했었지."</EventText.waytoascension3.c1>
+<EventText.waytoascension3.o1>"흥미롭군요."</EventText.waytoascension3.o1>
+<EventText.waytoascension3.o1.c1>"우리 정보원에 따르면, 연합의 공작원이 교단을 조사하기 위해 종파 중 하나에 잠복했다고 하네. 공작원이 대 전도사회의 구성원과 현재 위치를 포함한 매우 민감한 정보에 접근했을 가능성이 있어. 그 공작원이 현재 근처 전초기지에 있다고 믿을만한 정보가 있네. 지금이야말로 우리가 조치를 취해 그자가 그 정보를 누설하지 못하도록 처리할 기회일세."</EventText.waytoascension3.o1.c1>
+<EventText.waytoascension3.o1.o1>"알겠습니다. 저희가 처리하겠습니다."</EventText.waytoascension3.o1.o1>
+<EventText.waytoascension3.o1.o2>"제가 살인을 하라는 겁니까?!"</EventText.waytoascension3.o1.o2>
+<EventText.waytoascension3.o1.o2.c1>"'세 가지 변화'를 읽지 않은 건가? 독기와 같이 말하는군. 자네는 인간의 도덕에 대한 거짓된 관념을 버릴 필요가 있네. 게다가, 자네는 이미 항해 중에 수많은 생명체들의 목숨을 취하지 않았는가? 이 일이 우리 대의에 극도로 중요하다는 점을 차치하면 그것과 어떻게 다를 수 있겠는가?"</EventText.waytoascension3.o1.o2.c1>
+<EventText.waytoascension3.o1.o2.o1>"당신의 말씀이 맞는 것 같습니다."</EventText.waytoascension3.o1.o2.o1>
+<EventText.waytoascension3.o1.o2.o1.c1>"지도에 위치를 표시하겠네. 신중하게 행동하게나. 교단은 더 이상 호기심 많은 쥐새끼가 우리에 대해 파헤치는 것을 원치 않아."</EventText.waytoascension3.o1.o2.o1.c1>
+<EventText.waytoascension4.c1>"자네가 목표를 완수했다는 것을 들었네. 자네는 믿을 수 있는 이라는 사실을 증명했지! 불행히도 우리에게는 서로 논의해야 할 훨씬 더 긴급한 사안이 있어."</EventText.waytoascension4.c1>
+<EventText.waytoascension4.o1>"말씀하시죠."</EventText.waytoascension4.o1>
+<EventText.waytoascension4.o1.c1>"잘 알겠지만, 연합이 우리 대 전도사회의 구성원 중 한 명인 야코프 수브라님께 현상금을 걸었네."</EventText.waytoascension4.o1.c1>
+<EventText.waytoascension4.o1.o1>"낯이 익는 이름입니다만, 그분이 누군지는 자세히 모릅니다."</EventText.waytoascension4.o1.o1>
+<EventText.waytoascension4.o1.o1.c1>"그분은 '지도자'라고 불리는 것을 좋아하시지만, 우리 교단의 대 전도사회의 일원이시라네. 그분께서는 새로운 교단의 일원을 모집하는 데에 큰 역할을 한 '몰룩스의 교회' 축제의 배후에 있으셨던 분이지. 현재 연합 당국으로부터 버려진 전초기지에 숨어계신다네. 그리고 현상금을 노리는 녀석들이 그분의 현 위치를 발견했다는 정보가 있지. 자네가 '만났던' 공작원이 정보를 뿌렸을 수도 있어."</EventText.waytoascension4.o1.o1.c1>
+<EventText.waytoascension4.o1.o1.o1>"저희가 어떻게 도울 수 있겠습니까?"</EventText.waytoascension4.o1.o1.o1>
+<EventText.waytoascension4.o1.o1.o1.c1>"현상금을 노리는 녀석들이 일을 저지르기 전에 먼저 그분께 가서 안전한 곳으로 데려다드리게. 지도에 위치를 표시해주도록 하겠네. 얼마나 급한 일인지는 아무리 강조해도 부족하지 않으니, 더 이상 시간 낭비하지 말고 어서 출발하시게. 그분께서 안전해지면 더 이야기하자고."</EventText.waytoascension4.o1.o1.o1.c1>
+<EventText.waytoascensionfoundsubra.c1>"너희는 날 산채로 데려갈 순 없을 거다!"</EventText.waytoascensionfoundsubra.c1>
+<EventText.waytoascensionfoundsubra.o1>"진정하십시오, 형제여! 교단이 우리를 보냈습니다."</EventText.waytoascensionfoundsubra.o1>
+<EventText.waytoascensionfoundsubra.o1.c1>"아! 라디오에서 내 현상금에 대해 주절대는 것을 들었었지. 그래서 다른 자들이 나를 찾아왔는지 알았어."</EventText.waytoascensionfoundsubra.o1.c1>
+<EventText.waytoascensionfoundsubra.o1.o1>"…그렇습니까? 다행히 그 자들이 저희는 아닌 것 같군요."</EventText.waytoascensionfoundsubra.o1.o1>
+<EventText.waytoascensionfoundsubra.o1.o1.c1>"음, 젠장. 무기를 준비하고 당장 여기서 나가는 게 좋겠군. 자네가 길을 인도하라고."</EventText.waytoascensionfoundsubra.o1.o1.c1>
+<EventText.waytoascension_assassination1.c1>당신이 암살을 의뢰받은 허스크 교단을 조사하는 공작원이 이 전초기지 어딘가에 있을 것입니다.</EventText.waytoascension_assassination1.c1>
+<EventText.waytoascension_assassination1.c1.c1>이 사람이 공작원인 것이 틀림 없습니다. 당신은 이제 결정해야 합니다.</EventText.waytoascension_assassination1.c1.c1>
+<EventText.waytoascension_assassination1.c1.o1>"맡아서는 안 될 냄새를 맡았군, 살덩어리…"</EventText.waytoascension_assassination1.c1.o1>
+<EventText.waytoascension_assassination1.c1.o1.c1>남자가 즉시 총을 꺼냅니다.</EventText.waytoascension_assassination1.c1.o1.c1>
+<EventText.waytoascension_assassination1.c1.o2>"거기 선생님, 저 좀 도와주실 수 있습니까? 제 친구가 다쳐서 의료 모듈로 옮겨야 해요. 제발 따라와주세요!"</EventText.waytoascension_assassination1.c1.o2>
+<EventText.waytoascension_assassination1.c1.o2.c1>"물론입니다. 안내하세요!"</EventText.waytoascension_assassination1.c1.o2.c1>
+<EventText.waytoascension_assassination1.c1.o2.c1.c1>"그래, 무슨 짓이죠? 내 시간을 낭비하는 겁니까? 일이나 하러 가야겠군요."</EventText.waytoascension_assassination1.c1.o2.c1.c1>
+<EventText.waytoascension_assassination1.c1.o3>그를 무시하고 계속 걸어갑니다.</EventText.waytoascension_assassination1.c1.o3>
+<EventText.waytoascension5.c1>"어서오게. 자네를 기다리고 있었네."</EventText.waytoascension5.c1>
+<EventText.waytoascension5.o1>"이게 뭡니까?"</EventText.waytoascension5.o1>
+<EventText.waytoascension5.o1.c1>"우리의 길이 하나가 된 이후, 교단을 위한 자네의 헌신은 짧은 기간동안 정말 이례적이었다네. 하지만 대 전도사님을 구출하는 것은 그 무엇에도 비할 바 없는 업적이라 할 수 있지. 우린 자네에게 영원히 빚을 지게 되었어. 그래서, 우리는 자네를 위한 성찬식을 개최하기로 결정했네. 준비가 되면 나머지 승조원들을 데리고 오시게. 그러면 시작하도록 하지."</EventText.waytoascension5.o1.c1>
+<EventText.waytoascension5.c1.c1>"다들, 그러면... 시작하겠습니다?"</EventText.waytoascension5.c1.c1>
+<EventText.waytoascension5.c1.o1>"해보자고."</EventText.waytoascension5.c1.o1>
+<EventText.waytoascension5.c1.o1.c1>로브를 입은 신도들이 성가를 흥얼거리고, 전도사가 팔을 치켜 듭니다. "형제들이여, 우리의 성배는 텅 비었으며, 신선하고 오염되지 않은 포도주를 갈망하노라" 견습사제 중 한 명이 신도들에게 허스크 알이 든 병을 건냅니다.</EventText.waytoascension5.c1.o1.c1>
+<EventText.waytoascension5.c1.o1.o1>알을 챙긴다.</EventText.waytoascension5.c1.o1.o1>
+<EventText.waytoascension5.c1.o1.o1.c1>"오, 생명의 영이여, 우리의 성배를 당신의 강고함으로 채우소서. 우리가 하나되어 버림받은 자가 세상에 승리하게 하소서. 우리가 당신의 은총을 받아들이고 본질적인 형태를 이끌어 내나이다." 전도사들이 병을 치켜 들고, 로브를 입은 나머지 신도들이 뒤따릅니다.</EventText.waytoascension5.c1.o1.o1.c1>
+<EventText.waytoascension5.c1.o1.o1.o1>병을 들어 올린다.</EventText.waytoascension5.c1.o1.o1.o1>
+<EventText.waytoascension5.c1.o1.o1.o1.c1>"우리가 조류의 전령이 되노니, 강고한 허스크로서 물 안의 거대한 흐름이 되리라!" 모두 병 속의 내용물을 삼킵니다.</EventText.waytoascension5.c1.o1.o1.o1.c1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1>알을 삼킨다.</EventText.waytoascension5.c1.o1.o1.o1.o1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1.c1>당신은 내면에서 꿈틀거리며 자라나는 공생체를 느낍니다. 뭐지? 뭐가 이렇게 빠르게 일어나는 거지? 당신이 스스로 되묻기도 전에, 상황이 빠르게 진정되는 걸로 보입니다. 당신의 정신은... 아니, "너"는 이제 존재하지 않는다. 우리가 이제 하나이니, 두려워할 것은 더는 없는 것이다.</EventText.waytoascension5.c1.o1.o1.o1.o1.c1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1.o1>"말을 할 수 있는 건가?"</EventText.waytoascension5.c1.o1.o1.o1.o1.o1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1.o1.c1>전도사가 입가에 산란관을 드러낸채로 당신을 바라봅니다. "물론이네. 우리의 몸과 마음은 이런 식이어야 더 가치가 있으니 말일세." 전도사가 여전히 바닥에서 경련으로 꿈틀대고 있는 다른 이들을 가리킵니다. "이 나약한 것들과는 다르게 말이야. 우리가 이들을 흡수하리라."</EventText.waytoascension5.c1.o1.o1.o1.o1.o1.c1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1.o1.o1>"그러면 다음은 뭡니까?"</EventText.waytoascension5.c1.o1.o1.o1.o1.o1.o1>
+<EventText.waytoascension5.c1.o1.o1.o1.o1.o1.o1.c1>"그것은 그대가 스스로 찾아야 할 것이네. 그러나 지금은... 가보게. 인간들이 이쪽으로 오고 있어. 우린 다시 만날걸세."</EventText.waytoascension5.c1.o1.o1.o1.o1.o1.o1.c1>
+<EventText.waytoascension5.c1.o2>"잠시만요. 잠깐 시간이 필요합니다."</EventText.waytoascension5.c1.o2>
+<EventText.waytoascensionsubraescort.c1>"휴, 순간 걱정했었지 뭐야. 그 현상금 사냥꾼 놈들로부터 벗어날 때까지는 여기에 머물러도 괜찮겠지?"</EventText.waytoascensionsubraescort.c1>
+<EventText.waytoascensionsubraescort.o1>"물론입니다! 편히 쉬시길 바랍니다."</EventText.waytoascensionsubraescort.o1>
+<EventText.waytoascensionsubraescort.c2>"건배하지! 나는 다음 장소에서 내리겠어."</EventText.waytoascensionsubraescort.c2>
+<EventText.waytoascensionsubraescort.c3>"음, 자네의 성배와 기타 등등을 비우는 일들은 어떻게 되고 있지?"</EventText.waytoascensionsubraescort.c3>
+<EventText.waytoascensionsubraescort.c3.o1>"잘 모르겠습니다."</EventText.waytoascensionsubraescort.c3.o1>
+<EventText.waytoascensionsubraescort.c4>"자네와 나뿐이라 하는 말이네만, 동지들은 꽤나 확고한 신뢰를 보내고 있더군."</EventText.waytoascensionsubraescort.c4>
+<EventText.waytoascensionsubraescort.c5>"그렇기에 만약 내가 자네라면 마지막 도약의 가능성을 신경쓰기 시작할 걸세. 기회는 자네가 생각하는 것보다 더 빠르게 다가올 수도 있거든."</EventText.waytoascensionsubraescort.c5>
+<EventText.waytoascensionsubraescort.c5.o1>"제가 그렇게 해야 한다고 생각하십니까?"</EventText.waytoascensionsubraescort.c5.o1>
+<EventText.waytoascensionsubraescort.c6>"물론, 보다시피, 나는 여전히 살점과 오물로 이루어진 어리석은 유인원이네만, 다른 유인원들과 교류할 때는 이게 장점으로서 작용하지. 그 질문에 답을 내려줄 사람은 내가 아니네. 결정은 스스로 내려야 하는 것이니."</EventText.waytoascensionsubraescort.c6>
+<EventText.pathofthebikehorn1.c1>특이하게 생긴 광대 복장을 입은 사람이 다가와, 당신을 끌어당깁니다. "이곳에서 본 적이 없는 사람이군. 무슨 일로 온 거지? 그러니까, 당신은 유쾌한 사람인 건가?"</EventText.pathofthebikehorn1.c1>
+<EventText.pathofthebikehorn1.o1>"그냥 지나가던 중이었습니다. 유쾌한 사람이라니 무슨 의미입니까?"</EventText.pathofthebikehorn1.o1>
+<EventText.pathofthebikehorn1.o1.c1>"자전거 경적 소리에 귀를 기울이는 바보, 어릿광대, 삐에로들이지! 나와, 우리의 신봉자들이 아닌 사람들은 멋지고 안전한 세상을 발견했거든. 바로 여기 말이야. 그래서 문제가 생기지 않았으면 좋겠어."</EventText.pathofthebikehorn1.o1.c1>
+<EventText.pathofthebikehorn1.o1.o1>"신봉자가 아닌 사람들? 혹시 당신이 어떤 조직의 지도자라도 된다는 말입니까?"</EventText.pathofthebikehorn1.o1.o1>
+<EventText.pathofthebikehorn1.o1.o1.c1>"아니, 아니, 나는 지도자가 아니야! 나는 그저 농담의 달인일 뿐이라고. 누가 선생이라고 부를 수도 있지만, 나는 오히려 자전거 경적을 따르는 길을 인도하는 사람이라고 소개하고 싶어."</EventText.pathofthebikehorn1.o1.o1.c1>
+<EventText.pathofthebikehorn1.o1.o1.o1>"자전거 경적을 따르는 길이란 뭔지 알려주실 수 있겠습니까?"</EventText.pathofthebikehorn1.o1.o1.o1>
+<EventText.pathofthebikehorn1.o2>"저로서는 당신같은 쓸모없는 '유쾌한 사람들'을 모아서 근로 캠프로 보내는 수 밖에 없겠는걸요. 대충 알아들으셨겠지요?"</EventText.pathofthebikehorn1.o2>
+<EventText.pathofthebikehorn1.o2.c1>"나를 슬픈 광대로 만드는 소리인걸. 하지만 난 당신같이 그들의 거짓말에 눈이 먼 이들을 내 잣대로 판단하지 않아. 물론 당신이 마음을 바꾸고 눈을 뜰 생각이 있다면 이 농담의 달인이 직접 길을 보여줄지도!"</EventText.pathofthebikehorn1.o2.c1>
+<EventText.pathofthebikehorn1.o2.o1>"그런 터무니없는 소리에는 관심이 없습니다. 수고하시죠."</EventText.pathofthebikehorn1.o2.o1>
+<EventText.pathofthebikehorn1.o2.o2>"그게 뭐든 간에, '길'이라는 것에 대해 좀 더 들을 수 있겠습니까?"</EventText.pathofthebikehorn1.o2.o2>
+<EventText.pathofthebikehorn1.o2.o2.c1>"흠, 그 '근로 캠프' 이야기 이후에 그렇게 말하니 조금은 의도가 의심스러워지는걸. 물론, 당신이 더 적절한 의상을 입고 있다면 더 믿을 수 있을 거 같긴 한데..."</EventText.pathofthebikehorn1.o2.o2.c1>
+<EventText.pathofthebikehorn1.o2.o2.o1>"알겠습니다. 나중에 다시 찾아뵙죠."</EventText.pathofthebikehorn1.o2.o2.o1>
+<EventText.pathofthebikehorn1.o2.o2.c1.c1>"광대 복장이 아니면, 말 안 해!"</EventText.pathofthebikehorn1.o2.o2.c1.c1>
+<EventText.pathofthebikehorn1.o3>"걱정할 필요 없습니다. 광대의 어머니께서 당신과 전초기지를 굽어 살피시기를!"</EventText.pathofthebikehorn1.o3>
+<EventText.pathofthebikehorn1.o3.c1>"광대의 어머니를 찬양하라! 난 당신이 자전거 경적을 따르는 길을 믿지 않는 진지한 인간일거라 걱정했었는데, 다행이네."</EventText.pathofthebikehorn1.o3.c1>
+<EventText.pathofthebikehorn1.o3.o1>"제게 자전거 경적을 따르는 길을 가르쳐 주시겠습니까?"</EventText.pathofthebikehorn1.o3.o1>
+<EventText.pathofthebikehorn1.o3.o1.c1>"바로 그 정신이야! 나는 나 자신을 선생이라 칭하는 것을 좋아하지 않아. 내가 당신에게 가르칠 게 없거든. 모든 것은 다 당신에게 달렸어. 그중에 내가 할 수 있는 일이 있다면, 당신을 옳은 길로 인도하는 거겠지. 그러면 아마, 당신은 스스로 진실을 보게 될 거야. 그 순간을 위해 내가 당신에게 광대의 어머니께 자신을 바치는 첫 걸음이 될만한 작은 임무 하나를 주도록 할게."</EventText.pathofthebikehorn1.o3.o1.c1>
+<EventText.pathofthebikehorn1.o3.o1.o1>"말씀하시죠."</EventText.pathofthebikehorn1.o3.o1.o1>
+<EventText.pathofthebikehorn1.o3.o1.o1.c1>"내가 쓴 마스크 보이지? 우리가 있는 이 위성에는 이런 마스크가 거의 남아있지 않아. 하지만 당신이 찾고자 마음을 먹는다면 여행 중에 하나를 찾을 수 있을 거라 생각해. 그럴 때 내게 가져다 주던지, 아니면 다른 농담의 달인에게 갖다줘. 그러면 우리가 어디로 향해야 할지를 알 수 있을 거야! 아, 그리고, 짜잔! 이것도 가져가. 당신의 여행동안 읽을 가벼운 읽을거리야!"</EventText.pathofthebikehorn1.o3.o1.o1.c1>
+<EventText.pathofthebikehorn2.c1>"광대의 어머니께 축복을! 아, 또 당신이네! 무슨 일이야?"</EventText.pathofthebikehorn2.c1>
+<EventText.pathofthebikehorn2.o1>"부탁하신 대로 마스크를 가져왔습니다."</EventText.pathofthebikehorn2.o1>
+<EventText.pathofthebikehorn2.o1.c1>"그러네! 세상에, 축하해! 그건 당신이 가져도 돼. 보다시피, 난 이미 가지고 있잖아. 아니면, 버려도 돼. 그냥 가면일 뿐이잖아. 내가 보기에도 꽤 못생겼거든."</EventText.pathofthebikehorn2.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1>"그럼 제가 이걸 왜 얻어야 했던 겁니까?"</EventText.pathofthebikehorn2.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.c1>"아이들이나 하는 롤플레잉 게임마냥 창의성없는 일이라 꽤 보잘것 없었지? 그래도 당신은 그걸 찾는 동안 재미를 느끼지 않았어? 꽤나 여러 문제에 직면했을 거야. 정말 대단한 모험을 겪었겠지. 아마 그 순간을 당신은 한 번쯤 즐겼을 거야. 만약 그런 즐거움을 느끼지 못했다면 잠수함 승조원이 되지 않았겠지! 그러니까, 이제 그걸 왜 얻고 싶었는지, 아니면 왜 사람들을 위해 다양한 임무를 받으면서 계속 유로파를 항해하고 싶은 것인지를 묻고 싶은걸."</EventText.pathofthebikehorn2.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1>"제가 모험을 즐기는 것 같긴 합니다만, 그게 자전거 경적을 따르는 길과 무슨 관계입니까?"</EventText.pathofthebikehorn2.o1.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.o1.c1>"재미와 게임이니까! 나는 모든 사회제도를 게임으로 생각해봤어. 게임이라 하면 역시 퀘스트를 떠올릴 수 있으니까 말이야. 만약 당신이 사회제도의 진상을 제대로 알게 된다면, 이 세계가 게임의 시스템 속에 있다는 것을 알 수 있을 거야. 인간 군상들의 게임, 크롤러가 돌아다니는 것도, 해치 밑 바닥에 오수가 고이는 상황도, 함미에 뭔가를 보관해놓고 나아가는 잠수함 승조원로서의 역할들도 모든 게 게임인 거야..."</EventText.pathofthebikehorn2.o1.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1>"그렇군요...?"</EventText.pathofthebikehorn2.o1.o1.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.c1>"하지만 '게임'이라는 단어에 주의하도록 해! 그게 모든 것들이 헛되다는 것을 의미하는 것은 아니니까. 노래처럼 진지하지 않으면서도 어떨 때는 진지해질 수 있거든. 하지만 모든 종류의 아름다운 형태는 말이야. 그냥 한다는 것 외에, 다른 이유 없이 이루어지는 그 복잡성 속에서 나타날 수 있다고 생각해. 바로 이렇게 말이지!" 농담의 달인이 당신의 코앞에서 자전거 경적을 울립니다.</EventText.pathofthebikehorn2.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1>"무슨 말씀이신지 알 것 같군요. 그러면, 다음은 뭡니까?"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.c1>"오오 친구, 이건 정말 굉장한 일이 될 거야! 우선, 당신이 장난감 망치를 가져다 주길 바라. 뭔지 알지? 누구를 때릴 때 '뿅'하고 소리가 나는 유치한 플라스틱 장난감 말이야"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1>"그리고요...?"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.c1>"당신이 심연 아래로 잠항해서 저 아래 사는 커다란 친구 중 한 놈을 만나길 바라고 있어. 그러면 재미있는 부분이 나올 거거든! 래처라면 낫겠지만, 엔드웜이나 카리브디스를 만난다면 정말이지 재밌을 거야. 그 녀석들을 만나서 망치로 막 이렇게, 쾅! 하면서 말이야!" </EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o1>"현명하게 들리지는 않습니다만, 그런 행위에 뭔가 의미가 있겠죠."</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o1.c1>"바로 그 정신이야! 절대 똑똑한 행동은 아니지. 하지만 가끔은 머리 위의 감각적인 부분의 소리를 무시하는 것도 나쁘지 않아. 그저 위대한 광대가 당신을 위해 만들어낸 롤러코스터를 타고 즐기는 거지! 어쨌든, 그 행위가 다 끝나면 나나 내 동료 중 한 명에게 말해줘. 그리고 자, 여기. 여행 중에 읽을거리야! 행운을 빌어! 나는 당신이 '위험하지 않게' 즐기고 왔으면 좋겠어!"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o2>"뭔 헛소리입니까? 날 보고 나가 죽으라는 겁니까?"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o2>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o2.c1>"아직 이 문제의 어리석음이나 심오함을 자세히 보지 못하는 거 같네. 하지만 이 길을 따르려면 이렇게 해야 하는 거라고. 이 시점에서 당신에게 더 해줄 말은 없어. 만약에 내가 말한 농담거리가 끝나면 나나 내 동료들에게 알려줘! 그리고 자, 여기. 여행 중에 읽을거리야! 행운을 빌어! 재미있게 노는 것도 잊지 말고!"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o1.o1.o2.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o2>"이 사이비 철학같은 헛소리가 머리를 아프게 하는군요. 그냥 광대의 어머니에 대해서 말씀해주시면 안됩니까?"</EventText.pathofthebikehorn2.o1.o1.o1.o1.o2>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o2.c1>"나는 당신이 일을 어렵게 생각하지 않는 훌륭한 마음가짐을 가지고 있다고 봐! 크롤러의 엉덩이 같은 곳에서 유익한 것을 얻어내는 방향으로 나아가는 거지... 그리고, 나는 광대의 어머니는 3파운드짜리 커스터드 파이라고 부를 수 있어. 하지만 그건 당신에게 아무 의미도 없잖아. 안 그래? 물론 난 그렇게 생각하지 않지. 그래서 당신이 배울 게 더 있다는 거야. 그러니 다른 일을 한 번 해보자!</EventText.pathofthebikehorn2.o1.o1.o1.o1.o2.c1>
+<EventText.pathofthebikehorn2.o1.o1.o1.o1.o2.o1>"그러죠."</EventText.pathofthebikehorn2.o1.o1.o1.o1.o2.o1>
+<EventText.pathofthebikehorn2.o1.c2>"투명 버전의 마스크 라고 하던가? 난 그걸 실제로 보고 싶어."</EventText.pathofthebikehorn2.o1.c2>
+<EventText.pathofthebikehorn2.o2>"아직 광대의 어머니의 도움을 받지 못한 것 같습니다. 팁이 있을까요?"</EventText.pathofthebikehorn2.o2>
+<EventText.pathofthebikehorn2.o2.c1>"이 마스크들은 오랫동안 잊혀져 있었지만, 당신이 상당히 오래된 난파선을 발견한다면 찾을 수 있을지도 몰라. 이건 농담의 달인에게 있어서는 유서깊은 옷이니까, 틀에서 벗어난 생각을 하면 앞으로 나아갈 다른 방법을 찾을 수 있을꺼야! 윙크! 윙크!"</EventText.pathofthebikehorn2.o2.c1>
+<EventText.pathofthebikehorn2.o2.o1>"방금 입으로 '윙크 윙크' 하신 겁니까?"</EventText.pathofthebikehorn2.o2.o1>
+<EventText.toyhammeronabyssmonster.c1>장난감 망치가 심연의 괴물을 뿅 뿅 내려치지만, 아무 일도 일어나지 않습니다. 당신은 이 모든 일들의 요지가 무엇인지 궁금해집니다. 물론, 당신이 그런 생각을 떨쳐버리고 여기서 살아서 돌아가는 게 더 중요하다는 사실을 깨닫기 전까지 말이죠.</EventText.toyhammeronabyssmonster.c1>
+<EventText.pathofthebikehorn3.c0>"이봐, 당신의 견해가 필요한 일이 있어. 만약에, 정말 만약에 말이야. 누가 광대의 어머니의 자식들을 위한 엑소슈트를 만들어서 그 이름을 '빵빵 슈트' 라고 지으면 어떨 거같아?"</EventText.pathofthebikehorn3.c0>
+<EventText.pathofthebikehorn3.o0>"어, 왜 제게 묻는 겁니까?"</EventText.pathofthebikehorn3.o0>
+<EventText.pathofthebikehorn3.c1>"사실은, 음. 아니야. 그건 중요하지 않아! 대신 일 이야기로 넘어가자. 작은 요정이 당신이 '퀘스트'를 하고 있다고 전해주던데, 심연의 괴물을 만나는 건 어떻게 되고 있어?"</EventText.pathofthebikehorn3.c1>
+<EventText.pathofthebikehorn3.o1>"그 망할 것을 만나고 어떻게 됐을 거 같습니까? 간신히 살아 돌아왔죠."</EventText.pathofthebikehorn3.o1>
+<EventText.pathofthebikehorn3.o1.c1>"당신이라면 해낼 수 있을거라 생각했어. 하지만 확신은 별로 못했던 거 같은데? 이 모든 것의 진국같은 커스터드 파이를 제대로 맛보려면 갈 길이 좀 더 남아 있는 거 같은걸. 뭐가 그렇게 두려운 거야? 심연의 괴물에게 삼켜졌다고 자전거 경적 소리가 영원히 잠재워질 거라 생각하는 거야? 삼켜진다고 당신의 이야기가 끝나는 걸까? 당신이 잃는 것을 두려워하는 '당신'이라는 존재는 뭐야?"</EventText.pathofthebikehorn3.o1.c1>
+<EventText.pathofthebikehorn3.o1.o1>"그 놈의 턱에서 벗어나지 못했다면 그 순간이 제 이야기의 끝이었겠죠."</EventText.pathofthebikehorn3.o1.o1>
+<EventText.pathofthebikehorn3.o1.o1.c1>"정말로 그럴까? 그건 관점의 문제라고. 당신의 현재 하고 있다고 생각하는 그 '역할', 그 관점을 통해서 이 세계... 당신이 뭐라 부르든 간에, 그 관점에 한정돼서 보이는 것이 이 이야기의 전체라고 한정지어 생각한다면, 그건 '당신의 이야기'의 즐거움의 우울한 끝이 될 거라 생각해."</EventText.pathofthebikehorn3.o1.o1.c1>
+<EventText.pathofthebikehorn3.o1.o1.o1>"무슨 말씀인지 잘 모르겠군요."</EventText.pathofthebikehorn3.o1.o1.o1>
+<EventText.pathofthebikehorn3.o1.o2>"무슨 말을 하려는 건지 잘 모르겠습니다."</EventText.pathofthebikehorn3.o1.o2>
+<EventText.pathofthebikehorn3.o2>"재미있는 경험이었습니다만, 그 괴물 녀석은 이 장난을 이해하지 못하는 것 같던데요."</EventText.pathofthebikehorn3.o2>
+<EventText.pathofthebikehorn3.o2.c1>"하하! 당신의 경적 소리가 갈수록 더 크고 아름다워지고 있는데. 그러니 말해줘. 죽음과 가장 가까운 곳에 있던 순간, 어쩌면 그 죽음을 직면할 뻔한 짧은 찰나의 순간동안, 당신의 내면 속에 뭔가 새로운 간질거림이 느껴졌어?"</EventText.pathofthebikehorn3.o2.c1>
+<EventText.pathofthebikehorn3.o2.o1>"무슨 말씀인지 잘 모르겠군요."</EventText.pathofthebikehorn3.o2.o1>
+<EventText.pathofthebikehorn3.o2.o1.c1>"우리의 대화가 서로 이해하기 어려운 영역으로 흘러가는 거 같지만, 설명은 해 줄게. 우리가 서커스 천막에서 공연을 보고 있을 때를 예로 들어보자고. 그 순간 우리가 바깥 세상의 상황에 대해 생각하거나, 논하지 않아. 그저 공연에 집중할 뿐이지. 바로 그게 좋은 거야! 밤이 끝나는 순간이면 공연이 끝난다는 그 사실에 정신을 빼앗기지 말고, 그저 공연을 즐기는 거지."</EventText.pathofthebikehorn3.o2.o1.c1>
+<EventText.pathofthebikehorn3.o2.o1.o1>"그건 사후세계에 대한 비유적 표현입니까?"</EventText.pathofthebikehorn3.o2.o1.o1>
+<EventText.pathofthebikehorn3.o2.o1.o1.c1>"태어나기 전을 뜻하는 풍자일 수도 있지. 여러 의미로 말이야. 한 번 이렇게 말해볼까. 태어나기 전에 원래 얼굴이 어떻게 생겼는지 생각해 봐. 아니면 이 '가면'을 쓰기 전에, 그리고 저 천막에서 나온 후의 당신이 다른 어느 때 그 상황으로 돌아오지 않으리라 단언할 수 있어? 분명 저 천막에 한 번이 아니라 여러 번 들어갔을 수도 있는데 말이야. 그런 상황이 반복되지 않으리라 할 수 있을까?"</EventText.pathofthebikehorn3.o2.o1.o1.c1>
+<EventText.pathofthebikehorn3.o2.o1.o1.o1>"지금 무슨 윤회 사상에 대해서 이야기 하시는 겁니까?"</EventText.pathofthebikehorn3.o2.o1.o1.o1>
+<EventText.pathofthebikehorn3.o2.o1.o1.o1.c1>"내가 말했듯이, 이건 말로 설명하기 힘든 주제야. 더 이상 자세히 설명하기는 힘들겠지만, 결론은 이래. 죽음도 결국 농담 소재라는 거지. 당신이 잃는 것을 두려워하는 이 '당신'은 누구야? 당신은 정말 그 '당신'을 잃어버리는 걸까? 우리가 다시 만날 때까지 생각해볼 만한 좋은 숙제가 될 수 있을 거야! 짜-잔!"</EventText.pathofthebikehorn3.o2.o1.o1.o1.c1>
+<EventText.pathofthebikehorn3.o2.o1.o1.o2>"무슨 뜻인지는 알 것 같지만, 일단은 이 '가면'을 쓰고 각자의 역할에 충실해야겠군요!"</EventText.pathofthebikehorn3.o2.o1.o1.o2>
+<EventText.pathofthebikehorn3.o2.o1.o1.o2.c1>"광대의 어머니의 뜻대로! 나는 분명 당신이 이 천막 밖에서 한두 번 이상 훔쳐봤던 상황이 있다고 생각해. 아니면 지금은 이 천막 안을 들여다보고 있다고 해야 할까? 어쨌든, 나는 당신의 발전을 보고 꽤 뭉클해졌어. 다음 단계를 생각할 시간이 조금 필요할 것 같으니, 여기서 마무리하자고. 다음에 또 봐!"</EventText.pathofthebikehorn3.o2.o1.o1.o2.c1>
+<EventText.pathofthebikehorn3.o2.o1.o1.o3>"무슨 말씀인지 알 것 같군요. 제가 죽은 후에는 아무것도 없지만, 태어나기 전의 완연한 공백보다 더 무서운 것은 없겠죠."</EventText.pathofthebikehorn3.o2.o1.o1.o3>
+<EventText.pathofthebikehorn3.o2.o1.o1.o3.c1>"그게 나아갈 길을 보는 한 가지 방법이라고 생각하지만, 유감스럽게도 당신이 방금 밟은 것은 거대한 바나나 껍질 같은 거야! 당신은 내가 이해시키려고 한 것을 완전히 오해하고 있다고. 이렇게 해볼까? 태어나기 전의 원래 얼굴이 어떻게 생겼었는지 생각해 보자. 아니면 이 '가면'을 쓰기 전에 말이야. 이게 우리가 다시 만날 때까지 당신이 생각해 볼 만한 좋은 숙제거리가 될 거야! 짜-잔!"</EventText.pathofthebikehorn3.o2.o1.o1.o3.c1>
+<EventText.pathofthebikehorn4.c1>"다시 만나게 되어 정말 기뻐! 사실, 시기가 참 좋았어. 임무라고 해야할 일을 해결해줄 자원봉사자를 찾고 있었거든."</EventText.pathofthebikehorn4.c1>
+<EventText.pathofthebikehorn4.o1>"흥미 있습니다."</EventText.pathofthebikehorn4.o1>
+<EventText.pathofthebikehorn4.o1.c1>"당신이 그 심연의 괴물과 땡깡을 부리는 순간을 겪은 뒤부터 이 일을 해낼 만큼 충분한 배짱... 아니면 '건강한 부주의'를 가진 사람이라는 사실을 증명했다고 생각해. 전에 내가 말했던 광대의 아이들 엑소슈트 기억나나 모르겠네?"</EventText.pathofthebikehorn4.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1>"기억납니다. 그래서 무슨 일입니까?"</EventText.pathofthebikehorn4.o1.o1>
+<EventText.pathofthebikehorn4.o1.o1.c1>"우리가 그걸 가져올거야! 근처에 전초기지 하나가 있는데, 우리처럼 자전거 경적 소리에 귀를 기울이는 사람들에게는 일종의 피난처 같은 곳이었지. 우리가 평화롭고 조용한 삶을 영유할 수 있는 독립적인 전초기지 말이야. 뭐, 비유하자면 그래. 하지만 한동안은 그러지 못했어. 요즘 그런 곳을 유로파 어느 곳에서도 찾을 수 없거든. 당신도 알고 있겠지? 장난치는 사람이 두들겨 맞거나, 밸러스트 탱크에 죽은 채로 발견되거나 하는 경우가 일주일에 한 번씩은 있으니까 말이야."</EventText.pathofthebikehorn4.o1.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1>"저도 압니다. 그래서, 계획이 뭡니까?"</EventText.pathofthebikehorn4.o1.o1.o1>
+<EventText.pathofthebikehorn4.o1.o1.o1.c1>"우리가 저기를  다시 안전한 피난처로 만들거야! 지금은 우리같이 유쾌한 사람들이 저기가 진지한 인간들의 소유물이 된 상황을 보고도 아무것도 할 수 없는 교착상태에 놓여있어. 규칙에 따르면 전초기지를 점령한 사람은 영원히 그 전초기지의 주인이 된다고 해. 물론 나는  게임의 규칙을 살짝 뒤틀거야! 그건 바로 우리 엑소슈트를 그 안으로 집어 넣는거지!"</EventText.pathofthebikehorn4.o1.o1.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1>"정말 그걸 만드셨다고요?"</EventText.pathofthebikehorn4.o1.o1.o1.o1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.c1>"맞아, 만들어냈어! 저 작자들 처럼 더러운 짓을 하고 싶지는 않지만, 난 우리가 폭력이라는 방법에 의지하지 않고 해낼 수 있으리라 믿어. 저들이 전초기지를 포기하고 스스로 더 '진지한' 머물 장소를 찾을 수 밖에 없도록, 밤낮없이 원자력으로 작동하는 자전거 경적을 울릴 거고, 바나나 껍질 대포로 저들의 길목을 장애물 코스로 바꿔버리는 방식으로 유쾌한 폭격을 할 거야!"</EventText.pathofthebikehorn4.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1>"저들이 무력으로 진압하려 들지 않으리라 보십니까?"</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.c1>물론 그럴 수도 있지. 하지만 유쾌인도자 3000은 한두 발 맞는 건 버틸 수 있어. 아니면 수십 발도 버티겠지. 그러면 좋겠지만! 아무튼 다음으로 중요한 건 이거야. 스스로의 안전을 도외시하는 것은 말할 것도 없고, 당신과 당신네 승조원들의 전투 경험을 고려해볼 때 당신이 이 일에 가장 적합하리라 생각했어. 그러니 당신이 그 엑소슈트를 입고 그 전초기지를 다시 장악할 수 있도록 도와준다면 우리가 영원히 감사를 표할게!"</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o1>"기꺼이 도와드리죠."</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o1.c1>"오, 정말 최고야! 난 당신이 주저하지 않으리라 알고 있었어. 어쨌든, 나는 당신이 이 일을 통해 아주 재밌게 놀 수 있으리라 생각해. 여기 슈트야. 전초기지의 위치도 지도에 표시해뒀어."</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2>"이에 대해 조금 생각할 시간이 필요합니다."</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.c1>"제안에 대해 생각은 해 봤어? 유쾌인도자 3000으로 우리가 전초기지를 다시 장악할 수 있도록 도와줄 거야?"</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.c1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.o1>"즐겁게 도와드리겠습니다."</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.o1>
+<EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.o2>"이에 대해 조금 생각할 시간이 필요합니다."</EventText.pathofthebikehorn4.o1.o1.o1.o1.o1.o2.o2>
+<EventText.pathofthebikehorn4.o2>"지금 당장은 도와드릴 여유가 없군요."</EventText.pathofthebikehorn4.o2>
+<EventText.clownhaven1.c1>농담의 달인이 말한 전초기지에 도착했습니다. 유쾌인도자 3000을 장비하고, 진지함으로 가득한 주민들이 이 전초기지는 광대의 어머니의 아이들의 손에 있는 게 더 낫다는 사실을 깨닫도록 유쾌함을 퍼부으세요!</EventText.clownhaven1.c1>
+<EventText.clownhaven1.c1.c1>주민들이 유쾌인도자 때문에 몹시 화가 난 것 같습니다. 효과가 있는 것 같군요!</EventText.clownhaven1.c1.c1>
+<EventText.clownhaven1.c1.c2>멀리서 들려오는 자전거 경적 소리가 전초기지 어딘가에서 울려 퍼지고, 이어서 "광대의 어머니를 찬양하라!"라는 유쾌함이 서린 말이 울려 퍼집니다.</EventText.clownhaven1.c1.c2>
+<EventText.clownhaven1.c1.c3>전초기지 거주자 중 한 명이 당신에게 소리칩니다. "당장 그걸 여기서 치우지 않으면 경비를 부르겠어!"</EventText.clownhaven1.c1.c3>
+<EventText.clownhaven1.c1.c4>방송이 울려퍼집니다. "모든 보안 요원, 저 광대 기계를 꺼버릴 것. 무력 사용을 허가함...정정, 권장함."</EventText.clownhaven1.c1.c4>
+<EventText.clownhaven1.c1.c5>방송이 울려퍼집니다. "좋아, 졌다. 이렇게 까지 할 필요는 없지 않나. 이 망할 전초기지는 가지도록. 그러니 제발 그 망할 것좀 꺼줘!"</EventText.clownhaven1.c1.c5>
+<EventText.pathofthebikehorn5.c1>"오오, 왔구나! 당신이 해냈네! 솔직히 이건 말도 안 되는 계획이었는데 말이야. 그렇게까지 그게 잘 작동할지는 몰랐어! 이 마음을 어떻게 표현해야 할지 모르겠는데, 일단 그 엑소슈트는 가져줘. 당신이 항해할 때 꽤 유용하게 쓸 수 있을 거야."</EventText.pathofthebikehorn5.c1>
+<EventText.pathofthebikehorn5.o1>"감사합니다!"</EventText.pathofthebikehorn5.o1>
+<EventText.pathofthebikehorn5.o1.c1>"일단 내가 말해주고 싶은 것은, 자전거 경적을 따르는 길에서 그렇게 짧은 기간 동안 나아간 거리가 정말 인상적이라는 거야. 대다수의 사람들에게는 엄청 먼 길이고, 또 누군가는 길 자체를 찾지 못 하거든."</EventText.pathofthebikehorn5.o1.c1>
+<EventText.pathofthebikehorn5.o1.o1>"그래서, 다음은 뭐죠?"</EventText.pathofthebikehorn5.o1.o1>
+<EventText.pathofthebikehorn5.o1.o1.c1>"내가 당신을 이끌어줄 수 있는 건 여기까지라고 말하게 돼서 기쁘기도 한데, 한쪽으론 슬프기도 하네. 이 이상은 스스로 길을 찾아야 할 거야. 하지만 이미 길을 찾은 거 같은데."</EventText.pathofthebikehorn5.o1.o1.c1>
+<EventText.pathofthebikehorn5.o1.o1.o1>"이게 말입니까? 광대의 어머니가 뭔지는 말씀 안 해주시는 겁니까?"</EventText.pathofthebikehorn5.o1.o1.o1>
+<EventText.pathofthebikehorn5.o1.o1.o1.c1>"오, 바보구나, 당신. 뭘 듣고 싶은 건데? 어머니의 유쾌함이 우리의 혈관을 타고 흐른다는 것? 아니면 우리가 걸어온 길에서 사귄 친구에 대한 것? 아니면 3파운드짜리 커스터드 파이? 그것도 아니라면 거대한 거북이를 타고 있는 원숭이 신 아니면 우리가 있는 이 세상을 지탱하는 체계? 모두 재미있는 말이지만, 이전과 마찬가지로 이건 말로 표현하기 힘든 주제야."</EventText.pathofthebikehorn5.o1.o1.o1.c1>
+<EventText.pathofthebikehorn5.o1.o1.o1.o1>“…”</EventText.pathofthebikehorn5.o1.o1.o1.o1>
+<EventText.pathofthebikehorn5.o1.o1.o1.o1.c1>"광대의 어머니에 대해 말로서 설명한다는 것은 아마 농담을 설명하는 것과 같은 상황이 될 거야. 음, 그냥 실망스럽기만 하겠지. 어머니는 말로 표현할 수 없을 정도로 커다란 우주구급 농담이기도 해. 그래서 우리는 그 개념의 세계를 일컫는 것으로 실제 세계를 혼동시켜서는 안 돼."</EventText.pathofthebikehorn5.o1.o1.o1.o1.c1>
+<EventText.pathofthebikehorn5.c1.c1>농담의 달인이 당신을 호기심 어린 눈으로 바라봅니다.</EventText.pathofthebikehorn5.c1.c1>
+<EventText.pathofthebikehorn5.c1.o1>"정말 이 이상 저희에게 해주실 조언이 없는 겁니까?"</EventText.pathofthebikehorn5.c1.o1>
+<EventText.pathofthebikehorn5.c1.o1.c1>"나는 길이 당신을 어딘가로 이끌도록 인도할 뿐이야. 그곳에 도달한다면 이 삶이라는 게임의 규칙을 이해할 수 있을 거야. 모든 것이 너무 명백해지면, 어떤 이들은 함께 즐기는 삶을 그만두게 되겠지. 금욕적인 삶을 선택하거나, 서커스 천막을 완전히 떠나는 것을 선택할 수도 있어. 하지만 그건 괜찮아! 당신은 어느 시점부터는 신용이 흘러가도록 내버려둬야 할 테니까. 그리고 다른 누군가는 나와 다른 농담의 달인들 같이 역할을 계속해 재미가 이어지도록 할 거야. 그리고 다른 이들이 이 게임의 본질을 이해할 수 있도록 돕겠지. 그거 역시 좋은 선택이지! 어떤 길을 선택하든, 나는 당신의 여행에 많은 행운과 즐거움이 따르길 바라. 광대의 어머니를 찬양하라!"</EventText.pathofthebikehorn5.c1.o1.c1>
+<EventText.pathofthebikehorn5.c1.o1.o1>"광대의 어머니를 찬양하라!"</EventText.pathofthebikehorn5.c1.o1.o1>
+<EventText.missionevent_tormsdalereport.c1>전초기지 관리자가 가슴 주머니에서 서류를 꺼내 굳은 표정으로 당신을 바라봅니다. "흠... 이 임무는 빅토리아 페트란께서 직접 맡으셨던 일이야. 꽤 민감한 사안이지. 하지만 당신은 우리가 믿을 수 있는 사람이라는 것을 증명했다고 생각하네."</EventText.missionevent_tormsdalereport.c1>
+<EventText.missionevent_tormsdalereport.whosthat>"그게 누구입니까?"</EventText.missionevent_tormsdalereport.whosthat>
+<EventText.missionevent_tormsdalereport.whospetran>"잠깐, 뭐라고? 우리랑 그렇게 오래 일했는데도 페트란 님에 대해 들어본 적 없다고? 페트란 님은 목성 분리파 세력의 중위시네. 우리처럼 느슨한 조직에서 지도자를 꼽는다면 그분일 거야."</EventText.missionevent_tormsdalereport.whospetran>
+<EventText.missionevent_tormsdalereport.o1.o1>"아, 그렇군요. 그래서, 임무가 무엇입니까?"</EventText.missionevent_tormsdalereport.o1.o1>
+<EventText.missionevent.pleasecontinue>"흥미있군요. 계속 해주시죠."</EventText.missionevent.pleasecontinue>
+<EventText.missionevent_tormsdalereport.c1.c1>"톰스데일 사건에 대해 들어본 적 있겠지?"</EventText.missionevent_tormsdalereport.c1.c1>
+<EventText.missionevent_tormsdalereport.c1.o1>"낯이 익습니다만, 자세히 말해주시죠."</EventText.missionevent_tormsdalereport.c1.o1>
+<EventText.missionevent_tormsdalereport.c1.o1.c1>"그러면 처음부터 이야기해줘야겠군. 연합이 발판을 다지기 시작할 때, 톰스데일은 당시 유로파에서 가장 큰 독립 식민지였네. 목성 민중운동은 그곳에서 꽤나 강력하게 지지받았지. 나는 톰스데일이 어떤 의미에서는 독립 식민지와 민중운동의 본부로 여겨졌다고 생각하네. 당시까지 유로파는 어느 정도는 민주적이었고, 총선을 앞두고 있었지."</EventText.missionevent_tormsdalereport.c1.o1.c1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1>"아하."</EventText.missionevent_tormsdalereport.c1.o1.o1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.c1>"선거를 불과 몇 주 앞둔 시기였네. 톰스데일에서 핵으로 인한 재난이 터진 거야. 100여 명 이상이 목숨을 잃었지. 그리고 참으로 연합 입장에서는 적절하게도, 희생자 대부분은 목성 민중운동의 지지자들이었네. 그 사건으로 민중운동은 힘을 잃어 영향력을 잃어버렸고, 연합이 유로파의 합법 정부가 되었지."</EventText.missionevent_tormsdalereport.c1.o1.o1.c1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1>"그런 사건을 우연이라고 하기에는 너무 편의주의적 발상 아닙니까?"</EventText.missionevent_tormsdalereport.c1.o1.o1.o1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1.c1>"그렇지. 공식적으로는 사고라고 치부되고 있네만, 그게 정말 믿기 어렵군. 그 이후로 분리주의 운동세력이 테러리스트 조직이라고 선포되고, 우리 운동의 시초였던 할로우 페트란 님이 암살되셨네. 그리고 독립을 유지 중이던 대부분의 전초기지가 점령되었네."</EventText.missionevent_tormsdalereport.c1.o1.o1.o1.c1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1>"그렇군요. 그게 저희 임무와 어떤 관련이 있습니까?"</EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.c1>"연합이 아직 톰스데일에서 일어났던 사건에 대한 기밀 보고서가 있다고 보고 있네. 우리 정보원들은 사본이 근처 전초기지에 보관되고 있다고 하더군. 만약 그걸 손에 넣을 수 있다면 마침내 그 사건이 단순한 음모론이 아니라는 것을 증명할 수 있을 거야. 그러면 다른 이들에게 연합이 초창기부터 얼마나 더러운 짓을 해왔는지 이해시킬 수 있겠지."</EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.c1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.o1>"기꺼이 돕도록 하겠습니다."</EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.o1>
+<EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.o1.c1>"좋아. 전초기지의 위치를 지도에 표시해주겠네. 정보에 따르면 문서가 전초기지 관리자 사무실의 보안 캐비닛에 보관되어 있다고 하던데, 사무실에 있는 인원을 내보내는 것이 까다로울 수도 있네. 아마 당신이 전초기지 관리자에게 나름의 협박을 하거나, 신분증을 훔치는 방법도 있겠지. 어느 쪽이든, 신중하게 행동하도록 하게."</EventText.missionevent_tormsdalereport.c1.o1.o1.o1.o1.o1.c1>
+<EventText.tormsdalereport_outpost.c1>이 사람이 전초기지의 관리자가 틀림없습니다. 보안 캐비닛에 접근할 수 있도록 신분증을 얻을 방법을 찾아야 합니다.</EventText.tormsdalereport_outpost.c1>
+<EventText.tormsdalereport_outpost.o1>"안녕하십니까. 저희는 연합에 인가받아 보안 감사를 실시 중입니다. 당신 사무실의 보안 캐비닛을 검사하고자 하는데, 열어주실 수 있겠습니까?"</EventText.tormsdalereport_outpost.o1>
+<EventText.tormsdalereport_outpost.o1.c1>"어... 뭐라고? 내가 그걸 믿을만큼 멍청이로 보이나? 내가 경비를 부르기 전에 당장 내 사무실에서 꺼져."</EventText.tormsdalereport_outpost.o1.c1>
+<EventText.tormsdalereport_outpost.o2>"혁명이 다가왔다. 우리에게 신분증을 건내지 않으면 당신은 죽을 것이다."</EventText.tormsdalereport_outpost.o2>
+<EventText.tormsdalereport_outpost.o2.c1>남자가 즉시 총을 꺼내듭니다.</EventText.tormsdalereport_outpost.o2.c1>
+<EventText.tormsdalereport_outpost.o3>"실례하겠습니다! 몇 층 아래에서 분쟁이 생겼는데, 사람들이 저보고 당신을 불러오라고 하더군요."</EventText.tormsdalereport_outpost.o3>
+<EventText.tormsdalereport_outpost.o3.c1>"알겠습니다. 인도하시죠!"</EventText.tormsdalereport_outpost.o3.c1>
+<EventText.tormsdalereport_outpost.o3.c1.c1>"당신이 저를 귀찮게 만드려는 건지는 모르겠지만, 저는 일을 하러 가야겠군요. 수고하시죠."</EventText.tormsdalereport_outpost.o3.c1.c1>
+<EventText.tormsdalereport_outpost.o4>그를 무시하고 계속 걸어갑니다.</EventText.tormsdalereport_outpost.o4>
+<EventText.tormsdalereport_complete.c1>"안녕하신가! 중요한 서류를 찾아오라는 의뢰를 받았다고 들었네. 어떻게 되어가는가?"</EventText.tormsdalereport_complete.c1>
+<EventText.tormsdalereport_complete.o1>"서류를 찾았습니다."</EventText.tormsdalereport_complete.o1>
+<EventText.tormsdalereport_complete.o1.c1>전초기지 관리자가 서류를 받아 훑어보며 눈을 동그랗게 뜹니다. "오오! 엄청 큰 건이구만! 이게 진짜라면 연합이 톰스데일에서 대량 학살을 자행했다는 사실에 의심의 여지가 없을 거야. 이 서류들이 공개되면 연합에 큰 타격이 될 걸세. 이 일은 정말 고맙군. 페트란 중위님께 당신에 대해 좋은 말을 전해드리겠네. 이 모든 일을 해낸 것은 당신과 당신의 승조원들이니 말이네. 물론, 당신의 수고에 대한 대가도 지불하도록 하지."</EventText.tormsdalereport_complete.o1.c1>
+<EventText.tormsdalereport_complete.o1.c2>"음, 어서 가져와주게! 어떤 내용이 쓰여있는지 궁금해지는군."</EventText.tormsdalereport_complete.o1.c2>
+<EventText.tormsdalereport_complete.o2>"지금 당장은 서류가 없습니다."</EventText.tormsdalereport_complete.o2>
+<afflictionname.husksymbiosis>허스크와 공생</afflictionname.husksymbiosis>
+<afflictiondescription.husksymbiosis>이건 일반적인 허스크 감염으로 보이지 않습니다. 어떤 기전이든, 환자는 여전히 말할 수 있고, 지성을 유지하고 있는 것처럼 보입니다.</afflictiondescription.husksymbiosis>
+<lockedpathtooltipseparatistreputation>통로가 봉쇄되어 있습니다. 더 멀리 이동하기 위해서는 ‖color:faction.separatists‖목성 분리파‖end‖ 세력에 [requiredreputation] 이상의 평판과 전초기지 장교의 허가가 있어야 합니다. 정보 탭에서 평판을 확인할 수 있습니다.\n\n현재 평판: [currentreputation]</lockedpathtooltipseparatistreputation>
+<eventtext.unlockpathcoldcavernsseparatists.c1>"당신도 잘 알겠지만, 여기는 유로판 해령으로 가기 전 마지막 정거장이야. 모든 잠수함이 이 전초기지 너머로 향하도록 허락 받는 것은 아니지만, 당신의 승조원들에 대해 들은 소문이 진실이라면 우리의 연합을 향한 투쟁에서 귀중한 동맹이니 말이야. 통과를 허락하지."</eventtext.unlockpathcoldcavernsseparatists.c1>
+<eventtext.unlockpathcoldcavernsseparatists.c2>"더 깊은 지역으로 갈 생각인가? 미안하지만 다른 길을 찾는 게 좋을 것 같군. 난 당신이 누군지, 누구를 위해 일하는지 잘 몰라서 말이야. 당신이 유로판 해령에 우리 사람들을 괴롭히러 가는 연합의 끄나풀일 수도 있지 않나? 물론, 나에게 살짝 나눠줄 마르크가 있다면, 당신의 그 좋은 의도가 나를 설득할 수도 있을지도 모르지..."</eventtext.unlockpathcoldcavernsseparatists.c2>
+<eventtext.unlockpathcoldcavernsseparatists.o1.c1>"다시 생각해보니 당신은 괜찮은 사람 같군. 당신을 지나가게 해줄 수 있을지도 모르겠는데. 거래할 수 있어 기뻤어."</eventtext.unlockpathcoldcavernsseparatists.o1.c1>
+<eventtext.unlockpathcoldcavernsseparatists.o2.c1>"당신이 선택한 거야. 아마 당신은 유아용 풀장에서 조금 더 놀면서 누구 편을 드는 것이 좋을지 배우고 오는 게 나을지도 모르겠어."</eventtext.unlockpathcoldcavernsseparatists.o2.c1>
+<eventtext.unlockpathcoldcavernsseparatists.o1.nomoney>"돈이 부족하다고? 음, 운이 참 없구만 그래. 우리의 적과 동료가 아니라는 사실을 증명하려면 조금 더 유아용 풀장에서 놀다 오라고."</eventtext.unlockpathcoldcavernsseparatists.o1.nomoney>
+<eventtext.unlockpatheuropanridgeseparatists.c1>"이 해령에서 당신이 벌인 연합과의 싸움은 정말 대단했다고 하더군. 그래서 당신이 심해 해저고원으로 향하는 것을 허락하기로 했어. 잘 다녀오라고!"</eventtext.unlockpatheuropanridgeseparatists.c1>
+<eventtext.unlockpathaphoticplateauseparatists.c1>"당신에게 축하한다는 말을 해주고 싶어. 많은 이들이 해저고원을 통과하지는 못하거든. 게다가, 당신이 대양으로 향할 수 있도록 미리 무전을 보내두려고 해."</eventtext.unlockpathaphoticplateauseparatists.c1>
+<eventtext.unlockpathaphoticplateauseparatists.o1.c1>"물론 그렇겠지. 이건 목성 분리파의 공식적인 보증도 아니야. 경비원들에게 당신이 알아서 할 수 있다고 일러두지."</eventtext.unlockpathaphoticplateauseparatists.o1.c1>
+<eventtext.unlockpathgreatseaseparatists.c1>"열수 불모지에 가고 싶다고? 왜 굳이 그런 짓을 하려고 하는 거야? 물론 내 상관할 바는 아니지만, 분리파는 당신의 친구니까, 보내줄게."</eventtext.unlockpathgreatseaseparatists.c1>
+<EventText.nothingtoseehere.o1.o1.o1.c1.o1.o2.o1.o1>돈을 받고 함구하겠다고 약속한다.</EventText.nothingtoseehere.o1.o1.o1.c1.o1.o2.o1.o1>
+<EventText.nothingtoseehere.o1.o1.o1.c1.o1.o2.o1.o2>"나는 당신의 더러운 돈을 받을 생각이 없습니다. 수고하시죠."</EventText.nothingtoseehere.o1.o1.o1.c1.o1.o2.o1.o2>
+<EventText.jailbreak.c1>"오, 신이시여 감사합니다. 저희는 여기서 절대 빠져나갈 수 없으리라 생각했어요!"</EventText.jailbreak.c1>
+<EventText.missionevent_jailbreak_separatists.c1>전초기지 관리자는 망설이는 것 같습니다. "이번 임무는 더 어려울지도 모르네만, 당신의 명성으로 미루어 볼 때, 해낼 수 있을지도 모르겠군."</EventText.missionevent_jailbreak_separatists.c1>
+<EventText.missionevent_jailbreak_separatists.o1.c1>"최근 우리 공작원이 연합측에 붙잡혔었네. 우리측 정보원에 따르면 현재 근처 전초기지에 갇혀 있다고 하더군. 공작원들을 그곳에서 빼낼 수만 있다면 반드시 보답하겠네. 지도에 위치를 표시해주지."</EventText.missionevent_jailbreak_separatists.o1.c1>
+<EventText.missionevent_jailbreak_coalition.c1>전초기지 관리자는 망설이는 것 같습니다. "이번 임무는 더 어려울지도 모르네만, 당신의 명성으로 미루어 볼 때, 해낼 수 있을지도 모르겠군."</EventText.missionevent_jailbreak_coalition.c1>
+<EventText.missionevent_jailbreak_coalition.o1.c1>"최근 우리 공작원이 분리주의자 놈들에게 붙잡혔었네. 우리측 정보원에 따르면 현재 근처 전초기지에 갇혀 있다고 하더군. 공작원들을 그곳에서 빼낼 수만 있다면 반드시 보답하겠네. 지도에 위치를 표시해주지."</EventText.missionevent_jailbreak_coalition.o1.c1>
+<EventText.jailbreak_alarm.c1>방송이 울려퍼집니다. "모든 보안 요원, 코드 레드 상황 발생. 죄수들이 도주중임."</EventText.jailbreak_alarm.c1>
+<EventText.jailbreak_sootman.c1>"이봐, 페트란 중위께서 보낸 거 같은데."</EventText.jailbreak_sootman.c1>
+<EventText.jailbreak_sootman.o1>"그렇습니다. 당신을 여기서 내보내라는 임무를 받았죠."</EventText.jailbreak_sootman.o1>
+<EventText.jailbreak_sootman.o1.c1>"그래, 그럴 거 같았지. 고맙군. 당신이 나를 꺼내줄 배도 준비했을 것 같은데?"</EventText.jailbreak_sootman.o1.c1>
+<EventText.jailbreak_sootman.o1.o1>"네, 따라오시죠!"</EventText.jailbreak_sootman.o1.o1>
+<EventText.jailbreak_sootman.o1.o1.c1>"사실, 떠나기 전에 끝내야 할 일이 몇 가지 있어. 5분 뒤 당신의 잠수함에서 보자고." 그가 당신이 무슨 말을 하기도 전에 쏜살같이 달려갑니다.</EventText.jailbreak_sootman.o1.o1.c1>
+<EventText.missionevent_jailbreak_sootman.c1>전초기지 관리자가 가슴 주머니에서 서류를 꺼냅니다. "매우 민감한 사안이 하나 있네. 페트란 중위님께서 보낸 임무지. 이게 뭘 의미하는지는 잘 알겠지. 그분은 이 임무를 특별히 자네와 승조원들에게 맡기길 바라셨네."</EventText.missionevent_jailbreak_sootman.c1>
+<EventText.missionevent_jailbreak_sootman.c1.c1>"연합이 최근 우리측 공작원 중 한 명을 붙잡는데 성공한 거 같네. 운이 좋게도 연합 놈들은 아직 그 공작원의 신원을 파악하지 못한 것 같지만, 만약 파악됐다면 이미 처형했을 테니 말이네."</EventText.missionevent_jailbreak_sootman.c1.c1>
+<EventText.missionevent_jailbreak_sootman.c1.o1>"그게 누굽니까?"</EventText.missionevent_jailbreak_sootman.c1.o1>
+<EventText.missionevent_jailbreak_sootman.c1.o1.c1>"이름을 밝히지 않는 것이 좋을 것 같군. 하지만, 그래. 연합의 전초기지와 잠수함에 많은 '흔적'을 남긴 사람이라고 해두지. 아무튼 그 공작원은 현재 근처 전초기지에 수감되어있네. 안전하게 데려오게. 그러면 상당한 보상을 제공하겠네."</EventText.missionevent_jailbreak_sootman.c1.o1.c1>
+
+</infotexts>

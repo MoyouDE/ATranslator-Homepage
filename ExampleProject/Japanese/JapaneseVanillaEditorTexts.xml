@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Japanese" nowhitespace="true" translatedname="日本語">
+
+<!-- Generic -->
+<editor.saveall>すべて保存</editor.saveall>
+
+<!-- Submarine editor -->
+<items>アイテム</items>
+<structures>構造物</structures>
+<totalhullvolume>艦体総容積</totalhullvolume>
+<selectedhullvolume>選択した艦体容積</selectedhullvolume>
+<optimalballastlevel>最適なバラストの中立レベルは [value]</optimalballastlevel>
+<saveitemassembly>アイテムセットとして保存</saveitemassembly>
+<insufficientballast>浮力制御のための容積が不足</insufficientballast>
+<physicsbodies>物理的な身体</physicsbodies>
+<opensubbutton>開く</opensubbutton>
+<savesubbutton>保存</savesubbutton>
+<addsubbutton>潜水艦追加</addsubbutton>
+<addsubtooltip>別の潜水艦を現在の潜水艦ファイルに配置します。 小型潜水艇、脱出用ポッドや取り外し可能な部分をメインの潜水艦に追加するために使用できます。</addsubtooltip>
+<holdtolink>スペースキーを押しながらクリックすると、他のアイテムに接続します。</holdtolink>
+<allowedlinks>許可された接続</allowedlinks>
+<filtermapentities>フィルター</filtermapentities>
+<charactermodebutton>キャラクターモード</charactermodebutton>
+<charactermodetooltip>アイテムを拾ったり使ったりできるようにします。クローゼットの中に物を置いたり、機器の電源を入れたり、配線作業をしたりするのに便利です。</charactermodetooltip>
+<wiringmodebutton>配線モード</wiringmodebutton>
+<wiringmodetooltip>アイテム間の配線を可能にします。</wiringmodetooltip>
+<generatewaypointsbutton>ウェイポイント作成</generatewaypointsbutton>
+<generatewaypointstooltip>AIが操縦する乗組員は潜水艦内部を移動するためにウェイポイントが必要です。</generatewaypointstooltip>
+<showentitieslabel>表示</showentitieslabel>
+<showwalls>壁</showwalls>
+<showstructures>構造物</showstructures>
+<showitems>アイテム</showitems>
+<showlighting>照明</showlighting>
+<showwaypoints>ウェイポイント</showwaypoints>
+<showspawnpoints>スポーンポイント</showspawnpoints>
+<showlinks>接続</showlinks>
+<showhulls>艦体</showhulls>
+<showgaps>ギャップ</showgaps>
+<previouslyusedlabel>以前に使用</previouslyusedlabel>
+<subnamemissingwarning>潜水艦に名前を付けてから保存してください。</subnamemissingwarning>
+<subnameillegalcharswarning>ファイル名に無効な記号が含まれています。 ([illegalchar])</subnameillegalcharswarning>
+<subsavednotification>潜水艦は [filepath] に保存されました。</subsavednotification>
+<savesubdialogheader>潜水艦を保存</savesubdialogheader>
+<savesubdialogname>名前</savesubdialogname>
+<savesubdialogdescription>説明</savesubdialogdescription>
+<savesubdialogsettings>設定</savesubdialogsettings>
+<saveitemassemblydialogheader>アイテムセットを保存</saveitemassemblydialogheader>
+<saveitemassemblyhideinmenus>メニューで非表示</saveitemassemblyhideinmenus>
+<saveitemassemblydialogname>名前</saveitemassemblydialogname>
+<saveitemassemblydialogdescription>説明</saveitemassemblydialogdescription>
+<itemassemblynamemissingwarning>アイテムセットに名前を付けてから保存してください。</itemassemblynamemissingwarning>
+<itemassemblyfileexistswarning>同じ名前のアイテムセットがすでに存在します。既存のセットを置き換えますか？</itemassemblyfileexistswarning>
+<itemassemblynameillegalcharswarning>ファイル名に無効な記号が含まれています。 ([illegalchar])</itemassemblynameillegalcharswarning>
+<nohullswarning>潜水艦に艦体がありません。 艦体は各部屋の「境界」を決定し、水と空気の分配が正しく行われるために必要となります。</nohullswarning>
+<disconnectedventswarning>潜水艦に酸素発生器と接続されていない通気口があります。 通気口を選択し、スペースを長押ししながら酸素発生器をクリックすると接続されます。</disconnectedventswarning>
+<disconnectedturretswarning>潜水艦に弾薬装填機と接続されていない[itemname]が含まれています。 アイテムを選択し、スペースを長押ししながら装填機をクリックすると接続されます。</disconnectedturretswarning>
+<nowaypointswarning>潜水艦にウェイポイントがありません。 AI制御の乗組員は、ウェイポイントなしでは移動できません。</nowaypointswarning>
+<nocargospawnpointwarning>潜水艦に貨物のスポーンポイントがありません (スポーンポイントは、商品を購入したときにアイテムが配置される場所です)。 解決するには、新しいスポーンポイントを作成し、スポーンタイプパラメータを「貨物」に変更してください。</nocargospawnpointwarning>
+<farawayentitieswarning>1 つ以上の構造物やアイテムが潜水艦から非常に遠い場所へ配置されています。 カメラを移動させますか？</farawayentitieswarning>
+<adjustlightsprompt>この潜水艦は、照明の計算に別の公式が適用された旧バージョンのBarotraumaで保存されているため、潜水艦内の照明が眩しく感じる可能性があります。 新しいバージョンに合わせて照明を自動的に調整しますか？</adjustlightsprompt>
+<adjustedlightsnotification>照明の明るさが調整されました。 光源が複数存在するエリアでは、まだ眩しく感じることがあります。 その場合、照明の範囲や明るさを手動で調節してください。 コンソールコマンド「multiplylights」を利用して明るさを一度に調整することもできます。 例えば、「multiplylights1,1,0.5」で明るさを50%減少させることができます。</adjustedlightsnotification>
+<noballasttagswarning>バラストポンプに「バラスト」タグを追加し、潜水艦の浮力を制御するために使用されるポンプをAIキャラクターが識別できるようにしましょう。</noballasttagswarning>
+<insufficientfreeconnectionswarning>モジュールに[doorcount]個のドアと接続された配電盤がありますが、接続可能な電線は[freeconnectioncount]個しかありません。このため、前哨基地に正しく電力が供給されない可能性があります。</insufficientfreeconnectionswarning>
+<nohullnameswarning>艦体に指定された名前がないため、自動生成された名前が使用されます。 キャラクターは、艦体破損などの発生を報告する際に各部屋の名称を使用します。</nohullnameswarning>
+<deletingcontainerwithitems>アイテムが入っている容器が削除されました。 中のアイテムも削除しますか？ \n\n中のアイテム：\n\n</deletingcontainerwithitems>
+<hideinmenus>メニューで非表示</hideinmenus>
+<manuallyoutfitted>手動装備</manuallyoutfitted>
+<manuallyoutfittedtooltip>ゲーム開始時、潜水艦には手動で積載された十分な補給品があるか、それとも自動配置されるアイテムや、プレイヤーと一緒に転送されるアイテムが必要になるかを設定します。</manuallyoutfittedtooltip>
+<unspecifiedsubfilename>名称未設定</unspecifiedsubfilename>
+<reloadsprite>スプライトの再読み込み</reloadsprite>
+<resettoprefab>初期状態にリセット</resettoprefab>
+<mirrorentityx>X軸反転</mirrorentityx>
+<mirrorentityxtooltip>オブジェクトを水平に反転します。ショートカットキーのCtrl+Nを使用することもできます。</mirrorentityxtooltip>
+<mirrorentityy>Y軸反転</mirrorentityy>
+<mirrorentityytooltip>オブジェクトを垂直に反転します。 ショートカットキーのCtrl+Mを使用することもできます。</mirrorentityytooltip>
+<nonlinkedgapswarning>潜水艦に艦体と接続されていないギャップがあります。 ギャップは常に1つ以上の艦体(潜水艦の外部につながるギャップの場合)、あるいは2つの艦体(部屋同士のギャップの場合)と重なっていなければなりません。</nonlinkedgapswarning>
+<cannoteditvanillasubs>バニラコンテンツパッケージに含まれる潜水艦は編集できません!</cannoteditvanillasubs>
+<subeditor.structurecountwarning>潜水艦に構造物が多すぎるため、性能上の問題が生じる可能性があります。 構造物の数を減らすことを検討してください。</subeditor.structurecountwarning>
+<subeditor.structurecounterror>潜水艦に構造物が多すぎるため(>[max])、性能上の問題が発生する可能性があります。 構造物の数を減らしてください。</subeditor.structurecounterror>
+<subeditor.wallcountwarning>潜水艦に衝突判定を持つ壁が多すぎるため、性能上の問題が発生する可能性があります。 壁の数を減らすことを検討してください。</subeditor.wallcountwarning>
+<subeditor.wallcounterror>潜水艦に衝突判定を持つ壁が多すぎるため(>[max])、性能上の問題が発生する可能性があります。 壁の数を減らしてください。</subeditor.wallcounterror>
+<subeditor.itemcountwarning>潜水艦にはアイテムが多すぎるため、性能上の問題が発生する可能性があります。 アイテムの数を減らすことを検討してください。</subeditor.itemcountwarning>
+<subeditor.itemcounterror>潜水艦にアイテムが多すぎるため(>[max])、性能上の問題が発生する可能性があります。 アイテムの数を減らしてください。</subeditor.itemcounterror>
+<subeditor.lightcountwarning>潜水艦に光源が多すぎるため、性能上の問題が発生する可能性があります。 光源の数を減らすことを検討してください。</subeditor.lightcountwarning>
+<subeditor.lightcounterror>潜水艦に光源が多すぎるため(>[max])、性能上の問題が発生する可能性があります。 光源の数を減らしてください。</subeditor.lightcounterror>
+<subeditor.shadowcastinglightcounterror>潜水艦に投影照明の数が多すぎるため(>[max])、性能上の問題が発生する可能性があります。 照明の数を減らすか、一部の照明で影の生成を無効にしてください。</subeditor.shadowcastinglightcounterror>
+<canattachtoprevious>前項目に貼付可能</canattachtoprevious>
+<canattachtoprevious.tooltip>このモジュールのどの面を先に配置したモジュールに取り付けるか指定します。例えば、モジュールを常にドッキングモジュールの左側に取り付けるには、「右側」を設定してください。</canattachtoprevious.tooltip>
+<subeditor.packagealreadyexists>「[name]」というコンテンツパッケージはすでに存在します。 別の名前を選択するか、編集する場合はリストからパッケージを選択してください。</subeditor.packagealreadyexists>
+<subeditor.duplicatesubinpackage>このコンテンツパッケージには、同じ名前の潜水艦がすでに存在しています。 既存の潜水艦ファイルに上書きしますか？</subeditor.duplicatesubinpackage>
+<stringpropertytranslate>このテキストは [translation] に翻訳されます。</stringpropertytranslate>
+<stringpropertycannottranslate>このテキストは翻訳されません。 [tag] タグ付きテキストが言語ファイルにありません。</stringpropertycannottranslate>
+<subeditorlights>照明</subeditorlights>
+<subeditorshadowcastinglights>投影照明</subeditorshadowcastinglights>
+
+<!-- Submarine editor -->
+<charactereditor.creatingnewjoint>新しい関節の作成</charactereditor.creatingnewjoint>
+<charactereditor.selectanchor1pos>関節のアンカー位置を選択してください。</charactereditor.selectanchor1pos>
+<charactereditor.selectlimbtoconnect>関節に接続する他の手足を選択してください。</charactereditor.selectlimbtoconnect>
+<charactereditor.frozen>固定中</charactereditor.frozen>
+<charactereditor.spriteorientation>スプライト方向</charactereditor.spriteorientation>
+<charactereditor.spritesheetorientation>スプライトシート方向</charactereditor.spritesheetorientation>
+<charactereditor.cantaddjointsnolimbelements>手足の要素が見つからないため、関節を追加できません！</charactereditor.cantaddjointsnolimbelements>
+<charactereditor.humanoidlimbdeletiondisabled>ヒューマノイドの手足削除は、ゲームクラッシュを防ぐため現在無効になっています。</charactereditor.humanoidlimbdeletiondisabled>
+<charactereditor.tryingtospawncharacter>[config]を作成中</charactereditor.tryingtospawncharacter>
+<charactereditor.nocontentpackageselected>コンテンツパッケージが選択されていません！</charactereditor.nocontentpackageselected>
+<charactereditor.contentpackagesaved>コンテンツパッケージが [path] に保存されました。</charactereditor.contentpackagesaved>
+<charactereditor.backgroundcolor>背景色</charactereditor.backgroundcolor>
+<charactereditor.spritesheetzoom>スプライトシートの拡大</charactereditor.spritesheetzoom>
+<charactereditor.reset>リセット</charactereditor.reset>
+<charactereditor.hidebodysprites>ボディスプライトを非表示</charactereditor.hidebodysprites>
+<charactereditor.showwearables>衣服を表示</charactereditor.showwearables>
+<charactereditor.lockspriteorigin>スプライトの原点をロック</charactereditor.lockspriteorigin>
+<charactereditor.lockspriteposition>スプライトの位置をロック</charactereditor.lockspriteposition>
+<charactereditor.lockspritesize>スプライトのサイズをロック</charactereditor.lockspritesize>
+<charactereditor.adjustcollider>衝突範囲の調整</charactereditor.adjustcollider>
+<charactereditor.uniformscale>スケールを統一</charactereditor.uniformscale>
+<charactereditor.copyjointsettings>関節設定をコピー</charactereditor.copyjointsettings>
+<charactereditor.copyjointsettingstooltip>現在調整中の設定をすべての関節にコピーします。</charactereditor.copyjointsettingstooltip>
+<charactereditor.jointscale>関節のスケール</charactereditor.jointscale>
+<charactereditor.limbscale>手足のスケール</charactereditor.limbscale>
+<charactereditor.selectedanimation>選択中のアニメーション</charactereditor.selectedanimation>
+<charactereditor.previouscharacter>前へ</charactereditor.previouscharacter>
+<charactereditor.nextcharacter>次へ</charactereditor.nextcharacter>
+<charactereditor.showparameters>パラメータ [F1]</charactereditor.showparameters>
+<charactereditor.showspritesheet>スプライトシート [T]</charactereditor.showspritesheet>
+<charactereditor.drawskeleton>骨格 [N]</charactereditor.drawskeleton>
+<charactereditor.enablelights>照明 [L]</charactereditor.enablelights>
+<charactereditor.drawdamagemodifiers>ダメージ調整 [M]</charactereditor.drawdamagemodifiers>
+<charactereditor.editcharacter>キャラクター [1]</charactereditor.editcharacter>
+<charactereditor.editragdoll>ラグドール [2]</charactereditor.editragdoll>
+<charactereditor.editlimbs>手足 [3]</charactereditor.editlimbs>
+<charactereditor.editjoints>関節 [4]</charactereditor.editjoints>
+<charactereditor.editanimations>アニメーション [5]</charactereditor.editanimations>
+<charactereditor.editiktargets>IKターゲット [I]</charactereditor.editiktargets>
+<charactereditor.freeze>固定</charactereditor.freeze>
+<charactereditor.autofreeze>オート固定</charactereditor.autofreeze>
+<charactereditor.limbpairediting>手足ペア編集</charactereditor.limbpairediting>
+<charactereditor.animationtestpose>ポーズテスト [X]</charactereditor.animationtestpose>
+<charactereditor.animationtestposeenabled>ポーズテスト有効中</charactereditor.animationtestposeenabled>
+<charactereditor.automove>オート移動</charactereditor.automove>
+<charactereditor.followcursor>カーソル追従</charactereditor.followcursor>
+<charactereditor.showcolliders>衝突範囲 [C]</charactereditor.showcolliders>
+<charactereditor.editbackgroundcolor>背景色の編集</charactereditor.editbackgroundcolor>
+<charactereditor.savebutton>すべて保存</charactereditor.savebutton>
+<charactereditor.allanimationssaved>すべてのアニメーションが保存されました</charactereditor.allanimationssaved>
+<charactereditor.ragdollsavedto>ラグドールが [path] に保存されました</charactereditor.ragdollsavedto>
+<charactereditor.charactersavedto>キャラクター設定ファイルが [path] に保存されました</charactereditor.charactersavedto>
+<charactereditor.resetbutton>リセット</charactereditor.resetbutton>
+<charactereditor.saveragdoll>ラグドールの保存</charactereditor.saveragdoll>
+<charactereditor.providefilename>ファイル名を入力してください</charactereditor.providefilename>
+<charactereditor.loadragdoll>ラグドールの読み込み</charactereditor.loadragdoll>
+<charactereditor.couldntopendirectory>ディレクトリ [folder] を開けません！</charactereditor.couldntopendirectory>
+<charactereditor.ragdolldeletedfrom>[file] からラグドールが削除されました</charactereditor.ragdolldeletedfrom>
+<charactereditor.ragdollloadedfrom>[file] からラグドールを読み込みました</charactereditor.ragdollloadedfrom>
+<charactereditor.saveanimation>アニメーションの保存</charactereditor.saveanimation>
+<charactereditor.selectanimationtype>アニメーションタイプ選択</charactereditor.selectanimationtype>
+<charactereditor.animationoftypesavedto>[type] タイプのアニメーションが [path] に保存されました</charactereditor.animationoftypesavedto>
+<charactereditor.loadanimation>アニメーションの読み込み</charactereditor.loadanimation>
+<charactereditor.animationoftypedeleted>[file] から [type] タイプのアニメーションが削除されました</charactereditor.animationoftypedeleted>
+<charactereditor.animationtypenotimplemented>アニメーションタイプ [type] が実装されていません！</charactereditor.animationtypenotimplemented>
+<charactereditor.animationoftypeloaded>[file] から [type] タイプのアニメーションを読み込みました</charactereditor.animationoftypeloaded>
+<charactereditor.reloadtextures>テクスチャの再読み込み</charactereditor.reloadtextures>
+<charactereditor.recreateragdoll>ラグドール再作成 [F5]</charactereditor.recreateragdoll>
+<charactereditor.recreateragdolltooltip>多くのパラメータは、ラグドールを作り直す必要があります。 パラメータを調整しても効果がなければ、このボタンをクリックしてください。</charactereditor.recreateragdolltooltip>
+<charactereditor.createnewcharacter>新しいキャラクターを作成</charactereditor.createnewcharacter>
+<charactereditor.copycharacter>キャラクターをコピー</charactereditor.copycharacter>
+<charactereditor.copycharactertooltip>現在のキャラクターのコピーを作成します</charactereditor.copycharactertooltip>
+<charactereditor.nofieldforparameterfound>[parameter] のフィールドが見つかりません！</charactereditor.nofieldforparameterfound>
+<charactereditor.holdleftalttoadjustcyclespeed>左Altキーを長押しでサイクル速度を調節します</charactereditor.holdleftalttoadjustcyclespeed>
+<charactereditor.cyclespeed>サイクル速度</charactereditor.cyclespeed>
+<charactereditor.movementspeed>移動速度</charactereditor.movementspeed>
+<charactereditor.headangle>頭の角度</charactereditor.headangle>
+<charactereditor.head>頭</charactereditor.head>
+<charactereditor.headposition>頭の位置</charactereditor.headposition>
+<charactereditor.torsoangle>胴体の角度</charactereditor.torsoangle>
+<charactereditor.torso>胴体</charactereditor.torso>
+<charactereditor.torsoposition>胴体の位置</charactereditor.torsoposition>
+<charactereditor.tailangle>尾の角度</charactereditor.tailangle>
+<charactereditor.footangle>足の角度</charactereditor.footangle>
+<charactereditor.stepsize>歩幅</charactereditor.stepsize>
+<charactereditor.handmoveamount>手の移動量</charactereditor.handmoveamount>
+<charactereditor.tailmovementspeed>尾の移動速度</charactereditor.tailmovementspeed>
+<charactereditor.tailmovementamount>尾の移動量</charactereditor.tailmovementamount>
+<charactereditor.legmovementspeed>足の移動速度</charactereditor.legmovementspeed>
+<charactereditor.legmovementamount>足の移動量</charactereditor.legmovementamount>
+<charactereditor.handmovementamount>手の移動量</charactereditor.handmovementamount>
+<charactereditor.holdleftalttomanipulatejoint>左のAltキー長押しでもう一方の関節を調整します</charactereditor.holdleftalttomanipulatejoint>
+<charactereditor.origin>原点</charactereditor.origin>
+<charactereditor.position>位置：[coordinates]</charactereditor.position>
+<charactereditor.size>大きさ</charactereditor.size>
+<charactereditor.upperlimit>上限</charactereditor.upperlimit>
+<charactereditor.lowerlimit>下限</charactereditor.lowerlimit>
+<charactereditor.defaultname>キャラクターX</charactereditor.defaultname>
+<charactereditor.ishumanoid>ヒューマノイド</charactereditor.ishumanoid>
+<charactereditor.canentersubmarines>潜水艦進入の可否</charactereditor.canentersubmarines>
+<charactereditor.canwalk>歩行の可否</charactereditor.canwalk>
+<charactereditor.configfileoutput>設定ファイルの出力</charactereditor.configfileoutput>
+<charactereditor.texturepath>テクスチャーパス</charactereditor.texturepath>
+<charactereditor.selecttexture>テクスチャーを選択</charactereditor.selecttexture>
+<charactereditor.contentpackagename>コンテンツパッケージ名</charactereditor.contentpackagename>
+<charactereditor.texturedoesnotexist>そのテクスチャーファイルは存在しません！</charactereditor.texturedoesnotexist>
+<charactereditor.defineragdoll>ラグドールの定義</charactereditor.defineragdoll>
+<charactereditor.limbs>手足</charactereditor.limbs>
+<charactereditor.limb>手足</charactereditor.limb>
+<charactereditor.joints>関節</charactereditor.joints>
+<charactereditor.joint>関節</charactereditor.joint>
+<charactereditor.selectfile>ファイル選択</charactereditor.selectfile>
+<charactereditor.missingtorsoorhead>少なくとも 1 つ以上の手足を胴体または頭で定義する必要があります！</charactereditor.missingtorsoorhead>
+<charactereditor.missinglimbtype>手足1か所を[limbtype]として定義する必要があります！</charactereditor.missinglimbtype>
+<charactereditor.charactercreated>キャラクター「[name]」が作成されました</charactereditor.charactercreated>
+<charactereditor.limbtype>手足タイプ</charactereditor.limbtype>
+<charactereditor.sourcerectangle>ソース長方形</charactereditor.sourcerectangle>
+<charactereditor.id>識別子</charactereditor.id>
+<charactereditor.limbwithindex>手足 [index]</charactereditor.limbwithindex>
+<charactereditor.limbwithindexanchor>手足 [index] アンカー</charactereditor.limbwithindexanchor>
+<charactereditor.failedtoreadhtml>キャラクターエディター画面： [path] でHTMLを読み込めませんでした</charactereditor.failedtoreadhtml>
+<charactereditor.multipleitemswithsamehierarchy>同一階層[hierarchy]のアイテムが複数見つかりました([name])。 続行できません。</charactereditor.multipleitemswithsamehierarchy>
+<charactereditor.cannoteditvanillacharacters>「バニラ」コンテンツパッケージに定義されているキャラクターは編集できません！他のコンテンツパッケージでそのキャラクターのコピーを作成することで、編集を続行できます。</charactereditor.cannoteditvanillacharacters>
+<charactereditor.existingcharacterfoundreplaceverification>同じコンテンツパッケージで同名の既存キャラクターが見つかりました。 ファイルを上書きしますか？ （元のファイルは失われます）</charactereditor.existingcharacterfoundreplaceverification>
+<charactereditor.existingcharacterfoundoverrideverification>別のコンテンツパッケージで同名の既存キャラクターが見つかりました。 上書きファイルを作成しますか？ （元のファイルはそのまま残ります）</charactereditor.existingcharacterfoundoverrideverification>
+<charactereditor.existingcharacterfound>同名の既存キャラクターが見つかりました。</charactereditor.existingcharacterfound>
+<charactereditor.modespanel>編集</charactereditor.modespanel>
+<charactereditor.fileeditpanel>ファイル</charactereditor.fileeditpanel>
+<charactereditor.optionspanel>オプション</charactereditor.optionspanel>
+<charactereditor.characterpanel>キャラクター</charactereditor.characterpanel>
+<charactereditor.toolspanel>ツール</charactereditor.toolspanel>
+<charactereditor.minormodestitle>表示</charactereditor.minormodestitle>
+<charactereditor.addmultiplelimbsbutton>複数追加</charactereditor.addmultiplelimbsbutton>
+<charactereditor.addaitarget>ターゲットを追加</charactereditor.addaitarget>
+<charactereditor.addbloodemitter>血液エミッターの追加</charactereditor.addbloodemitter>
+<charactereditor.addgibemitter>内臓エミッターを追加</charactereditor.addgibemitter>
+<charactereditor.adddamageemitter>ダメージエミッターを追加</charactereditor.adddamageemitter>
+<charactereditor.addsound>サウンドを追加</charactereditor.addsound>
+<charactereditor.addlightsource>照明を追加</charactereditor.addlightsource>
+<charactereditor.addattack>攻撃を追加</charactereditor.addattack>
+<charactereditor.addaffliction>マイナス効果を追加</charactereditor.addaffliction>
+<charactereditor.adddamagemodifier>ダメージ調整を追加</charactereditor.adddamagemodifier>
+<charactereditor.addinventory>インベントリを追加</charactereditor.addinventory>
+<charactereditor.addinventoryitem>インベントリアイテムを追加</charactereditor.addinventoryitem>
+<charactereditor.selected>選択中</charactereditor.selected>
+<charactereditor.duplicatelimb>手足を複製</charactereditor.duplicatelimb>
+<charactereditor.deleteselected>選択解除</charactereditor.deleteselected>
+<charactereditor.createjoint>関節を作成</charactereditor.createjoint>
+<charactereditor.createlimb>手足を作成</charactereditor.createlimb>
+<charactereditor.drawlimbonspritesheet>スプライトシートに手足を描く</charactereditor.drawlimbonspritesheet>
+<charactereditor.onlyshowselectedlimbs>選択中の手足のみ表示</charactereditor.onlyshowselectedlimbs>
+<charactereditor.newcontentpackage>新コンテンツパッケージ</charactereditor.newcontentpackage>
+<charactereditor.existingjointfound>手足[limbid1]と[limbid2]の間にはすでに関節が存在します！</charactereditor.existingjointfound>
+<charactereditor.unrestrict>制限なし</charactereditor.unrestrict>
+<charactereditor.addmultiplelimbsbutton>複数追加</charactereditor.addmultiplelimbsbutton>
+<charactereditor.contentpackagenameinuse>同名のコンテンツパッケージがすでに存在します。 別の名前を選択するか、キャラクターを追加する場合は同名のコンテンツパッケージをドロップダウンリストから選択してください。</charactereditor.contentpackagenameinuse>
+<charactereditor.addmultiplelimbsbutton>複数追加</charactereditor.addmultiplelimbsbutton>
+
+<!-- Entity properties -->
+<sp.scale.name>スケール</sp.scale.name>
+<sp.spritedepth.name>スプライトの深度</sp.spritedepth.name>
+<sp.disallowedupgrades.name>禁止アップグレード</sp.disallowedupgrades.name>
+<sp.hiddeningame.name>ゲーム内で非表示</sp.hiddeningame.name>
+<sp.item.hiddeningame.name>ゲーム内で非表示</sp.item.hiddeningame.name>
+<sp.item.noninteractable.name>インタラクト不可</sp.item.noninteractable.name>
+<sp.item.spritecolor.name>スプライトの色</sp.item.spritecolor.name>
+<sp.item.inventoryiconcolor.name>インベントリのアイコン色</sp.item.inventoryiconcolor.name>
+<sp.item.containercolor.name>容器の色</sp.item.containercolor.name>
+<sp.item.containercolor.description>アイテムの容器の色を変更します。容器のUseContainedSpriteColorまたはUseContainedInventoryIconColorのプロパティがtrueに設定された場合にのみ適用されます。</sp.item.containercolor.description>
+<sp.item.condition.name>状態</sp.item.condition.name>
+<sp.item.tags.name>タグ</sp.item.tags.name>
+<sp.item.displaysidebysidewhenlinked.name>接続時に並べて表示</sp.item.displaysidebysidewhenlinked.name>
+<sp.item.displaysidebysidewhenlinked.description>アイテムHUDを他のアイテムHUDと並べて表示するには、2つのアイテムをリンクさせるときにこの設定を有効にしてください。注意： 同時に表示できるように設定されていない場合、HUDが互いを隠してしまうことがあります！</sp.item.displaysidebysidewhenlinked.description>
+<sp.item.spritedepth.name>スプライトの深度</sp.item.spritedepth.name>
+<sp.item.nonplayerteaminteractable.name>NPCチームにインタラクト可能</sp.item.nonplayerteaminteractable.name>
+<sp.item.nonplayerteaminteractable.description>この設定を有効にすると、NPCチームのキャラクターのみアイテムにインタラクトできるようになります。</sp.item.nonplayerteaminteractable.description>
+<sp.item.allowswapping.name>交換を許可</sp.item.allowswapping.name>
+<sp.item.allowswapping.description>このアイテムを前哨基地の他のアイテムと交換できるようにします。タレットなどの 交換可能なアイテムのみ有効です。</sp.item.allowswapping.description>
+<sp.item.invulnerabletodamage.name>ダメージ無効</sp.item.invulnerabletodamage.name>
+<sp.item.invulnerabletodamage.description>この設定を有効にすると、アイテムはいかなるソースからもダメージを受けなくなります。</sp.item.invulnerabletodamage.description>
+<sp.structure.indestructible.name>破壊不可</sp.structure.indestructible.name>
+<sp.structure.specialtag.name>特殊タグ</sp.structure.specialtag.name>
+<sp.structure.spritecolor.name>スプライトの色</sp.structure.spritecolor.name>
+<sp.structure.usedropshadow.name>ドロップシャドウの使用</sp.structure.usedropshadow.name>
+<sp.structure.dropshadowoffset.name>ドロップシャドウ補正</sp.structure.dropshadowoffset.name>
+<sp.structure.dropshadowoffset.description>構造物に基づくドロップシャドウの生成位置を設定します。 0 に設定すると、影が潜水艦の重心に向かうよう自動的に設定されます。</sp.structure.dropshadowoffset.description>
+<sp.structure.texturescale.name>テクスチャーのスケール</sp.structure.texturescale.name>
+<sp.structure.textureoffset.name>テクスチャー補正</sp.structure.textureoffset.name>
+<sp.structure.removeiflinkedoutpostdoorinuse.name>接続された前哨基地のドアが使用中の場合は削除</sp.structure.removeiflinkedoutpostdoorinuse.name>
+<sp.structure.removeiflinkedoutpostdoorinuse.description>構造物が前哨基地モジュールの端のドアに接続されている場合、この設定を有効にするとドアが前哨基地で使用されている場合に構造物が取り除かれます。 設定を有効にしなければ、ドアが使用されていないときに構造物が取り除かれます。</sp.structure.removeiflinkedoutpostdoorinuse.description>
+<sp.structure.noaitarget.name>AIターゲット対象外</sp.structure.noaitarget.name>
+<sp.structure.noaitarget.description>この設定を有効にすると、モンスターがこの構造物をターゲットにしなくなります。</sp.structure.noaitarget.description>
+<sp.structure.maxhealth.name>最大耐久値</sp.structure.maxhealth.name>
+<sp.hull.ambientlight.name>環境光</sp.hull.ambientlight.name>
+<sp.hull.roomname.name>部屋名</sp.hull.roomname.name>
+<sp.hull.iswetroom.name>浸水部屋</sp.hull.iswetroom.name>
+<sp.hull.iswetroom.description>この艦体に水がたまっているのが正常かどうかを設定します。 部屋の名前に「バラスト」、「ビルジ」、「エアロック」が含まれる場合、この設定を無効にすることはできません。</sp.hull.iswetroom.description>
+<sp.hull.avoidstaying.name>滞在禁止</sp.hull.avoidstaying.name>
+<sp.hull.avoidstaying.description>この設定を有効にするとボットキャラクターがこの部屋に滞在しないようになりますが、必要なときには入室し通過することができます。 浸水部屋には強制的に適用されます。</sp.hull.avoidstaying.description>
+<sp.door.openingspeed.name>開く速度</sp.door.openingspeed.name>
+<sp.door.openingspeed.description>ドアがどれだけ早く開くかを設定します。</sp.door.openingspeed.description>
+<sp.door.closingspeed.name>閉じる速度</sp.door.closingspeed.name>
+<sp.door.closingspeed.description>ドアがどれだけ早く閉まるかを設定します。</sp.door.closingspeed.description>
+<sp.door.togglecooldown.name>トグルクールタイム</sp.door.togglecooldown.name>
+<sp.door.togglecooldown.description>他のキャラクターがドアを開閉した後、再びドアを開閉できるようになるまで必要になる時間です。</sp.door.togglecooldown.description>
+<sp.door.isopen.name>開いている</sp.door.isopen.name>
+<sp.door.isopen.description>ドアが現在開いているかを設定します。</sp.door.isopen.description>
+<sp.door.usebetweenoutpostmodules.name>前哨基地モジュール間の使用</sp.door.usebetweenoutpostmodules.name>
+<sp.door.usebetweenoutpostmodules.description>他の前哨基地モジュールに通じるドアかどうかを設定します。 前哨基地モジュールのみ適応されます。</sp.door.usebetweenoutpostmodules.description>
+<sp.door.botsshouldkeepopen.name>ボットがドアを開けたままにする</sp.door.botsshouldkeepopen.name>
+<sp.door.botsshouldkeepopen.description>この設定が有効の場合、ボットはこのドアを使用後に閉めなくなります。</sp.door.botsshouldkeepopen.description>
+<sp.itemcomponent.pickingtime.name>拾得時間</sp.itemcomponent.pickingtime.name>
+<sp.itemcomponent.pickingtime.description>アイテムを拾うのにかかる時間を設定します（秒単位）。</sp.itemcomponent.pickingtime.description>
+<sp.itemcomponent.canbepicked.name>拾得可能</sp.itemcomponent.canbepicked.name>
+<sp.itemcomponent.canbepicked.description>アイテムを拾えるかどうか（アイテムを拾う以外の動作をする場合、その動作とインタラクトできるかどうか）を設定します。</sp.itemcomponent.canbepicked.description>
+<sp.itemcomponent.allowingameediting.name>ゲーム内での編集を許可</sp.itemcomponent.allowingameediting.name>
+<sp.itemcomponent.allowingameediting.description>コンポーネントのプロパティをゲーム内で編集できるかどうかを設定します（コンポーネントにゲーム内編集が可能なプロパティがある場合にのみ適用されます）。</sp.itemcomponent.allowingameediting.description>
+<sp.itemcomponent.msg.name>メッセージ</sp.itemcomponent.msg.name>
+<sp.itemcomponent.msg.description>アイテムがハイライトされるときに、アイテムの横に表示されるテキストを設定します（通常、アイテムとインタラクトする方法が表示されます。 例：[Mouse1] 拾う）。</sp.itemcomponent.msg.description>
+<sp.electricaldischarger.range.description>アイテムから放電される誘導体が移動できる距離を設定します。</sp.electricaldischarger.range.description>
+<sp.electricaldischarger.rangemultiplierinwalls.name>壁内での距離倍率</sp.electricaldischarger.rangemultiplierinwalls.name>
+<sp.electricaldischarger.rangemultiplierinwalls.description>壁を通過するときに放電される誘導体がどれだけ遠くに移動できるかを設定します。</sp.electricaldischarger.rangemultiplierinwalls.description>
+<sp.electricaldischarger.duration.name>持続時間</sp.electricaldischarger.duration.name>
+<sp.electricaldischarger.duration.description>放電の持続時間をそれぞれ設定します（秒単位）。</sp.electricaldischarger.duration.description>
+<sp.electricaldischarger.outdoorsonly.name>屋外のみ</sp.electricaldischarger.outdoorsonly.name>
+<sp.electricaldischarger.outdoorsonly.description>この設定が有効の場合、放電が潜水艦の中に伝わったり、内部の人に電撃が与えられなくなります。</sp.electricaldischarger.outdoorsonly.description>
+<sp.electricaldischarger.reload.name>リロード</sp.electricaldischarger.reload.name>
+<sp.electricaldischarger.reload.description>アイテムが再び放電できるようになるまでのリロード時間（秒）。</sp.electricaldischarger.reload.description>
+<sp.powered.minvoltage.name>最低電圧</sp.powered.minvoltage.name>
+<sp.powered.minvoltage.description>装置が動作するために必要な最低電圧を設定します。 電圧は「電力/電力消費量」で計算されます。 つまり、最低電圧が0.5に設定された場合、電力消費量が1000kWの装置を作動させるには最低500kWの電力が必要です。</sp.powered.minvoltage.description>
+<sp.powered.powerconsumption.name>電力消費量</sp.powered.powerconsumption.name>
+<sp.powered.powerconsumption.description>装置が動作中、電気システムから引き寄せる（または、引き寄せようとする）電力量を設定します。</sp.powered.powerconsumption.description>
+<sp.powered.vulnerabletoemp.name>EMPへの脆弱性</sp.powered.vulnerabletoemp.name>
+<sp.powered.vulnerabletoemp.description>EMP(電子パルス)によりアイテムが破損する可能性があるかを設定します</sp.powered.vulnerabletoemp.description>
+<sp.entityspawnercomponent.itemidentifier.name>アイテム識別子</sp.entityspawnercomponent.itemidentifier.name>
+<sp.entityspawnercomponent.itemidentifier.description>スポーンするアイテムの識別子を設定します。 種別名が設定されている場合は、何も実行されません。コンマで区切ると、複数のアイテムがランダムにスポーンします。</sp.entityspawnercomponent.itemidentifier.description>
+<sp.entityspawnercomponent.speciesname.name>種別名</sp.entityspawnercomponent.speciesname.name>
+<sp.entityspawnercomponent.speciesname.description>スポーンする生物の種別名を設定します。アイテム識別子が設定されている場合、種別名が優先されます。 コンマで区切ると、複数の生物をランダムにスポーンさせることができます。</sp.entityspawnercomponent.speciesname.description>
+<sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>乗組員接近時のみスポーン</sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>
+<sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>乗組員が特定のエリア内に進入した場合にのみスポーンします。</sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>
+<sp.entityspawnercomponent.crewareashape.name>乗組員エリアの形状</sp.entityspawnercomponent.crewareashape.name>
+<sp.entityspawnercomponent.crewareashape.description>乗組員の滞在が必要なエリアの形状を設定します。</sp.entityspawnercomponent.crewareashape.description>
+<sp.entityspawnercomponent.crewareabounds.name>乗組員エリアの境界</sp.entityspawnercomponent.crewareabounds.name>
+<sp.entityspawnercomponent.crewareabounds.description>乗組員の滞在が必要なエリアを示す四角形のサイズを設定します。乗組員エリアの形状が円形に設定されている場合、何の効果もありません。</sp.entityspawnercomponent.crewareabounds.description>
+<sp.entityspawnercomponent.crewarearadius.name>乗組員エリアの範囲</sp.entityspawnercomponent.crewarearadius.name>
+<sp.entityspawnercomponent.crewarearadius.description>物がスポーンする円形の範囲を設定します。 乗組員エリアの形状が四角形に設定されている場合、何の効果もありません。</sp.entityspawnercomponent.crewarearadius.description>
+<sp.entityspawnercomponent.crewareaoffset.name>乗組員エリア補正</sp.entityspawnercomponent.crewareaoffset.name>
+<sp.entityspawnercomponent.crewareaoffset.description>アイテムの中心から乗組員エリアの補正を設定します。</sp.entityspawnercomponent.crewareaoffset.description>
+<sp.entityspawnercomponent.spawnareashape.name>スポーンエリアの形状</sp.entityspawnercomponent.spawnareashape.name>
+<sp.entityspawnercomponent.spawnareashape.description>敵やアイテムがスポーンするエリアの形状</sp.entityspawnercomponent.spawnareashape.description>
+<sp.entityspawnercomponent.spawnareabounds.name>スポーンエリアの境界</sp.entityspawnercomponent.spawnareabounds.name>
+<sp.entityspawnercomponent.spawnareabounds.description>アイテムや生物がスポーンする四角形の大きさを設定します。 スポーンエリアの形状が円形に設定されている場合は、何の効果もありません。</sp.entityspawnercomponent.spawnareabounds.description>
+<sp.entityspawnercomponent.spawnarearadius.name>スポーンエリアの範囲</sp.entityspawnercomponent.spawnarearadius.name>
+<sp.entityspawnercomponent.spawnarearadius.description>アイテムや生物がスポーンする円形の範囲を設定します。スポーンエリアが長方形に設定されている場合、何の効果もありません。</sp.entityspawnercomponent.spawnarearadius.description>
+<sp.entityspawnercomponent.spawnareaoffset.name>スポーンエリア補正</sp.entityspawnercomponent.spawnareaoffset.name>
+<sp.entityspawnercomponent.spawnareaoffset.description>アイテム中心からスポーンエリアの補正を設定します。</sp.entityspawnercomponent.spawnareaoffset.description>
+<sp.entityspawnercomponent.spawntimerrange.name>スポーン時間の範囲</sp.entityspawnercomponent.spawntimerrange.name>
+<sp.entityspawnercomponent.spawntimerrange.description>スポーンする時間の範囲を設定します（秒単位）。自動スポーンを無効にするには、両方ともマイナス値に設定してください。</sp.entityspawnercomponent.spawntimerrange.description>
+<sp.entityspawnercomponent.spawnamountrange.name>スポーン数の範囲</sp.entityspawnercomponent.spawnamountrange.name>
+<sp.entityspawnercomponent.spawnamountrange.description>一度にスポーンされるアイテムや生物の最小値・最大値を設定します。</sp.entityspawnercomponent.spawnamountrange.description>
+<sp.entityspawnercomponent.maximumamount.name>最大値</sp.entityspawnercomponent.maximumamount.name>
+<sp.entityspawnercomponent.maximumamount.description>スポーンされるアイテムや生物の合計最大値です。 0に設定するとスポーンは無制限となります。</sp.entityspawnercomponent.maximumamount.description>
+<sp.entityspawnercomponent.maximumamountinarea.name>エリア内の最大値</sp.entityspawnercomponent.maximumamountinarea.name>
+<sp.entityspawnercomponent.maximumamountinarea.description>スポーンエリア内のアイテムや生物の最大値です。設定した値を超えてアイテムや生物がスポーンされなくなります。0に設定するとスポーンは無制限となります。</sp.entityspawnercomponent.maximumamountinarea.description>
+<sp.entityspawnercomponent.maximumamountrangepadding.name>最大値範囲の内部マージン</sp.entityspawnercomponent.maximumamountrangepadding.name>
+<sp.entityspawnercomponent.maximumamountrangepadding.description>この値によって円形や四角形を広げ、アイテムや敵のスポーン最大値にカウントされるエリアを設定します。</sp.entityspawnercomponent.maximumamountrangepadding.description>
+<sp.entityspawnercomponent.preloadcharacter.name>キャラクターをプリロード</sp.entityspawnercomponent.preloadcharacter.name>
+<sp.entityspawnercomponent.preloadcharacter.description>スポナーがキャラクターをスポーンする場合、スポーン時のラグ急増を避けるために、ラウンド開始時に「プリロード」しておくべきかどうか</sp.entityspawnercomponent.preloadcharacter.description>
+<sp.holdable.holdpos.name>所持位置</sp.holdable.holdpos.name>
+<sp.holdable.holdpos.description>キャラクターがアイテムを持つ位置（ピクセル単位で、キャラクターの肩から補正）を設定します。 例えば、10,-100の値は肩から下に100ピクセルと、キャラクターの正面から10ピクセル前にアイテムを持たせます。</sp.holdable.holdpos.description>
+<sp.holdable.holdangle.name>所持角度</sp.holdable.holdangle.name>
+<sp.holdable.holdangle.description>キャラクターがアイテムを持つ角度（度単位で、キャラクターの手の回転角度に影響を受ける）を設定します。</sp.holdable.holdangle.description>
+<sp.holdable.swingamount.name>揺れ幅</sp.holdable.swingamount.name>
+<sp.holdable.swingamount.description>照準／所持時にアイテムがどれだけ揺れるか（ピクセル単位で、照準位置／所持位置から補正）を設定します。</sp.holdable.swingamount.description>
+<sp.holdable.swingspeed.name>揺れる速度</sp.holdable.swingspeed.name>
+<sp.holdable.swingspeed.description>照準／所持時にアイテムが揺れる速度（揺れ幅が設定された場合にのみ有効）を設定します。</sp.holdable.swingspeed.description>
+<sp.holdable.swingwhenholding.name>所持時の揺れ</sp.holdable.swingwhenholding.name>
+<sp.holdable.swingwhenholding.description>アイテムを持っているときにアイテムが揺れるかを設定します。</sp.holdable.swingwhenholding.description>
+<sp.holdable.swingwhenaiming.name>照準時の揺れ</sp.holdable.swingwhenaiming.name>
+<sp.holdable.swingwhenaiming.description>アイテムを照準しているときにアイテムが揺れるかを設定します。</sp.holdable.swingwhenaiming.description>
+<sp.holdable.swingwhenusing.name>使用時の揺れ</sp.holdable.swingwhenusing.name>
+<sp.holdable.swingwhenusing.description>アイテムの使用時（例えば、射撃したり溶接工具を扱うとき）に揺れるかを設定します。</sp.holdable.swingwhenusing.description>
+<sp.holdable.disableheadrotation.name>頭部の回転を無効化</sp.holdable.disableheadrotation.name>
+<sp.holdable.spritedepthwhendropped.name>落下時のスプライト深度</sp.holdable.spritedepthwhendropped.name>
+<sp.holdable.spritedepthwhendropped.description>アイテムが壁に取り付けられていないときに使用されるスプライトの深度を設定します。</sp.holdable.spritedepthwhendropped.description>
+<sp.holdable.aimangle.name>エイム角度</sp.holdable.aimangle.name>
+<sp.holdable.aimangle.description>キャラクターがエイム中にアイテムを保持する角度（度数、キャラクターの手の回転に対する相対値）</sp.holdable.aimangle.description>
+<sp.rangedweapon.penetration.name>貫通率</sp.rangedweapon.penetration.name>
+<sp.rangedweapon.penetration.description>攻撃が装甲部分（手足をそらす）に当たったときに無視されるダメージ軽減の割合。武器＋投擲物の合計。</sp.rangedweapon.penetration.description>
+<sp.itemcontainer.containablerestrictions.name>アイテム収容制限</sp.itemcontainer.containablerestrictions.name>
+<sp.itemcontainer.containablerestrictions.description>ボットがこの容器に収容するアイテムを（識別子またはタグによって）定義します。 空の場合は制限が適用されません。</sp.itemcontainer.containablerestrictions.description>
+<sp.itemcontainer.autofill.name>自動充填</sp.itemcontainer.autofill.name>
+<sp.itemcontainer.autofill.description>容器が自動的にアイテムで満たされるように設定しますか？</sp.itemcontainer.autofill.description>
+<sp.itemlabel.text.name>テキスト</sp.itemlabel.text.name>
+<sp.itemlabel.text.description>ラベルに表示されるテキスト。</sp.itemlabel.text.description>
+<sp.itemlabel.ignorelocalization.name>ローカライズを無視</sp.itemlabel.ignorelocalization.name>
+<sp.itemlabel.ignorelocalization.description>ローカライズをスキップし、常に元の値を表示するかどうかを設定します。</sp.itemlabel.ignorelocalization.description>
+<sp.itemlabel.textcolor.description>ラベルに表示されるテキストの色(R、G、B、A)を設定します。</sp.itemlabel.textcolor.description>
+<sp.itemlabel.textscale.description>ラベルに表示されるテキストのスケールを設定します。</sp.itemlabel.textscale.description>
+<sp.lightcomponent.range.description>放たれる光の範囲を設定します。 値が大きいほど、よりパフォーマンスが高くなります。</sp.lightcomponent.range.description>
+<sp.lightcomponent.castshadows.name>影の生成</sp.lightcomponent.castshadows.name>
+<sp.lightcomponent.castshadows.description>構造物が照明の光を浴びるときに、影が生じるかどうかを設定します。影を無効にすると、ゲームのパフォーマンスが向上するため、範囲の小さい照明が推奨されます。 潜水艦の背後に生成されるように設定された照明は、この設定に関わらず影を生成しません。</sp.lightcomponent.castshadows.description>
+<sp.lightcomponent.drawbehindsubs.name>潜水艦の背後に生成</sp.lightcomponent.drawbehindsubs.name>
+<sp.lightcomponent.drawbehindsubs.description>潜水艦の背後にある照明は影を生成しないため、影を生成する照明よりもはるかに描画速度が速くなります。 潜水艦の艦体外部の装飾用照明は、この機能を有効にすることをお勧めします。</sp.lightcomponent.drawbehindsubs.description>
+<sp.lightcomponent.ison.description>照明が現在オンになっているかを設定します。</sp.lightcomponent.ison.description>
+<sp.lightcomponent.flicker.name>ちらつき</sp.lightcomponent.flicker.name>
+<sp.lightcomponent.flicker.description>照明のちらつきの強さを設定します。 0に設定するとちらつきなし、1に設定すると全点灯と消灯を交互に繰り返します。</sp.lightcomponent.flicker.description>
+<sp.lightcomponent.flickerspeed.name>ちらつき速度</sp.lightcomponent.flickerspeed.name>
+<sp.lightcomponent.flickerspeed.description>照明のちらつきの速さを設定します。</sp.lightcomponent.flickerspeed.description>
+<sp.lightcomponent.pulsefrequency.name>パルス速度</sp.lightcomponent.pulsefrequency.name>
+<sp.lightcomponent.pulsefrequency.description>照明のパルス速度を設定します (Hz 単位)。 0に設定すると点滅しません。</sp.lightcomponent.pulsefrequency.description>
+<sp.lightcomponent.pulseamount.name>パルスの程度</sp.lightcomponent.pulseamount.name>
+<sp.lightcomponent.pulseamount.description>照明のパルスの程度を設定します(Hz単位)。0に設定すると消灯し、1に設定すると全点灯と消灯を交互に繰り返します。</sp.lightcomponent.pulseamount.description>
+<sp.lightcomponent.blinkfrequency.name>点滅速度</sp.lightcomponent.blinkfrequency.name>
+<sp.lightcomponent.blinkfrequency.description>照明が点滅する速度を設定します (Hz 単位)。 0に設定すると点滅しません。</sp.lightcomponent.blinkfrequency.description>
+<sp.lightcomponent.lightcolor.description>放たれる光の色（赤、緑、青、透過度）を設定します。</sp.lightcomponent.lightcolor.description>
+<sp.controller.istoggle.name>切り替え可能</sp.controller.istoggle.name>
+<sp.controller.istoggle.description>有効にすると、アイテムが0/1信号を継続的に送信し、アイテムにインタラクトすると信号が反転します（アイテムがスイッチのように動作します）。無効にすると、アイテムはインタラクト時に1を送信します。</sp.controller.istoggle.description>
+<sp.controller.state.name>状態</sp.controller.state.name>
+<sp.controller.state.description>アイテムのオン／オフが切り替わります。切り替え可能に設定された場合にのみ有効です。</sp.controller.state.description>
+<sp.deconstructor.deconstructionspeed.name>分解速度</sp.deconstructor.deconstructionspeed.name>
+<sp.Deconstructor.DeconstructionSpeed.name>分解速度</sp.Deconstructor.DeconstructionSpeed.name>
+<sp.Deconstructor.DeconstructionSpeed.description>分解速度の倍率。</sp.Deconstructor.DeconstructionSpeed.description>
+<sp.engine.maxforce.name>最大出力</sp.engine.maxforce.name>
+<sp.engine.maxforce.description>エンジンが最大出力で動作するときに潜水艦に加えられる力の量を設定します。</sp.engine.maxforce.description>
+<sp.engine.propellerpos.name>プロペラ位置</sp.engine.propellerpos.name>
+<sp.engine.propellerpos.description>アイテムの中心からの補正としてプロペラの位置を設定します（ピクセル単位）。プロペラダメージが定義された場合、パーティクルのスポーン位置とキャラクターがエンジンからダメージを受ける位置を指定します。</sp.engine.propellerpos.description>
+<sp.engine.disablepropellerdamage.name>プロペラダメージ無効</sp.engine.disablepropellerdamage.name>
+<sp.minimap.requirewaterdetectors.name>水検出器が必要</sp.minimap.requirewaterdetectors.name>
+<sp.minimap.requirewaterdetectors.description>室内の水位を表示させるために、この機械に水検出器の入力が必要かどうかを設定します。</sp.minimap.requirewaterdetectors.description>
+<sp.minimap.requireoxygendetectors.name>酸素検知器が必要</sp.minimap.requireoxygendetectors.name>
+<sp.minimap.requireoxygendetectors.description>室内の酸素濃度を表示させるために、この機械に酸素検知器の入力が必要かどうかを設定します。</sp.minimap.requireoxygendetectors.description>
+<sp.minimap.showhullintegrity.name>艦体の完全性を表示</sp.minimap.showhullintegrity.name>
+<sp.minimap.showhullintegrity.description>機械が損傷した艦体の壁を表示するかを設定します。</sp.minimap.showhullintegrity.description>
+<sp.minimap.enablehullstatus.name>艦体ステータスの有効化</sp.minimap.enablehullstatus.name>
+<sp.minimap.enablehullstatus.description>艦体ステータスモードを有効にします。</sp.minimap.enablehullstatus.description>
+<sp.minimap.enableelectricalview.name>電気配線ビューの有効化</sp.minimap.enableelectricalview.name>
+<sp.minimap.enableelectricalview.description>電気配線ビューモードを有効にします。</sp.minimap.enableelectricalview.description>
+<sp.minimap.enableitemfinder.name>アイテム検索の有効化</sp.minimap.enableitemfinder.name>
+<sp.minimap.enableitemfinder.description>アイテム検索モードを有効にします。</sp.minimap.enableitemfinder.description>
+<sp.pump.maxflow.name>最大流量</sp.pump.maxflow.name>
+<sp.pump.maxflow.description>100%で動作するときにアイテムが水を流入/排水する速度を設定します。</sp.pump.maxflow.description>
+<sp.reactor.maxpoweroutput.name>電源の最大出力</sp.reactor.maxpoweroutput.name>
+<sp.reactor.maxpoweroutput.description>原子炉のフル稼働時に発生する電力（kW）を設定します。</sp.reactor.maxpoweroutput.description>
+<sp.reactor.meltdowndelay.name>メルトダウン遅延時間</sp.reactor.meltdowndelay.name>
+<sp.reactor.meltdowndelay.description>メルトダウンが発生するまでに保たれる臨界温度の時間を設定します。</sp.reactor.meltdowndelay.description>
+<sp.reactor.firedelay.name>火災遅延時間</sp.reactor.firedelay.name>
+<sp.reactor.firedelay.description>原子炉で火災が発生するまでに保たれる臨界温度の時間を設定します。</sp.reactor.firedelay.description>
+<sp.reactor.fuelconsumptionrate.name>燃料消費量</sp.reactor.fuelconsumptionrate.name>
+<sp.reactor.fuelconsumptionrate.description>搭載した燃料棒の状態が1秒あたりどれだけ劣化するかを設定します。</sp.reactor.fuelconsumptionrate.description>
+<sp.reactor.explosiondamagesothersubs.name>爆発時に別の潜水艦にダメージ</sp.reactor.explosiondamagesothersubs.name>
+<sp.sonar.usetransducers.name>変換器の使用</sp.sonar.usetransducers.name>
+<sp.sonar.usetransducers.description>ソナーを外部の変換器に接続する必要があるかを設定します。</sp.sonar.usetransducers.description>
+<sp.sonar.centerontransducers.name>変換器の中心に設定</sp.sonar.centerontransducers.name>
+<sp.sonar.centerontransducers.description>ソナーが変換器または潜水艦の重心に位置するべきかを設定します。変換器の使用が有効になっている場合にのみ適用されます。</sp.sonar.centerontransducers.description>
+<sp.sonar.hasmineralscanner.name>鉱物スキャナー機能</sp.sonar.hasmineralscanner.name>
+<sp.sonar.hasmineralscanner.description>ソナーが鉱物スキャンモードを搭載しているかを設定します。</sp.sonar.hasmineralscanner.description>
+<sp.steering.neutralballastlevel.name>中立バラストレベル</sp.steering.neutralballastlevel.name>
+<sp.steering.neutralballastlevel.description>潜水艦が上下方向に操舵されていない時にバラストタンクが満タンになる水の量を設定します。 バラストタンクが潜水艦の大きさに比べて大きすぎる、または小さすぎる場合、その補正のために使用することができます。</sp.steering.neutralballastlevel.description>
+<sp.powercontainer.maxoutput.name>最大出力</sp.powercontainer.maxoutput.name>
+<sp.powercontainer.maxoutput.description>フル充電時の装置の最大出力（kW）を設定します。</sp.powercontainer.maxoutput.description>
+<sp.powercontainer.capacity.name>容量</sp.powercontainer.capacity.name>
+<sp.powercontainer.capacity.description>装置の最大容量（kW/分）を設定します。例えば値が1000であれば、装置が10分間で100kWの出力ができるか、1分間で1000kWの出力ができることを意味します。</sp.powercontainer.capacity.description>
+<sp.powercontainer.charge.description>装置の現在の充電量です。</sp.powercontainer.charge.description>
+<sp.powercontainer.maxrechargespeed.name>最大充電速度</sp.powercontainer.maxrechargespeed.name>
+<sp.powercontainer.maxrechargespeed.description>装置が再充電される速度を設定します。 例えば、充電速度が100kWで容量が1000kW/分であれば、装置が完全に充電されるまで10分かかることを意味します。</sp.powercontainer.maxrechargespeed.description>
+<sp.powercontainer.rechargespeed.name>充電速度</sp.powercontainer.rechargespeed.name>
+<sp.powercontainer.rechargespeed.description>装置の現在の充電速度です。</sp.powercontainer.rechargespeed.description>
+<sp.powercontainer.efficiency.name>効率</sp.powercontainer.efficiency.name>
+<sp.powercontainer.efficiency.description>アイテムに費やされる電力量に対して、アイテムから得られる電力量を設定します。</sp.powercontainer.efficiency.description>
+<sp.PowerContainer.FlipIndicator.name>インジケーターの反転</sp.PowerContainer.FlipIndicator.name>
+<sp.PowerContainer.FlipIndicator.description>充電量を示すプログレスバーが反転し、反対側から満たされるべきかどうかを設定します。</sp.PowerContainer.FlipIndicator.description>
+<sp.powertransfer.canbeoverloaded.name>過充電が可能か</sp.powertransfer.canbeoverloaded.name>
+<sp.powertransfer.canbeoverloaded.description>電力網に電力が供給されすぎると、アイテムが損傷する可能性があります。</sp.powertransfer.canbeoverloaded.description>
+<sp.powertransfer.overloadvoltage.name>過充電圧</sp.powertransfer.overloadvoltage.name>
+<sp.powertransfer.overloadvoltage.description>アイテムが破損し始める前に、負荷に対してどれだけの電力を電力網に供給する必要があるかを設定します。例えば値が2のときは、電力網の装置が消費する2倍の電力を供給する必要があります。</sp.powertransfer.overloadvoltage.description>
+<sp.powertransfer.fireprobability.name>火災確率</sp.powertransfer.fireprobability.name>
+<sp.powertransfer.fireprobability.description>アイテムが破壊されたときに火災が発生する確率。</sp.powertransfer.fireprobability.description>
+<sp.quality.qualitylevel.name>品質レベル</sp.quality.qualitylevel.name>
+<sp.repairable.deteriorationspeed.name>劣化速度</sp.repairable.deteriorationspeed.name>
+<sp.repairable.deteriorationspeed.description>1秒あたりどれだけアイテムが劣化していくかを設定します。</sp.repairable.deteriorationspeed.description>
+<sp.repairable.mindeteriorationdelay.name>最小劣化遅延時間</sp.repairable.mindeteriorationdelay.name>
+<sp.repairable.mindeteriorationdelay.description>アイテムが劣化し始める前の、最小の初期遅延時間。</sp.repairable.mindeteriorationdelay.description>
+<sp.repairable.maxdeteriorationdelay.name>最大劣化遅延時間</sp.repairable.maxdeteriorationdelay.name>
+<sp.repairable.maxdeteriorationdelay.description>アイテムが劣化し始める前の、最大の初期遅延時間。</sp.repairable.maxdeteriorationdelay.description>
+<sp.repairable.mindeteriorationcondition.name>状態の最小劣化</sp.repairable.mindeteriorationcondition.name>
+<sp.repairable.mindeteriorationcondition.description>アイテムの状態がこの値より低いと、自然劣化しなくなります。 例えば10に設定すると、状態は自然に10まで減少していき、その後は減少しなくなります（外部要因によってアイテムがそれ以上に劣化することはあります）。最大状態の割合を設定します。</sp.repairable.mindeteriorationcondition.description>
+<sp.repairable.repairthreshold.name>修理基準値</sp.repairable.repairthreshold.name>
+<sp.repairable.repairthreshold.description>アイテムの状態がこの値より低い場合のみ修理が可能です。 最大状態の割合を設定します。</sp.repairable.repairthreshold.description>
+<sp.repairable.fixdurationlowskill.name>低スキル時の修理所要時間</sp.repairable.fixdurationlowskill.name>
+<sp.repairable.fixdurationlowskill.description>アイテムを修理するスキルレベルが不十分なときに修理にかかる時間を設定します。</sp.repairable.fixdurationlowskill.description>
+<sp.repairable.fixdurationhighskill.name>高スキル時の修理所要時間</sp.repairable.fixdurationhighskill.name>
+<sp.repairable.fixdurationhighskill.description>アイテムを修理するスキルレベルが十分なときに修理にかかる時間を設定します。</sp.repairable.fixdurationhighskill.description>
+<sp.repairtool.barrelrotation.name>砲身回転</sp.repairtool.barrelrotation.name>
+<sp.repairtool.barrelrotation.description>砲身の回転角度を設定します。</sp.repairtool.barrelrotation.description>
+<sp.buttonterminal.signals.name>信号</sp.buttonterminal.signals.name>
+<sp.buttonterminal.signals.description>対応するボタンが押されたときに送信する信号を設定します。</sp.buttonterminal.signals.description>
+<sp.buttonterminal.activatingitems.name>アイテム有効化</sp.buttonterminal.activatingitems.name>
+<sp.buttonterminal.activatingitems.description>アイテムの識別子やタグが含まれている場合、ターミナルボタンの使用が可能になります。複数のアイテムはコンマで区切ってください。</sp.buttonterminal.activatingitems.description>
+<sp.connectionpanel.locked.name>ロック中</sp.connectionpanel.locked.name>
+<sp.connectionpanel.locked.description>ロックされた接続パネルはゲーム内で再配線できません。</sp.connectionpanel.locked.description>
+<sp.memorycomponent.maxvaluelength.name>長さの最大値</sp.memorycomponent.maxvaluelength.name>
+<sp.memorycomponent.maxvaluelength.description>保存値の最大の長さを設定します。注意：値が大きいとメモリ使用量が増えてしまうか、ネットワーク上の問題が発生する可能性があります。</sp.memorycomponent.maxvaluelength.description>
+<sp.memorycomponent.writeable.name>書き込み可能</sp.memorycomponent.writeable.name>
+<sp.memorycomponent.writeable.description>メモリコンポーネントに保存されている値が信号によって変更されるかを設定します。</sp.memorycomponent.writeable.description>
+<sp.motionsensor.ignoredead.name>死体を無視</sp.motionsensor.ignoredead.name>
+<sp.motionsensor.ignoredead.description>センサーがキャラクターの死体を無視するかを設定します。</sp.motionsensor.ignoredead.description>
+<sp.motionsensor.rangex.description>水平の感知範囲</sp.motionsensor.rangex.description>
+<sp.motionsensor.rangey.description>垂直動作の感知範囲</sp.motionsensor.rangey.description>
+<sp.motionsensor.detectoffset.name>感知補正</sp.motionsensor.detectoffset.name>
+<sp.motionsensor.detectoffset.description>アイテムに対して動作を検出する位置を設定します。 例えば、0,100はアイテムから100単位上の動作を検出します。</sp.motionsensor.detectoffset.description>
+<sp.motionsensor.updateinterval.name>アップデート間隔</sp.motionsensor.updateinterval.name>
+<sp.motionsensor.updateinterval.description>センサーが近くで動く物体があるかどうかを確認する頻度を設定します。 値が大きいほどパフォーマンスが向上します。</sp.motionsensor.updateinterval.description>
+<sp.motionsensor.output.description>動きを感知したときにアイテムが出力する信号を設定します。</sp.motionsensor.output.description>
+<sp.motionsensor.falseoutput.description>動きを感知できなかったときにアイテムが出力する信号を設定します。</sp.motionsensor.falseoutput.description>
+<sp.motionsensor.minimumvelocity.name>最低速度</sp.motionsensor.minimumvelocity.name>
+<sp.motionsensor.minimumvelocity.description>検出範囲内のオブジェクトが検出されるのに必要な速度(m/秒)を設定します。</sp.motionsensor.minimumvelocity.description>
+<sp.terminal.welcomemessage.name>ウェルカムメッセージ</sp.terminal.welcomemessage.name>
+<sp.terminal.welcomemessage.description>最初に開いたときにターミナルウィンドウに表示されるメッセージを設定します。</sp.terminal.welcomemessage.description>
+<sp.terminal.usemonospacefont.name>等幅フォントの使用</sp.terminal.usemonospacefont.name>
+<sp.terminal.usemonospacefont.description>この設定を有効にすると、ターミナルが等幅フォントを使用します。</sp.terminal.usemonospacefont.description>
+<sp.textcolor.name>テキストの色</sp.textcolor.name>
+<sp.terminal.textcolor.description>ターミナルテキストの色。</sp.terminal.textcolor.description>
+<sp.terminal.linestartsymbol.name>行頭記号</sp.terminal.linestartsymbol.name>
+<sp.terminal.readonly.name>読み取り専用</sp.terminal.readonly.name>
+<sp.range.name>範囲</sp.range.name>
+<sp.wificomponent.range.description>受信機がこのWi-Fiコンポーネントから信号を受け取るために必要な距離を設定します。</sp.wificomponent.range.description>
+<sp.wificomponent.allowcrossteamcommunication.name>チーム間通信の許可</sp.wificomponent.allowcrossteamcommunication.name>
+<sp.wificomponent.allowcrossteamcommunication.description>このコンポーネントが他のチームの潜水艦にあるWi-Fiコンポーネントと通信できるかどうかを設定します（例えば、戦闘任務中の敵潜水艦、復活シャトルなど）。信号を送信するコンポーネントと信号を受信するコンポーネントの両方を有効にする必要があります。</sp.wificomponent.allowcrossteamcommunication.description>
+<sp.wificomponent.linktochat.name>チャット連動</sp.wificomponent.linktochat.name>
+<sp.wificomponent.linktochat.description>有効にすると、他のチャット連動中のWi-Fiコンポーネントから受信したすべての信号が、アイテムを持っているプレイヤーのチャット欄にチャットメッセージとして表示されます。</sp.wificomponent.linktochat.description>
+<sp.wificomponent.minchatmessageinterval.name>最小チャットメッセージ間隔</sp.wificomponent.minchatmessageinterval.name>
+<sp.wificomponent.minchatmessageinterval.description>メッセージがチャット欄に表示されるまでに信号間でかかる時間（秒単位）を設定します。連続的な信号を送信するチャット連動Wi-Fiコンポーネントがある場合、過度な量のチャットメッセージが生成される可能性があるため、この値を非常に低い値に設定することは推奨されません。</sp.wificomponent.minchatmessageinterval.description>
+<sp.wificomponent.discardduplicatechatmessages.name>重複したチャットメッセージの削除</sp.wificomponent.discardduplicatechatmessages.name>
+<sp.wificomponent.discardduplicatechatmessages.description>この設定を有効にすると、このコンポーネントは受信した信号が変更されるまでチャットメッセージを生成しなくなります。</sp.wificomponent.discardduplicatechatmessages.description>
+<sp.wire.noautolock.name>オートロックなし</sp.wire.noautolock.name>
+<sp.wire.noautolock.description>設定を有効にすると、この電線は「すべてのデフォルト電線をロック」設定で無視されます。</sp.wire.noautolock.description>
+<sp.wire.usespritedepth.name>スプライト深度の使用</sp.wire.usespritedepth.name>
+<sp.wire.usespritedepth.description>この設定を有効にすると、この電線は一定の深度の代わりにスプライト深度を使用します。</sp.wire.usespritedepth.description>
+<sp.triggercomponent.force.description>トリガーエンティティに適用される最大力の値を設定します。</sp.triggercomponent.force.description>
+<sp.triggercomponent.distancebasedforce.name>距離ベースの力</sp.triggercomponent.distancebasedforce.name>
+<sp.triggercomponent.distancebasedforce.description>トリガーがトリガーの中心に近づくほど、力が高まるかどうかを設定します。</sp.triggercomponent.distancebasedforce.description>
+<sp.triggercomponent.forcefluctuation.name>力の変動</sp.triggercomponent.forcefluctuation.name>
+<sp.triggercomponent.forcefluctuation.description>力が時間とともに変動するか、一定に保たれるかを設定します。</sp.triggercomponent.forcefluctuation.description>
+<sp.turret.hudtint.name>HUDの色合い</sp.turret.hudtint.name>
+<sp.turret.hudtint.description>アイテムを操作しているときのオプション画面の色を設定します(赤、緑、青、透過度)。</sp.turret.hudtint.description>
+<sp.turret.reload.name>リロード</sp.turret.reload.name>
+<sp.turret.reload.description>次の発射までの待機時間。</sp.turret.reload.description>
+<sp.turret.shotsperburst.name>バースト時の発射数</sp.turret.shotsperburst.name>
+<sp.turret.shotsperburst.description>追加ディレイが発生するまでに発射される弾数（ダブルコイルガンをイメージしてください）。</sp.turret.shotsperburst.description>
+<sp.turret.delaybetweenbursts.name>バースト間の遅延</sp.turret.delaybetweenbursts.name>
+<sp.turret.delaybetweenbursts.description>バースト間の追加遅延時間を設定します。 リロード時に適用。</sp.turret.delaybetweenbursts.description>
+<sp.turret.retractiondurationmultiplier.name>格納時間の倍率</sp.turret.retractiondurationmultiplier.name>
+<sp.turret.retractiondurationmultiplier.description>発射後、砲身が元の位置に戻るのにかかる時間を設定します。 リロード時間にも影響します。</sp.turret.retractiondurationmultiplier.description>
+<sp.turret.recoiltime.name>反動時間</sp.turret.recoiltime.name>
+<sp.turret.recoiltime.description>発射後、反動で砲身が後ろに下がる速さを設定します。</sp.turret.recoiltime.description>
+<sp.turret.retractiondelay.name>格納遅延時間</sp.turret.retractiondelay.name>
+<sp.turret.retractiondelay.description>反動により砲身が後退した後、元の位置に戻るまでにかかる時間を設定します。</sp.turret.retractiondelay.description>
+<sp.turret.rotationlimits.name>回転の限界</sp.turret.rotationlimits.name>
+<sp.turret.rotationlimits.description>砲身が回転できる範囲。</sp.turret.rotationlimits.description>
+<sp.turret.springstiffnesslowskill.name>低スキル時の砲身のバネ剛性</sp.turret.springstiffnesslowskill.name>
+<sp.turret.springstiffnesslowskill.description>操作スキルが不十分なキャラクターがアイテムを使用するときに、砲身を回転させるために適用されるトルクを設定します。 値が大きいほど、砲身の回転速度が速くなります。</sp.turret.springstiffnesslowskill.description>
+<sp.turret.springstiffnesshighskill.name>高スキル時の砲身のバネ剛性</sp.turret.springstiffnesshighskill.name>
+<sp.turret.springstiffnesshighskill.description>操作スキルが十分なキャラクターがアイテムを使用するときに、砲身を回転させるために適用されるトルクを設定します。 値が大きいほど、砲身の回転速度が速くなります。</sp.turret.springstiffnesshighskill.description>
+<sp.turret.springdampinglowskill.name>低スキル時の砲身のバネ制動</sp.turret.springdampinglowskill.name>
+<sp.turret.springdampinglowskill.description>操作スキルが不十分なキャラクターがアイテムを使用するときの、砲身の動きにブレーキをかけるトルクを設定します。 値が大きいほど照準がより安定し、狙った方向に砲身が揺れなくなります。</sp.turret.springdampinglowskill.description>
+<sp.turret.springdampinghighskill.name>高スキル時の砲身のバネ制動</sp.turret.springdampinghighskill.name>
+<sp.turret.springdampinghighskill.description>操作スキルが十分なキャラクターがアイテムを使用するときの、砲身の動きにブレーキをかけるトルクを設定します。 値が大きいほど照準がより安定し、狙った方向に砲身が揺れなくなります。</sp.turret.springdampinghighskill.description>
+<sp.turret.rotationspeedlowskill.name>低スキル時の砲身回転速度</sp.turret.rotationspeedlowskill.name>
+<sp.turret.rotationspeedlowskill.description>操作スキルの低いキャラクターが使用するときの、砲身の最大角速度を設定します。</sp.turret.rotationspeedlowskill.description>
+<sp.turret.rotationspeedhighskill.name>高スキル時の砲身回転速度</sp.turret.rotationspeedhighskill.name>
+<sp.turret.rotationspeedhighskill.description>操作スキルの高いキャラクターが使用するときの、砲身の最大角速度を設定します。</sp.turret.rotationspeedhighskill.description>
+<sp.turret.AutoOperate.name>自動運転</sp.turret.AutoOperate.name>
+<sp.turret.AutoOperate.description>AIターゲティングを利用して砲台を自動で動作させるかどうかを設定します。下の目盛りで調整可能なオプションのランダム移動設定を含みます。</sp.turret.AutoOperate.description>
+<sp.turret.RandomAimAmount.name>ランダム照準量</sp.turret.RandomAimAmount.name>
+<sp.turret.RandomAimAmount.description>[自動運転] 砲台が目標を完全に追尾するのではなく、ランダムに狙いをずらす度合いを度数で指定します。</sp.turret.RandomAimAmount.description>
+<sp.turret.RandomAimMinTime.name>ランダム照準最小時間</sp.turret.RandomAimMinTime.name>
+<sp.turret.RandomAimMinTime.description>[自動運転] 砲台が目標を完全に追尾するのではなく、ランダムに狙いを調整する頻度を設定します。最小待機時間、単位は秒。</sp.turret.RandomAimMinTime.description>
+<sp.turret.RandomAimMaxTime.name>ランダム照準最大時間</sp.turret.RandomAimMaxTime.name>
+<sp.turret.RandomAimMaxTime.description>[自動運転] 砲台が目標を完全に追尾するのではなく、ランダムに狙いを調整する頻度を設定します。最大待機時間、単位は秒。</sp.turret.RandomAimMaxTime.description>
+<sp.turret.RandomMovement.name>ランダム移動</sp.turret.RandomMovement.name>
+<sp.turret.RandomMovement.description>[自動運転] 砲台をアイドル時にランダムに動かすかどうかを設定します。</sp.turret.RandomMovement.description>
+<sp.turret.AimDelay.name>エイム遅延</sp.turret.AimDelay.name>
+<sp.turret.AimDelay.description>[自動運転] 砲台が目標を捕捉する際に遅延が発生するか、それとも完璧なタイミングで捕捉するかを設定します。</sp.turret.AimDelay.description>
+<sp.turret.TargetCharacters.name>キャラクターを対象にする</sp.turret.TargetCharacters.name>
+<sp.turret.TargetCharacters.description>[自動運転] 砲台が全キャラクターを攻撃対象にするかどうか</sp.turret.TargetCharacters.description>
+<sp.turret.TargetMonsters.name>モンスターを対象にする</sp.turret.TargetMonsters.name>
+<sp.turret.TargetMonsters.description>[自動運転] 砲台の攻撃対象にモンスターを含めるかどうか</sp.turret.TargetMonsters.description>
+<sp.turret.TargetHumans.name>人間を対象にする</sp.turret.TargetHumans.name>
+<sp.turret.TargetHumans.description>[自動運転] 砲台の攻撃対象に人間（ペットのような同様の生物含む）を含めるかどうか</sp.turret.TargetHumans.description>
+<sp.turret.TargetSubmarines.name>潜水艦を対象にする</sp.turret.TargetSubmarines.name>
+<sp.turret.TargetSubmarines.description>[自動運転] 砲台の攻撃対象に他の潜水艦を含めるかどうか</sp.turret.TargetSubmarines.description>
+<sp.turret.TargetItems.name>アイテムを対象にする</sp.turret.TargetItems.name>
+<sp.turret.TargetItems.description>[自動運転] 砲台の攻撃対象にアイテムを含めるかどうか</sp.turret.TargetItems.description>
+<sp.turret.FriendlyTag.name>味方タグ</sp.turret.FriendlyTag.name>
+<sp.turret.FriendlyTag.description>[自動運転] 砲台を自動運転する際に攻撃対象にしないグループや種族。</sp.turret.FriendlyTag.description>
+<sp.dockingport.maindockingport.name>メインドッキングポート</sp.dockingport.maindockingport.name>
+<sp.dockingport.maindockingport.description>この設定を有効にすると、前哨基地にドッキングされている潜水艦がスポーンするときにこのドッキングポートが使用されます(可能な場合)。</sp.dockingport.maindockingport.description>
+<sp.dockingport.applyeffectsondocking.name>ドッキング時の効果適用</sp.dockingport.applyeffectsondocking.name>
+<sp.dockingport.applyeffectsondocking.description>ドッキング時にOnUse StatusEffectsが発動するかを設定します（バニラのドッキングポートではパーティクルを発生させ、サウンドを再生する効果）。</sp.dockingport.applyeffectsondocking.description>
+<sp.dockingport.forcedockingdirection.name>ドッキング方向の強制</sp.dockingport.forcedockingdirection.name>
+<sp.dockingport.forcedockingdirection.description>ポートがドッキングする方向を設定します。 例えば、「上段」に設定されている場合、ポートが別のポート上にドッキングできることを意味します。 通常、この設定を変更する必要はありませんが、ドッキング位置が正しくない場合（例えば、艦体またはドアのない異常なドッキングポート設定など）、この設定を使用して方向を強制させることができます。</sp.dockingport.forcedockingdirection.description>
+<sp.meleeweapon.swing.name>武器の揺れ</sp.meleeweapon.swing.name>
+<sp.meleeweapon.swingpos.name>武器の揺れ位置</sp.meleeweapon.swingpos.name>
+<sp.meleeweapon.swingforce.name>武器回転力</sp.meleeweapon.swingforce.name>
+<sp.force.name>力量</sp.force.name>
+<sp.propulsion.force.description>ユーザーの身体に適用される力を設定します。</sp.propulsion.force.description>
+<sp.oxygengenerator.generatedamount.name>生成量</sp.oxygengenerator.generatedamount.name>
+<sp.oxygengenerator.generatedamount.description>機械がフル稼働時に生成する酸素の量を設定します。</sp.oxygengenerator.generatedamount.description>
+<sp.booleanoperatorcomponent.output.description>条件が満たされたときに送信される信号。</sp.booleanoperatorcomponent.output.description>
+<sp.booleanoperatorcomponent.falseoutput.description>条件が満たされたときに送信される信号（空欄の場合は送信されません）。</sp.booleanoperatorcomponent.falseoutput.description>
+<sp.concatcomponent.maxoutputlength.description>出力文字列の最大の長さを設定します。注意： 値が大きいとメモリ使用量やネットワークへの負荷が大きくなってしまう可能性があります。</sp.concatcomponent.maxoutputlength.description>
+<sp.delaycomponent.delay.description>アイテムが信号を遅延させる時間を設定します（秒単位）。</sp.delaycomponent.delay.description>
+<sp.delaycomponent.resetwhensignalreceived.description>新しい信号を受信するとき、コンポーネントが以前受信した信号を破棄するかを設定します。</sp.delaycomponent.resetwhensignalreceived.description>
+<sp.delaycomponent.resetwhendifferentsignalreceived.description>入力信号が変更されたとき、コンポーネントが以前受信した信号を破棄すべきかを設定します。</sp.delaycomponent.resetwhendifferentsignalreceived.description>
+<sp.notcomponent.continuousoutput.name>連続出力</sp.notcomponent.continuousoutput.name>
+<sp.oscillatorcomponent.outputtype.description>アイテムが出力する信号の種類を設定します。 パルス：1の信号を周期的に送信します。 のこぎり状：0から1まで直線的に増加する周期的な波を送信します。 サイン：-1と1の間で変動するサイン波を送信します。四角形：0と1の間で交互に変わる信号を送信します。 三角形：-1から1に直線的に増加する波形と1から-1まで減少する波形を交互に送信します。</sp.oscillatorcomponent.outputtype.description>
+<sp.oscillatorcomponent.frequency.name>頻度</sp.oscillatorcomponent.frequency.name>
+<sp.oscillatorcomponent.frequency.description>信号が振動する速度、またはパルスが送信される速度（Hz単位）を設定します。</sp.oscillatorcomponent.frequency.description>
+<sp.regexfindcomponent.maxoutputlength.description>出力文字列の最大長を設定します。 注意：値が大きいと、メモリ使用量やネットワーク負荷が大きくなる可能性があります。</sp.regexfindcomponent.maxoutputlength.description>
+<sp.relaycomponent.maxpower.name>最大電力</sp.relaycomponent.maxpower.name>
+<sp.relaycomponent.maxpower.description>アイテムを通過できる最大電力を設定します。</sp.relaycomponent.maxpower.description>
+<sp.greatercomponent.output.description>最初の信号が2番目の信号より大きい場合に送信される信号（空の場合、信号は送信されません）。</sp.greatercomponent.output.description>
+<sp.greatercomponent.falseoutput.description>最初の信号が2番目の信号より小さいか等しい場合に送信される信号（空の場合、信号は送信されません）。</sp.greatercomponent.falseoutput.description>
+<sp.ison.name>オン</sp.ison.name>
+<sp.relaycomponent.ison.description>現在リレーに電力や信号を通せるかを設定します。</sp.relaycomponent.ison.description>
+<sp.signalcheckcomponent.output.description>受信した信号がターゲット信号と一致した時に、このアイテムが出力する信号を設定します。</sp.signalcheckcomponent.output.description>
+<sp.signalcheckcomponent.falseoutput.description>受信した信号がターゲット信号と一致しない時に、このアイテムが出力する信号を設定します。</sp.signalcheckcomponent.falseoutput.description>
+<sp.signalcheckcomponent.targetsignal.description>受信した信号を比較する値を設定します。</sp.signalcheckcomponent.targetsignal.description>
+<sp.maxoutputlength.name>最大出力長</sp.maxoutputlength.name>
+<sp.maxoutputlength.description>出力文字列の最大長を設定します。 注意：値が大きいと、メモリ使用量やネットワーク負荷が大きくなる可能性があります。</sp.maxoutputlength.description>
+<sp.waterdetector.output.description>アイテムが水中にあるときに送信する信号を設定します。</sp.waterdetector.output.description>
+<sp.waterdetector.falseoutput.description>アイテムが水中にないときに送信する信号を設定します。</sp.waterdetector.falseoutput.description>
+
+<!-- Entity names -->
+<entityname.hull>艦体</entityname.hull>
+<entitydescription.hull>艦体は「潜水艦の内部」とみなされる区画を決定します。 通常、すべての部屋は艦体に囲まれていなければなりません。</entitydescription.hull>
+<entityname.gap>ギャップ</entityname.gap>
+<entitydescription.gap>ギャップによって、2つの艦体の間に水と空気が流れるようになります。</entitydescription.gap>
+<entityname.waypoint>ウェイポイント</entityname.waypoint>
+<entitydescription.waypoint>AIキャラクターが潜水艦内部を移動する際に使用されます。</entitydescription.waypoint>
+<entityname.spawnpoint>スポーンポイント</entityname.spawnpoint>
+<entitydescription.spawnpoint>乗組員がスポーンする部屋を決定します。</entitydescription.spawnpoint>
+
+<!-- Structure names -->
+<entityname.horizontalresizablewindow>窓 水平 サイズ調節可</entityname.horizontalresizablewindow>
+<entityname.verticalresizablewindow>窓 垂直 サイズ調節可</entityname.verticalresizablewindow>
+<entityname.ff_x_wall>大型 内壁  水平</entityname.ff_x_wall>
+<entityname.ff_x_wall_cables>大型 内壁 水平  電線付き</entityname.ff_x_wall_cables>
+<entityname.ff_y_wall>大型 内壁  垂直</entityname.ff_y_wall>
+<entityname.inwalll90cables>大型 内壁 垂直  電線付き</entityname.inwalll90cables>
+<entitydescription.resizeablewallwithcollisiondetection>サイズ調整可能な衝突判定のある壁。</entitydescription.resizeablewallwithcollisiondetection>
+<entityname.inwalllcaph1>大型 内壁 キャップ H1</entityname.inwalllcaph1>
+<entityname.inwalllcaph2>大型 内壁 キャップ H2</entityname.inwalllcaph2>
+<entityname.inwalllcaph3>大型 内壁 キャップ H3</entityname.inwalllcaph3>
+<entityname.inwalllcapy1>大型 内壁 キャップ V1</entityname.inwalllcapy1>
+<entityname.inwalllcapy2>大型 内壁 キャップ V2</entityname.inwalllcapy2>
+<entityname.inwalllcapy4>大型 内壁 キャップ V4</entityname.inwalllcapy4>
+<entityname.inwallltieh1>大型 内壁 連結部 H1</entityname.inwallltieh1>
+<entityname.inwallltieh2>大型 内壁 連結部 H2</entityname.inwallltieh2>
+<entityname.inwallltieh3>大型 内壁 連結部 H3</entityname.inwallltieh3>
+<entityname.inwallltiev1>大型 内壁 連結部 V1</entityname.inwallltiev1>
+<entityname.inwallltiev2>大型 内壁 連結部 V2</entityname.inwallltiev2>
+<entityname.inwallltiev3>大型 内壁 連結部 V3</entityname.inwallltiev3>
+<entitydescription.wallcap>壁の端部や交差部に設置できる装飾用構造物。</entitydescription.wallcap>
+<entityname.ff_wall_b>背景壁 バラスト A1</entityname.ff_wall_b>
+<entityname.ff_wall_bp>背景壁 バラスト A2</entityname.ff_wall_bp>
+<entityname.bwbc>背景壁 バラスト C</entityname.bwbc>
+<entityname.ff_wall_c1>背景壁 C1</entityname.ff_wall_c1>
+<entityname.ff_wall_c2>背景壁 C2</entityname.ff_wall_c2>
+<entityname.ff_wall_c3>背景壁 C3</entityname.ff_wall_c3>
+<entityname.ff_wall_d1>背景壁 D1</entityname.ff_wall_d1>
+<entityname.ff_wall_d2>背景壁 D2</entityname.ff_wall_d2>
+<entityname.ff_wall_d3>背景壁 D3</entityname.ff_wall_d3>
+<entityname.ff_wall_e>背景壁 E</entityname.ff_wall_e>
+<entityname.ff_wall_e2>背景壁 E2</entityname.ff_wall_e2>
+<entityname.ff_wall_g1>背景壁 G1</entityname.ff_wall_g1>
+<entityname.ff_wall_g2>背景壁 G2</entityname.ff_wall_g2>
+<entityname.ff_wall_g3>背景壁 G3</entityname.ff_wall_g3>
+<entityname.ff_wall_h1>背景壁 H1</entityname.ff_wall_h1>
+<entityname.bgorangepanels>背景壁 オレンジパネル</entityname.bgorangepanels>
+<entityname.bgorangepanelwindow>背景壁 オレンジパネル 窓</entityname.bgorangepanelwindow>
+<entityname.bgpanels>背景壁 パネル</entityname.bgpanels>
+<entityname.bgpanelswindow>背景壁 窓</entityname.bgpanelswindow>
+<entityname.PipesBackground>背景壁 パイプ</entityname.PipesBackground>
+<entityname.roughbgwall>背景壁 粗い</entityname.roughbgwall>
+<entityname.cleanbgwall>背景壁 清潔</entityname.cleanbgwall>
+<entitydescription.backgroundwall>装飾用の背景壁。</entitydescription.backgroundwall>
+<entityname.exta_tail>テールフィン 旧型 A</entityname.exta_tail>
+<entitydescription.tailwithcollision>衝突判定のある潜水艦の尾部。</entitydescription.tailwithcollision>
+<entityname.tailfina>テールフィン A</entityname.tailfina>
+<entityname.tailfinb>テールフィン B</entityname.tailfinb>
+<entityname.tailfinc>テールフィン C</entityname.tailfinc>
+<entityname.tailfind>テールフィン D</entityname.tailfind>
+<entityname.tailfind2p1>テールフィン D2 P1</entityname.tailfind2p1>
+<entityname.tailfind2p2>テールフィン D2 P2</entityname.tailfind2p2>
+<entityname.tailfind2p3>テールフィン D2 P3</entityname.tailfind2p3>
+<entityname.tailfind3p1>テールフィン D3 P1</entityname.tailfind3p1>
+<entityname.tailfind3p2>テールフィン D3 P2</entityname.tailfind3p2>
+<entityname.tailfind3p3>テールフィン D3 P3</entityname.tailfind3p3>
+<entityname.tailfinep1>テールフィン E P1</entityname.tailfinep1>
+<entityname.tailfinep2>テールフィン E P2</entityname.tailfinep2>
+<entityname.tailfinfp3>テールフィン E P3</entityname.tailfinfp3>
+<entityname.tailfinf1>テールフィン F1</entityname.tailfinf1>
+<entityname.tailfinf2>テールフィン F2</entityname.tailfinf2>
+<entityname.tailfinf3>テールフィン F3</entityname.tailfinf3>
+<entityname.tailfinf4>テールフィン F4</entityname.tailfinf4>
+<entitydescription.tailnocollision>衝突判定のない潜水艦の装飾用尾部。</entitydescription.tailnocollision>
+<entityname.exta_front>潜水艦 船首 A</entityname.exta_front>
+<entityname.subfrontb>潜水艦 船首 B</entityname.subfrontb>
+<entityname.subfrontc>潜水艦 船首 C</entityname.subfrontc>
+<entityname.subfrontd>潜水艦 船首 D</entityname.subfrontd>
+<entityname.subfronte>潜水艦 船首 E</entityname.subfronte>
+<entityname.subfrontg1p1>潜水艦 船首 F 上部</entityname.subfrontg1p1>
+<entityname.subfrontg1p2>潜水艦 船首 F 中央</entityname.subfrontg1p2>
+<entityname.subfrontg1p3>潜水艦 船首 F 下部</entityname.subfrontg1p3>
+<entityname.subfrontg2p1>潜水艦 船首 G 上部</entityname.subfrontg2p1>
+<entityname.subfrontg2p2>潜水艦 船首 G 中央</entityname.subfrontg2p2>
+<entityname.subfrontg2p3>潜水艦 船首 G 下部</entityname.subfrontg2p3>
+<entitydescription.frontwithcollision>衝突判定のある潜水艦のフロント部分。</entitydescription.frontwithcollision>
+<entityname.frontfchaina1>フロントチェーン 1</entityname.frontfchaina1>
+<entityname.frontfchaina2>フロントチェーン 2</entityname.frontfchaina2>
+<entityname.frontpulley>フロントプーリー</entityname.frontpulley>
+<entityname.shellaboard0dega>金属ストリップ 水平 小型</entityname.shellaboard0dega>
+<entityname.shellaboard0degb>金属ストリップ 水平 大型</entityname.shellaboard0degb>
+<entityname.shellaboard90dega>金属ストリップ 垂直 小型</entityname.shellaboard90dega>
+<entityname.shellaboard90degb>金属ストリップ 垂直 大型</entityname.shellaboard90degb>
+<entityname.leftwall>基本 壁 左</entityname.leftwall>
+<entityname.LeftWallHeavy>重厚 壁 左</entityname.LeftWallHeavy>
+<entityname.rightwall>基本 壁 右</entityname.rightwall>
+<entityname.RightWallHeavy>重厚 壁 右</entityname.RightWallHeavy>
+<entityname.topwall>基本 壁 上部</entityname.topwall>
+<entityname.TopWallHeavy>重厚 壁 上部</entityname.TopWallHeavy>
+<entityname.shella90deg>外殻 A 90度</entityname.shella90deg>
+<entityname.shella16deg>外殻 A 16度</entityname.shella16deg>
+<entityname.shella34deg>外殻 A 34度</entityname.shella34deg>
+<entityname.shella0deg>外殻 A 0度</entityname.shella0deg>
+<entityname.shella04deg>外殻 A 4度</entityname.shella04deg>
+<entityname.shella14adeg>外殻 A 14度</entityname.shella14adeg>
+<entityname.shella52deg>外殻 A 52度</entityname.shella52deg>
+<entityname.shella16degb>外殻 A 16度 B</entityname.shella16degb>
+<entityname.shella25deg>外殻 A 25度</entityname.shella25deg>
+<entityname.shella45deg>外殻 A 45度</entityname.shella45deg>
+<entityname.shella32deg>外殻 A 32度</entityname.shella32deg>
+<entityname.shella14degb>外殻 A 14度 B</entityname.shella14degb>
+<entityname.shella43deg>外殻 A 43度</entityname.shella43deg>
+<entityname.shella51deg>外殻 A 51度</entityname.shella51deg>
+<entityname.shella47deg>外殻 A 47度</entityname.shella47deg>
+<entityname.shella60deg>外殻 A 60度</entityname.shella60deg>
+<entityname.shella18deg>外殻 A 18度</entityname.shella18deg>
+<entityname.shella70deg>外殻 A 70度</entityname.shella70deg>
+<entityname.shella90degcurve>外殻 A 90度 カーブ</entityname.shella90degcurve>
+<entityname.shella45degb>外殻 A 45度 B</entityname.shella45degb>
+<entityname.shella45degc>外殻 A 45度 A</entityname.shella45degc>
+<entityname.shella45degd>外殻 A 45度 B</entityname.shella45degd>
+<entityname.shella57deg>外殻 A 57度</entityname.shella57deg>
+<entityname.shella40deg>外殻 A 40度</entityname.shella40deg>
+<entityname.shella61deg>外殻 A 61度</entityname.shella61deg>
+<entityname.shella17deg>外殻 A 17度</entityname.shella17deg>
+<entityname.shella34degb>外殻 A 34度 B</entityname.shella34degb>
+<entityname.shella26deg>外殻 A 26度</entityname.shella26deg>
+<entityname.shella54deg>外殻 A 54度</entityname.shella54deg>
+<entityname.shella38deg>外殻 A 38度</entityname.shella38deg>
+<entityname.shella42deg>外殻 A 42度</entityname.shella42deg>
+<entityname.shellacombo11>外殻 A コンボ 1 1</entityname.shellacombo11>
+<entityname.shellacombo12>外殻 A コンボ 1 2</entityname.shellacombo12>
+<entitydescription.exteriorshell>潜水艦の外壁。</entitydescription.exteriorshell>
+<entityname.shellacap0dega>外殻 A キャップ 水平 丸型</entityname.shellacap0dega>
+<entityname.shellacap0degb>外殻 A キャップ 水平 角型</entityname.shellacap0degb>
+<entityname.shellacap90dega>外殻 A キャップ 垂直 丸型</entityname.shellacap90dega>
+<entityname.shellacap90degb>外殻 A キャップ 垂直 角型</entityname.shellacap90degb>
+<entityname.sshella01>シャトル 外殻 A01</entityname.sshella01>
+<entityname.sshella02>シャトル 外殻 A02</entityname.sshella02>
+<entityname.sshella04>シャトル 外殻 A04</entityname.sshella04>
+<entityname.sshella05>シャトル 外殻 A05</entityname.sshella05>
+<entityname.sshellaa06>シャトル 外殻 A06</entityname.sshellaa06>
+<entityname.sshella07>シャトル 外殻 A07</entityname.sshella07>
+<entityname.sshella08>シャトル 外殻 A08</entityname.sshella08>
+<entityname.sshella09>シャトル 外殻 A09</entityname.sshella09>
+<entityname.sshella10>シャトル 外殻 A10</entityname.sshella10>
+<entityname.sshella11>シャトル 外殻 A11</entityname.sshella11>
+<entityname.sshella14>シャトル 外殻 A14</entityname.sshella14>
+<entityname.sshella15a>シャトル 外殻 A15a</entityname.sshella15a>
+<entityname.sshella15b>シャトル 外殻 A15b</entityname.sshella15b>
+<entityname.sshella15c>シャトル 外殻 A15c</entityname.sshella15c>
+<entityname.sshella17a>シャトル 外殻 A17a</entityname.sshella17a>
+<entityname.sshella17b>シャトル 外殻 A17b</entityname.sshella17b>
+<entityname.sshella17c>シャトル 外殻 A17c</entityname.sshella17c>
+<entityname.sshella18>シャトル 外殻 A18</entityname.sshella18>
+<entityname.sshella19>シャトル 外殻 A19</entityname.sshella19>
+<entityname.sshella20>シャトル 外殻 A20</entityname.sshella20>
+<entityname.sshella21>シャトル 外殻 A21</entityname.sshella21>
+<entityname.sshella22>シャトル 外殻 A22</entityname.sshella22>
+<entityname.sshella23>シャトル 外殻 A23</entityname.sshella23>
+<entityname.sshella24>シャトル 外殻 A24</entityname.sshella24>
+<entityname.sshella25>シャトル 外殻 A25</entityname.sshella25>
+<entityname.sshella26>シャトル 外殻 A26</entityname.sshella26>
+<entityname.sshella27>シャトル 外殻 A27</entityname.sshella27>
+<entityname.sshella28>シャトル 外殻 A28</entityname.sshella28>
+<entityname.sshella30>シャトル 外殻 A30</entityname.sshella30>
+<entityname.sshella32b>シャトル 外殻 A32b</entityname.sshella32b>
+<entityname.sshella32c>シャトル 外殻 A32c</entityname.sshella32c>
+<entityname.sshella32d>シャトル 外殻 A32d</entityname.sshella32d>
+<entityname.sshella36>シャトル 外殻 A36</entityname.sshella36>
+<entityname.sshella37>シャトル 外殻 A37</entityname.sshella37>
+<entityname.sshella38>シャトル 外殻 A38</entityname.sshella38>
+<entityname.sshella39>シャトル 外殻 A39</entityname.sshella39>
+<entityname.sshella40>シャトル 外殻 A40</entityname.sshella40>
+<entityname.sshella41>シャトル 外殻 A41</entityname.sshella41>
+<entityname.sshellaglassa>シャトル 外殻 A ガラス A</entityname.sshellaglassa>
+<entityname.sshellaglassb>シャトル 外殻 A ガラス B</entityname.sshellaglassb>
+<entityname.sshellaglassc>シャトル 外殻 A ガラス C</entityname.sshellaglassc>
+<entityname.sshellaglassd>シャトル 外殻 A ガラス D</entityname.sshellaglassd>
+<entityname.sshellaglasse>シャトル 外殻 A ガラス E</entityname.sshellaglasse>
+<entityname.sshellaglassf>シャトル 外殻 A ガラス F</entityname.sshellaglassf>
+<entitydescription.exteriorshuttleshell>シャトルの外壁。</entitydescription.exteriorshuttleshell>
+<entityname.ventbendducta1>通気口 カーブ ダクトA1</entityname.ventbendducta1>
+<entityname.ventbendducta2>通気口 カーブ ダクトA2</entityname.ventbendducta2>
+<entityname.ventconnectora1>通気口 連結部 A1</entityname.ventconnectora1>
+<entityname.ventconnectora2>通気口 連結部 A2</entityname.ventconnectora2>
+<entityname.ventconnectora3>通気口 連結部 A3</entityname.ventconnectora3>
+<entityname.ventconnectora4>通気口 連結部 A4</entityname.ventconnectora4>
+<entityname.ventconnectora5>通気口 連結部 A5</entityname.ventconnectora5>
+<entityname.ventconnectora6>通気口 連結部 A6</entityname.ventconnectora6>
+<entityname.ventconnectora7>通気口 連結部 A7</entityname.ventconnectora7>
+<entityname.ventconnectorcapa1>通気口 連結部 キャップ A1</entityname.ventconnectorcapa1>
+<entityname.ventconnectorcapa2>通気口 連結部 キャップ A2</entityname.ventconnectorcapa2>
+<entityname.ventducta1>通気口 ダクト A1</entityname.ventducta1>
+<entityname.ventducta190deg>通気口 ダクト A1 垂直</entityname.ventducta190deg>
+<entityname.ventducta2>通気口 ダクト A2 </entityname.ventducta2>
+<entityname.ventducta290deg>通気口 ダクト A2 垂直</entityname.ventducta290deg>
+<entityname.ventductb1>通気口 ダクト B1</entityname.ventductb1>
+<entityname.ventductb190deg>通気口 ダクト B1 垂直</entityname.ventductb190deg>
+<entityname.ventductb290deg>通気口 ダクト B2 垂直</entityname.ventductb290deg>
+<entityname.ventductbendb1>通気口 ダクト カーブ B1</entityname.ventductbendb1>
+<entityname.ventductbendb2>通気口 ダクト カーブ B2</entityname.ventductbendb2>
+<entityname.ventductfana>通気口 ダクト ファン A</entityname.ventductfana>
+<entityname.ventductlongb2>通気口 ダクト B2</entityname.ventductlongb2>
+<entityname.ventductreducerb>通気口 ダクト レデューサー B</entityname.ventductreducerb>
+<entityname.ventductreducerb90deg>通気口 ダクト レデューサー B 垂直</entityname.ventductreducerb90deg>
+<entityname.ventlargeductreducera>通気口 大型 ダクト レデューサー A</entityname.ventlargeductreducera>
+<entityname.ventlargeductreducera1>通気口 中型 ダクト レデューサー A1</entityname.ventlargeductreducera1>
+<entityname.ventlargeductreducera2>通気口 中型 ダクト レデューサー A2</entityname.ventlargeductreducera2>
+<entityname.ventlargepipebenda1>通気口 大型 パイプ カーブ A1</entityname.ventlargepipebenda1>
+<entityname.ventmediumpipebenda1>通気口 中型 パイプ カーブ A1</entityname.ventmediumpipebenda1>
+<entityname.ventpipea1>通気口 パイプ A1</entityname.ventpipea1>
+<entityname.ventpipea190deg>通気口 パイプ A1 垂直</entityname.ventpipea190deg>
+<entityname.ventpipea2>通気口 パイプ A2</entityname.ventpipea2>
+<entityname.ventpipea290deg>通気口 パイプ A2 垂直</entityname.ventpipea290deg>
+<entityname.ventpipea3>通気口 パイプ A3</entityname.ventpipea3>
+<entityname.ventpipea390deg>通気口 パイプ A3 垂直</entityname.ventpipea390deg>
+<entityname.ventpipea4>通気口 パイプ A4</entityname.ventpipea4>
+<entityname.ventpipea490deg>通気口 パイプ A4 垂直</entityname.ventpipea490deg>
+<entityname.ventpipea5>通気口 パイプ A5</entityname.ventpipea5>
+<entityname.ventpipea590deg>通気口 パイプ A5 垂直</entityname.ventpipea590deg>
+<entityname.ventpipea6>通気口 パイプ A6</entityname.ventpipea6>
+<entityname.ventpipea690deg>通気口 パイプ A6 垂直</entityname.ventpipea690deg>
+<entityname.ventpipea7>通気口 パイプ A7</entityname.ventpipea7>
+<entityname.ventpipea790deg>通気口 パイプ A7 垂直</entityname.ventpipea790deg>
+<entityname.ventpipea8>通気口 パイプ A8</entityname.ventpipea8>
+<entityname.ventpipea890deg>通気口 パイプ A8 垂直</entityname.ventpipea890deg>
+<entityname.ventpipea9>通気口 パイプ A9</entityname.ventpipea9>
+<entityname.ventpipea990deg>通気口 パイプ A9 垂直</entityname.ventpipea990deg>
+<entityname.ventpipecapa1>通気口 パイプ キャップ A1</entityname.ventpipecapa1>
+<entityname.ventpipecapa190deg>通気口 パイプ キャップ A1 垂直</entityname.ventpipecapa190deg>
+<entityname.ventsmallductreducera>通気口 小型 ダクト レデューサー A</entityname.ventsmallductreducera>
+<entityname.sshellalightsa>シャトル 照明 A</entityname.sshellalightsa>
+<entityname.sshellaplatea>シャトル プレート A</entityname.sshellaplatea>
+<entityname.sshellaplateb>シャトル プレート B</entityname.sshellaplateb>
+<entityname.sshellaplatexl>シャトル プレート XL</entityname.sshellaplatexl>
+<entityname.sshellabumpera>シャトル バンパー A</entityname.sshellabumpera>
+<entityname.sshellabumperb>シャトル バンパー B</entityname.sshellabumperb>
+<entityname.sshellafina>シャトル フィン A</entityname.sshellafina>
+<entityname.sshellafinb>シャトル フィン B</entityname.sshellafinb>
+<entityname.sshellafinc>シャトル フィン C</entityname.sshellafinc>
+<entityname.sshellafind>シャトル フィン D</entityname.sshellafind>
+<entityname.sshellagromita>シャトル グロメット A</entityname.sshellagromita>
+<entityname.sshellagromitb>シャトル グロメット B</entityname.sshellagromitb>
+<entityname.sshellagromitc>シャトル グロメット C</entityname.sshellagromitc>
+<entityname.sshellagromitd>シャトル グロメット D</entityname.sshellagromitd>
+<entitydescription.decorativeshuttlepiece>シャトルの装飾部分。</entitydescription.decorativeshuttlepiece>
+<entityname.finabelt01>フィン ウィング ベルト 1</entityname.finabelt01>
+<entityname.finabelt02>フィン ウィング ベルト 2</entityname.finabelt02>
+<entityname.finabelt03>フィン ウィング ベルト 3</entityname.finabelt03>
+<entityname.finabelt04>フィン ウィング ベルト 4</entityname.finabelt04>
+<entityname.finabelt05>フィン ウィング ベルト 5</entityname.finabelt05>
+<entityname.finabelt06>フィン ウィング ベルト 6</entityname.finabelt06>
+<entityname.finabodyedge01>フィン ウィング エッジ 1</entityname.finabodyedge01>
+<entityname.finabodyedge02>フィン ウィング エッジ 2</entityname.finabodyedge02>
+<entityname.finabodyedge03>フィン ウィング エッジ 3</entityname.finabodyedge03>
+<entityname.finabodyedge04>フィン ウィング エッジ 4</entityname.finabodyedge04>
+<entityname.finabodyedge05>フィン ウィング エッジ 5</entityname.finabodyedge05>
+<entityname.finabodyedge06>フィン ウィング エッジ 6</entityname.finabodyedge06>
+<entityname.finabodyedge07>フィン ウィング エッジ 7</entityname.finabodyedge07>
+<entityname.finabodyedge08>フィン ウィング エッジ 8</entityname.finabodyedge08>
+<entityname.finabodyinside01>フィン ウィング 内部 1</entityname.finabodyinside01>
+<entityname.finabodyinside02>フィン ウィング 内部 2</entityname.finabodyinside02>
+<entityname.finabodyinside03>フィン ウィング 内部 3</entityname.finabodyinside03>
+<entityname.finabodyinside04>フィン ウィング 内部 4</entityname.finabodyinside04>
+<entityname.finabodyinside05>フィン ウィング 内部 5</entityname.finabodyinside05>
+<entityname.finabodyinside06>フィン ウィング 内部 6</entityname.finabodyinside06>
+<entityname.finbodyinside07>フィン ウィング 内部 7</entityname.finbodyinside07>
+<entityname.finabodyinside08>フィン ウィング 内部 8</entityname.finabodyinside08>
+<entityname.finabodyinside11>フィン ウィング 内部 9</entityname.finabodyinside11>
+<entityname.finabodyinside12>フィン ウィング 内部 10</entityname.finabodyinside12>
+<entityname.finabodyinside13>フィン ウィング 内部 11</entityname.finabodyinside13>
+<entityname.finabodyinside14>フィン ウィング 内部 12</entityname.finabodyinside14>
+<entityname.finabodyinside15>フィン ウィング 内部 13</entityname.finabodyinside15>
+<entityname.finabodyinside16>フィン ウィング 内部 14</entityname.finabodyinside16>
+<entityname.finacorner01>フィン ウィング コーナー 1</entityname.finacorner01>
+<entityname.finacorner02>フィン ウィング コーナー 2</entityname.finacorner02>
+<entityname.finacorner03>フィン ウィング コーナー 3</entityname.finacorner03>
+<entityname.finacorner04>フィン ウィング コーナー 4</entityname.finacorner04>
+<entityname.finacorner05>フィン ウィング コーナー 5</entityname.finacorner05>
+<entityname.finacorner06>フィン ウィング コーナー 6</entityname.finacorner06>
+<entityname.finacorner07>フィン ウィング コーナー 7</entityname.finacorner07>
+<entityname.finacorner08>フィン ウィング コーナー 8</entityname.finacorner08>
+<entityname.finacorner09>フィン ウィング コーナー 9</entityname.finacorner09>
+<entityname.finacorner11>フィン ウィング コーナー 10</entityname.finacorner11>
+<entityname.finacorner12>フィン ウィング コーナー 11</entityname.finacorner12>
+<entityname.finacorner13>フィン ウィング コーナー 12</entityname.finacorner13>
+<entityname.finacorner14>フィン ウィング コーナー 13</entityname.finacorner14>
+<entityname.finacorner15>フィン ウィング コーナー 14</entityname.finacorner15>
+<entityname.finadeco01>フィン 装飾 1</entityname.finadeco01>
+<entityname.finadeco02>フィン 装飾 2</entityname.finadeco02>
+<entityname.finadeco03>フィン 装飾 3</entityname.finadeco03>
+<entityname.finadeco04>フィン 装飾 4</entityname.finadeco04>
+<entityname.finadeco05>フィン 装飾 5</entityname.finadeco05>
+<entityname.finadeco06>フィン 装飾 6</entityname.finadeco06>
+<entityname.finadeco07>フィン 装飾 7</entityname.finadeco07>
+<entityname.finadeco08>フィン 装飾 8</entityname.finadeco08>
+<entityname.finadeco09>フィン 装飾 9</entityname.finadeco09>
+<entityname.finadeco10>フィン 装飾 10</entityname.finadeco10>
+<entityname.finawingpart72>フィン 装飾 11</entityname.finawingpart72>
+<entityname.finapatch01>フィン パッチ 1</entityname.finapatch01>
+<entityname.finapatch02>フィン パッチ 2</entityname.finapatch02>
+<entityname.finapatch03>フィン パッチ 3</entityname.finapatch03>
+<entityname.finapatch04>フィン パッチ 4</entityname.finapatch04>
+<entityname.finapatch05>フィン パッチ 5</entityname.finapatch05>
+<entityname.finawingpart01>フィン ウィング G 2</entityname.finawingpart01>
+<entityname.finawingpart02>フィン ウィング G 1</entityname.finawingpart02>
+<entityname.finawingpart03>フィン ウィング E 2</entityname.finawingpart03>
+<entityname.finawingpart04>フィン ウィング E 1</entityname.finawingpart04>
+<entityname.finawingpart05>フィン ウィング D 2</entityname.finawingpart05>
+<entityname.finawingpart06>フィン ウィング D 1</entityname.finawingpart06>
+<entityname.finawingpart07>フィン ウィング F 2</entityname.finawingpart07>
+<entityname.finawingpart08>フィン ウィング F 1</entityname.finawingpart08>
+<entityname.finawingpart09>フィン ウィング カーブ A 1</entityname.finawingpart09>
+<entityname.finawingpart10>フィン ウィング カーブ A 2</entityname.finawingpart10>
+<entityname.finawingpart11>フィン ウィング E 4</entityname.finawingpart11>
+<entityname.finawingpart12>フィン ウィング E 3</entityname.finawingpart12>
+<entityname.finawingpart13>フィン ウィング D 5</entityname.finawingpart13>
+<entityname.finawingpart14>フィン ウィング D 6</entityname.finawingpart14>
+<entityname.finawingpart15>フィン ウィング D 3</entityname.finawingpart15>
+<entityname.finawingpart16>フィン ウィング D 4</entityname.finawingpart16>
+<entityname.finawingpart19>フィン ステッカー 2</entityname.finawingpart19>
+<entityname.finawingpart20>フィン ステッカー 1</entityname.finawingpart20>
+<entityname.finawingpart22>フィン 特殊パーツ 1</entityname.finawingpart22>
+<entityname.finawingpart23>フィン 特殊パーツ 2</entityname.finawingpart23>
+<entityname.finawingpart24>フィン 特殊パーツ 3</entityname.finawingpart24>
+<entityname.finawingpart25>フィン 特殊パーツ 4</entityname.finawingpart25>
+<entityname.finawingpart26>フィン 特殊パーツ 5</entityname.finawingpart26>
+<entityname.finawingpart27>フィン 特殊パーツ 6</entityname.finawingpart27>
+<entityname.finawingpart28>フィン 壁 1</entityname.finawingpart28>
+<entityname.finawingpart29>フィン 壁 2</entityname.finawingpart29>
+<entityname.finawingpart30>フィン 壁 3</entityname.finawingpart30>
+<entityname.finawingpart31>フィン 壁 4</entityname.finawingpart31>
+<entityname.finawingpart32>フィン 壁 5</entityname.finawingpart32>
+<entityname.finawingpart33>フィン 壁 6</entityname.finawingpart33>
+<entityname.finawingpart34>フィン ウィング A 1</entityname.finawingpart34>
+<entityname.finawingpart35>フィン ウィング A 2</entityname.finawingpart35>
+<entityname.finawingpart36>フィン ウィング B 3</entityname.finawingpart36>
+<entityname.finawingpart38>フィン ウィング B 2</entityname.finawingpart38>
+<entityname.finawingpart39>フィン ウィング B 1</entityname.finawingpart39>
+<entityname.finawingpart40>フィン ウィング A 4</entityname.finawingpart40>
+<entityname.finawingpart41>フィン ウィング A 3</entityname.finawingpart41>
+<entityname.finawingpart42>フィン ウィング A 5</entityname.finawingpart42>
+<entityname.finawingpart43>フィン ウィング C 3</entityname.finawingpart43>
+<entityname.finawingpart44>フィン ウィング C 4</entityname.finawingpart44>
+<entityname.finawingpart45>フィン ウィング C 2</entityname.finawingpart45>
+<entityname.finawingpart46>フィン ウィング C 1</entityname.finawingpart46>
+<entityname.finawingpart67>フィン ウィング C 5</entityname.finawingpart67>
+<entityname.finawingpart68>フィン ウィング C 6</entityname.finawingpart68>
+<entityname.finawingpart53>フィン ウィング カーブ B 1</entityname.finawingpart53>
+<entityname.finawingpart54>フィン ウィング カーブ B 2</entityname.finawingpart54>
+<entityname.finawingpart55>フィン ウィング カーブ C 1</entityname.finawingpart55>
+<entityname.finawingpart56>フィン ウィング カーブ C 2</entityname.finawingpart56>
+<entityname.finawingpart17>フィン ウィング パーツ 1</entityname.finawingpart17>
+<entityname.finawingpart18>フィン ウィング パーツ 2</entityname.finawingpart18>
+<entityname.finawingpart21>フィン ウィング パーツ 3</entityname.finawingpart21>
+<entityname.finawingpart37>フィン ウィング パーツ 4</entityname.finawingpart37>
+<entityname.finawingpart47>フィン ウィング パーツ 5</entityname.finawingpart47>
+<entityname.finawingpart48>フィン ウィング パーツ 6</entityname.finawingpart48>
+<entityname.finawingpart49>フィン ウィング パーツ 7</entityname.finawingpart49>
+<entityname.finawingpart50>フィン ウィング パーツ 8</entityname.finawingpart50>
+<entityname.finawingpart52>フィン ウィング パーツ 9</entityname.finawingpart52>
+<entityname.finawingpart57>フィン ウィング パーツ 10</entityname.finawingpart57>
+<entityname.finawingpart58>フィン ウィング パーツ 11</entityname.finawingpart58>
+<entityname.finawingpart59>フィン ウィング パーツ 12</entityname.finawingpart59>
+<entityname.finawingpart60>フィン ウィング パーツ 13</entityname.finawingpart60>
+<entityname.finawingpart61>フィン ウィング パーツ 14</entityname.finawingpart61>
+<entityname.finawingpart62>フィン ウィング パーツ 15</entityname.finawingpart62>
+<entityname.finawingpart63>フィン ウィング パーツ 16</entityname.finawingpart63>
+<entityname.finawingpart64>フィン ウィング パーツ 17</entityname.finawingpart64>
+<entityname.finawingpart65>フィン ウィング パーツ 18</entityname.finawingpart65>
+<entityname.finawingpart66>フィン ウィング パーツ 19</entityname.finawingpart66>
+<entityname.finawingpart69>フィン ウィング パーツ 20</entityname.finawingpart69>
+<entityname.finawingpart70>フィン ウィング パーツ 21</entityname.finawingpart70>
+<entityname.finawingpart71>フィン ウィング パーツ 22</entityname.finawingpart71>
+<entityname.finawingpart73>フィン ウィング パーツ 23</entityname.finawingpart73>
+<entityname.largehorizontalback>大型 水平 背景壁</entityname.largehorizontalback>
+<entityname.smallhorizontalback>小型 水平 背景壁</entityname.smallhorizontalback>
+<entityname.largeverticalback>大型 垂直 背景壁</entityname.largeverticalback>
+<entityname.largeverticalback2>大型 垂直 背景壁 2</entityname.largeverticalback2>
+<entityname.smallverticalback>小型 垂直 背景壁</entityname.smallverticalback>
+<entityname.smallverticalback2>小型 垂直 背景壁 2</entityname.smallverticalback2>
+<entitydescription.decorativestructure>衝突判定のない装飾用構造物。</entitydescription.decorativestructure>
+<entityname.doorlabel>ドア ラベル</entityname.doorlabel>
+<entityname.engineeringlabel>作業室 ラベル</entityname.engineeringlabel>
+<entityname.commandlabel>司令室 ラベル</entityname.commandlabel>
+<entityname.airlocklabel>エアロック ラベル</entityname.airlocklabel>
+<entityname.cabinslabel>船室 ラベル</entityname.cabinslabel>
+<entityname.medicallabel>医務室 ラベル</entityname.medicallabel>
+<entityname.arrowup>矢印 上</entityname.arrowup>
+<entityname.arrowdown>矢印 下</entityname.arrowdown>
+<entityname.arrowleft>矢印 左</entityname.arrowleft>
+<entityname.arrowright>矢印 右</entityname.arrowright>
+<entityname.labelslettera>ラベル 文字 A</entityname.labelslettera>
+<entityname.labelsletterb>ラベル 文字 B</entityname.labelsletterb>
+<entityname.labelsletterc>ラベル 文字 C</entityname.labelsletterc>
+<entityname.labelsletterd>ラベル 文字 D</entityname.labelsletterd>
+<entityname.labelslettere>ラベル 文字 E</entityname.labelslettere>
+<entityname.labelsletterf>ラベル 文字 F</entityname.labelsletterf>
+<entityname.labelsletterg>ラベル 文字 G</entityname.labelsletterg>
+<entityname.labelsletterh>ラベル 文字 H</entityname.labelsletterh>
+<entityname.labelsletteri>ラベル 文字 I</entityname.labelsletteri>
+<entityname.labelsletterj>ラベル 文字 J</entityname.labelsletterj>
+<entityname.labelsletterk>ラベル 文字 K</entityname.labelsletterk>
+<entityname.labelsletterl>ラベル 文字 L</entityname.labelsletterl>
+<entityname.labelsletterm>ラベル 文字 M</entityname.labelsletterm>
+<entityname.labelslettern>ラベル 文字 N</entityname.labelslettern>
+<entityname.labelslettero>ラベル 文字 O</entityname.labelslettero>
+<entityname.labelsletterp>ラベル 文字 P</entityname.labelsletterp>
+<entityname.labelsletterq>ラベル 文字 Q</entityname.labelsletterq>
+<entityname.labelsletterr>ラベル 文字 R</entityname.labelsletterr>
+<entityname.labelsletters>ラベル 文字 S</entityname.labelsletters>
+<entityname.labelslettert>ラベル 文字 T</entityname.labelslettert>
+<entityname.labelsletteru>ラベル 文字 U</entityname.labelsletteru>
+<entityname.labelsletterv>ラベル 文字 V</entityname.labelsletterv>
+<entityname.labelsletterw>ラベル 文字 W</entityname.labelsletterw>
+<entityname.labelsletterx>ラベル 文字 X</entityname.labelsletterx>
+<entityname.labelslettery>ラベル 文字 Y</entityname.labelslettery>
+<entityname.labelsletterz>ラベル 文字 Z</entityname.labelsletterz>
+<entityname.labelsnumber0>ラベル 数字 0</entityname.labelsnumber0>
+<entityname.labelsnumber1>ラベル 数字 1</entityname.labelsnumber1>
+<entityname.labelsnumber2>ラベル 数字 2</entityname.labelsnumber2>
+<entityname.labelsnumber3>ラベル 数字 3</entityname.labelsnumber3>
+<entityname.labelsnumber4>ラベル 数字 4</entityname.labelsnumber4>
+<entityname.labelsnumber5>ラベル 数字 5</entityname.labelsnumber5>
+<entityname.labelsnumber6>ラベル 数字 6</entityname.labelsnumber6>
+<entityname.labelsnumber7>ラベル 数字 7</entityname.labelsnumber7>
+<entityname.labelsnumber8>ラベル 数字 8</entityname.labelsnumber8>
+<entityname.labelsnumber9>ラベル 数字 9</entityname.labelsnumber9>
+<entityname.labelscaptureitlettera>ラベル 文字 A 粗い</entityname.labelscaptureitlettera>
+<entityname.labelscaptureitletterb>ラベル 文字 B 粗い</entityname.labelscaptureitletterb>
+<entityname.labelscaptureitletterc>ラベル 文字 C 粗い</entityname.labelscaptureitletterc>
+<entityname.labelscaptureitletterd>ラベル 文字 D 粗い</entityname.labelscaptureitletterd>
+<entityname.labelscaptureitlettere>ラベル 文字 E 粗い</entityname.labelscaptureitlettere>
+<entityname.labelscaptureitletterf>ラベル 文字 F 粗い</entityname.labelscaptureitletterf>
+<entityname.labelscaptureitletterg>ラベル 文字 G 粗い</entityname.labelscaptureitletterg>
+<entityname.labelscaptureitletterh>ラベル 文字 H 粗い</entityname.labelscaptureitletterh>
+<entityname.labelscaptureitletteri>ラベル 文字 I 粗い</entityname.labelscaptureitletteri>
+<entityname.labelscaptureitletterj>ラベル 文字 J 粗い</entityname.labelscaptureitletterj>
+<entityname.labelscaptureitletterk>ラベル 文字 K 粗い</entityname.labelscaptureitletterk>
+<entityname.labelscaptureitletterl>ラベル 文字 L 粗い</entityname.labelscaptureitletterl>
+<entityname.labelscaptureitletterm>ラベル 文字 M 粗い</entityname.labelscaptureitletterm>
+<entityname.labelscaptureitlettern>ラベル 文字 N 粗い</entityname.labelscaptureitlettern>
+<entityname.labelscaptureitlettero>ラベル 文字 O 粗い</entityname.labelscaptureitlettero>
+<entityname.labelscaptureitletterp>ラベル 文字 P 粗い</entityname.labelscaptureitletterp>
+<entityname.labelscaptureitletterq>ラベル 文字 Q 粗い</entityname.labelscaptureitletterq>
+<entityname.labelscaptureitletterr>ラベル 文字 R 粗い</entityname.labelscaptureitletterr>
+<entityname.labelscaptureitletters>ラベル 文字 S 粗い</entityname.labelscaptureitletters>
+<entityname.labelscaptureitlettert>ラベル 文字 T 粗い</entityname.labelscaptureitlettert>
+<entityname.labelscaptureitletteru>ラベル 文字 U 粗い</entityname.labelscaptureitletteru>
+<entityname.labelscaptureitletterv>ラベル 文字 V 粗い</entityname.labelscaptureitletterv>
+<entityname.labelscaptureitletterw>ラベル 文字 W 粗い</entityname.labelscaptureitletterw>
+<entityname.labelscaptureitletterx>ラベル 文字 X 粗い</entityname.labelscaptureitletterx>
+<entityname.labelscaptureitlettery>ラベル 文字 Y 粗い</entityname.labelscaptureitlettery>
+<entityname.labelscaptureitletterz>ラベル 文字 Z 粗い</entityname.labelscaptureitletterz>
+<entityname.labelscaptureitnumber0>ラベル 数字 0 粗い</entityname.labelscaptureitnumber0>
+<entityname.labelscaptureitnumber1>ラベル 数字 1 粗い</entityname.labelscaptureitnumber1>
+<entityname.labelscaptureitnumber2>ラベル 数字 2 粗い</entityname.labelscaptureitnumber2>
+<entityname.labelscaptureitnumber3>ラベル 数字 3 粗い</entityname.labelscaptureitnumber3>
+<entityname.labelscaptureitnumber4>ラベル 数字 4 粗い</entityname.labelscaptureitnumber4>
+<entityname.labelscaptureitnumber5>ラベル 数字 5 粗い</entityname.labelscaptureitnumber5>
+<entityname.labelscaptureitnumber6>ラベル 数字 6 粗い</entityname.labelscaptureitnumber6>
+<entityname.labelscaptureitnumber7>ラベル 数字 7 粗い</entityname.labelscaptureitnumber7>
+<entityname.labelscaptureitnumber8>ラベル 数字 8 粗い</entityname.labelscaptureitnumber8>
+<entityname.labelscaptureitnumber9>ラベル 数字 9 粗い</entityname.labelscaptureitnumber9>
+<entityname.labelsiconairlock>ラベル アイコン エアロック</entityname.labelsiconairlock>
+<entityname.labelsiconballast>ラベル アイコン バラスト</entityname.labelsiconballast>
+<entityname.labelsiconcargo>ラベル アイコン 貨物</entityname.labelsiconcargo>
+<entityname.labelsicondiving>ラベル アイコン 潜水</entityname.labelsicondiving>
+<entityname.labelsicondocking>ラベル アイコン ドッキング</entityname.labelsicondocking>
+<entityname.labelsiconelectricity>ラベル アイコン 電気</entityname.labelsiconelectricity>
+<entityname.labelsiconengine>ラベル アイコン 機関</entityname.labelsiconengine>
+<entityname.labelsiconengineering>ラベル アイコン 技術</entityname.labelsiconengineering>
+<entityname.labelsiconexit>ラベル アイコン 出口</entityname.labelsiconexit>
+<entityname.labelsiconmedical>ラベル アイコン 医療</entityname.labelsiconmedical>
+<entityname.labelsiconreactor>ラベル アイコン 原子炉</entityname.labelsiconreactor>
+<entityname.labelsiconsecurity>ラベル アイコン 警備</entityname.labelsiconsecurity>
+<entityname.labelsiconsteering>ラベル アイコン 操舵</entityname.labelsiconsteering>
+<entityname.labelsiconweapons>ラベル アイコン 武器</entityname.labelsiconweapons>
+<entityname.labelsarroverticala>ラベル 矢印 垂直 A</entityname.labelsarroverticala>
+<entityname.labelsarroverticalb>ラベル 矢印 垂直 B</entityname.labelsarroverticalb>
+<entityname.labelsarrowdiagonala>ラベル 矢印 斜め A</entityname.labelsarrowdiagonala>
+<entityname.labelsarrowdiagonalb>ラベル 矢印 斜め B</entityname.labelsarrowdiagonalb>
+<entityname.labelsarrowhorizontala>ラベル 矢印 水平 A</entityname.labelsarrowhorizontala>
+<entityname.labelsarrowhorizontalb>ラベル 矢印 水平 B</entityname.labelsarrowhorizontalb>
+<entityname.decorativelabel>装飾用のラベル。</entityname.decorativelabel>
+<entityname.cableholderhorizontal>ケーブル ホルダー 水平</entityname.cableholderhorizontal>
+<entityname.cableholdervertical>ケーブル ホルダー 垂直</entityname.cableholdervertical>
+<entitydescription.cableholder>電線をきれいに収納できる装飾用ストリップ。</entitydescription.cableholder>
+<entityname.topwindow>窓 上部</entityname.topwindow>
+<entityname.verticalwindow>窓 垂直</entityname.verticalwindow>
+<entityname.largeplatform>プラットフォーム 大型</entityname.largeplatform>
+<entityname.platform>プラットフォーム 基本</entityname.platform>
+<entitydescription.platform>キャラクターが必要に応じて登ったり降りたりできる歩行可能なプラットフォーム。</entitydescription.platform>
+<entityname.slopeforward>スロープ 前方</entityname.slopeforward>
+<entityname.slopeback>スロープ 後方</entityname.slopeback>
+<entitydescription.decorativepiece>装飾用の付属品。</entitydescription.decorativepiece>
+<entityname.stairs>階段</entityname.stairs>
+<entityname.stairsshort>階段 短い</entityname.stairsshort>
+<entityname.stairslong>階段 長い</entityname.stairslong>
+<entityname.ruinwallhorizontal>遺跡 壁 水平</entityname.ruinwallhorizontal>
+<entityname.ruinwallvertical>遺跡 壁 垂直</entityname.ruinwallvertical>
+<entityname.ruinwallheavyhorizontal>遺跡 壁 厚い 水平</entityname.ruinwallheavyhorizontal>
+<entityname.ruinwallheavyvertical>遺跡 壁 厚い 垂直</entityname.ruinwallheavyvertical>
+<entityname.ruinwallhorizontalsmall>遺跡 壁 小型 水平</entityname.ruinwallhorizontalsmall>
+<entityname.ruinwallverticalsmall>遺跡 壁 小型 垂直</entityname.ruinwallverticalsmall>
+<entityname.ruinback>遺跡 背景壁 基本</entityname.ruinback>
+<entityname.ruinprop>遺跡 支柱</entityname.ruinprop>
+<entityname.bunk>寝台</entityname.bunk>
+<entityname.opdeco_weaponstoragesuit1>衣装 展示ケース</entityname.opdeco_weaponstoragesuit1>
+<entityname.op_weaponstoragesmall>小型 武器 展示ケース</entityname.op_weaponstoragesmall>
+<entityname.op_weaponstoragemedium>中型 武器 展示ケース</entityname.op_weaponstoragemedium>
+<entityname.op_weaponstoragelarge>大型 武器 展示ケース</entityname.op_weaponstoragelarge>
+<entityname.opdeco_storageitemshelf>アイテム 展示 棚</entityname.opdeco_storageitemshelf>
+<entityname.opdeco_storagemineralshelf>鉱物 展示 棚</entityname.opdeco_storagemineralshelf>
+<entityname.opdeco_storageweaponshelf>武器 展示 棚</entityname.opdeco_storageweaponshelf>
+<entityname.opdeco_storageseedshelf>種子 展示 棚</entityname.opdeco_storageseedshelf>
+<entityname.opdeco_storagefrozenseedshelf>冷凍種子 展示 棚</entityname.opdeco_storagefrozenseedshelf>
+<entityname.opdeco_diningtable>ダイニングテーブル</entityname.opdeco_diningtable>
+<entityname.opdeco_boxes1>箱</entityname.opdeco_boxes1>
+<entityname.opdeco_bunks1>寝台</entityname.opdeco_bunks1>
+<entityname.opdeco_researchdecal1>実験室 ステッカー</entityname.opdeco_researchdecal1>
+<entityname.opdeco_hrwindow1>事務室 窓</entityname.opdeco_hrwindow1>
+<entityname.opdeco_hrwindow2>大型 事務室 窓</entityname.opdeco_hrwindow2>
+<entityname.opdeco_hrwindowblinds>事務室 窓 ブラインド</entityname.opdeco_hrwindowblinds>
+<entityname.opdeco_hrblinds>大型 事務室 窓 ブラインド</entityname.opdeco_hrblinds>
+<entityname.opdeco_hrglassoffice>事務室 ドア</entityname.opdeco_hrglassoffice>
+<entityname.opdeco_hrticketdispenser>券売機</entityname.opdeco_hrticketdispenser>
+<entityname.opdeco_hrnewspaperrack>新聞ラック</entityname.opdeco_hrnewspaperrack>
+<entityname.opdeco_hrcalendar>カレンダー</entityname.opdeco_hrcalendar>
+<entityname.opdeco_hrsign>標識背景</entityname.opdeco_hrsign>
+<entityname.opdeco_hrheater>ラジエーター</entityname.opdeco_hrheater>
+<entityname.opdeco_hrelectricpanel>掲示板</entityname.opdeco_hrelectricpanel>
+<entityname.opdeco_hrbench>ベンチ</entityname.opdeco_hrbench>
+<entityname.opdeco_hrflyers>フライヤー</entityname.opdeco_hrflyers>
+<entityname.opdeco_officeshelf1>事務室 棚</entityname.opdeco_officeshelf1>
+<entityname.opdeco_officedesk1>事務室 デスク</entityname.opdeco_officedesk1>
+<entityname.opdeco_officedisplay1>装飾 トロフィー</entityname.opdeco_officedisplay1>
+<entityname.opdeco_computer>コンピューター端末</entityname.opdeco_computer>
+<entityname.opdeco_shelfsmall>小型 棚</entityname.opdeco_shelfsmall>
+<entityname.opdeco_shelfmedium>中型 棚</entityname.opdeco_shelfmedium>
+<entityname.opdeco_shelflarge>大型 棚</entityname.opdeco_shelflarge>
+<entityname.opdeco_rollupdoor>シャッター</entityname.opdeco_rollupdoor>
+<entityname.opdeco_rollupdoorframe>シャッター 骨格</entityname.opdeco_rollupdoorframe>
+<entityname.opdeco_subblueprint1>潜水艦 設計図</entityname.opdeco_subblueprint1>
+<entityname.opdeco_toolrack1>工具ラック</entityname.opdeco_toolrack1>
+<entityname.opdeco_ladder>脚立</entityname.opdeco_ladder>
+<entityname.opdeco_shelf>展示棚</entityname.opdeco_shelf>
+<entityname.opdeco_desk>レジのデスク</entityname.opdeco_desk>
+<entityname.opdeco_oxygentanks>酸素ボンベ</entityname.opdeco_oxygentanks>
+<entityname.opdeco_crane>採鉱 クレーン</entityname.opdeco_crane>
+<entityname.opdeco_trolley1>採鉱 手押し車 1</entityname.opdeco_trolley1>
+<entityname.opdeco_trolley2>採鉱 手押し車 2</entityname.opdeco_trolley2>
+<entityname.opdeco_debris1>採鉱 残骸 1</entityname.opdeco_debris1>
+<entityname.opdeco_debris2>採鉱 残骸 2</entityname.opdeco_debris2>
+<entityname.opdeco_debris3>採鉱 残骸 3</entityname.opdeco_debris3>
+<entityname.opdeco_construction_sign>工事中 標識</entityname.opdeco_construction_sign>
+<entityname.opdeco_box1>箱 1</entityname.opdeco_box1>
+<entityname.opdeco_box2>箱 2</entityname.opdeco_box2>
+<entityname.opdeco_box3>箱 3</entityname.opdeco_box3>
+<entityname.opdeco_box4>箱 4</entityname.opdeco_box4>
+<entityname.opdeco_box5>箱 5</entityname.opdeco_box5>
+<entityname.heavydoor>重厚 ドア</entityname.heavydoor>
+<entityname.opdeco_door>背景 ドア</entityname.opdeco_door>
+<entitydescription.decodoor>装飾用のドア。</entitydescription.decodoor>
+<entityname.opdeco_door>施錠中 ドア</entityname.opdeco_door>
+<entityname.opdeco_towelrack>タオルラック</entityname.opdeco_towelrack>
+<entityname.concretewall>コンクリート 壁</entityname.concretewall>
+<entityname.opdeco_wheelchair1>車椅子</entityname.opdeco_wheelchair1>
+<entityname.opdeco_adposter>広告</entityname.opdeco_adposter>
+<entityname.windowglass>窓 ガラス</entityname.windowglass>
+<entityname.windowframe>窓 枠</entityname.windowframe>
+<entityname.op_cafeteriawindow>食堂 カウンター</entityname.op_cafeteriawindow>
+<entityname.op_gardendistiller>蒸留器</entityname.op_gardendistiller>
+<entityname.op_cafeteriabench>食堂 ベンチ</entityname.op_cafeteriabench>
+<entityname.op_cafeteriatable>食堂 テーブル</entityname.op_cafeteriatable>
+<entityname.op_cafeteriachair>食堂 椅子</entityname.op_cafeteriachair>
+<entityname.op_cafeteriaposter>食堂 ポスター</entityname.op_cafeteriaposter>
+<entityname.op_cafeteriacart>食堂 カート</entityname.op_cafeteriacart>
+<entityname.op_gardenproducebox>木箱</entityname.op_gardenproducebox>
+<entityname.op_gardenbags>土のう</entityname.op_gardenbags>
+<entityname.op_gardenposter>ガーデンポスター</entityname.op_gardenposter>
+<entityname.table>テーブル</entityname.table>
+<entityname.Target>ターゲット</entityname.Target>
+<entityname.sign>看板</entityname.sign>
+<entityname.op_freezer>冷蔵庫</entityname.op_freezer>
+<entityname.op_clothesrack>衣類ラック</entityname.op_clothesrack>
+<entityname.op_metalchair>鉄製 椅子</entityname.op_metalchair>
+<entityname.op_washingmachine>洗濯機</entityname.op_washingmachine>
+<entityname.op_smallcouch>肘掛け椅子</entityname.op_smallcouch>
+<entityname.op_janitorcart>清掃員カート</entityname.op_janitorcart>
+<entityname.op_towellocker>タオルロッカー</entityname.op_towellocker>
+<entityname.op_inkpainting>水墨画</entityname.op_inkpainting>
+<entityname.op_banner>吊り下げバナー</entityname.op_banner>
+<entityname.op_boxcart>金属カート</entityname.op_boxcart>
+<entityname.op_sworddisplay>刀掛け台</entityname.op_sworddisplay>
+<entityname.op_statue>彫像</entityname.op_statue>
+<entityname.op_raptorhead>ラプターの頭部剥製</entityname.op_raptorhead>
+<entityname.op_shower>シャワーセット</entityname.op_shower>
+<entityname.op_painting1>額縁入りの絵</entityname.op_painting1>
+<entityname.op_wetsign>清掃中の標識</entityname.op_wetsign>
+<entityname.FF_Wall_I1>前哨基地 壁 1</entityname.FF_Wall_I1>
+<entityname.FF_Wall_I2>前哨基地 壁 2</entityname.FF_Wall_I2>
+<entityname.FF_Wall_I3>前哨基地 壁 3</entityname.FF_Wall_I3>
+<entityname.opbg_generic1>汎用 前哨基地 壁 1</entityname.opbg_generic1>
+<entityname.opbg_generic2>汎用 前哨基地 壁 2</entityname.opbg_generic2>
+<entityname.opbg_generic3>汎用 前哨基地 壁 3</entityname.opbg_generic3>
+<entityname.opbg_generic4>汎用 前哨基地 壁 4</entityname.opbg_generic4>
+<entityname.opbg_generic5>汎用 前哨基地 壁 5</entityname.opbg_generic5>
+<entityname.opbg_generic6>汎用 前哨基地 壁 6</entityname.opbg_generic6>
+<entityname.opbg_generic7>汎用 前哨基地 壁 7</entityname.opbg_generic7>
+<entityname.opbg_airlock1>前哨基地 エアロック 壁</entityname.opbg_airlock1>
+<entityname.opbgshopa1>前哨基地 商店 壁 1</entityname.opbgshopa1>
+<entityname.opbg_shop2>前哨基地 商店 壁 2</entityname.opbg_shop2>
+<entityname.opbg_shop3>前哨基地 商店 壁 3</entityname.opbg_shop3>
+<entityname.opbg_shop4>前哨基地 商店 壁 4</entityname.opbg_shop4>
+<entityname.opbgsocialcentera1>前哨基地 交流センター 壁</entityname.opbgsocialcentera1>
+<entityname.opbg_barracks1>前哨基地 兵舎 背景 1</entityname.opbg_barracks1>
+<entityname.opbg_barracks2>前哨基地 兵舎 背景 2</entityname.opbg_barracks2>
+<entityname.opbg_barracks3>前哨基地 兵舎 背景 3</entityname.opbg_barracks3>
+<entityname.opbg_services1>前哨基地 施設 背景 1</entityname.opbg_services1>
+<entityname.opbg_services2>前哨基地 施設 背景 2</entityname.opbg_services2>
+<entityname.opbgmaintenancebaya1>前哨基地 修理場 背景 1</entityname.opbgmaintenancebaya1>
+<entityname.opbgmaintenancebaya2>前哨基地 修理場 背景 2</entityname.opbgmaintenancebaya2>
+<entityname.opbgmaintenancebaya3>前哨基地 修理場 背景 3</entityname.opbgmaintenancebaya3>
+<entityname.opbg_researchlab1>前哨基地 研究所 背景 1</entityname.opbg_researchlab1>
+<entityname.opbg_researchlab2>前哨基地 研究所 背景 2</entityname.opbg_researchlab2>
+<entityname.opbg_tunnel1>前哨基地 トンネル 背景 1</entityname.opbg_tunnel1>
+<entityname.opbg_tunnel2>前哨基地 トンネル 背景 2</entityname.opbg_tunnel2>
+<entityname.opbg_tunnel4>前哨基地 トンネル 背景 3</entityname.opbg_tunnel4>
+<entityname.opbg_tunnel5>前哨基地 トンネル 背景 4</entityname.opbg_tunnel5>
+<entityname.opbg_tunnel6>前哨基地 トンネル 背景 5</entityname.opbg_tunnel6>
+<entityname.opbg_manageroffice1>前哨基地 所長室 背景 1</entityname.opbg_manageroffice1>
+<entityname.opbg_manageroffice2>前哨基地 所長室 背景 2</entityname.opbg_manageroffice2>
+<entityname.opbg_manageroffice3>前哨基地 所長室 背景 3</entityname.opbg_manageroffice3>
+<entityname.opbg_dorm1>前哨基地 寮 背景</entityname.opbg_dorm1>
+<entityname.opbg_messhall1>前哨基地 食堂 背景</entityname.opbg_messhall1>
+<entityname.opdeco_nuclearsign>核 標識</entityname.opdeco_nuclearsign>
+<entityname.opdeco_instructionsign>指示 標識</entityname.opdeco_instructionsign>
+<entityname.opdeco_propagandaposter>宣伝バナー</entityname.opdeco_propagandaposter>
+<entityname.crackedwall1>ひび割れ 壁 ステッカー</entityname.crackedwall1>
+<entityname.graffiti1>落書き</entityname.graffiti1>
+<entityname.icewall>トンネル 氷壁</entityname.icewall>
+<entityname.icewallcracked>トンネル 氷壁 ひび割れ</entityname.icewallcracked>
+<entityname.icewall90>トンネル 氷壁 垂直</entityname.icewall90>
+<entityname.icewallcracked90>トンネル 氷壁 ひび割れ  垂直</entityname.icewallcracked90>
+<entityname.icerock01>トンネル 氷岩 1</entityname.icerock01>
+<entityname.icerock02>トンネル 氷岩 2</entityname.icerock02>
+<entityname.icerock03>トンネル 氷岩 3</entityname.icerock03>
+<entityname.icerock04>トンネル 氷岩 4</entityname.icerock04>
+<entityname.thalamus_background_2>サラマス 背景 2</entityname.thalamus_background_2>
+<entityname.thalamus_background_3>サラマス 背景 3</entityname.thalamus_background_3>
+<entityname.thalamus_background_4>サラマス 背景 4</entityname.thalamus_background_4>
+<entityname.medbaywall1>医務室 壁 1</entityname.medbaywall1>
+<entityname.opdeco_medrack>医療ラック</entityname.opdeco_medrack>
+<entityname.opdeco_hospitalbed>病院用ベッド</entityname.opdeco_hospitalbed>
+<entityname.opdeco_diningtablesmall>小型 ダイニングテーブル</entityname.opdeco_diningtablesmall>
+<entityname.opdeco_liftingequpiment>昇降設備</entityname.opdeco_liftingequpiment>
+<entityname.opdeco_construction_barrier>工事用バリケード</entityname.opdeco_construction_barrier>
+<entityname.opdeco_supportbeam>支持梁</entityname.opdeco_supportbeam>
+<entityname.opdeco_icecube>氷 キューブ</entityname.opdeco_icecube>
+<entityname.opdeco_icepillar>氷 柱</entityname.opdeco_icepillar>
+<entityname.opdeco_monitor>モニター</entityname.opdeco_monitor>
+<entityname.decowire1>装飾 電線</entityname.decowire1>
+<entityname.decopanel1>装飾 パネル</entityname.decopanel1>
+<entityname.decocolumn1>装飾 柱</entityname.decocolumn1>
+<entityname.decobarrier1>防護壁</entityname.decobarrier1>
+<entityname.opbg_jail>白い壁 監獄</entityname.opbg_jail>
+<entityname.opbg_rock>岩 背景</entityname.opbg_rock>
+<entityname.opdeco_prisonbed>監獄 ベッド</entityname.opdeco_prisonbed>
+<entityname.shop_decoration>店の装飾</entityname.shop_decoration>
+<entityname.op_circusposter.png>ポスター</entityname.op_circusposter.png>
+<entityname.op_plaque.png>飾り額</entityname.op_plaque.png>
+<entityname.wreckdecal>残骸 ステッカー</entityname.wreckdecal>
+<entityname.engineerequipment>技士 備品</entityname.engineerequipment>
+<entityname.Jaildoor>独房 ドア</entityname.Jaildoor>
+<entityname.shelf>棚</entityname.shelf>
+
+</infotexts>

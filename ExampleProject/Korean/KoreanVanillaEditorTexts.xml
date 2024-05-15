@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Korean" nowhitespace="true" translatedname="한국어">
+
+<!-- Generic -->
+<editor.saveall>전체 저장</editor.saveall>
+
+<!-- Submarine editor -->
+<items>아이템</items>
+<structures>건물</structures>
+<totalhullvolume>함체 총 용적</totalhullvolume>
+<selectedhullvolume>선택된 함체 용적</selectedhullvolume>
+<optimalballastlevel>최적의 중성 밸러스트의 수준 [value]</optimalballastlevel>
+<saveitemassembly>아이템 어셈블리로 저장</saveitemassembly>
+<insufficientballast>부력 제어를 위한 용적 부족</insufficientballast>
+<physicsbodies>물리 몸체</physicsbodies>
+<opensubbutton>열기</opensubbutton>
+<savesubbutton>저장하기</savesubbutton>
+<addsubbutton>잠수함 추가</addsubbutton>
+<addsubtooltip>다른 잠수함을 현재 잠수함 파일에 배치합니다. 소형 잠수정, 탈출용 포드나 분리 가능한 부분을 주 잠수함에 추가하는 데 사용할 수 있습니다.</addsubtooltip>
+<holdtolink>스페이스 바를 누른 상태로 클릭하면 다른 아이템과 연결할 수 있습니다.</holdtolink>
+<allowedlinks>허용된 연결</allowedlinks>
+<filtermapentities>필터</filtermapentities>
+<charactermodebutton>캐릭터 모드</charactermodebutton>
+<charactermodetooltip>아이템을 선택해 사용할 수 있습니다. 옷장 안에 물건을 넣거나, 장치를 켜고/끄고, 배선 작업을 하는 데 유용합니다.</charactermodetooltip>
+<wiringmodebutton>배선 모드</wiringmodebutton>
+<wiringmodetooltip>아이템 간에 배선을 연결할 수 있습니다.</wiringmodetooltip>
+<generatewaypointsbutton>웨이포인트 생성</generatewaypointsbutton>
+<generatewaypointstooltip>AI가 조종하는 승조원들은 잠수함 내부를 이동하기 위해 웨이포인트가 필요합니다.</generatewaypointstooltip>
+<showentitieslabel>보기</showentitieslabel>
+<showwalls>벽</showwalls>
+<showstructures>시설</showstructures>
+<showitems>아이템</showitems>
+<showlighting>조명</showlighting>
+<showwaypoints>웨이포인트</showwaypoints>
+<showspawnpoints>스폰포인트</showspawnpoints>
+<showlinks>연결</showlinks>
+<showhulls>함체</showhulls>
+<showgaps>유격</showgaps>
+<previouslyusedlabel>이전에 사용함</previouslyusedlabel>
+<subnamemissingwarning>저장하기 전에 잠수함의 이름을 입력해야 합니다.</subnamemissingwarning>
+<subnameillegalcharswarning>파일 이름에 잘못된 기호가 있습니다. ([illegalchar])</subnameillegalcharswarning>
+<subsavednotification>잠수함이 [filepath]에 저장되었습니다.</subsavednotification>
+<savesubdialogheader>잠수함 저장</savesubdialogheader>
+<savesubdialogname>이름</savesubdialogname>
+<savesubdialogdescription>설명</savesubdialogdescription>
+<savesubdialogsettings>설정</savesubdialogsettings>
+<saveitemassemblydialogheader>부속 저장</saveitemassemblydialogheader>
+<saveitemassemblyhideinmenus>메뉴에서 숨기기</saveitemassemblyhideinmenus>
+<saveitemassemblydialogname>이름</saveitemassemblydialogname>
+<saveitemassemblydialogdescription>설명</saveitemassemblydialogdescription>
+<itemassemblynamemissingwarning>아이템 어셈블리를 저장하기 전에 이름을 입력하세요.</itemassemblynamemissingwarning>
+<itemassemblyfileexistswarning>동일한 이름을 가진 아이템의 어셈블리가 이미 존재합니다. 기존 어셈블리를 교체하시겠습니까?</itemassemblyfileexistswarning>
+<itemassemblynameillegalcharswarning>파일 이름에 잘못된 기호가 있습니다. ([illegalchar])</itemassemblynameillegalcharswarning>
+<nohullswarning>잠수함에 함체가 없습니다. 함체는 개별 격실의 '경계'를 결정하며, 물과 공기의 분포가 올바르게 이루어지기 위해 필요합니다.</nohullswarning>
+<disconnectedventswarning>잠수함에 산소 발생기와 연결되지 않은 환풍기 배관이 있습니다. 환풍기 배관을 클릭하고 산소 발생기와 연결하세요.</disconnectedventswarning>
+<disconnectedturretswarning>잠수함에 탄약 적재기와 연결되지 않은 [itemname]이(가) 포함되어 있습니다. 아이템을 선택하고 탄약 적재기를 클릭해 연결하세요.</disconnectedturretswarning>
+<nowaypointswarning>잠수함에 웨이포인트가 없습니다. AI가 조종하는 승조원들은 웨이포인트가 없이는 기능하지 않을 것입니다.</nowaypointswarning>
+<nocargospawnpointwarning>잠수함 화물실에 스폰포인트가 없습니다. (해당 스폰포인트는 물건을 구매했을 때 아이템이 배치되는 장소입니다.) 해결하려면 새 스폰포인트를 생성하고 스폰 타입 파라미터를 "화물실"로 변경하세요.</nocargospawnpointwarning>
+<farawayentitieswarning>하나 이상의 구조물/아이템이 잠수함으로부터 매우 멀리 배치되었습니다. 해당 항목으로 카메라를 옮길까요?</farawayentitieswarning>
+<adjustlightsprompt>이 잠수함은 빛 계산에 다른 공식이 적용된 구 버전 바로트라우마에서 저장되었습니다. 잠수함의 조명이 너무 밝게 보일 수도 있습니다. 새 버전에 맞게 조명을 자동으로 조정하시겠습니까?</adjustlightsprompt>
+<adjustedlightsnotification>조명의 밝기가 조정되었습니다. 광원이 여러 개 존재하는 구역은 여전히 밝아보일 수도 있습니다. 이 경우 조명의 범위나 밝기를 수동으로 조절하십시오. 콘솔 명령에서 "multiplylights"을 이용해 밝기를 한 번에 조정할 수도 있습니다. 예시: "multiplylights 1,1,1,0.5"는 밝기를 50% 감소시킵니다.</adjustedlightsnotification>
+<noballasttagswarning>밸러스트 펌프에 "밸러스트" 태그를 추가해 AI 캐릭터가 잠수함의 부력을 제어하는 데 사용되는 펌프를 식별할 수 있도록 해야 합니다.</noballasttagswarning>
+<insufficientfreeconnectionswarning>모듈에 배전반과 연결된 [doorcount]개의 문이 존재합니다. 하지만 이 배전반의 수로는 [freeconnectioncount]개의 문만 전선으로 연결할 수 있습니다. 이로 인해 전초기지에 전원이 제대로 공급되지 않을 수도 있습니다.</insufficientfreeconnectionswarning>
+<nohullnameswarning>함체에 지정된 이름이 없어서 자동 생성된 이름을 사용합니다. 캐릭터들은 함체 파손과 같은 사건 보고시 지정된 격실명을 사용합니다.</nohullnameswarning>
+<deletingcontainerwithitems>아이템이 들어있는 보관함이 삭제되었습니다. 포함된 아이템도 삭제하시겠습니까? \n\n포함된 아이템:\n\n</deletingcontainerwithitems>
+<hideinmenus>메뉴에서 숨기기</hideinmenus>
+<manuallyoutfitted>보급품 수동 추가</manuallyoutfitted>
+<manuallyoutfittedtooltip>게임 시작시 잠수함은 수동으로 적재된 보급품을 가지고 있습니까? 아니면 플레이어와 함께 자동으로 배치되는 보급품을 가지고 있습니까?</manuallyoutfittedtooltip>
+<unspecifiedsubfilename>이름없음</unspecifiedsubfilename>
+<reloadsprite>스프라이트 다시 불러오기</reloadsprite>
+<resettoprefab>초기 상태로 재설정</resettoprefab>
+<mirrorentityx>X축 미러</mirrorentityx>
+<mirrorentityxtooltip>개체를 수평으로 반전합니다. Ctrl + N으로 사용할 수도 있습니다.</mirrorentityxtooltip>
+<mirrorentityy>Y축 미러</mirrorentityy>
+<mirrorentityytooltip>개체를 수직으로 반전합니다. Ctrl + M으로 사용할 수도 있습니다.</mirrorentityytooltip>
+<nonlinkedgapswarning>잠수함이 함체와 연결되지 않은 유격을 포함하고 있습니다. 유격은 항상 하나 이상의 함체(잠수함의 외부로 이어지는 유격의 경우) 혹은 두 개의 함체(격실 사이 유격의 경우)와 겹쳐있어야 합니다.</nonlinkedgapswarning>
+<cannoteditvanillasubs>기본 콘텐츠 패키지에 포함된 잠수함은 편집할 수 없습니다!</cannoteditvanillasubs>
+<subeditor.structurecountwarning>잠수함에 구조물이 너무 많아 성능상의 문제가 생길 수 있습니다. 구조물의 수를 줄이는 것을 고려해보십시오.</subeditor.structurecountwarning>
+<subeditor.structurecounterror>잠수함에 구조물이 너무 많아 (>[max]) 성능상의 문제가 발생할 수 있습니다. 구조물의 수를 줄여주십시오.</subeditor.structurecounterror>
+<subeditor.wallcountwarning>잠수함에 충돌 판정이 있는 벽이 너무 많아 성능상의 문제가 발생할 수 있습니다. 벽의 수를 줄이는 것을 고려해보십시오.</subeditor.wallcountwarning>
+<subeditor.wallcounterror>잠수함에 충돌 판정이 있는 벽이 너무 많아 (>[max]) 성능상에 문제가 발생할 수 있습니다. 벽의 수를 줄여주십시오.</subeditor.wallcounterror>
+<subeditor.itemcountwarning>잠수함에 아이템이 너무 많아 성능상의 문제가 발생할 수 있습니다. 아이템의 수를 줄이는 것을 고려해보십시오.</subeditor.itemcountwarning>
+<subeditor.itemcounterror>잠수함에 아이템이 너무 많아 (>[max]) 성능상의 문제가 발생할 수 있습니다. 아이템의 수를 줄여주십시오.</subeditor.itemcounterror>
+<subeditor.lightcountwarning>잠수함에 광원이 너무 많아 성능상의 문제가 발생할 수 있습니다. 광원의 수를 줄이는 것을 고려해보십시오.</subeditor.lightcountwarning>
+<subeditor.lightcounterror>잠수함에 광원이 너무 많아 (>[max]) 성능상의 문제가 발생할 수 있습니다. 광원의 수를 줄여주십시오.</subeditor.lightcounterror>
+<subeditor.shadowcastinglightcounterror>잠수함에 그림자를 만드는 조명의 수가 너무 많아 (>[max]) 성능상의 문제가 발생할 수 있습니다. 조명의 수를 줄이거나, 일부 조명에서 그림자 생성을 비활성화하십시오.</subeditor.shadowcastinglightcounterror>
+<canattachtoprevious>이전 항목에 붙일 수 있음</canattachtoprevious>
+<canattachtoprevious.tooltip>이 모듈의 한 면을 이전에 배치됐던 모듈에 부착할 수 있습니까? 예를 들어, 모듈을 도킹 모듈의 왼쪽에 도킹하도록 하려면 오른쪽으로 설정하십시오.</canattachtoprevious.tooltip>
+<subeditor.packagealreadyexists>"[name]" 이라는 콘텐츠 패키지가 이미 존재합니다. 다른 이름을 선택하거나 목록에서 편집할 콘텐츠 패키지를 선택하십시오.</subeditor.packagealreadyexists>
+<subeditor.duplicatesubinpackage>콘텐츠 패키지에 같은 이름을 가진 잠수함이 이미 포함되어 있습니다. 기존 잠수함 파일을 덮어씌우시겠습니까?</subeditor.duplicatesubinpackage>
+<stringpropertytranslate>이 텍스트는 [translation]으로 번역될 것입니다.</stringpropertytranslate>
+<stringpropertycannottranslate>이 텍스트는 번역되지 않습니다. [tag] 태그가 있는 텍스트를 언어 파일에서 찾을 수 없습니다.</stringpropertycannottranslate>
+<subeditorlights>조명</subeditorlights>
+<subeditorshadowcastinglights>그림자를 만드는 조명의 수</subeditorshadowcastinglights>
+
+<!-- Submarine editor -->
+<charactereditor.creatingnewjoint>새 관절 생성</charactereditor.creatingnewjoint>
+<charactereditor.selectanchor1pos>관절의 앵커 위치를 선택하십시오.</charactereditor.selectanchor1pos>
+<charactereditor.selectlimbtoconnect>관절과 연결할 다른 마디 선택하십시오.</charactereditor.selectlimbtoconnect>
+<charactereditor.frozen>고정</charactereditor.frozen>
+<charactereditor.spriteorientation>스프라이트 방향</charactereditor.spriteorientation>
+<charactereditor.spritesheetorientation>스프라이트 시트 방향</charactereditor.spritesheetorientation>
+<charactereditor.cantaddjointsnolimbelements>마디를 찾을 수 없어 관절을 추가할 수 없습니다!</charactereditor.cantaddjointsnolimbelements>
+<charactereditor.humanoidlimbdeletiondisabled>휴머노이드에서 마디를 삭제하는 것은 충돌을 방지하기 위해 기능하지 않습니다.</charactereditor.humanoidlimbdeletiondisabled>
+<charactereditor.tryingtospawncharacter>[config]를 생성하는 중</charactereditor.tryingtospawncharacter>
+<charactereditor.nocontentpackageselected>선택된 콘텐츠 패키지가 없습니다!</charactereditor.nocontentpackageselected>
+<charactereditor.contentpackagesaved>콘텐츠 패키지가 [path]에 저장되었습니다.</charactereditor.contentpackagesaved>
+<charactereditor.backgroundcolor>배경색</charactereditor.backgroundcolor>
+<charactereditor.spritesheetzoom>스프라이트 시트 확대</charactereditor.spritesheetzoom>
+<charactereditor.reset>초기화</charactereditor.reset>
+<charactereditor.hidebodysprites>몸 스프라이트 숨기기</charactereditor.hidebodysprites>
+<charactereditor.showwearables>장착품 표시</charactereditor.showwearables>
+<charactereditor.lockspriteorigin>스프라이트 오리진 잠금</charactereditor.lockspriteorigin>
+<charactereditor.lockspriteposition>스프라이트 위치 잠금</charactereditor.lockspriteposition>
+<charactereditor.lockspritesize>스프라이트 크기 잠금</charactereditor.lockspritesize>
+<charactereditor.adjustcollider>충돌반경 조절</charactereditor.adjustcollider>
+<charactereditor.uniformscale>의상 비율</charactereditor.uniformscale>
+<charactereditor.copyjointsettings>관절 설정 복사</charactereditor.copyjointsettings>
+<charactereditor.copyjointsettingstooltip>현재 조정한 설정을 모든 관절에 복사합니다.</charactereditor.copyjointsettingstooltip>
+<charactereditor.jointscale>관절 비율</charactereditor.jointscale>
+<charactereditor.limbscale>마디 비율</charactereditor.limbscale>
+<charactereditor.selectedanimation>선택된 애니메이션</charactereditor.selectedanimation>
+<charactereditor.previouscharacter>이전</charactereditor.previouscharacter>
+<charactereditor.nextcharacter>다음</charactereditor.nextcharacter>
+<charactereditor.showparameters>파라미터 [F1]</charactereditor.showparameters>
+<charactereditor.showspritesheet>스프라이트 시트[T]</charactereditor.showspritesheet>
+<charactereditor.drawskeleton>뼈대 [N]</charactereditor.drawskeleton>
+<charactereditor.enablelights>조명 [L]</charactereditor.enablelights>
+<charactereditor.drawdamagemodifiers>데미지 모디파이어 [M]</charactereditor.drawdamagemodifiers>
+<charactereditor.editcharacter>캐릭터 [1]</charactereditor.editcharacter>
+<charactereditor.editragdoll>래그돌 [2]</charactereditor.editragdoll>
+<charactereditor.editlimbs>마디 [3]</charactereditor.editlimbs>
+<charactereditor.editjoints>관절 [4]</charactereditor.editjoints>
+<charactereditor.editanimations>애니메이션 [5]</charactereditor.editanimations>
+<charactereditor.editiktargets>IK 타깃 [I]</charactereditor.editiktargets>
+<charactereditor.freeze>고정</charactereditor.freeze>
+<charactereditor.autofreeze>자동 고정</charactereditor.autofreeze>
+<charactereditor.limbpairediting>마디 세트 편집</charactereditor.limbpairediting>
+<charactereditor.animationtestpose>테스트 포즈 [X]</charactereditor.animationtestpose>
+<charactereditor.animationtestposeenabled>테스트 포즈 활성화됨</charactereditor.animationtestposeenabled>
+<charactereditor.automove>자동 이동</charactereditor.automove>
+<charactereditor.followcursor>커서 따라가기</charactereditor.followcursor>
+<charactereditor.showcolliders>충돌반경 [C]</charactereditor.showcolliders>
+<charactereditor.editbackgroundcolor>배경색 수정</charactereditor.editbackgroundcolor>
+<charactereditor.savebutton>전체 저장</charactereditor.savebutton>
+<charactereditor.allanimationssaved>모든 애니메이션이 저장되었습니다.</charactereditor.allanimationssaved>
+<charactereditor.ragdollsavedto>래그돌이 [path]에 저장되었습니다.</charactereditor.ragdollsavedto>
+<charactereditor.charactersavedto>캐릭터 설정 파일이 [path]에 저장되었습니다.</charactereditor.charactersavedto>
+<charactereditor.resetbutton>초기화</charactereditor.resetbutton>
+<charactereditor.saveragdoll>래그돌 저장</charactereditor.saveragdoll>
+<charactereditor.providefilename>파일 이름을 입력하세요.</charactereditor.providefilename>
+<charactereditor.loadragdoll>래그돌 불러오기</charactereditor.loadragdoll>
+<charactereditor.couldntopendirectory>디렉토리 [folder] 를 열 수 없습니다.</charactereditor.couldntopendirectory>
+<charactereditor.ragdolldeletedfrom>[file]에서 래그돌이 삭제되었습니다.</charactereditor.ragdolldeletedfrom>
+<charactereditor.ragdollloadedfrom>[file]에서 래그돌을 불러왔습니다.</charactereditor.ragdollloadedfrom>
+<charactereditor.saveanimation>애니메이션 저장</charactereditor.saveanimation>
+<charactereditor.selectanimationtype>애니메이션 유형 선택</charactereditor.selectanimationtype>
+<charactereditor.animationoftypesavedto>[type] 유형의 애니메이션이 [path]에 저장되었습니다.</charactereditor.animationoftypesavedto>
+<charactereditor.loadanimation>애니메이션 불러오기</charactereditor.loadanimation>
+<charactereditor.animationoftypedeleted>[file]에서 [type] 유형의 애니메이션이 삭제되었습니다.</charactereditor.animationoftypedeleted>
+<charactereditor.animationtypenotimplemented>애니메이션 유형 [type]이(가) 구현되지 않았습니다!</charactereditor.animationtypenotimplemented>
+<charactereditor.animationoftypeloaded>[file]에서 [type] 유형의 애니메이션을 불러왔습니다.</charactereditor.animationoftypeloaded>
+<charactereditor.reloadtextures>텍스처 다시 불러오기</charactereditor.reloadtextures>
+<charactereditor.recreateragdoll>래그돌 재생성 [F5]</charactereditor.recreateragdoll>
+<charactereditor.recreateragdolltooltip>대부분의 파라미터는 래그돌을 다시 만들어야 합니다. 파라미터를 조정해도 효과가 없는 것 같다면 이 버튼을 클릭하십시오.</charactereditor.recreateragdolltooltip>
+<charactereditor.createnewcharacter>새 캐릭터 생성</charactereditor.createnewcharacter>
+<charactereditor.copycharacter>캐릭터 복사</charactereditor.copycharacter>
+<charactereditor.copycharactertooltip>현재 캐릭터의 사본을 생성합니다.</charactereditor.copycharactertooltip>
+<charactereditor.nofieldforparameterfound>[parameter] 파라미터의 필드를 찾을 수 없습니다!</charactereditor.nofieldforparameterfound>
+<charactereditor.holdleftalttoadjustcyclespeed>좌측 Alt를 누른 상태로 주기의 속도를 조절할 수 있습니다.</charactereditor.holdleftalttoadjustcyclespeed>
+<charactereditor.cyclespeed>주기 속도</charactereditor.cyclespeed>
+<charactereditor.movementspeed>이동 속도</charactereditor.movementspeed>
+<charactereditor.headangle>머리 각도</charactereditor.headangle>
+<charactereditor.head>머리</charactereditor.head>
+<charactereditor.headposition>머리 위치</charactereditor.headposition>
+<charactereditor.torsoangle>상체 각도</charactereditor.torsoangle>
+<charactereditor.torso>상체</charactereditor.torso>
+<charactereditor.torsoposition>상체 위치</charactereditor.torsoposition>
+<charactereditor.tailangle>꼬리 각도</charactereditor.tailangle>
+<charactereditor.footangle>발 각도</charactereditor.footangle>
+<charactereditor.stepsize>보폭</charactereditor.stepsize>
+<charactereditor.handmoveamount>손 움직임 한계</charactereditor.handmoveamount>
+<charactereditor.tailmovementspeed>꼬리 움직임 속도</charactereditor.tailmovementspeed>
+<charactereditor.tailmovementamount>꼬리 움직임 계수</charactereditor.tailmovementamount>
+<charactereditor.legmovementspeed>다리 움직임 속도</charactereditor.legmovementspeed>
+<charactereditor.legmovementamount>다리 움직임 계수</charactereditor.legmovementamount>
+<charactereditor.handmovementamount>손 움직임 계수</charactereditor.handmovementamount>
+<charactereditor.holdleftalttomanipulatejoint>좌측 Alt를 누른 상태로 관절의 다른 쪽 끝을 조작할 수 있습니다.</charactereditor.holdleftalttomanipulatejoint>
+<charactereditor.origin>오리진</charactereditor.origin>
+<charactereditor.position>위치: [coordinates]</charactereditor.position>
+<charactereditor.size>크기</charactereditor.size>
+<charactereditor.upperlimit>상한선</charactereditor.upperlimit>
+<charactereditor.lowerlimit>하한선</charactereditor.lowerlimit>
+<charactereditor.defaultname>캐릭터 이름</charactereditor.defaultname>
+<charactereditor.ishumanoid>휴머노이드 여부</charactereditor.ishumanoid>
+<charactereditor.canentersubmarines>잠수함 진입 가능 여부</charactereditor.canentersubmarines>
+<charactereditor.canwalk>걸을 수 있음 여부</charactereditor.canwalk>
+<charactereditor.configfileoutput>Config 파일 출력</charactereditor.configfileoutput>
+<charactereditor.texturepath>텍스처 경로</charactereditor.texturepath>
+<charactereditor.selecttexture>텍스처 선택</charactereditor.selecttexture>
+<charactereditor.contentpackagename>콘텐츠 패키지 이름</charactereditor.contentpackagename>
+<charactereditor.texturedoesnotexist>텍스처 파일이 존재하지 않습니다!</charactereditor.texturedoesnotexist>
+<charactereditor.defineragdoll>래그돌 정의</charactereditor.defineragdoll>
+<charactereditor.limbs>마디</charactereditor.limbs>
+<charactereditor.limb>마디</charactereditor.limb>
+<charactereditor.joints>관절</charactereditor.joints>
+<charactereditor.joint>관절</charactereditor.joint>
+<charactereditor.selectfile>파일 선택</charactereditor.selectfile>
+<charactereditor.missingtorsoorhead>최소 하나 이상의 마디를 몸통 또는 머리로 정의해야 합니다!</charactereditor.missingtorsoorhead>
+<charactereditor.missinglimbtype>[limbtype]으로 하나의 마디만 정의해야 합니다!</charactereditor.missinglimbtype>
+<charactereditor.charactercreated>[name] 캐릭터가 생성되었습니다.</charactereditor.charactercreated>
+<charactereditor.limbtype>마디 유형</charactereditor.limbtype>
+<charactereditor.sourcerectangle>소스 직사각형</charactereditor.sourcerectangle>
+<charactereditor.id>식별자</charactereditor.id>
+<charactereditor.limbwithindex>마디 [index]</charactereditor.limbwithindex>
+<charactereditor.limbwithindexanchor>마디 [index] 앵커</charactereditor.limbwithindexanchor>
+<charactereditor.failedtoreadhtml>캐릭터 에디터 인터페이스: [path]에서 HTML을 읽지 못했습니다.</charactereditor.failedtoreadhtml>
+<charactereditor.multipleitemswithsamehierarchy>[hierarchy]이(가) 동일한 계층의 여러 아이템이 발견되었습니다. ([name]) 계속할 수 없습니다.</charactereditor.multipleitemswithsamehierarchy>
+<charactereditor.cannoteditvanillacharacters>"기본" 콘텐츠 패키지에 정의된 캐릭터는 편집할 수 없습니다! 다른 콘텐츠 패키지에서 해당 캐릭터의 사본을 만들어 편집을 계속할 수 있습니다.</charactereditor.cannoteditvanillacharacters>
+<charactereditor.existingcharacterfoundreplaceverification>동일한 콘텐츠 패키지에서 같은 이름의 기존 캐릭터가 발견되었습니다. 파일을 교체하시겠습니까? (원본 파일은 손실됩니다.)</charactereditor.existingcharacterfoundreplaceverification>
+<charactereditor.existingcharacterfoundoverrideverification>동일한 콘텐츠 패키지에서 같은 이름의 기존 캐릭터가 발견되었습니다. 파일을 덮어씌우시겠습니까? (원본 파일은 보존됩니다.)</charactereditor.existingcharacterfoundoverrideverification>
+<charactereditor.existingcharacterfound>같은 이름의 기존 캐릭터가 발견되었습니다.</charactereditor.existingcharacterfound>
+<charactereditor.modespanel>수정</charactereditor.modespanel>
+<charactereditor.fileeditpanel>파일</charactereditor.fileeditpanel>
+<charactereditor.optionspanel>옵션</charactereditor.optionspanel>
+<charactereditor.characterpanel>캐릭터</charactereditor.characterpanel>
+<charactereditor.toolspanel>도구</charactereditor.toolspanel>
+<charactereditor.minormodestitle>보기</charactereditor.minormodestitle>
+<charactereditor.addmultiplelimbsbutton>곱하기 추가</charactereditor.addmultiplelimbsbutton>
+<charactereditor.addaitarget>타깃 추가</charactereditor.addaitarget>
+<charactereditor.addbloodemitter>피 생성기 추가</charactereditor.addbloodemitter>
+<charactereditor.addgibemitter>살점 생성기 추가</charactereditor.addgibemitter>
+<charactereditor.adddamageemitter>데미지 생성기 추가</charactereditor.adddamageemitter>
+<charactereditor.addsound>사운드 추가</charactereditor.addsound>
+<charactereditor.addlightsource>조명 추가</charactereditor.addlightsource>
+<charactereditor.addattack>공격 추가</charactereditor.addattack>
+<charactereditor.addaffliction>부정적인 효과 추가</charactereditor.addaffliction>
+<charactereditor.adddamagemodifier>데미지 모디파이어 추가</charactereditor.adddamagemodifier>
+<charactereditor.addinventory>인벤토리 추가</charactereditor.addinventory>
+<charactereditor.addinventoryitem>인벤토리 아이템 추가</charactereditor.addinventoryitem>
+<charactereditor.selected>선택됨</charactereditor.selected>
+<charactereditor.duplicatelimb>마디 복사</charactereditor.duplicatelimb>
+<charactereditor.deleteselected>선택 제거</charactereditor.deleteselected>
+<charactereditor.createjoint>관절 생성</charactereditor.createjoint>
+<charactereditor.createlimb>마디 생성</charactereditor.createlimb>
+<charactereditor.drawlimbonspritesheet>스프라이트 시트에 마디 그리기</charactereditor.drawlimbonspritesheet>
+<charactereditor.onlyshowselectedlimbs>선택한 마디만 표시</charactereditor.onlyshowselectedlimbs>
+<charactereditor.newcontentpackage>새 콘텐츠 패키지</charactereditor.newcontentpackage>
+<charactereditor.existingjointfound>마디 [limbid1]과 [limbid2] 사이에 이미 관절이 존재합니다!</charactereditor.existingjointfound>
+<charactereditor.unrestrict>제한 없음</charactereditor.unrestrict>
+<charactereditor.addmultiplelimbsbutton>다중 추가</charactereditor.addmultiplelimbsbutton>
+<charactereditor.contentpackagenameinuse>같은 이름의 콘텐츠 패키지가 이미 존재합니다. 다른 이름을 선택하거나 같은 이름의 콘텐츠 패키지를 선택하고 거기에 캐릭터를 추가하십시오.</charactereditor.contentpackagenameinuse>
+<charactereditor.addmultiplelimbsbutton>다중 추가</charactereditor.addmultiplelimbsbutton>
+
+<!-- Entity properties -->
+<sp.scale.name>비율</sp.scale.name>
+<sp.spritedepth.name>스프라이트 높이</sp.spritedepth.name>
+<sp.disallowedupgrades.name>사용하지 않는 업그레이드</sp.disallowedupgrades.name>
+<sp.hiddeningame.name>게임에서 숨기기</sp.hiddeningame.name>
+<sp.item.hiddeningame.name>게임에서 숨기기</sp.item.hiddeningame.name>
+<sp.item.noninteractable.name>상호작용 없음</sp.item.noninteractable.name>
+<sp.item.spritecolor.name>스프라이트 색상</sp.item.spritecolor.name>
+<sp.item.inventoryiconcolor.name>인벤토리 아이콘 색상</sp.item.inventoryiconcolor.name>
+<sp.item.containercolor.name>컨테이너 색상</sp.item.containercolor.name>
+<sp.item.containercolor.description>아이템의 보관함 색상을 변경합니다. UseContainedSpriteColor 혹은 UseContainedInventoryIconColor 속성이 true로 설정된 경우에만 기능합니다.</sp.item.containercolor.description>
+<sp.item.condition.name>상태</sp.item.condition.name>
+<sp.item.tags.name>태그</sp.item.tags.name>
+<sp.item.displaysidebysidewhenlinked.name>연결된 경우 나란히 표시</sp.item.displaysidebysidewhenlinked.name>
+<sp.item.displaysidebysidewhenlinked.description>아이템 HUD를 다른 아이템의 HUD와 나란히 표시하려면 두 아이템을 연결할 때 이 설정을 활성화하십시오. 경고: 두 아이템을 함께 볼 수 있게 설정되지 않은 경우 HUD가 서로를 가릴 수 있습니다!</sp.item.displaysidebysidewhenlinked.description>
+<sp.item.spritedepth.name>스프라이트 높이</sp.item.spritedepth.name>
+<sp.item.nonplayerteaminteractable.name>NPC 팀 상호작용 가능</sp.item.nonplayerteaminteractable.name>
+<sp.item.nonplayerteaminteractable.description>활성화하면 플레이어의 팀이 아닌 NPC 팀 캐릭터만 아이템에 상호작용할 수 있습니다.</sp.item.nonplayerteaminteractable.description>
+<sp.item.allowswapping.name>교체 허용</sp.item.allowswapping.name>
+<sp.item.allowswapping.description>이 아이템을 전초기지의 다른 아이템과 바꿀 수 있습니까? 교체 가능한 아이템만 관련이 있습니다.</sp.item.allowswapping.description>
+<sp.item.invulnerabletodamage.name>손상되지 않음</sp.item.invulnerabletodamage.name>
+<sp.item.invulnerabletodamage.description>활성화하면 아이템이 어떤 경로로든 손상되지 않습니다.</sp.item.invulnerabletodamage.description>
+<sp.structure.indestructible.name>파괴할 수 없음</sp.structure.indestructible.name>
+<sp.structure.specialtag.name>특수 태그</sp.structure.specialtag.name>
+<sp.structure.spritecolor.name>스프라이트 색상</sp.structure.spritecolor.name>
+<sp.structure.usedropshadow.name>그림자 생성 사용</sp.structure.usedropshadow.name>
+<sp.structure.dropshadowoffset.name>그림자 생성 오프셋</sp.structure.dropshadowoffset.name>
+<sp.structure.dropshadowoffset.description>구조물을 기준으로 하는 그림자 생성 위치를 설정합니다. 0으로 설정하면 그림자가 잠수함의 질량 중심을 향하도록 자동으로 설정됩니다.</sp.structure.dropshadowoffset.description>
+<sp.structure.texturescale.name>텍스처 비율</sp.structure.texturescale.name>
+<sp.structure.textureoffset.name>텍스처 오프셋</sp.structure.textureoffset.name>
+<sp.structure.removeiflinkedoutpostdoorinuse.name>연결된 전초기지 문이 사용 중이면 제거</sp.structure.removeiflinkedoutpostdoorinuse.name>
+<sp.structure.removeiflinkedoutpostdoorinuse.description>구조물이 전초기지 모듈 가장자리의 문에 연결된 경우, 이 설정은 문이 전초기지에서 사용될 경우 구조물을 제거합니다. 그렇지 않으면 문이 사용되지 않을 때 구조물이 제거됩니다.</sp.structure.removeiflinkedoutpostdoorinuse.description>
+<sp.structure.noaitarget.name>AI 목표가 되지 않음</sp.structure.noaitarget.name>
+<sp.structure.noaitarget.description>활성화 된 경우 몬스터가 이 구조물을 목표로 하지 않습니다.</sp.structure.noaitarget.description>
+<sp.structure.maxhealth.name>최대 내구도</sp.structure.maxhealth.name>
+<sp.hull.ambientlight.name>환경광</sp.hull.ambientlight.name>
+<sp.hull.roomname.name>격실 이름</sp.hull.roomname.name>
+<sp.hull.iswetroom.name>침수된 격실</sp.hull.iswetroom.name>
+<sp.hull.iswetroom.description>이 함체에 물이 차 있는 것이 정상인지 설정합니다. 만약 격실의 이름이 "밸러스트 탱크", "선저", "에어로크"인 경우 이 설정을 비활성화할 수 없습니다.</sp.hull.iswetroom.description>
+<sp.hull.avoidstaying.name>머무르기 금지</sp.hull.avoidstaying.name>
+<sp.hull.avoidstaying.description>봇들이 이곳에 머무르는 상황을 피하지만, 필요할 때는 격실에 접근해 통과할 수 있습니다. 침수된 격실이면 강제로 적용됩니다.</sp.hull.avoidstaying.description>
+<sp.door.openingspeed.name>열리는 속도</sp.door.openingspeed.name>
+<sp.door.openingspeed.description>문이 얼마나 빨리 열리는지 설정합니다.</sp.door.openingspeed.description>
+<sp.door.closingspeed.name>닫히는 속도</sp.door.closingspeed.name>
+<sp.door.closingspeed.description>문이 얼마나 빨리 닫히는지 설정합니다.</sp.door.closingspeed.description>
+<sp.door.togglecooldown.name>토글 대기시간</sp.door.togglecooldown.name>
+<sp.door.togglecooldown.description>다른 캐릭터가 문을 열거나 닫은 후에는 이 시간동안 문을 열거나 닫을 수 없습니다.</sp.door.togglecooldown.description>
+<sp.door.isopen.name>열림</sp.door.isopen.name>
+<sp.door.isopen.description>이 문은 현재 열려있습니다.</sp.door.isopen.description>
+<sp.door.usebetweenoutpostmodules.name>전초기지 모듈 간 사용</sp.door.usebetweenoutpostmodules.name>
+<sp.door.usebetweenoutpostmodules.description>다른 전초기지 모듈로 통하는 문입니까? 전초기지 모듈만 해당됩니다.</sp.door.usebetweenoutpostmodules.description>
+<sp.door.botsshouldkeepopen.name>봇이 계속 열어두는지 여부</sp.door.botsshouldkeepopen.name>
+<sp.door.botsshouldkeepopen.description>설정된 경우 봇들이 이 문을 지나고 닫으려 하지 않을 것입니다.</sp.door.botsshouldkeepopen.description>
+<sp.itemcomponent.pickingtime.name>줍는 시간</sp.itemcomponent.pickingtime.name>
+<sp.itemcomponent.pickingtime.description>아이템을 줍는 데 걸리는 시간을 설정합니다. (초 단위)</sp.itemcomponent.pickingtime.description>
+<sp.itemcomponent.canbepicked.name>주울 수 있음</sp.itemcomponent.canbepicked.name>
+<sp.itemcomponent.canbepicked.description>아이템을 주울 수 있는지 설정합니다. (또는 상호작용하거나 줍는 행동 외에 다른 행동을 하는 경우)</sp.itemcomponent.canbepicked.description>
+<sp.itemcomponent.allowingameediting.name>게임 내 수정 허용</sp.itemcomponent.allowingameediting.name>
+<sp.itemcomponent.allowingameediting.description>구성 요소의 속성을 게임 내에서 편집할 수 있는지 설정합니다. (구성 요소에 게임 내 편집이 가능한 속성이 있는 경우에만 해당됩니다.)</sp.itemcomponent.allowingameediting.description>
+<sp.itemcomponent.msg.name>메시지</sp.itemcomponent.msg.name>
+<sp.itemcomponent.msg.description>아이템이 강조표시될 때 아이템 옆에 표시되는 텍스트를 설정합니다. (일반적으로 아이템과 상호작용 하는 방법을 설명합니다. 예: "[Mouse1] 줍기")</sp.itemcomponent.msg.description>
+<sp.electricaldischarger.range.description>아이템에서 방전되는 유도체가 이동할 수 있는 거리를 설정합니다.</sp.electricaldischarger.range.description>
+<sp.electricaldischarger.rangemultiplierinwalls.name>벽 안에서 범위 증폭</sp.electricaldischarger.rangemultiplierinwalls.name>
+<sp.electricaldischarger.rangemultiplierinwalls.description>벽을 넘어 이동할 때 방전되는 유도체가 얼마나 더 멀리 이동하는지 설정합니다.</sp.electricaldischarger.rangemultiplierinwalls.description>
+<sp.electricaldischarger.duration.name>지속시간</sp.electricaldischarger.duration.name>
+<sp.electricaldischarger.duration.description>개발 방전 시간을 설정합니다. (초 단위)</sp.electricaldischarger.duration.description>
+<sp.electricaldischarger.outdoorsonly.name>외부로만 설정</sp.electricaldischarger.outdoorsonly.name>
+<sp.electricaldischarger.outdoorsonly.description>설정된 경우 방전은 잠수함 안으로 이동하거나 안에 있는 누구에게도 충격을 줄 수 없습니다.</sp.electricaldischarger.outdoorsonly.description>
+<sp.electricaldischarger.reload.name>재장전</sp.electricaldischarger.reload.name>
+<sp.electricaldischarger.reload.description>방전 후, 코일이 다시 "재장전" 되기까지 걸리는 시간을 설정합니다.</sp.electricaldischarger.reload.description>
+<sp.powered.minvoltage.name>최소 전압</sp.powered.minvoltage.name>
+<sp.powered.minvoltage.description>장치가 작동하는 데 필요한 최소 전압을 설정합니다. 전압은 전력/전력 소비량으로 계산됩니다. 즉, 최소 전압이 0.5로 설정된 경우 전력 소비량이 1000kW인 장치를 작동시키려면 최소 500kW의 전력이 필요합니다.</sp.powered.minvoltage.description>
+<sp.powered.powerconsumption.name>전력 소비량</sp.powered.powerconsumption.name>
+<sp.powered.powerconsumption.description>활성화되었을 때 장치가 전력망에서 끌어오거나 끌어오려고 하는 전력의 양을 설정합니다.</sp.powered.powerconsumption.description>
+<sp.powered.vulnerabletoemp.name>EMP 취약성</sp.powered.vulnerabletoemp.name>
+<sp.powered.vulnerabletoemp.description>EMP(전자기 펄스)로 인해 아이템이 손상될 수 있습니까?</sp.powered.vulnerabletoemp.description>
+<sp.entityspawnercomponent.itemidentifier.name>아이템 식별자</sp.entityspawnercomponent.itemidentifier.name>
+<sp.entityspawnercomponent.itemidentifier.description>스폰할 아이템의 식별자를 설정합니다. 종 이름이 설정된 경우 아무 작업도 수행하지 않습니다. 여러 아이템을 랜덤하게 스폰하려면 쉼표로 구분할 수 있습니다.</sp.entityspawnercomponent.itemidentifier.description>
+<sp.entityspawnercomponent.speciesname.name>종 이름</sp.entityspawnercomponent.speciesname.name>
+<sp.entityspawnercomponent.speciesname.description>스폰할 생물 종의 이름을 설정합니다. 아이템 식별자가 설정된 경우 우선 설정됩니다. 여러 생물을 랜덤하게 스폰하려면 쉼표로 구분할 수 있습니다.</sp.entityspawnercomponent.speciesname.description>
+<sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>승조원 접근 시에만 스폰</sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>
+<sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>승조원이 특정 범위 내에 있을 경우에만 스폰합니다.</sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>
+<sp.entityspawnercomponent.crewareashape.name>승조원 구역 형태</sp.entityspawnercomponent.crewareashape.name>
+<sp.entityspawnercomponent.crewareashape.description>승조원이 머물러야 하는 구역의 형태를 설정합니다.</sp.entityspawnercomponent.crewareashape.description>
+<sp.entityspawnercomponent.crewareabounds.name>승조원 구역 사각형 크기</sp.entityspawnercomponent.crewareabounds.name>
+<sp.entityspawnercomponent.crewareabounds.description>승조원이 머물러야 하는 사각형의 크기를 설정합니다. 승조원 구역 형태가 원형으로 설정된 경우 아무런 기능도 하지 않습니다.</sp.entityspawnercomponent.crewareabounds.description>
+<sp.entityspawnercomponent.crewarearadius.name>승조원 구역 원형 반경</sp.entityspawnercomponent.crewarearadius.name>
+<sp.entityspawnercomponent.crewarearadius.description>승조원이 머물러야 하는 원형의 반경을 설정합니다. 승조원 구역 형태가 사각형으로 설정된 경우 아무런 기능도 하지 않습니다.</sp.entityspawnercomponent.crewarearadius.description>
+<sp.entityspawnercomponent.crewareaoffset.name>승조원 구역 오프셋</sp.entityspawnercomponent.crewareaoffset.name>
+<sp.entityspawnercomponent.crewareaoffset.description>아이템 중심에서부터 승조원 구역의 오프셋을 설정합니다.</sp.entityspawnercomponent.crewareaoffset.description>
+<sp.entityspawnercomponent.spawnareashape.name>스폰 구역 형태</sp.entityspawnercomponent.spawnareashape.name>
+<sp.entityspawnercomponent.spawnareashape.description>적 혹은 아이템이 스폰되는 영역의 모양.</sp.entityspawnercomponent.spawnareashape.description>
+<sp.entityspawnercomponent.spawnareabounds.name>스폰 구역 사각형 크기</sp.entityspawnercomponent.spawnareabounds.name>
+<sp.entityspawnercomponent.spawnareabounds.description>아이템 혹은 생물이 스폰되는 사각형의 크기. 스폰 구역이 원형으로 설정되어 있다면 아무런 기능도 하지 않습니다.</sp.entityspawnercomponent.spawnareabounds.description>
+<sp.entityspawnercomponent.spawnarearadius.name>스폰 구역 원형 반경</sp.entityspawnercomponent.spawnarearadius.name>
+<sp.entityspawnercomponent.spawnarearadius.description>아이템 혹은 생물이 스폰되는 원형의 범위. 스폰 구역이 직사각형으로 설정된 경우 아무런 기능도 하지 않습니다.</sp.entityspawnercomponent.spawnarearadius.description>
+<sp.entityspawnercomponent.spawnareaoffset.name>스폰 구역 오프셋</sp.entityspawnercomponent.spawnareaoffset.name>
+<sp.entityspawnercomponent.spawnareaoffset.description>아이템 중심으로부터 스폰 구역의 오프셋을 설정합니다.</sp.entityspawnercomponent.spawnareaoffset.description>
+<sp.entityspawnercomponent.spawntimerrange.name>스폰 시간 범위</sp.entityspawnercomponent.spawntimerrange.name>
+<sp.entityspawnercomponent.spawntimerrange.description>스폰 시도의 범위입니다. (초 단위) 자동 스폰을 비활성화하려면 둘 다 음수값으로 설정하십시오.</sp.entityspawnercomponent.spawntimerrange.description>
+<sp.entityspawnercomponent.spawnamountrange.name>스폰 수 범위</sp.entityspawnercomponent.spawnamountrange.name>
+<sp.entityspawnercomponent.spawnamountrange.description>한 번의 스폰에서 스폰시킬 아이템 또는 생물의 최소 및 최대 양을 설정합니다.</sp.entityspawnercomponent.spawnamountrange.description>
+<sp.entityspawnercomponent.maximumamount.name>최대 수</sp.entityspawnercomponent.maximumamount.name>
+<sp.entityspawnercomponent.maximumamount.description>스폰할 수 있는 아이템 혹은 생물의 총 최대 양입니다. 0으로 설정시 무제한으로 설정됩니다.</sp.entityspawnercomponent.maximumamount.description>
+<sp.entityspawnercomponent.maximumamountinarea.name>구역 내 최대 수</sp.entityspawnercomponent.maximumamountinarea.name>
+<sp.entityspawnercomponent.maximumamountinarea.description>스폰 구역에 있는 아이템 혹은 생물의 수가 이 값보다 더 많을 때 더 많은 아이템이나 생물이 스폰되는 것을 방지합니다. 0으로 설정시 무제한으로 설정됩니다.</sp.entityspawnercomponent.maximumamountinarea.description>
+<sp.entityspawnercomponent.maximumamountrangepadding.name>최대 수 범위 오차값</sp.entityspawnercomponent.maximumamountrangepadding.name>
+<sp.entityspawnercomponent.maximumamountrangepadding.description>이 값을 기준으로 원형 또는 사각형을 넓혀 최대 수의 아이템이나 적의 생성 범위를 넓힙니다.</sp.entityspawnercomponent.maximumamountrangepadding.description>
+<sp.entityspawnercomponent.preloadcharacter.name>캐릭터 사전 불러오기</sp.entityspawnercomponent.preloadcharacter.name>
+<sp.entityspawnercomponent.preloadcharacter.description>스포너가 캐릭터를 생성할 때, 생성 시 생기는 렉 및 지연을 방지하기 위해 라운드 시작시 "사전 불러오기" 해야 할까요?</sp.entityspawnercomponent.preloadcharacter.description>
+<sp.holdable.holdpos.name>들고 있는 위치</sp.holdable.holdpos.name>
+<sp.holdable.holdpos.description>캐릭터가 아이템을 들고 있는 범위(픽셀 단위로, 캐릭터의 어깨에서 오프셋)를 설정합니다. 예를 들어 10,-100은 어깨 아래 100픽셀과 캐릭터 정면 10픽셀 앞에 아이템을 들게 합니다.</sp.holdable.holdpos.description>
+<sp.holdable.holdangle.name>들고 있는 각도</sp.holdable.holdangle.name>
+<sp.holdable.holdangle.description>캐릭터가 아이템을 들고 있는 각도(도 단위로, 캐릭터의 손 회전 각도에 영향받음)를 설정합니다.</sp.holdable.holdangle.description>
+<sp.holdable.swingamount.name>휘두르는 범위</sp.holdable.swingamount.name>
+<sp.holdable.swingamount.description>아이템을 조준/유지할 때 얼마나 회전하는지(픽셀 단위로, 조준 위치/ 들고 있는 위치로부터 오프셋) 설정합니다.</sp.holdable.swingamount.description>
+<sp.holdable.swingspeed.name>휘두르는 속도</sp.holdable.swingspeed.name>
+<sp.holdable.swingspeed.description>아이템을 조준/유지할 때 아이템이 회전하는 속도(휘두르는 범위가 설정된 경우에만 기능함)를 설정합니다.</sp.holdable.swingspeed.description>
+<sp.holdable.swingwhenholding.name>들고 있을 때 흔들림</sp.holdable.swingwhenholding.name>
+<sp.holdable.swingwhenholding.description>아이템을 들고 있을 때 아이템이 흔들리는지 설정합니다.</sp.holdable.swingwhenholding.description>
+<sp.holdable.swingwhenaiming.name>조준 시 흔들림</sp.holdable.swingwhenaiming.name>
+<sp.holdable.swingwhenaiming.description>아이템을 조준하고 있을 때 아이템이 흔들리는지 설정합니다.</sp.holdable.swingwhenaiming.description>
+<sp.holdable.swingwhenusing.name>사용 시 흔들림</sp.holdable.swingwhenusing.name>
+<sp.holdable.swingwhenusing.description>아이템을 사용할 때(예를 들어 사격하거나 용접기를 사용할 때) 흔들리는지 설정합니다.</sp.holdable.swingwhenusing.description>
+<sp.holdable.disableheadrotation.name>머리 회전 비활성화</sp.holdable.disableheadrotation.name>
+<sp.holdable.spritedepthwhendropped.name>떨어뜨렸을 때 스프라이트 깊이</sp.holdable.spritedepthwhendropped.name>
+<sp.holdable.spritedepthwhendropped.description>벽에 부착되지 않았을 때 사용되는 스프라이트의 깊이를 설정합니다.</sp.holdable.spritedepthwhendropped.description>
+<sp.holdable.aimangle.name>조준 각도</sp.holdable.aimangle.name>
+<sp.holdable.aimangle.description>캐릭터가 조준하는 동안 아이템을 잡았을 때의 각도(캐릭터의 손 회전각과 상대적인 각도)를 설정합니다.</sp.holdable.aimangle.description>
+<sp.rangedweapon.penetration.name>관통</sp.rangedweapon.penetration.name>
+<sp.rangedweapon.penetration.description>장갑이 있는 신체 부위에 착탄했을 때 무시되는 데미지의 경감량. 무기 + 발사체의 합계입니다.</sp.rangedweapon.penetration.description>
+<sp.itemcontainer.containablerestrictions.name>아이템 배치 제한</sp.itemcontainer.containablerestrictions.name>
+<sp.itemcontainer.containablerestrictions.description>봇이 이 보관함에 배치해야 하는 아이템(식별자 혹은 태그)을 정의합니다. 비어있다면 제한이 적용되지 않습니다.</sp.itemcontainer.containablerestrictions.description>
+<sp.itemcontainer.autofill.name>자동 채우기</sp.itemcontainer.autofill.name>
+<sp.itemcontainer.autofill.description>보관함의 아이템을 자동으로 채웁니까?</sp.itemcontainer.autofill.description>
+<sp.itemlabel.text.name>텍스트</sp.itemlabel.text.name>
+<sp.itemlabel.text.description>레이블에 표시되는 텍스트.</sp.itemlabel.text.description>
+<sp.itemlabel.ignorelocalization.name>현지화 무시</sp.itemlabel.ignorelocalization.name>
+<sp.itemlabel.ignorelocalization.description>현지화를 건너 뛰고 항상 원래 값을 출력할지 설정합니다.</sp.itemlabel.ignorelocalization.description>
+<sp.itemlabel.textcolor.description>레이블에 표시되는 텍스트의 색상(R,G,B,A)을 설정합니다.</sp.itemlabel.textcolor.description>
+<sp.itemlabel.textscale.description>레이블에 표시되는 텍스트의 비율을 설정합니다.</sp.itemlabel.textscale.description>
+<sp.lightcomponent.range.description>생성되는 빛의 범위를 설정합니다. 값이 클수록 성능에 부하가 커집니다.</sp.lightcomponent.range.description>
+<sp.lightcomponent.castshadows.name>그림자 생성</sp.lightcomponent.castshadows.name>
+<sp.lightcomponent.castshadows.description>구조물이 광원의 빛을 받을 때, 그림자가 생겨야 하는지 설정합니다. 그림자를 비활성화하면 게임의 전반적인 성능이 향상되므로 범위가 짧은 조명이 권장됩니다. 잠수함의 뒤에 생성되도록 설정된 광원은 이 설정에 관계없이 그림자를 생성하지 않습니다.</sp.lightcomponent.castshadows.description>
+<sp.lightcomponent.drawbehindsubs.name>잠수함 뒤에 생성</sp.lightcomponent.drawbehindsubs.name>
+<sp.lightcomponent.drawbehindsubs.description>잠수함 뒤에 생성된 조명은 그림자를 생성하지 않고 그림자를 생성하는 조명보다 훨씬 부하가 적습니다. 잠수함 함체 외부의 장식용 조명은 이 기능을 활성화 하는 것이 좋습니다.</sp.lightcomponent.drawbehindsubs.description>
+<sp.lightcomponent.ison.description>현재 켜져있습니다.</sp.lightcomponent.ison.description>
+<sp.lightcomponent.flicker.name>깜빡임</sp.lightcomponent.flicker.name>
+<sp.lightcomponent.flicker.description>불빛이 얼마나 심하게 깜빡이는지 설정합니다. 0으로 설정 시 깜빡임이 없으며, 1로 설정 시 조명이 어둠과 최대 광량으로 번갈아가며 켜집니다.</sp.lightcomponent.flicker.description>
+<sp.lightcomponent.flickerspeed.name>깜빡이는 속도</sp.lightcomponent.flickerspeed.name>
+<sp.lightcomponent.flickerspeed.description>불빛이 얼마나 빠르게 깜빡이는지 설정합니다.</sp.lightcomponent.flickerspeed.description>
+<sp.lightcomponent.pulsefrequency.name>파장 주파수</sp.lightcomponent.pulsefrequency.name>
+<sp.lightcomponent.pulsefrequency.description>불빛이 얼마나 빠르게 파장을 보이는지 설정합니다. (Hz 단위) 0으로 설정 시 점멸하지 않습니다.</sp.lightcomponent.pulsefrequency.description>
+<sp.lightcomponent.pulseamount.name>파장 정도</sp.lightcomponent.pulseamount.name>
+<sp.lightcomponent.pulseamount.description>불빛이 파장을 보이는 정도를 설정합니다. (Hz 단위) 0으로 설정 시 파장이 없으며, 1로 설정 시 최대 광량과 꺼짐을 번갈아가며 빛을 형성합니다.</sp.lightcomponent.pulseamount.description>
+<sp.lightcomponent.blinkfrequency.name>점멸 주파수</sp.lightcomponent.blinkfrequency.name>
+<sp.lightcomponent.blinkfrequency.description>불빛이 얼마나 빠르게 켜지고 꺼지는지 설정합니다. (Hz 단위) 0으로 설정 시 점멸하지 않습니다.</sp.lightcomponent.blinkfrequency.description>
+<sp.lightcomponent.lightcolor.description>생성되는 빛의 색상(R,G,B,A)을 설정합니다.</sp.lightcomponent.lightcolor.description>
+<sp.controller.istoggle.name>토글 상태</sp.controller.istoggle.name>
+<sp.controller.istoggle.description>활성화하면 아이템이 0/1 신호를 지속적으로 전송하고, 아이템과 상호작용하면 신호가 반전됩니다. (아이템이 스위치 처럼 작동합니다) 비활성화된 경우 아이템이 상호작용 시 1만 전송합니다.</sp.controller.istoggle.description>
+<sp.controller.state.name>상태</sp.controller.state.name>
+<sp.controller.state.description>아이템의 토글을 켤지/끌지 설정합니다. 토글 상태가 설정된 경우에만 기능합니다.</sp.controller.state.description>
+<sp.deconstructor.deconstructionspeed.name>분해 속도</sp.deconstructor.deconstructionspeed.name>
+<sp.Deconstructor.DeconstructionSpeed.name>해체 속도</sp.Deconstructor.DeconstructionSpeed.name>
+<sp.Deconstructor.DeconstructionSpeed.description>해체 속도의 계수입니다.</sp.Deconstructor.DeconstructionSpeed.description>
+<sp.engine.maxforce.name>최대 힘</sp.engine.maxforce.name>
+<sp.engine.maxforce.description>엔진이 최대 출력으로 작동할 때 잠수함에 가해지는 힘의 양을 설정합니다.</sp.engine.maxforce.description>
+<sp.engine.propellerpos.name>프로펠러 위치</sp.engine.propellerpos.name>
+<sp.engine.propellerpos.description>아이템의 중심으로부터 오프셋되는 프로펠러의 위치를 설정합니다. (픽셀 단위) 프로펠러 데미지가 정의된 경우 기포 파티클이 생성되는 위치와 캐릭터가 엔진에서 데미지를 입을 수 있는 위치가 지정됩니다.</sp.engine.propellerpos.description>
+<sp.engine.disablepropellerdamage.name>프로펠러 데미지 비활성화</sp.engine.disablepropellerdamage.name>
+<sp.minimap.requirewaterdetectors.name>물 감지기 필요</sp.minimap.requirewaterdetectors.name>
+<sp.minimap.requirewaterdetectors.description>기계가 격실 내의 수위를 표시하기 위해 물 감지기의 입력을 필요로 합니까?</sp.minimap.requirewaterdetectors.description>
+<sp.minimap.requireoxygendetectors.name>산서 감지기 필요</sp.minimap.requireoxygendetectors.name>
+<sp.minimap.requireoxygendetectors.description>실내 산소 농도 표시에 산소 검출기의 입력이 필요합니까?</sp.minimap.requireoxygendetectors.description>
+<sp.minimap.showhullintegrity.name>함체 무결성 표시</sp.minimap.showhullintegrity.name>
+<sp.minimap.showhullintegrity.description>기계가 함체의 손상된 벽을 표시해야 합니까?</sp.minimap.showhullintegrity.description>
+<sp.minimap.enablehullstatus.name>함체 상태 활성화</sp.minimap.enablehullstatus.name>
+<sp.minimap.enablehullstatus.description>함체 상태 모드를 활성화합니다.</sp.minimap.enablehullstatus.description>
+<sp.minimap.enableelectricalview.name>전기 배선 보기 활성화</sp.minimap.enableelectricalview.name>
+<sp.minimap.enableelectricalview.description>전기 배선 보기 모드를 활성화합니다.</sp.minimap.enableelectricalview.description>
+<sp.minimap.enableitemfinder.name>아이템 검색기 활성화</sp.minimap.enableitemfinder.name>
+<sp.minimap.enableitemfinder.description>아이템 검색기 모드를 활성화합니다.</sp.minimap.enableitemfinder.description>
+<sp.pump.maxflow.name>최대 유량</sp.pump.maxflow.name>
+<sp.pump.maxflow.description>100%로 작동할 때 아이템이 물을 유입/배수 하는 속도를 설정합니다.</sp.pump.maxflow.description>
+<sp.reactor.maxpoweroutput.name>최대 전력 출력</sp.reactor.maxpoweroutput.name>
+<sp.reactor.maxpoweroutput.description>최대 부하로 작동할 때 원자로가 생성하는 전력(kW)을 설정합니다.</sp.reactor.maxpoweroutput.description>
+<sp.reactor.meltdowndelay.name>멜트다운 지연시간</sp.reactor.meltdowndelay.name>
+<sp.reactor.meltdowndelay.description>멜트다운이 발생하기 전까지 유지되어야 하는 임계 상태의 시간을 설정합니다.</sp.reactor.meltdowndelay.description>
+<sp.reactor.firedelay.name>화재 지연시간</sp.reactor.firedelay.name>
+<sp.reactor.firedelay.description>원자로에 화재가 발생하기 전까지 유지되어야 하는 임계 상태의 시간을 설정합니다.</sp.reactor.firedelay.description>
+<sp.reactor.fuelconsumptionrate.name>연료 소비량</sp.reactor.fuelconsumptionrate.name>
+<sp.reactor.fuelconsumptionrate.description>탑재한 연료봉이 얼마나 빠르게 소비되는지 설정합니다.</sp.reactor.fuelconsumptionrate.description>
+<sp.reactor.explosiondamagesothersubs.name>폭발 시 다른 잠수함에 데미지</sp.reactor.explosiondamagesothersubs.name>
+<sp.sonar.usetransducers.name>트랜스듀서 사용</sp.sonar.usetransducers.name>
+<sp.sonar.usetransducers.description>소나가 외부 트랜스듀서와 연결되어있습니까?</sp.sonar.usetransducers.description>
+<sp.sonar.centerontransducers.name>트랜스듀서 중앙에 설정</sp.sonar.centerontransducers.name>
+<sp.sonar.centerontransducers.description>소나가 트랜스듀서 혹은 잠수함 질량의 중심에 위치해야 합니다. 트랜스듀서 사용이 활성화된 경우에만 적용됩니다.</sp.sonar.centerontransducers.description>
+<sp.sonar.hasmineralscanner.name>광물 스캐너 기능</sp.sonar.hasmineralscanner.name>
+<sp.sonar.hasmineralscanner.description>소나에 광물 스캔 모드가 있습니까?</sp.sonar.hasmineralscanner.description>
+<sp.steering.neutralballastlevel.name>중성 밸러스트 수준</sp.steering.neutralballastlevel.name>
+<sp.steering.neutralballastlevel.description>잠수함이 위/아래로 조향되지 않을 때 밸러스트 탱크에 차야 하는 물의 양을 설정합니다. 밸러스트 탱크가 잠수함의 크기에 비해 너무 크거나 작을 경우 이를 조절하기 위해 사용할 수 있습니다.</sp.steering.neutralballastlevel.description>
+<sp.powercontainer.maxoutput.name>최대 출력</sp.powercontainer.maxoutput.name>
+<sp.powercontainer.maxoutput.description>완충 시 장치의 최대 출력(kW)을 설정합니다.</sp.powercontainer.maxoutput.description>
+<sp.powercontainer.capacity.name>용량</sp.powercontainer.capacity.name>
+<sp.powercontainer.capacity.description>장치의 최대 용량(kW/분)을 설정합니다. 예를 들어, 값이 1000이면 장치가 10분 동안 100kW의 출력을 내거나 1분 동안 1000kW의 출력을 낼 수 있음을 의미합니다.</sp.powercontainer.capacity.description>
+<sp.powercontainer.charge.description>장치의 현재 충전 상태입니다.</sp.powercontainer.charge.description>
+<sp.powercontainer.maxrechargespeed.name>최대 충전 속도</sp.powercontainer.maxrechargespeed.name>
+<sp.powercontainer.maxrechargespeed.description>장치가 재충전되는 속도를 설정합니다. 예를 들어, 100kW의 충전속도와 1000kW/분의 용량은 장치를 완전히 충전하는 데 10분이 걸린다는 것을 의미합니다.</sp.powercontainer.maxrechargespeed.description>
+<sp.powercontainer.rechargespeed.name>충전 속도</sp.powercontainer.rechargespeed.name>
+<sp.powercontainer.rechargespeed.description>장치의 현재 충전 속도입니다.</sp.powercontainer.rechargespeed.description>
+<sp.powercontainer.efficiency.name>효율</sp.powercontainer.efficiency.name>
+<sp.powercontainer.efficiency.description>아이템에 투입된 전력량과 비교하여 아이템에서 얻을 수 있는 전력량입니다.</sp.powercontainer.efficiency.description>
+<sp.PowerContainer.FlipIndicator.name>반전 표시기</sp.PowerContainer.FlipIndicator.name>
+<sp.PowerContainer.FlipIndicator.description>충전 진행 표시줄이 뒤집혀 반대쪽에서 채워져야 하는지 설정합니다.</sp.PowerContainer.FlipIndicator.description>
+<sp.powertransfer.canbeoverloaded.name>과충전 가능 여부</sp.powertransfer.canbeoverloaded.name>
+<sp.powertransfer.canbeoverloaded.description>전력망에 너무 많은 전력이 공급되면 아이템이 손상될 수도 있습니다.</sp.powertransfer.canbeoverloaded.description>
+<sp.powertransfer.overloadvoltage.name>과충전 전압</sp.powertransfer.overloadvoltage.name>
+<sp.powertransfer.overloadvoltage.description>아이템이 손상되기 시작하기 전에 부하에 비해 얼마나 많은 전력을 공급해야 하는지 설정합니다. 예를 들어, 2의 값은 전력망이 전력망의 장치가 소비하는 전력의 두 배를 받아야 하는 것을 의미합니다.</sp.powertransfer.overloadvoltage.description>
+<sp.powertransfer.fireprobability.name>화재 확률</sp.powertransfer.fireprobability.name>
+<sp.powertransfer.fireprobability.description>아이템이 파괴됐을 때 화재가 발생할 확률.</sp.powertransfer.fireprobability.description>
+<sp.quality.qualitylevel.name>품질 수준</sp.quality.qualitylevel.name>
+<sp.repairable.deteriorationspeed.name>파손 속도</sp.repairable.deteriorationspeed.name>
+<sp.repairable.deteriorationspeed.description>초당 아이템이 파손되는 속도.</sp.repairable.deteriorationspeed.description>
+<sp.repairable.mindeteriorationdelay.name>최소 파손 지연시간</sp.repairable.mindeteriorationdelay.name>
+<sp.repairable.mindeteriorationdelay.description>아이템이 파손되기 시작하기 전의 최소 초기 지연시간.</sp.repairable.mindeteriorationdelay.description>
+<sp.repairable.maxdeteriorationdelay.name>최대 파손 지연시간</sp.repairable.maxdeteriorationdelay.name>
+<sp.repairable.maxdeteriorationdelay.description>아이템이 파손되기 시작하기 전의 최대 초기 지연시간.</sp.repairable.maxdeteriorationdelay.description>
+<sp.repairable.mindeteriorationcondition.name>최소 파손 상태</sp.repairable.mindeteriorationcondition.name>
+<sp.repairable.mindeteriorationcondition.description>상태가 이 값보다 낮으면 아이템이 자연스럽게 파손되지 않습니다. 예를 들어, 10으로 설정하면 상태가 자연스럽게 10으로 감소한 다음 감소가 중지됩니다.(외부 요인에 의해 아이템이 손상되는 것은 여전히 가능합니다.) 최대 상태의 백분율로 설정합니다.</sp.repairable.mindeteriorationcondition.description>
+<sp.repairable.repairthreshold.name>수리 한계</sp.repairable.repairthreshold.name>
+<sp.repairable.repairthreshold.description>아이템의 상태가 이 값보다 낮아야 수리가 가능합니다. 최대 상태의 백분율로 설정합니다.</sp.repairable.repairthreshold.description>
+<sp.repairable.fixdurationlowskill.name>스킬이 낮을 때 수리 소요 시간</sp.repairable.fixdurationlowskill.name>
+<sp.repairable.fixdurationlowskill.description>수리하는 데 스킬이 낮은 아이템을 수리하는 데 걸리는 시간을 설정합니다.</sp.repairable.fixdurationlowskill.description>
+<sp.repairable.fixdurationhighskill.name>스킬이 높을 때 수리 소요 시간</sp.repairable.fixdurationhighskill.name>
+<sp.repairable.fixdurationhighskill.description>수리하는 데 스킬이 높은 아이템을 수리하는 데 걸리는 시간을 설정합니다.</sp.repairable.fixdurationhighskill.description>
+<sp.repairtool.barrelrotation.name>배럴 회전</sp.repairtool.barrelrotation.name>
+<sp.repairtool.barrelrotation.description>배럴의 회전 각도를 설정합니다.</sp.repairtool.barrelrotation.description>
+<sp.buttonterminal.signals.name>신호</sp.buttonterminal.signals.name>
+<sp.buttonterminal.signals.description>해당 버튼을 누를 때 전송되는 신호를 설정합니다.</sp.buttonterminal.signals.description>
+<sp.buttonterminal.activatingitems.name>아이템 활성화</sp.buttonterminal.activatingitems.name>
+<sp.buttonterminal.activatingitems.description>아이템에 식별자나 태그가 포함되어 있는 경우 터미널 버튼으로 사용할 수 있습니다. 여러 아이템은 쉼표로 구분할 수 있습니다.</sp.buttonterminal.activatingitems.description>
+<sp.connectionpanel.locked.name>잠금</sp.connectionpanel.locked.name>
+<sp.connectionpanel.locked.description>잠긴 배선 연결은 게임 내에서 다시 배선을 설정할 수 없습니다.</sp.connectionpanel.locked.description>
+<sp.memorycomponent.maxvaluelength.name>최대 값 길이</sp.memorycomponent.maxvaluelength.name>
+<sp.memorycomponent.maxvaluelength.description>저장된 값의 최대 길이를 설정합니다. 경고: 값이 크면 메모리 사용량이 많거나 네트워크 상의 문제가 생길 수 있습니다.</sp.memorycomponent.maxvaluelength.description>
+<sp.memorycomponent.writeable.name>쓰기 가능</sp.memorycomponent.writeable.name>
+<sp.memorycomponent.writeable.description>메모리 구성 요소에 저장된 값이 신호를 통해 변경될 수 있습니까?</sp.memorycomponent.writeable.description>
+<sp.motionsensor.ignoredead.name>시신 무시</sp.motionsensor.ignoredead.name>
+<sp.motionsensor.ignoredead.description>센서가 죽은 캐릭터를 무시합니까?</sp.motionsensor.ignoredead.description>
+<sp.motionsensor.rangex.description>수평 감지 범위.</sp.motionsensor.rangex.description>
+<sp.motionsensor.rangey.description>수직상의 움직임 감지 거리.</sp.motionsensor.rangey.description>
+<sp.motionsensor.detectoffset.name>감지 오프셋</sp.motionsensor.detectoffset.name>
+<sp.motionsensor.detectoffset.description>아이템을 기준으로 움직임을 감지할 위치를 설정합니다. 예를 들어, 0,100은 아이템 위의 100 단위의 이동을 감지합니다.</sp.motionsensor.detectoffset.description>
+<sp.motionsensor.updateinterval.name>업데이트 간격</sp.motionsensor.updateinterval.name>
+<sp.motionsensor.updateinterval.description>센서가 근처에서 움직이는 물체가 있는지 확인하는 빈도를 설정합니다. 값이 클수록 성능이 향상됩니다.</sp.motionsensor.updateinterval.description>
+<sp.motionsensor.output.description>움직임을 감지했을 때 아이템이 출력하는 신호를 설정합니다.</sp.motionsensor.output.description>
+<sp.motionsensor.falseoutput.description>움직임을 감지하지 못했을 때 아이템이 출력하는 신호를 설정합니다.</sp.motionsensor.falseoutput.description>
+<sp.motionsensor.minimumvelocity.name>최소 속도</sp.motionsensor.minimumvelocity.name>
+<sp.motionsensor.minimumvelocity.description>감지 범위 내의 개체가 감지되기 위한 속도(m/초)를 설정합니다.</sp.motionsensor.minimumvelocity.description>
+<sp.terminal.welcomemessage.name>환영 메시지</sp.terminal.welcomemessage.name>
+<sp.terminal.welcomemessage.description>처음 열었을 때 터미널 창에 표시되는 메시지를 설정합니다.</sp.terminal.welcomemessage.description>
+<sp.terminal.usemonospacefont.name>흑백 폰트 사용</sp.terminal.usemonospacefont.name>
+<sp.terminal.usemonospacefont.description>이 설정을 사용하면 터미널이 흑백 폰트를 사용합니다.</sp.terminal.usemonospacefont.description>
+<sp.textcolor.name>글 색상</sp.textcolor.name>
+<sp.terminal.textcolor.description>터미널에 적힌 글 색상.</sp.terminal.textcolor.description>
+<sp.terminal.linestartsymbol.name>줄 시작 기호</sp.terminal.linestartsymbol.name>
+<sp.terminal.readonly.name>읽기 전용</sp.terminal.readonly.name>
+<sp.range.name>범위</sp.range.name>
+<sp.wificomponent.range.description>이 와이파이 게이트 부품으로부터 신호를 받으려면 수신기가 얼마나 가까이 있어야 하는지 설정합니다.</sp.wificomponent.range.description>
+<sp.wificomponent.allowcrossteamcommunication.name>팀 간 통신 허용</sp.wificomponent.allowcrossteamcommunication.name>
+<sp.wificomponent.allowcrossteamcommunication.description>게이트 부품이 다른 팀의 잠수함에 있는 와이파이 게이트 부품과 통신할 수 있는지 설정합니다.(예를 들어, 전투 임무 중의 적 잠수함, 부활 잠수정). 신호를 전송하는 게이트 부품과 신호를 수신하는 게이트 부품 둘 다 활성화해야 합니다.</sp.wificomponent.allowcrossteamcommunication.description>
+<sp.wificomponent.linktochat.name>채팅 연동 여부</sp.wificomponent.linktochat.name>
+<sp.wificomponent.linktochat.description>활성화된 경우 다른 채팅 연동 와이파이 게이트 부품으로부터 수신되는 모든 신호는 아이템을 가지고 있는 플레이어의 대화 상자에 채팅 메시지로 표시됩니다.</sp.wificomponent.linktochat.description>
+<sp.wificomponent.minchatmessageinterval.name>최소 채팅 메시지 간격</sp.wificomponent.minchatmessageinterval.name>
+<sp.wificomponent.minchatmessageinterval.description>메시지가 대화 상자에 표시되기 위해 신호 사이에 경과해야 하는 시간(초 단위)을 설정합니다. 연속적인 신호를 전송하는 채팅 연동 와이파이 게이트 부품이 있을 경우 과도한 양의 채팅 메시지가 생성될 수 있으므로 이 값을 매우 낮은 값으로 설정하는 것은 권장되지 않습니다.</sp.wificomponent.minchatmessageinterval.description>
+<sp.wificomponent.discardduplicatechatmessages.name>중복된 채팅 메시지 삭제</sp.wificomponent.discardduplicatechatmessages.name>
+<sp.wificomponent.discardduplicatechatmessages.description>설정하면 게이트 부품은 수신된 신호가 변경될 까지만 채팅 메시지를 생성합니다.</sp.wificomponent.discardduplicatechatmessages.description>
+<sp.wire.noautolock.name>자동 잠금 방지</sp.wire.noautolock.name>
+<sp.wire.noautolock.description>활성화된 경우 이 와이어는 "모든 기본 와이어 잠금" 설정에서 무시됩니다.</sp.wire.noautolock.description>
+<sp.wire.usespritedepth.name>스프라이트 깊이 사용</sp.wire.usespritedepth.name>
+<sp.wire.usespritedepth.description>활성화된 경우 이 와이어는 일정한 깊이 대신 스프라이트 깊이를 사용합니다.</sp.wire.usespritedepth.description>
+<sp.triggercomponent.force.description>트리거 엔티티에 적용되는 최대 힘의 값을 설정합니다.</sp.triggercomponent.force.description>
+<sp.triggercomponent.distancebasedforce.name>거리 기반 힘</sp.triggercomponent.distancebasedforce.name>
+<sp.triggercomponent.distancebasedforce.description>트리거가 트리거의 중심에 가까워질수록 힘이 높아지는지를 설정합니다.</sp.triggercomponent.distancebasedforce.description>
+<sp.triggercomponent.forcefluctuation.name>힘 변동</sp.triggercomponent.forcefluctuation.name>
+<sp.triggercomponent.forcefluctuation.description>힘이 시간에 따라 변동되는지 혹은 일정하게 유지되는지 여부를 설정합니다.</sp.triggercomponent.forcefluctuation.description>
+<sp.turret.hudtint.name>HUD 색조</sp.turret.hudtint.name>
+<sp.turret.hudtint.description>아이템이 작동 중일 때 선택할 수 있는 화면의 색상을 설정합니다. (R,G,B,A)</sp.turret.hudtint.description>
+<sp.turret.reload.name>재장전</sp.turret.reload.name>
+<sp.turret.reload.description>사용자가 다음 발사까지 대기하는 시간.</sp.turret.reload.description>
+<sp.turret.shotsperburst.name>점사 시 발사 수</sp.turret.shotsperburst.name>
+<sp.turret.shotsperburst.description>대기 시간까지 최대 얼마나 발사할 수 있는지 설정합니다. (이중 코일건을 생각하시면 편합니다.)</sp.turret.shotsperburst.description>
+<sp.turret.delaybetweenbursts.name>점사 간 지연시간</sp.turret.delaybetweenbursts.name>
+<sp.turret.delaybetweenbursts.description>점사 사이에 추가 지연시간을 설정합니다. 재장전 시 추가됩니다.</sp.turret.delaybetweenbursts.description>
+<sp.turret.retractiondurationmultiplier.name>복좌 배수</sp.turret.retractiondurationmultiplier.name>
+<sp.turret.retractiondurationmultiplier.description>발사 후 포신이 원래 위치로 돌아오는 데 걸리는 시간을 수정합니다. 재장전 시간에도 영향을 끼칩니다.</sp.turret.retractiondurationmultiplier.description>
+<sp.turret.recoiltime.name>반동 시간</sp.turret.recoiltime.name>
+<sp.turret.recoiltime.description>발사 후 반동으로 포신이 얼마나 빠르게 이동하는지 설정합니다.</sp.turret.recoiltime.description>
+<sp.turret.retractiondelay.name>복좌 지연시간</sp.turret.retractiondelay.name>
+<sp.turret.retractiondelay.description>반동으로 인해 포신이 후퇴한 후 원래 위치로 돌아오기까지 걸리는 시간을 설정합니다.</sp.turret.retractiondelay.description>
+<sp.turret.rotationlimits.name>회전 한계</sp.turret.rotationlimits.name>
+<sp.turret.rotationlimits.description>포신이 회전할 수 있는 범위.</sp.turret.rotationlimits.description>
+<sp.turret.springstiffnesslowskill.name>스킬이 낮을 때 포신의 스프링 강성</sp.turret.springstiffnesslowskill.name>
+<sp.turret.springstiffnesslowskill.description>조작과 관련된 스킬이 낮은 캐릭터가 아이템을 사용할 때 포신을 회전시키기 위해 적용되는 토크를 설정합니다. 값이 클수록 포신의 회전 속도가 빨라집니다.</sp.turret.springstiffnesslowskill.description>
+<sp.turret.springstiffnesshighskill.name>스킬이 높을 때 포신의 스프링 강성</sp.turret.springstiffnesshighskill.name>
+<sp.turret.springstiffnesshighskill.description>조작과 관련된 스킬이 높은 캐릭터가 아이템을 사용할 때 포신을 회전시키기 위해 적용되는 토크를 설정합니다. 값이 클수록 포신의 회전 속도가 빨라집니다.</sp.turret.springstiffnesshighskill.description>
+<sp.turret.springdampinglowskill.name>스킬이 낮을 때 포신의 제동</sp.turret.springdampinglowskill.name>
+<sp.turret.springdampinglowskill.description>조작과 관련된 스킬이 낮은 캐릭터가 아이템을 사용할 때 포신의 움직임에 제동을 거는 토크를 설정합니다. 값이 클수록 조준이 더 "딱딱 이루어지고" 조준시 포신 정렬이 흐트러지는 것을 막습니다.</sp.turret.springdampinglowskill.description>
+<sp.turret.springdampinghighskill.name>스킬이 높을 때 포신의 제동</sp.turret.springdampinghighskill.name>
+<sp.turret.springdampinghighskill.description>조작과 관련된 스킬이 높은 캐릭터가 아이템을 사용할 때 포신의 움직임에 제동을 거는 토크를 설정합니다. 값이 클수록 조준이 더 "딱딱 이루어지고" 조준시 포신 정렬이 흐트러지는 것을 막습니다.</sp.turret.springdampinghighskill.description>
+<sp.turret.rotationspeedlowskill.name>스킬이 낮을 때 포신 회전 속도</sp.turret.rotationspeedlowskill.name>
+<sp.turret.rotationspeedlowskill.description>조작과 관련된 스킬이 낮은 캐릭터가 아이템을 사용할 때 포신의 최대 각속도를 설정합니다.</sp.turret.rotationspeedlowskill.description>
+<sp.turret.rotationspeedhighskill.name>스킬이 높을 때 포신 회전 속도</sp.turret.rotationspeedhighskill.name>
+<sp.turret.rotationspeedhighskill.description>조작과 관련된 스킬이 shv은 캐릭터가 아이템을 사용할 때 포신의 최대 각속도를 설정합니다.</sp.turret.rotationspeedhighskill.description>
+<sp.turret.AutoOperate.name>자동 조준</sp.turret.AutoOperate.name>
+<sp.turret.AutoOperate.description>AI 타게팅을 이용하여 포탑이 자동으로 동작할 지 설정합니다. 무작위 움직임 설정을 포함하며, 하단에서 조정 가능합니다.</sp.turret.AutoOperate.description>
+<sp.turret.RandomAimAmount.name>무작위 조준 계수</sp.turret.RandomAimAmount.name>
+<sp.turret.RandomAimAmount.description>[자동 조준] 포탑이 목표물을 완벽하게 추적하는 대신 무작위로 움직여 조준이 목표로부터 얼마나 벗어날지를 설정합니다. 도 단위로 설정할 수 있습니다.</sp.turret.RandomAimAmount.description>
+<sp.turret.RandomAimMinTime.name>무작위 조준 최소 시간</sp.turret.RandomAimMinTime.name>
+<sp.turret.RandomAimMinTime.description>[자동 조준] 포탑이 목표물을 완벽하게 추적하는 대신 무작위로 움직여 조준이 목표로부터 벗어나는 빈도를 설정합니다. 최소 대기 시간이며, 초 단위로 설정할 수 있습니다.</sp.turret.RandomAimMinTime.description>
+<sp.turret.RandomAimMaxTime.name>무작위 조준 최대 시간</sp.turret.RandomAimMaxTime.name>
+<sp.turret.RandomAimMaxTime.description>[자동 조준] 포탑이 목표물을 완벽하게 추적하는 대신 무작위로 움직여 조준이 목표로부터 벗어나는 빈도를 설정합니다. 최대 대기 시간이며, 초 단위로 설정할 수 있습니다.</sp.turret.RandomAimMaxTime.description>
+<sp.turret.RandomMovement.name>무작위 조준</sp.turret.RandomMovement.name>
+<sp.turret.RandomMovement.description>[자동 조준] 대기 중일 때, 포탑이 무작위로 움직이도록 할 것인지 설정합니다.</sp.turret.RandomMovement.description>
+<sp.turret.AimDelay.name>조준 지연</sp.turret.AimDelay.name>
+<sp.turret.AimDelay.description>[자동 조준] 포탑이 목표물을 추적하는 동안 지연 시간이 발생할 지, 아니면 즉시 완벽하게 추적할지 설정합니다.</sp.turret.AimDelay.description>
+<sp.turret.TargetCharacters.name>캐릭터를 목표로</sp.turret.TargetCharacters.name>
+<sp.turret.TargetCharacters.description>[자동 조준] 포탑이 일반적인 상황에서 캐릭터를 목표로 삼아야 할까요?</sp.turret.TargetCharacters.description>
+<sp.turret.TargetMonsters.name>괴물을 목표로</sp.turret.TargetMonsters.name>
+<sp.turret.TargetMonsters.description>[자동 조준] 포탑이 일반적인 상황에서 괴물을 목표로 삼아야 할까요?</sp.turret.TargetMonsters.description>
+<sp.turret.TargetHumans.name>인간을 목표로</sp.turret.TargetHumans.name>
+<sp.turret.TargetHumans.description>[자동 조준] 포탑이 모든 인간 (혹은 애완동물과 같은 동일한 그룹의 생물들을) 목표로 삼아야 할까요?</sp.turret.TargetHumans.description>
+<sp.turret.TargetSubmarines.name>잠수함을 목표로</sp.turret.TargetSubmarines.name>
+<sp.turret.TargetSubmarines.description>[자동 조준] 포탑이 다른 잠수함을 목표로 삼아야 할까요?</sp.turret.TargetSubmarines.description>
+<sp.turret.TargetItems.name>아이템을 목표로</sp.turret.TargetItems.name>
+<sp.turret.TargetItems.description>[자동 조준] 포탑이 아이템을 목표로 삼아야 할까요?</sp.turret.TargetItems.description>
+<sp.turret.FriendlyTag.name>아군 태그</sp.turret.FriendlyTag.name>
+<sp.turret.FriendlyTag.description>[자동 조준] 포탑이 자동으로 조종될 때 AI가 무시하는 그룹의 명칭 혹은 종 명을 설정합니다.</sp.turret.FriendlyTag.description>
+<sp.dockingport.maindockingport.name>주 도킹 포트</sp.dockingport.maindockingport.name>
+<sp.dockingport.maindockingport.description>설정 시 이 도킹 포트는 잠수함이 전초기지에 도킹할 때 사용됩니다. (가능한 경우)</sp.dockingport.maindockingport.description>
+<sp.dockingport.applyeffectsondocking.name>도킹 시 효과 적용</sp.dockingport.applyeffectsondocking.name>
+<sp.dockingport.applyeffectsondocking.description>도킹 시 OnUse StatusEffect 트리거가 발동하는 경우 (기본 도킹 포트에서는 이러한 효과로 파티클을 생성하고 소리를 재생함)를 설정합니다.</sp.dockingport.applyeffectsondocking.description>
+<sp.dockingport.forcedockingdirection.name>도킹 방향 강제 적용</sp.dockingport.forcedockingdirection.name>
+<sp.dockingport.forcedockingdirection.description>포트가 도킹할 수 있는 방향을 설정합니다. 예를 들어, "상단"으로 설정된 경우 포트가 포트 위의 다른 포트에 도킹할 수 있음을 의미합니다. 일반적으로 이 설정을 손볼 필요는 없지만, 도킹 위치가 올바르지 않은 경우 (예: 함체 또는 문이 없는 비정상적인 도킹 포트 구성으로 인한 상황) 이 설정을 사용하여 방향을 적용할 수 있습니다.</sp.dockingport.forcedockingdirection.description>
+<sp.meleeweapon.swing.name>무기 회전반경</sp.meleeweapon.swing.name>
+<sp.meleeweapon.swingpos.name>무기 회전반경 위치</sp.meleeweapon.swingpos.name>
+<sp.meleeweapon.swingforce.name>무기 회전 힘</sp.meleeweapon.swingforce.name>
+<sp.force.name>힘</sp.force.name>
+<sp.propulsion.force.description>사용자의 신체에 적용되는 힘을 설정합니다.</sp.propulsion.force.description>
+<sp.oxygengenerator.generatedamount.name>생성량</sp.oxygengenerator.generatedamount.name>
+<sp.oxygengenerator.generatedamount.description>기계가 최대 출력으로 작동할 때 생성하는 산소의 양.</sp.oxygengenerator.generatedamount.description>
+<sp.booleanoperatorcomponent.output.description>조건이 충족될 때 전송되는 신호.</sp.booleanoperatorcomponent.output.description>
+<sp.booleanoperatorcomponent.falseoutput.description>조건이 충족될 때 전송되는 신호. (비어있는 상태일 경우, 전송되지 않음)</sp.booleanoperatorcomponent.falseoutput.description>
+<sp.concatcomponent.maxoutputlength.description>출력 문자열의 최대 길이. 경고: 값이 크면 메모리 사용량이나 네트워크 부하가 커질 수 있습니다.</sp.concatcomponent.maxoutputlength.description>
+<sp.delaycomponent.delay.description>아이템이 신호를 지연시키는 시간(초 단위)을 설정합니다.</sp.delaycomponent.delay.description>
+<sp.delaycomponent.resetwhensignalreceived.description>새 신호가 수신될 때 게이트 부품이 이전에 수신된 신호를 폐기해야 합니까?</sp.delaycomponent.resetwhensignalreceived.description>
+<sp.delaycomponent.resetwhendifferentsignalreceived.description>수신되는 신호가 변경될 때 게이트 부품이 이전에 수신한 신호를 폐기해야 합니까?</sp.delaycomponent.resetwhendifferentsignalreceived.description>
+<sp.notcomponent.continuousoutput.name>연속 출력</sp.notcomponent.continuousoutput.name>
+<sp.oscillatorcomponent.outputtype.description>아이템이 출력하는 신호의 종류를 설정합니다. 펄스: 1의 신호를 주기적으로 보냅니다. 톱니: 0에서 1까지 선형적으로 증가하는 주기적인 파동을 내보냅니다. 사인: -1과 1 사이에서 변동하는 사인파를 전송합니다. 사각형: 0과 1 사이를 번갈아가며 신호를 보냅니다. 삼각형: -1에서 1까지 선형적으로 증가하는 파형과 1에서 -1까지 감소하는 파형을 번갈아 전송합니다.</sp.oscillatorcomponent.outputtype.description>
+<sp.oscillatorcomponent.frequency.name>빈도</sp.oscillatorcomponent.frequency.name>
+<sp.oscillatorcomponent.frequency.description>신호가 오가는 속도 혹은 펄스가 전송되는 속도(Hz 단위)를 설정합니다.</sp.oscillatorcomponent.frequency.description>
+<sp.regexfindcomponent.maxoutputlength.description>출력 문자열의 최대 길이를 설정합니다. 경고: 값이 크면 메모리 사용량이나 네트워크 부하가 커질 수 있습니다.</sp.regexfindcomponent.maxoutputlength.description>
+<sp.relaycomponent.maxpower.name>최대 전력</sp.relaycomponent.maxpower.name>
+<sp.relaycomponent.maxpower.description>아이템을 통과할 수 있는 최대 전력량을 설정합니다.</sp.relaycomponent.maxpower.description>
+<sp.greatercomponent.output.description>첫 번째 신호가 두 번째 신호보다 클 때 전송되는 신호입니다. (공백일 경우 신호는 전송되지 않음)</sp.greatercomponent.output.description>
+<sp.greatercomponent.falseoutput.description>첫 번째 신호가 두 번째 신호보다 작거나 같을 때 전송되는 신호입니다. (공백일 경우 신호는 전송되지 않음)</sp.greatercomponent.falseoutput.description>
+<sp.ison.name>켜짐</sp.ison.name>
+<sp.relaycomponent.ison.description>전송 게이트 부품이 현재의 전력 및 신호를 통과시킬 수 있습니까?</sp.relaycomponent.ison.description>
+<sp.signalcheckcomponent.output.description>수신된 신호가 목표 신호와 일치할 때 이 아이템이 출력하는 신호를 설정합니다.</sp.signalcheckcomponent.output.description>
+<sp.signalcheckcomponent.falseoutput.description>수신된 신호가 목표 신호와 일치하지 않을 때 이 아이템이 출력하는 신호를 설정합니다.</sp.signalcheckcomponent.falseoutput.description>
+<sp.signalcheckcomponent.targetsignal.description>수신된 신호를 비교할 값을 설정합니다.</sp.signalcheckcomponent.targetsignal.description>
+<sp.maxoutputlength.name>최대 출력 길이</sp.maxoutputlength.name>
+<sp.maxoutputlength.description>출력 문자열의 최대 길이를 설정합니다. 경고: 값이 크면 메모리 사용량이나 네트워크 부하가 커질 수 있습니다.</sp.maxoutputlength.description>
+<sp.waterdetector.output.description>아이템이 물 속에 있을 때 보내는 신호를 설정합니다.</sp.waterdetector.output.description>
+<sp.waterdetector.falseoutput.description>아이템이 물 속에 있지 않을 때 보내는 신호를 설정합니다.</sp.waterdetector.falseoutput.description>
+
+<!-- Entity names -->
+<entityname.hull>함체</entityname.hull>
+<entitydescription.hull>함체는 "잠수함 내부"로 간주되는 구획을 결정합니다. 일반적으로 모든 격실은 함체로 둘러싸여 있어야 합니다.</entitydescription.hull>
+<entityname.gap>유격</entityname.gap>
+<entitydescription.gap>유격은 함체 사이로 물과 공기가 흐를 수 있도록 합니다.</entitydescription.gap>
+<entityname.waypoint>웨이포인트</entityname.waypoint>
+<entitydescription.waypoint>AI 캐릭터가 잠수함 내부를 이동할 때 사용됩니다.</entitydescription.waypoint>
+<entityname.spawnpoint>스폰포인트</entityname.spawnpoint>
+<entitydescription.spawnpoint>내부에 승조원들이 스폰되는 격실을 결정합니다.</entitydescription.spawnpoint>
+
+<!-- Structure names -->
+<entityname.horizontalresizablewindow>창문 수평(크기 조절 가능)</entityname.horizontalresizablewindow>
+<entityname.verticalresizablewindow>창문 수직(크기 조절 가능)</entityname.verticalresizablewindow>
+<entityname.ff_x_wall>대형 내벽 수평</entityname.ff_x_wall>
+<entityname.ff_x_wall_cables>대형 내벽 수평과 전선</entityname.ff_x_wall_cables>
+<entityname.ff_y_wall>대형 내벽 수직</entityname.ff_y_wall>
+<entityname.inwalll90cables>대형 내벽 수직과 전선</entityname.inwalll90cables>
+<entitydescription.resizeablewallwithcollisiondetection>크기 조절이 가능한 충돌 판정이 있는 벽.</entitydescription.resizeablewallwithcollisiondetection>
+<entityname.inwalllcaph1>대형 내벽 마감 수평1</entityname.inwalllcaph1>
+<entityname.inwalllcaph2>대형 내벽 마감 수평2</entityname.inwalllcaph2>
+<entityname.inwalllcaph3>대형 내벽 마감 수평3</entityname.inwalllcaph3>
+<entityname.inwalllcapy1>대형 내벽 마감 수직1</entityname.inwalllcapy1>
+<entityname.inwalllcapy2>대형 내벽 마감 수직2</entityname.inwalllcapy2>
+<entityname.inwalllcapy4>대형 내벽 마감 수직4</entityname.inwalllcapy4>
+<entityname.inwallltieh1>대형 내벽 연결부 수평1</entityname.inwallltieh1>
+<entityname.inwallltieh2>대형 내벽 연결부 수평2</entityname.inwallltieh2>
+<entityname.inwallltieh3>대형 내벽 연결부 수평3</entityname.inwallltieh3>
+<entityname.inwallltiev1>대형 내벽 연결부 수직1</entityname.inwallltiev1>
+<entityname.inwallltiev2>대형 내벽 연결부 수직2</entityname.inwallltiev2>
+<entityname.inwallltiev3>대형 내벽 연결부 수직3</entityname.inwallltiev3>
+<entitydescription.wallcap>벽의 끝이나 교차지점에 배치할 수 있는 장식용 구조물.</entitydescription.wallcap>
+<entityname.ff_wall_b>밸러스트 탱크 배경 벽 A1</entityname.ff_wall_b>
+<entityname.ff_wall_bp>밸러스트 탱크 배경 벽 A2</entityname.ff_wall_bp>
+<entityname.bwbc>밸러스트 탱크 배경 벽 C</entityname.bwbc>
+<entityname.ff_wall_c1>배경 벽 C1</entityname.ff_wall_c1>
+<entityname.ff_wall_c2>배경 벽 C2</entityname.ff_wall_c2>
+<entityname.ff_wall_c3>배경 벽 C3</entityname.ff_wall_c3>
+<entityname.ff_wall_d1>배경 벽 D1</entityname.ff_wall_d1>
+<entityname.ff_wall_d2>배경 벽 D2</entityname.ff_wall_d2>
+<entityname.ff_wall_d3>배경 벽 D3</entityname.ff_wall_d3>
+<entityname.ff_wall_e>배경 벽 E</entityname.ff_wall_e>
+<entityname.ff_wall_e2>배경 벽 E2</entityname.ff_wall_e2>
+<entityname.ff_wall_g1>배경 벽 G1</entityname.ff_wall_g1>
+<entityname.ff_wall_g2>배경 벽 G2</entityname.ff_wall_g2>
+<entityname.ff_wall_g3>배경 벽 G3</entityname.ff_wall_g3>
+<entityname.ff_wall_h1>배경 벽 H1</entityname.ff_wall_h1>
+<entityname.bgorangepanels>오렌지 패널 배경 벽</entityname.bgorangepanels>
+<entityname.bgorangepanelwindow>오렌지 패널 배경 벽과 창문</entityname.bgorangepanelwindow>
+<entityname.bgpanels>배경 벽 패널</entityname.bgpanels>
+<entityname.bgpanelswindow>배경 벽과 창문</entityname.bgpanelswindow>
+<entityname.PipesBackground>배경 벽 배관</entityname.PipesBackground>
+<entityname.roughbgwall>거친 배경 벽</entityname.roughbgwall>
+<entityname.cleanbgwall>깨끗한 배경 벽</entityname.cleanbgwall>
+<entitydescription.backgroundwall>장식용 배경 벽.</entitydescription.backgroundwall>
+<entityname.exta_tail>구형 테일 핀 A</entityname.exta_tail>
+<entitydescription.tailwithcollision>충돌 판정이 있는 잠수함 꼬리 부분.</entitydescription.tailwithcollision>
+<entityname.tailfina>테일 핀 A</entityname.tailfina>
+<entityname.tailfinb>테일 핀 B</entityname.tailfinb>
+<entityname.tailfinc>테일 핀 C</entityname.tailfinc>
+<entityname.tailfind>테일 핀 D</entityname.tailfind>
+<entityname.tailfind2p1>테일 핀 D2 P1</entityname.tailfind2p1>
+<entityname.tailfind2p2>테일 핀 D2 P2</entityname.tailfind2p2>
+<entityname.tailfind2p3>테일 핀 D2 P3</entityname.tailfind2p3>
+<entityname.tailfind3p1>테일 핀 D3 P1</entityname.tailfind3p1>
+<entityname.tailfind3p2>테일 핀 D3 P2</entityname.tailfind3p2>
+<entityname.tailfind3p3>테일 핀 D3 P3</entityname.tailfind3p3>
+<entityname.tailfinep1>테일 핀 E P1</entityname.tailfinep1>
+<entityname.tailfinep2>테일 핀 E P2</entityname.tailfinep2>
+<entityname.tailfinfp3>테일 핀 E P3</entityname.tailfinfp3>
+<entityname.tailfinf1>테일 핀 F1</entityname.tailfinf1>
+<entityname.tailfinf2>테일 핀 F2</entityname.tailfinf2>
+<entityname.tailfinf3>테일 핀 F3</entityname.tailfinf3>
+<entityname.tailfinf4>테일 핀 F4</entityname.tailfinf4>
+<entitydescription.tailnocollision>충돌 판정이 없는 잠수함의 장식용 꼬리 부분.</entitydescription.tailnocollision>
+<entityname.exta_front>잠수함 함수 A</entityname.exta_front>
+<entityname.subfrontb>잠수함 함수 B</entityname.subfrontb>
+<entityname.subfrontc>잠수함 함수 C</entityname.subfrontc>
+<entityname.subfrontd>잠수함 함수 D</entityname.subfrontd>
+<entityname.subfronte>잠수함 함수 E</entityname.subfronte>
+<entityname.subfrontg1p1>잠수함 함수 F 상부</entityname.subfrontg1p1>
+<entityname.subfrontg1p2>잠수함 함수 F 중앙</entityname.subfrontg1p2>
+<entityname.subfrontg1p3>잠수함 함수 F 하부</entityname.subfrontg1p3>
+<entityname.subfrontg2p1>잠수함 함수 G 상부</entityname.subfrontg2p1>
+<entityname.subfrontg2p2>잠수함 함수 G 중앙</entityname.subfrontg2p2>
+<entityname.subfrontg2p3>잠수함 함수 G 하부</entityname.subfrontg2p3>
+<entitydescription.frontwithcollision>충돌 판정이 있는 잠수함 함수 부분.</entitydescription.frontwithcollision>
+<entityname.frontfchaina1>전방 체인 1</entityname.frontfchaina1>
+<entityname.frontfchaina2>전방 체인 2</entityname.frontfchaina2>
+<entityname.frontpulley>함수 캡스턴</entityname.frontpulley>
+<entityname.shellaboard0dega>소형 금속 조각 수평</entityname.shellaboard0dega>
+<entityname.shellaboard0degb>대형 금속 조각 수평</entityname.shellaboard0degb>
+<entityname.shellaboard90dega>소형 금속 조각 수직</entityname.shellaboard90dega>
+<entityname.shellaboard90degb>대형 금속 조각 수직</entityname.shellaboard90degb>
+<entityname.leftwall>기본 벽 좌</entityname.leftwall>
+<entityname.LeftWallHeavy>단단한 벽 좌</entityname.LeftWallHeavy>
+<entityname.rightwall>기본 벽 우</entityname.rightwall>
+<entityname.RightWallHeavy>단단한 벽 우</entityname.RightWallHeavy>
+<entityname.topwall>기본 벽 상부</entityname.topwall>
+<entityname.TopWallHeavy>단단한 벽 상부</entityname.TopWallHeavy>
+<entityname.shella90deg>외벽 A 90도</entityname.shella90deg>
+<entityname.shella16deg>외벽 A 16도</entityname.shella16deg>
+<entityname.shella34deg>외벽 A 34도</entityname.shella34deg>
+<entityname.shella0deg>외벽 A 0도</entityname.shella0deg>
+<entityname.shella04deg>외벽 A 4도</entityname.shella04deg>
+<entityname.shella14adeg>외벽 A 14도</entityname.shella14adeg>
+<entityname.shella52deg>외벽 A 52도</entityname.shella52deg>
+<entityname.shella16degb>외벽 A 16도 B</entityname.shella16degb>
+<entityname.shella25deg>외벽 A 25도</entityname.shella25deg>
+<entityname.shella45deg>외벽 A 45도</entityname.shella45deg>
+<entityname.shella32deg>외벽 A 32도</entityname.shella32deg>
+<entityname.shella14degb>외벽 A 14도 B</entityname.shella14degb>
+<entityname.shella43deg>외벽 A 43도</entityname.shella43deg>
+<entityname.shella51deg>외벽 A 51도</entityname.shella51deg>
+<entityname.shella47deg>외벽 A 47도</entityname.shella47deg>
+<entityname.shella60deg>외벽 A 60도</entityname.shella60deg>
+<entityname.shella18deg>외벽 A 18도</entityname.shella18deg>
+<entityname.shella70deg>외벽 A 70도</entityname.shella70deg>
+<entityname.shella90degcurve>외벽 A 90도 곡면</entityname.shella90degcurve>
+<entityname.shella45degb>외벽 A 45도 B</entityname.shella45degb>
+<entityname.shella45degc>외벽 A 45도 A</entityname.shella45degc>
+<entityname.shella45degd>외벽 A 45도 D</entityname.shella45degd>
+<entityname.shella57deg>외벽 A 57도</entityname.shella57deg>
+<entityname.shella40deg>외벽 A 40도</entityname.shella40deg>
+<entityname.shella61deg>외벽 A 61도</entityname.shella61deg>
+<entityname.shella17deg>외벽 A 17도</entityname.shella17deg>
+<entityname.shella34degb>외벽 A 34도 B</entityname.shella34degb>
+<entityname.shella26deg>외벽 A 26도</entityname.shella26deg>
+<entityname.shella54deg>외벽 A 54도</entityname.shella54deg>
+<entityname.shella38deg>외벽 A 38도</entityname.shella38deg>
+<entityname.shella42deg>외벽 A 42도</entityname.shella42deg>
+<entityname.shellacombo11>외벽 A 연결체 1 1</entityname.shellacombo11>
+<entityname.shellacombo12>외벽 A 연결체 1 2</entityname.shellacombo12>
+<entitydescription.exteriorshell>잠수함의 외벽.</entitydescription.exteriorshell>
+<entityname.shellacap0dega>둥근 외벽 A 마감 수평</entityname.shellacap0dega>
+<entityname.shellacap0degb>사각 외벽 A 마감 수평</entityname.shellacap0degb>
+<entityname.shellacap90dega>둥근 외벽 A 마감 수직</entityname.shellacap90dega>
+<entityname.shellacap90degb>사각 외벽 A 마감 수직</entityname.shellacap90degb>
+<entityname.sshella01>잠수정 외벽 A01</entityname.sshella01>
+<entityname.sshella02>잠수정 외벽 A02</entityname.sshella02>
+<entityname.sshella04>잠수정 외벽 A04</entityname.sshella04>
+<entityname.sshella05>잠수정 외벽 A05</entityname.sshella05>
+<entityname.sshellaa06>잠수정 외벽 A06</entityname.sshellaa06>
+<entityname.sshella07>잠수정 외벽 A07</entityname.sshella07>
+<entityname.sshella08>잠수정 외벽 A08</entityname.sshella08>
+<entityname.sshella09>잠수정 외벽 A09</entityname.sshella09>
+<entityname.sshella10>잠수정 외벽 A10</entityname.sshella10>
+<entityname.sshella11>잠수정 외벽 A11</entityname.sshella11>
+<entityname.sshella14>잠수정 외벽 A14</entityname.sshella14>
+<entityname.sshella15a>잠수정 외벽 A15a</entityname.sshella15a>
+<entityname.sshella15b>잠수정 외벽 A15b</entityname.sshella15b>
+<entityname.sshella15c>잠수정 외벽 A15c</entityname.sshella15c>
+<entityname.sshella17a>잠수정 외벽 A17a</entityname.sshella17a>
+<entityname.sshella17b>잠수정 외벽 A17b</entityname.sshella17b>
+<entityname.sshella17c>잠수정 외벽 A17c</entityname.sshella17c>
+<entityname.sshella18>잠수정 외벽 A18</entityname.sshella18>
+<entityname.sshella19>잠수정 외벽 A19</entityname.sshella19>
+<entityname.sshella20>잠수정 외벽 A20</entityname.sshella20>
+<entityname.sshella21>잠수정 외벽 A21</entityname.sshella21>
+<entityname.sshella22>잠수정 외벽 A22</entityname.sshella22>
+<entityname.sshella23>잠수정 외벽 A23</entityname.sshella23>
+<entityname.sshella24>잠수정 외벽 A24</entityname.sshella24>
+<entityname.sshella25>잠수정 외벽 A25</entityname.sshella25>
+<entityname.sshella26>잠수정 외벽 A26</entityname.sshella26>
+<entityname.sshella27>잠수정 외벽 A27</entityname.sshella27>
+<entityname.sshella28>잠수정 외벽 A28</entityname.sshella28>
+<entityname.sshella30>잠수정 외벽 A30</entityname.sshella30>
+<entityname.sshella32b>잠수정 외벽 A32b</entityname.sshella32b>
+<entityname.sshella32c>잠수정 외벽 A32c</entityname.sshella32c>
+<entityname.sshella32d>잠수정 외벽 A32d</entityname.sshella32d>
+<entityname.sshella36>잠수정 외벽 A36</entityname.sshella36>
+<entityname.sshella37>잠수정 외벽 A37</entityname.sshella37>
+<entityname.sshella38>잠수정 외벽 A38</entityname.sshella38>
+<entityname.sshella39>잠수정 외벽 A39</entityname.sshella39>
+<entityname.sshella40>잠수정 외벽 A40</entityname.sshella40>
+<entityname.sshella41>잠수정 외벽 A41</entityname.sshella41>
+<entityname.sshellaglassa>잠수정 외벽 A 관측창 A</entityname.sshellaglassa>
+<entityname.sshellaglassb>잠수정 외벽 A 관측창 B</entityname.sshellaglassb>
+<entityname.sshellaglassc>잠수정 외벽 A 관측창 C</entityname.sshellaglassc>
+<entityname.sshellaglassd>잠수정 외벽 A 관측창 D</entityname.sshellaglassd>
+<entityname.sshellaglasse>잠수정 외벽 A 관측창 E</entityname.sshellaglasse>
+<entityname.sshellaglassf>잠수정 외벽 A 관측창 F</entityname.sshellaglassf>
+<entitydescription.exteriorshuttleshell>잠수정의 외부 벽.</entitydescription.exteriorshuttleshell>
+<entityname.ventbendducta1>구부린 배관 덕트 A1</entityname.ventbendducta1>
+<entityname.ventbendducta2>구부린 배관 덕트 A2</entityname.ventbendducta2>
+<entityname.ventconnectora1>배관 연결부 A 1</entityname.ventconnectora1>
+<entityname.ventconnectora2>배관 연결부 A 2</entityname.ventconnectora2>
+<entityname.ventconnectora3>배관 연결부 A 3</entityname.ventconnectora3>
+<entityname.ventconnectora4>배관 연결부 A 4</entityname.ventconnectora4>
+<entityname.ventconnectora5>배관 연결부 A 5</entityname.ventconnectora5>
+<entityname.ventconnectora6>배관 연결부 A 6</entityname.ventconnectora6>
+<entityname.ventconnectora7>배관 연결부 A 7</entityname.ventconnectora7>
+<entityname.ventconnectorcapa1>배관 연결부 마감 A1</entityname.ventconnectorcapa1>
+<entityname.ventconnectorcapa2>배관 연결부 마감 A2</entityname.ventconnectorcapa2>
+<entityname.ventducta1>배관 덕트 수평 A1</entityname.ventducta1>
+<entityname.ventducta190deg>배관 덕트 수직 A1</entityname.ventducta190deg>
+<entityname.ventducta2>배관 덕트 수평 A2</entityname.ventducta2>
+<entityname.ventducta290deg>배관 덕트 수직 A2</entityname.ventducta290deg>
+<entityname.ventductb1>배관 덕트 수평 B1</entityname.ventductb1>
+<entityname.ventductb190deg>배관 덕트 수직 B1</entityname.ventductb190deg>
+<entityname.ventductb290deg>배관 덕트 수직 B2</entityname.ventductb290deg>
+<entityname.ventductbendb1>구부린 배관 덕트 B1</entityname.ventductbendb1>
+<entityname.ventductbendb2>구부린 배관 덕트 B2</entityname.ventductbendb2>
+<entityname.ventductfana>배관 덕트 팬 A</entityname.ventductfana>
+<entityname.ventductlongb2>배관 덕트 B2</entityname.ventductlongb2>
+<entityname.ventductreducerb>배관 덕트 리듀서 B 수평</entityname.ventductreducerb>
+<entityname.ventductreducerb90deg>배관 덕트 리듀서 B 수직</entityname.ventductreducerb90deg>
+<entityname.ventlargeductreducera>대형 배관 덕트 리듀서 A</entityname.ventlargeductreducera>
+<entityname.ventlargeductreducera1>중형 배관 덕트 리듀서 A1</entityname.ventlargeductreducera1>
+<entityname.ventlargeductreducera2>중형 배관 덕트 리듀서 A2</entityname.ventlargeductreducera2>
+<entityname.ventlargepipebenda1>대형 구부린 환풍기 배관 A1</entityname.ventlargepipebenda1>
+<entityname.ventmediumpipebenda1>중형 구부린 환풍기 배관 A1</entityname.ventmediumpipebenda1>
+<entityname.ventpipea1>환풍기 배관 A1</entityname.ventpipea1>
+<entityname.ventpipea190deg>환풍기 배관 A1 수직</entityname.ventpipea190deg>
+<entityname.ventpipea2>환풍기 배관 A2</entityname.ventpipea2>
+<entityname.ventpipea290deg>환풍기 배관 A2 수직</entityname.ventpipea290deg>
+<entityname.ventpipea3>환풍기 배관 A3</entityname.ventpipea3>
+<entityname.ventpipea390deg>환풍기 배관 A3 수직</entityname.ventpipea390deg>
+<entityname.ventpipea4>환풍기 배관 A4</entityname.ventpipea4>
+<entityname.ventpipea490deg>환풍기 배관 A4 수직</entityname.ventpipea490deg>
+<entityname.ventpipea5>환풍기 배관 A5</entityname.ventpipea5>
+<entityname.ventpipea590deg>환풍기 배관 A5 수직</entityname.ventpipea590deg>
+<entityname.ventpipea6>환풍기 배관 A6</entityname.ventpipea6>
+<entityname.ventpipea690deg>환풍기 배관 A6 수직</entityname.ventpipea690deg>
+<entityname.ventpipea7>환풍기 배관 A7</entityname.ventpipea7>
+<entityname.ventpipea790deg>환풍기 배관 A7 수직</entityname.ventpipea790deg>
+<entityname.ventpipea8>환풍기 배관 A8</entityname.ventpipea8>
+<entityname.ventpipea890deg>환풍기 배관 A8 수직</entityname.ventpipea890deg>
+<entityname.ventpipea9>환풍기 배관 A9</entityname.ventpipea9>
+<entityname.ventpipea990deg>환풍기 배관 A9 수직</entityname.ventpipea990deg>
+<entityname.ventpipecapa1>환풍기 배관 뚜껑 A1</entityname.ventpipecapa1>
+<entityname.ventpipecapa190deg>환풍기 배관 뚜껑 A1 수직</entityname.ventpipecapa190deg>
+<entityname.ventsmallductreducera>소형 배관 덕트 리듀서 A</entityname.ventsmallductreducera>
+<entityname.sshellalightsa>잠수정 조명 A</entityname.sshellalightsa>
+<entityname.sshellaplatea>잠수정 철판 A</entityname.sshellaplatea>
+<entityname.sshellaplateb>잠수정 철판 B</entityname.sshellaplateb>
+<entityname.sshellaplatexl>잠수정 철판 XL</entityname.sshellaplatexl>
+<entityname.sshellabumpera>잠수정 범퍼 A</entityname.sshellabumpera>
+<entityname.sshellabumperb>잠수정 범퍼 B</entityname.sshellabumperb>
+<entityname.sshellafina>잠수정 핀 A</entityname.sshellafina>
+<entityname.sshellafinb>잠수정 핀 B</entityname.sshellafinb>
+<entityname.sshellafinc>잠수정 핀 C</entityname.sshellafinc>
+<entityname.sshellafind>잠수정 핀 D</entityname.sshellafind>
+<entityname.sshellagromita>잠수정 그로밋 A</entityname.sshellagromita>
+<entityname.sshellagromitb>잠수정 그로밋 B</entityname.sshellagromitb>
+<entityname.sshellagromitc>잠수정 그로밋 C</entityname.sshellagromitc>
+<entityname.sshellagromitd>잠수정 그로밋 D</entityname.sshellagromitd>
+<entitydescription.decorativeshuttlepiece>잠수정의 장식용 부분.</entitydescription.decorativeshuttlepiece>
+<entityname.finabelt01>핀 윙 띠 1</entityname.finabelt01>
+<entityname.finabelt02>핀 윙 띠 2</entityname.finabelt02>
+<entityname.finabelt03>핀 윙 띠 3</entityname.finabelt03>
+<entityname.finabelt04>핀 윙 띠 4</entityname.finabelt04>
+<entityname.finabelt05>핀 윙 띠 5</entityname.finabelt05>
+<entityname.finabelt06>핀 윙 띠 6</entityname.finabelt06>
+<entityname.finabodyedge01>핀 윙 가장자리 1</entityname.finabodyedge01>
+<entityname.finabodyedge02>핀 윙 가장자리 2</entityname.finabodyedge02>
+<entityname.finabodyedge03>핀 윙 가장자리 3</entityname.finabodyedge03>
+<entityname.finabodyedge04>핀 윙 가장자리 4</entityname.finabodyedge04>
+<entityname.finabodyedge05>핀 윙 가장자리 5</entityname.finabodyedge05>
+<entityname.finabodyedge06>핀 윙 가장자리 6</entityname.finabodyedge06>
+<entityname.finabodyedge07>핀 윙 가장자리 7</entityname.finabodyedge07>
+<entityname.finabodyedge08>핀 윙 가장자리 8</entityname.finabodyedge08>
+<entityname.finabodyinside01>핀 윙 내부 1</entityname.finabodyinside01>
+<entityname.finabodyinside02>핀 윙 내부 2</entityname.finabodyinside02>
+<entityname.finabodyinside03>핀 윙 내부 3</entityname.finabodyinside03>
+<entityname.finabodyinside04>핀 윙 내부 4</entityname.finabodyinside04>
+<entityname.finabodyinside05>핀 윙 내부 5</entityname.finabodyinside05>
+<entityname.finabodyinside06>핀 윙 내부 6</entityname.finabodyinside06>
+<entityname.finbodyinside07>핀 윙 내부 7</entityname.finbodyinside07>
+<entityname.finabodyinside08>핀 윙 내부 8</entityname.finabodyinside08>
+<entityname.finabodyinside11>핀 윙 내부 9</entityname.finabodyinside11>
+<entityname.finabodyinside12>핀 윙 내부 10</entityname.finabodyinside12>
+<entityname.finabodyinside13>핀 윙 내부 11</entityname.finabodyinside13>
+<entityname.finabodyinside14>핀 윙 내부 12</entityname.finabodyinside14>
+<entityname.finabodyinside15>핀 윙 내부 13</entityname.finabodyinside15>
+<entityname.finabodyinside16>핀 윙 내부 14</entityname.finabodyinside16>
+<entityname.finacorner01>핀 윙 모서리 1</entityname.finacorner01>
+<entityname.finacorner02>핀 윙 모서리 2</entityname.finacorner02>
+<entityname.finacorner03>핀 윙 모서리 3</entityname.finacorner03>
+<entityname.finacorner04>핀 윙 모서리 4</entityname.finacorner04>
+<entityname.finacorner05>핀 윙 모서리 5</entityname.finacorner05>
+<entityname.finacorner06>핀 윙 모서리 6</entityname.finacorner06>
+<entityname.finacorner07>핀 윙 모서리 7</entityname.finacorner07>
+<entityname.finacorner08>핀 윙 모서리 8</entityname.finacorner08>
+<entityname.finacorner09>핀 윙 모서리 9</entityname.finacorner09>
+<entityname.finacorner11>핀 윙 모서리 10</entityname.finacorner11>
+<entityname.finacorner12>핀 윙 모서리 11</entityname.finacorner12>
+<entityname.finacorner13>핀 윙 모서리 12</entityname.finacorner13>
+<entityname.finacorner14>핀 윙 모서리 13</entityname.finacorner14>
+<entityname.finacorner15>핀 윙 모서리 14</entityname.finacorner15>
+<entityname.finadeco01>핀 장식 1</entityname.finadeco01>
+<entityname.finadeco02>핀 장식 2</entityname.finadeco02>
+<entityname.finadeco03>핀 장식 3</entityname.finadeco03>
+<entityname.finadeco04>핀 장식 4</entityname.finadeco04>
+<entityname.finadeco05>핀 장식 5</entityname.finadeco05>
+<entityname.finadeco06>핀 장식 6</entityname.finadeco06>
+<entityname.finadeco07>핀 장식 7</entityname.finadeco07>
+<entityname.finadeco08>핀 장식 8</entityname.finadeco08>
+<entityname.finadeco09>핀 장식 9</entityname.finadeco09>
+<entityname.finadeco10>핀 장식 10</entityname.finadeco10>
+<entityname.finawingpart72>핀 장식 11</entityname.finawingpart72>
+<entityname.finapatch01>핀 덧댐 1</entityname.finapatch01>
+<entityname.finapatch02>핀 덧댐 2</entityname.finapatch02>
+<entityname.finapatch03>핀 덧댐 3</entityname.finapatch03>
+<entityname.finapatch04>핀 덧댐 4</entityname.finapatch04>
+<entityname.finapatch05>핀 덧댐 5</entityname.finapatch05>
+<entityname.finawingpart01>핀 윙 G 2</entityname.finawingpart01>
+<entityname.finawingpart02>핀 윙 G 1</entityname.finawingpart02>
+<entityname.finawingpart03>핀 윙 E 2</entityname.finawingpart03>
+<entityname.finawingpart04>핀 윙 E 1</entityname.finawingpart04>
+<entityname.finawingpart05>핀 윙 D 2</entityname.finawingpart05>
+<entityname.finawingpart06>핀 윙 D 1</entityname.finawingpart06>
+<entityname.finawingpart07>핀 윙 F 2</entityname.finawingpart07>
+<entityname.finawingpart08>핀 윙 F 1</entityname.finawingpart08>
+<entityname.finawingpart09>핀 윙 곡면 A 1</entityname.finawingpart09>
+<entityname.finawingpart10>핀 윙 곡면 A 2</entityname.finawingpart10>
+<entityname.finawingpart11>핀 윙 E 4</entityname.finawingpart11>
+<entityname.finawingpart12>핀 윙 E 3</entityname.finawingpart12>
+<entityname.finawingpart13>핀 윙 D 5</entityname.finawingpart13>
+<entityname.finawingpart14>핀 윙 D 6</entityname.finawingpart14>
+<entityname.finawingpart15>핀 윙 D 3</entityname.finawingpart15>
+<entityname.finawingpart16>핀 윙 D 4</entityname.finawingpart16>
+<entityname.finawingpart19>핀 데칼 2</entityname.finawingpart19>
+<entityname.finawingpart20>핀 데칼 1</entityname.finawingpart20>
+<entityname.finawingpart22>핀 특수 부속 1</entityname.finawingpart22>
+<entityname.finawingpart23>핀 특수 부속 2</entityname.finawingpart23>
+<entityname.finawingpart24>핀 특수 부속 3</entityname.finawingpart24>
+<entityname.finawingpart25>핀 특수 부속 4</entityname.finawingpart25>
+<entityname.finawingpart26>핀 특수 부속 5</entityname.finawingpart26>
+<entityname.finawingpart27>핀 특수 부속 6</entityname.finawingpart27>
+<entityname.finawingpart28>핀 벽 1</entityname.finawingpart28>
+<entityname.finawingpart29>핀 벽 2</entityname.finawingpart29>
+<entityname.finawingpart30>핀 벽 3</entityname.finawingpart30>
+<entityname.finawingpart31>핀 벽 4</entityname.finawingpart31>
+<entityname.finawingpart32>핀 벽 5</entityname.finawingpart32>
+<entityname.finawingpart33>핀 벽 6</entityname.finawingpart33>
+<entityname.finawingpart34>핀 윙 A 1</entityname.finawingpart34>
+<entityname.finawingpart35>핀 윙 A 2</entityname.finawingpart35>
+<entityname.finawingpart36>핀 윙 B 3</entityname.finawingpart36>
+<entityname.finawingpart38>핀 윙 B 2</entityname.finawingpart38>
+<entityname.finawingpart39>핀 윙 B 1</entityname.finawingpart39>
+<entityname.finawingpart40>핀 윙 A 4</entityname.finawingpart40>
+<entityname.finawingpart41>핀 윙 A 3</entityname.finawingpart41>
+<entityname.finawingpart42>핀 윙 A 5</entityname.finawingpart42>
+<entityname.finawingpart43>핀 윙 C 3</entityname.finawingpart43>
+<entityname.finawingpart44>핀 윙 C 4</entityname.finawingpart44>
+<entityname.finawingpart45>핀 윙 C 2</entityname.finawingpart45>
+<entityname.finawingpart46>핀 윙 C 1</entityname.finawingpart46>
+<entityname.finawingpart67>핀 윙 C 5</entityname.finawingpart67>
+<entityname.finawingpart68>핀 윙 C 6</entityname.finawingpart68>
+<entityname.finawingpart53>핀 윙 곡면 B 1</entityname.finawingpart53>
+<entityname.finawingpart54>핀 윙 곡면 B 2</entityname.finawingpart54>
+<entityname.finawingpart55>핀 윙 곡면 C 1</entityname.finawingpart55>
+<entityname.finawingpart56>핀 윙 곡면 C 2</entityname.finawingpart56>
+<entityname.finawingpart17>핀 윙 부속 1</entityname.finawingpart17>
+<entityname.finawingpart18>핀 윙 부속 2</entityname.finawingpart18>
+<entityname.finawingpart21>핀 윙 부속 3</entityname.finawingpart21>
+<entityname.finawingpart37>핀 윙 부속 4</entityname.finawingpart37>
+<entityname.finawingpart47>핀 윙 부속 5</entityname.finawingpart47>
+<entityname.finawingpart48>핀 윙 부속 6</entityname.finawingpart48>
+<entityname.finawingpart49>핀 윙 부속 7</entityname.finawingpart49>
+<entityname.finawingpart50>핀 윙 부속 8</entityname.finawingpart50>
+<entityname.finawingpart52>핀 윙 부속 9</entityname.finawingpart52>
+<entityname.finawingpart57>핀 윙 부속 10</entityname.finawingpart57>
+<entityname.finawingpart58>핀 윙 부속 11</entityname.finawingpart58>
+<entityname.finawingpart59>핀 윙 부속 12</entityname.finawingpart59>
+<entityname.finawingpart60>핀 윙 부속 13</entityname.finawingpart60>
+<entityname.finawingpart61>핀 윙 부속 14</entityname.finawingpart61>
+<entityname.finawingpart62>핀 윙 부속 15</entityname.finawingpart62>
+<entityname.finawingpart63>핀 윙 부속 16</entityname.finawingpart63>
+<entityname.finawingpart64>핀 윙 부속 17</entityname.finawingpart64>
+<entityname.finawingpart65>핀 윙 부속 18</entityname.finawingpart65>
+<entityname.finawingpart66>핀 윙 부속 19</entityname.finawingpart66>
+<entityname.finawingpart69>핀 윙 부속 20</entityname.finawingpart69>
+<entityname.finawingpart70>핀 윙 부속 21</entityname.finawingpart70>
+<entityname.finawingpart71>핀 윙 부속 22</entityname.finawingpart71>
+<entityname.finawingpart73>핀 윙 부속 23</entityname.finawingpart73>
+<entityname.largehorizontalback>대형 수평 배경</entityname.largehorizontalback>
+<entityname.smallhorizontalback>소형 수평 배경</entityname.smallhorizontalback>
+<entityname.largeverticalback>대형 수직 배경</entityname.largeverticalback>
+<entityname.largeverticalback2>대형 수직 배경 2</entityname.largeverticalback2>
+<entityname.smallverticalback>소형 수직 배경</entityname.smallverticalback>
+<entityname.smallverticalback2>소형 수직 배경 2</entityname.smallverticalback2>
+<entitydescription.decorativestructure>충돌 판정이 없는 장식용 구조물.</entitydescription.decorativestructure>
+<entityname.doorlabel>문 라벨</entityname.doorlabel>
+<entityname.engineeringlabel>기술실 라벨</entityname.engineeringlabel>
+<entityname.commandlabel>함교 라벨</entityname.commandlabel>
+<entityname.airlocklabel>에어로크 라벨</entityname.airlocklabel>
+<entityname.cabinslabel>선실 라벨</entityname.cabinslabel>
+<entityname.medicallabel>의무실 라벨</entityname.medicallabel>
+<entityname.arrowup>화살표 위</entityname.arrowup>
+<entityname.arrowdown>화살표 아래</entityname.arrowdown>
+<entityname.arrowleft>화살표 좌</entityname.arrowleft>
+<entityname.arrowright>화살표 우</entityname.arrowright>
+<entityname.labelslettera>문자 A</entityname.labelslettera>
+<entityname.labelsletterb>문자 B</entityname.labelsletterb>
+<entityname.labelsletterc>문자 C</entityname.labelsletterc>
+<entityname.labelsletterd>문자 D</entityname.labelsletterd>
+<entityname.labelslettere>문자 E</entityname.labelslettere>
+<entityname.labelsletterf>문자 F</entityname.labelsletterf>
+<entityname.labelsletterg>문자 G</entityname.labelsletterg>
+<entityname.labelsletterh>문자 H</entityname.labelsletterh>
+<entityname.labelsletteri>문자 I</entityname.labelsletteri>
+<entityname.labelsletterj>문자 J</entityname.labelsletterj>
+<entityname.labelsletterk>문자 K</entityname.labelsletterk>
+<entityname.labelsletterl>문자 L</entityname.labelsletterl>
+<entityname.labelsletterm>문자 M</entityname.labelsletterm>
+<entityname.labelslettern>문자 N</entityname.labelslettern>
+<entityname.labelslettero>문자 O</entityname.labelslettero>
+<entityname.labelsletterp>문자 P</entityname.labelsletterp>
+<entityname.labelsletterq>문자 Q</entityname.labelsletterq>
+<entityname.labelsletterr>문자 R</entityname.labelsletterr>
+<entityname.labelsletters>문자 S</entityname.labelsletters>
+<entityname.labelslettert>문자 T</entityname.labelslettert>
+<entityname.labelsletteru>문자 U</entityname.labelsletteru>
+<entityname.labelsletterv>문자 V</entityname.labelsletterv>
+<entityname.labelsletterw>문자 W</entityname.labelsletterw>
+<entityname.labelsletterx>문자 X</entityname.labelsletterx>
+<entityname.labelslettery>문자 Y</entityname.labelslettery>
+<entityname.labelsletterz>문자 Z</entityname.labelsletterz>
+<entityname.labelsnumber0>숫자 0</entityname.labelsnumber0>
+<entityname.labelsnumber1>숫자 1</entityname.labelsnumber1>
+<entityname.labelsnumber2>숫자 2</entityname.labelsnumber2>
+<entityname.labelsnumber3>숫자 3</entityname.labelsnumber3>
+<entityname.labelsnumber4>숫자 4</entityname.labelsnumber4>
+<entityname.labelsnumber5>숫자 5</entityname.labelsnumber5>
+<entityname.labelsnumber6>숫자 6</entityname.labelsnumber6>
+<entityname.labelsnumber7>숫자 7</entityname.labelsnumber7>
+<entityname.labelsnumber8>숫자 8</entityname.labelsnumber8>
+<entityname.labelsnumber9>숫자 9</entityname.labelsnumber9>
+<entityname.labelscaptureitlettera>거친 문자 A</entityname.labelscaptureitlettera>
+<entityname.labelscaptureitletterb>거친 문자 B</entityname.labelscaptureitletterb>
+<entityname.labelscaptureitletterc>거친 문자 C</entityname.labelscaptureitletterc>
+<entityname.labelscaptureitletterd>거친 문자 D</entityname.labelscaptureitletterd>
+<entityname.labelscaptureitlettere>거친 문자 E</entityname.labelscaptureitlettere>
+<entityname.labelscaptureitletterf>거친 문자 F</entityname.labelscaptureitletterf>
+<entityname.labelscaptureitletterg>거친 문자 G</entityname.labelscaptureitletterg>
+<entityname.labelscaptureitletterh>거친 문자 H</entityname.labelscaptureitletterh>
+<entityname.labelscaptureitletteri>거친 문자 I</entityname.labelscaptureitletteri>
+<entityname.labelscaptureitletterj>거친 문자 J</entityname.labelscaptureitletterj>
+<entityname.labelscaptureitletterk>거친 문자 K</entityname.labelscaptureitletterk>
+<entityname.labelscaptureitletterl>거친 문자 L</entityname.labelscaptureitletterl>
+<entityname.labelscaptureitletterm>거친 문자 M</entityname.labelscaptureitletterm>
+<entityname.labelscaptureitlettern>거친 문자 N</entityname.labelscaptureitlettern>
+<entityname.labelscaptureitlettero>거친 문자 O</entityname.labelscaptureitlettero>
+<entityname.labelscaptureitletterp>거친 문자 P</entityname.labelscaptureitletterp>
+<entityname.labelscaptureitletterq>거친 문자 Q</entityname.labelscaptureitletterq>
+<entityname.labelscaptureitletterr>거친 문자 R</entityname.labelscaptureitletterr>
+<entityname.labelscaptureitletters>거친 문자 S</entityname.labelscaptureitletters>
+<entityname.labelscaptureitlettert>거친 문자 T</entityname.labelscaptureitlettert>
+<entityname.labelscaptureitletteru>거친 문자 U</entityname.labelscaptureitletteru>
+<entityname.labelscaptureitletterv>거친 문자 V</entityname.labelscaptureitletterv>
+<entityname.labelscaptureitletterw>거친 문자 W</entityname.labelscaptureitletterw>
+<entityname.labelscaptureitletterx>거친 문자 X</entityname.labelscaptureitletterx>
+<entityname.labelscaptureitlettery>거친 문자 Y</entityname.labelscaptureitlettery>
+<entityname.labelscaptureitletterz>거친 문자 Z</entityname.labelscaptureitletterz>
+<entityname.labelscaptureitnumber0>거친 숫자 0</entityname.labelscaptureitnumber0>
+<entityname.labelscaptureitnumber1>거친 숫자 1</entityname.labelscaptureitnumber1>
+<entityname.labelscaptureitnumber2>거친 숫자 2</entityname.labelscaptureitnumber2>
+<entityname.labelscaptureitnumber3>거친 숫자 3</entityname.labelscaptureitnumber3>
+<entityname.labelscaptureitnumber4>거친 숫자 4</entityname.labelscaptureitnumber4>
+<entityname.labelscaptureitnumber5>거친 숫자 5</entityname.labelscaptureitnumber5>
+<entityname.labelscaptureitnumber6>거친 숫자 6</entityname.labelscaptureitnumber6>
+<entityname.labelscaptureitnumber7>거친 숫자 7</entityname.labelscaptureitnumber7>
+<entityname.labelscaptureitnumber8>거친 숫자 8</entityname.labelscaptureitnumber8>
+<entityname.labelscaptureitnumber9>거친 숫자 9</entityname.labelscaptureitnumber9>
+<entityname.labelsiconairlock>에어로크 기호</entityname.labelsiconairlock>
+<entityname.labelsiconballast>밸러스트 탱크 기호</entityname.labelsiconballast>
+<entityname.labelsiconcargo>화물실 기호</entityname.labelsiconcargo>
+<entityname.labelsicondiving>잠수복 기호</entityname.labelsicondiving>
+<entityname.labelsicondocking>도킹 기호</entityname.labelsicondocking>
+<entityname.labelsiconelectricity>전기 기호</entityname.labelsiconelectricity>
+<entityname.labelsiconengine>기관 기호</entityname.labelsiconengine>
+<entityname.labelsiconengineering>기술 기호</entityname.labelsiconengineering>
+<entityname.labelsiconexit>출구 기호</entityname.labelsiconexit>
+<entityname.labelsiconmedical>의료 기호</entityname.labelsiconmedical>
+<entityname.labelsiconreactor>원자로 기호</entityname.labelsiconreactor>
+<entityname.labelsiconsecurity>보안 기호</entityname.labelsiconsecurity>
+<entityname.labelsiconsteering>조타 기호</entityname.labelsiconsteering>
+<entityname.labelsiconweapons>무장 기호</entityname.labelsiconweapons>
+<entityname.labelsarroverticala>화살표 수직 A</entityname.labelsarroverticala>
+<entityname.labelsarroverticalb>화살표 수직 B</entityname.labelsarroverticalb>
+<entityname.labelsarrowdiagonala>화살표 대각선 A</entityname.labelsarrowdiagonala>
+<entityname.labelsarrowdiagonalb>화살표 대각선 B</entityname.labelsarrowdiagonalb>
+<entityname.labelsarrowhorizontala>화살표 수평 A</entityname.labelsarrowhorizontala>
+<entityname.labelsarrowhorizontalb>화살표 수평 B</entityname.labelsarrowhorizontalb>
+<entityname.decorativelabel>장식용 부호.</entityname.decorativelabel>
+<entityname.cableholderhorizontal>케이블 홀더 수평</entityname.cableholderhorizontal>
+<entityname.cableholdervertical>케이블 홀더 수직</entityname.cableholdervertical>
+<entitydescription.cableholder>와이어를 깔끔하게 보관할 수 있는 장식용 스트립.</entitydescription.cableholder>
+<entityname.topwindow>창문 상부</entityname.topwindow>
+<entityname.verticalwindow>창분 수직</entityname.verticalwindow>
+<entityname.largeplatform>대형 플랫폼</entityname.largeplatform>
+<entityname.platform>소형 플랫폼</entityname.platform>
+<entitydescription.platform>캐릭터가 선택적으로 걷거나 내려가거나 오를 수 있는 보행 가능한 플랫폼.</entitydescription.platform>
+<entityname.slopeforward>전면 슬로프</entityname.slopeforward>
+<entityname.slopeback>후면 슬로프</entityname.slopeback>
+<entitydescription.decorativepiece>장식용 부속.</entitydescription.decorativepiece>
+<entityname.stairs>계단</entityname.stairs>
+<entityname.stairsshort>짧은 계단</entityname.stairsshort>
+<entityname.stairslong>긴 계단</entityname.stairslong>
+<entityname.ruinwallhorizontal>유적 벽 수평</entityname.ruinwallhorizontal>
+<entityname.ruinwallvertical>유적 벽 수직</entityname.ruinwallvertical>
+<entityname.ruinwallheavyhorizontal>중형 유적 벽 수평</entityname.ruinwallheavyhorizontal>
+<entityname.ruinwallheavyvertical>중형 유적 벽 수직</entityname.ruinwallheavyvertical>
+<entityname.ruinwallhorizontalsmall>소형 유적 벽 수평</entityname.ruinwallhorizontalsmall>
+<entityname.ruinwallverticalsmall>소형 유적 벽 수직</entityname.ruinwallverticalsmall>
+<entityname.ruinback>유적 배경 벽 기본</entityname.ruinback>
+<entityname.ruinprop>유적 물체</entityname.ruinprop>
+<entityname.bunk>침실 부속</entityname.bunk>
+<entityname.opdeco_weaponstoragesuit1>의복 진열장</entityname.opdeco_weaponstoragesuit1>
+<entityname.op_weaponstoragesmall>소형 무기 진열장</entityname.op_weaponstoragesmall>
+<entityname.op_weaponstoragemedium>중형 무기 진열장</entityname.op_weaponstoragemedium>
+<entityname.op_weaponstoragelarge>대형 무기 진열장</entityname.op_weaponstoragelarge>
+<entityname.opdeco_storageitemshelf>아이템 진열 선반</entityname.opdeco_storageitemshelf>
+<entityname.opdeco_storagemineralshelf>광물 진열 선반</entityname.opdeco_storagemineralshelf>
+<entityname.opdeco_storageweaponshelf>무기 진열 선반</entityname.opdeco_storageweaponshelf>
+<entityname.opdeco_storageseedshelf>종자 진열 선반</entityname.opdeco_storageseedshelf>
+<entityname.opdeco_storagefrozenseedshelf>냉동 종자 진열 선반</entityname.opdeco_storagefrozenseedshelf>
+<entityname.opdeco_diningtable>식탁</entityname.opdeco_diningtable>
+<entityname.opdeco_boxes1>상자</entityname.opdeco_boxes1>
+<entityname.opdeco_bunks1>침대</entityname.opdeco_bunks1>
+<entityname.opdeco_researchdecal1>실험실 데칼</entityname.opdeco_researchdecal1>
+<entityname.opdeco_hrwindow1>사무실 창문</entityname.opdeco_hrwindow1>
+<entityname.opdeco_hrwindow2>커다란 사무실 창문</entityname.opdeco_hrwindow2>
+<entityname.opdeco_hrwindowblinds>사무실 블라인드 있는 창문</entityname.opdeco_hrwindowblinds>
+<entityname.opdeco_hrblinds>커다란 사무실 블라인드 있는 창문</entityname.opdeco_hrblinds>
+<entityname.opdeco_hrglassoffice>사무실 문</entityname.opdeco_hrglassoffice>
+<entityname.opdeco_hrticketdispenser>티켓 발매기</entityname.opdeco_hrticketdispenser>
+<entityname.opdeco_hrnewspaperrack>신문 가판대</entityname.opdeco_hrnewspaperrack>
+<entityname.opdeco_hrcalendar>달력</entityname.opdeco_hrcalendar>
+<entityname.opdeco_hrsign>배경 표지</entityname.opdeco_hrsign>
+<entityname.opdeco_hrheater>라디에이터</entityname.opdeco_hrheater>
+<entityname.opdeco_hrelectricpanel>알림판</entityname.opdeco_hrelectricpanel>
+<entityname.opdeco_hrbench>벤치</entityname.opdeco_hrbench>
+<entityname.opdeco_hrflyers>선전문</entityname.opdeco_hrflyers>
+<entityname.opdeco_officeshelf1>사무용 선반</entityname.opdeco_officeshelf1>
+<entityname.opdeco_officedesk1>사무용 책상</entityname.opdeco_officedesk1>
+<entityname.opdeco_officedisplay1>장식용 트로피</entityname.opdeco_officedisplay1>
+<entityname.opdeco_computer>컴퓨터 터미널</entityname.opdeco_computer>
+<entityname.opdeco_shelfsmall>소형 선반</entityname.opdeco_shelfsmall>
+<entityname.opdeco_shelfmedium>중형 선반</entityname.opdeco_shelfmedium>
+<entityname.opdeco_shelflarge>대형 선반</entityname.opdeco_shelflarge>
+<entityname.opdeco_rollupdoor>셔터 문</entityname.opdeco_rollupdoor>
+<entityname.opdeco_rollupdoorframe>셔터 문 골격</entityname.opdeco_rollupdoorframe>
+<entityname.opdeco_subblueprint1>잠수함 설계도</entityname.opdeco_subblueprint1>
+<entityname.opdeco_toolrack1>도구 선반</entityname.opdeco_toolrack1>
+<entityname.opdeco_ladder>사다리</entityname.opdeco_ladder>
+<entityname.opdeco_shelf>진열용 선반</entityname.opdeco_shelf>
+<entityname.opdeco_desk>판매원 책상</entityname.opdeco_desk>
+<entityname.opdeco_oxygentanks>산소 탱크</entityname.opdeco_oxygentanks>
+<entityname.opdeco_crane>광업용 크레인</entityname.opdeco_crane>
+<entityname.opdeco_trolley1>광차 1</entityname.opdeco_trolley1>
+<entityname.opdeco_trolley2>광차 2</entityname.opdeco_trolley2>
+<entityname.opdeco_debris1>채굴 잔해 1</entityname.opdeco_debris1>
+<entityname.opdeco_debris2>채굴 잔해 2</entityname.opdeco_debris2>
+<entityname.opdeco_debris3>채굴 잔해 3</entityname.opdeco_debris3>
+<entityname.opdeco_construction_sign>공사중 표지</entityname.opdeco_construction_sign>
+<entityname.opdeco_box1>상자 1</entityname.opdeco_box1>
+<entityname.opdeco_box2>상자 2</entityname.opdeco_box2>
+<entityname.opdeco_box3>상자 3</entityname.opdeco_box3>
+<entityname.opdeco_box4>상자 4</entityname.opdeco_box4>
+<entityname.opdeco_box5>상자 5</entityname.opdeco_box5>
+<entityname.heavydoor>두꺼운 문</entityname.heavydoor>
+<entityname.opdeco_door>배경 문</entityname.opdeco_door>
+<entitydescription.decodoor>장식용 문입니다.</entitydescription.decodoor>
+<entityname.opdeco_door>잠긴 문</entityname.opdeco_door>
+<entityname.opdeco_towelrack>수건걸이</entityname.opdeco_towelrack>
+<entityname.concretewall>콘크리트 벽</entityname.concretewall>
+<entityname.opdeco_wheelchair1>휠체어</entityname.opdeco_wheelchair1>
+<entityname.opdeco_adposter>광고</entityname.opdeco_adposter>
+<entityname.windowglass>유리 창문</entityname.windowglass>
+<entityname.windowframe>창문 골조</entityname.windowframe>
+<entityname.op_cafeteriawindow>카페테리아 바</entityname.op_cafeteriawindow>
+<entityname.op_gardendistiller>증류기</entityname.op_gardendistiller>
+<entityname.op_cafeteriabench>카페테리아 벤치</entityname.op_cafeteriabench>
+<entityname.op_cafeteriatable>카페테리아 테이블</entityname.op_cafeteriatable>
+<entityname.op_cafeteriachair>카페테리아 의자</entityname.op_cafeteriachair>
+<entityname.op_cafeteriaposter>카페테리아 포스터</entityname.op_cafeteriaposter>
+<entityname.op_cafeteriacart>카페테리아 카트</entityname.op_cafeteriacart>
+<entityname.op_gardenproducebox>상품 상자</entityname.op_gardenproducebox>
+<entityname.op_gardenbags>흙 자루</entityname.op_gardenbags>
+<entityname.op_gardenposter>정원 포스터</entityname.op_gardenposter>
+<entityname.table>탁자</entityname.table>
+<entityname.Target>목표</entityname.Target>
+<entityname.sign>표지</entityname.sign>
+<entityname.op_freezer>냉장고</entityname.op_freezer>
+<entityname.op_clothesrack>의복 보관대</entityname.op_clothesrack>
+<entityname.op_metalchair>철제 의자</entityname.op_metalchair>
+<entityname.op_washingmachine>세탁기</entityname.op_washingmachine>
+<entityname.op_smallcouch>팔걸이 의자</entityname.op_smallcouch>
+<entityname.op_janitorcart>청소부 카트</entityname.op_janitorcart>
+<entityname.op_towellocker>수건 로커</entityname.op_towellocker>
+<entityname.op_inkpainting>잉크화</entityname.op_inkpainting>
+<entityname.op_banner>매다는 현수막</entityname.op_banner>
+<entityname.op_boxcart>철제 카트</entityname.op_boxcart>
+<entityname.op_sworddisplay>검 진열대</entityname.op_sworddisplay>
+<entityname.op_statue>조각상</entityname.op_statue>
+<entityname.op_raptorhead>랩터 머리 장식</entityname.op_raptorhead>
+<entityname.op_shower>샤워 세트</entityname.op_shower>
+<entityname.op_painting1>그림 액자</entityname.op_painting1>
+<entityname.op_wetsign>청소중 표지</entityname.op_wetsign>
+<entityname.FF_Wall_I1>전초기지 벽 1</entityname.FF_Wall_I1>
+<entityname.FF_Wall_I2>전초기지 벽 2</entityname.FF_Wall_I2>
+<entityname.FF_Wall_I3>전초기지 벽 3</entityname.FF_Wall_I3>
+<entityname.opbg_generic1>범용 전초기지 벽 1</entityname.opbg_generic1>
+<entityname.opbg_generic2>범용 전초기지 벽 2</entityname.opbg_generic2>
+<entityname.opbg_generic3>범용 전초기지 벽 3</entityname.opbg_generic3>
+<entityname.opbg_generic4>범용 전초기지 벽 4</entityname.opbg_generic4>
+<entityname.opbg_generic5>범용 전초기지 벽 5</entityname.opbg_generic5>
+<entityname.opbg_generic6>범용 전초기지 벽 6</entityname.opbg_generic6>
+<entityname.opbg_generic7>범용 전초기지 벽 7</entityname.opbg_generic7>
+<entityname.opbg_airlock1>전초기지 에어로크 벽</entityname.opbg_airlock1>
+<entityname.opbgshopa1>전초기지 상점 벽 1</entityname.opbgshopa1>
+<entityname.opbg_shop2>전초기지 상점 벽 2</entityname.opbg_shop2>
+<entityname.opbg_shop3>전초기지 상점 벽 3</entityname.opbg_shop3>
+<entityname.opbg_shop4>전초기지 상점 벽 4</entityname.opbg_shop4>
+<entityname.opbgsocialcentera1>전초기지 소셜 센터 벽</entityname.opbgsocialcentera1>
+<entityname.opbg_barracks1>전초기지 병영 배경 1</entityname.opbg_barracks1>
+<entityname.opbg_barracks2>전초기지 병영 배경 2</entityname.opbg_barracks2>
+<entityname.opbg_barracks3>전초기지 병영 배경 3</entityname.opbg_barracks3>
+<entityname.opbg_services1>전초기지 서비스실 배경 1</entityname.opbg_services1>
+<entityname.opbg_services2>전초기지 서비스실 배경 2</entityname.opbg_services2>
+<entityname.opbgmaintenancebaya1>전초기지 유지관리실 배경 1</entityname.opbgmaintenancebaya1>
+<entityname.opbgmaintenancebaya2>전초기지 유지관리실 배경 2</entityname.opbgmaintenancebaya2>
+<entityname.opbgmaintenancebaya3>전초기지 유지관리실 배경 3</entityname.opbgmaintenancebaya3>
+<entityname.opbg_researchlab1>전초기지 연구실 배경 1</entityname.opbg_researchlab1>
+<entityname.opbg_researchlab2>전초기지 연구실 배경 2</entityname.opbg_researchlab2>
+<entityname.opbg_tunnel1>전초기지 터널 배경 1</entityname.opbg_tunnel1>
+<entityname.opbg_tunnel2>전초기지 터널 배경 2</entityname.opbg_tunnel2>
+<entityname.opbg_tunnel4>전초기지 터널 배경 4</entityname.opbg_tunnel4>
+<entityname.opbg_tunnel5>전초기지 터널 배경 5</entityname.opbg_tunnel5>
+<entityname.opbg_tunnel6>전초기지 터널 배경 6</entityname.opbg_tunnel6>
+<entityname.opbg_manageroffice1>전초기지 관리자의 사무실 배경 1</entityname.opbg_manageroffice1>
+<entityname.opbg_manageroffice2>전초기지 관리자의 사무실 배경 2</entityname.opbg_manageroffice2>
+<entityname.opbg_manageroffice3>전초기지 관리자의 사무실 배경 3</entityname.opbg_manageroffice3>
+<entityname.opbg_dorm1>전초기지 돔 배경</entityname.opbg_dorm1>
+<entityname.opbg_messhall1>전초기지 넓은 홀 배경</entityname.opbg_messhall1>
+<entityname.opdeco_nuclearsign>핵 표지</entityname.opdeco_nuclearsign>
+<entityname.opdeco_instructionsign>지시 표지</entityname.opdeco_instructionsign>
+<entityname.opdeco_propagandaposter>선전 현수막</entityname.opdeco_propagandaposter>
+<entityname.crackedwall1>금간 벽 데칼</entityname.crackedwall1>
+<entityname.graffiti1>그라피티</entityname.graffiti1>
+<entityname.icewall>터널 얼음 벽 수평</entityname.icewall>
+<entityname.icewallcracked>터널 얼음 벽 수평 (균열)</entityname.icewallcracked>
+<entityname.icewall90>터널 얼음 벽 수직</entityname.icewall90>
+<entityname.icewallcracked90>터널 얼음 벽 수직 (균열)</entityname.icewallcracked90>
+<entityname.icerock01>터널 얼음 바위 1</entityname.icerock01>
+<entityname.icerock02>터널 얼음 바위 2</entityname.icerock02>
+<entityname.icerock03>터널 얼음 바위 3</entityname.icerock03>
+<entityname.icerock04>터널 얼음 바위 4</entityname.icerock04>
+<entityname.thalamus_background_2>살라무스 배경 2</entityname.thalamus_background_2>
+<entityname.thalamus_background_3>살라무스 배경 3</entityname.thalamus_background_3>
+<entityname.thalamus_background_4>살라무스 배경 4</entityname.thalamus_background_4>
+<entityname.medbaywall1>의료실 벽 1</entityname.medbaywall1>
+<entityname.opdeco_medrack>의료품 선반</entityname.opdeco_medrack>
+<entityname.opdeco_hospitalbed>병실 침대</entityname.opdeco_hospitalbed>
+<entityname.opdeco_diningtablesmall>작은 식탁</entityname.opdeco_diningtablesmall>
+<entityname.opdeco_liftingequpiment>엘리베이터 부속</entityname.opdeco_liftingequpiment>
+<entityname.opdeco_construction_barrier>공사장 울타리</entityname.opdeco_construction_barrier>
+<entityname.opdeco_supportbeam>지지대</entityname.opdeco_supportbeam>
+<entityname.opdeco_icecube>얼음 큐브</entityname.opdeco_icecube>
+<entityname.opdeco_icepillar>얼음 기둥</entityname.opdeco_icepillar>
+<entityname.opdeco_monitor>모니터</entityname.opdeco_monitor>
+<entityname.decowire1>장식용 와이어</entityname.decowire1>
+<entityname.decopanel1>장식용 패널</entityname.decopanel1>
+<entityname.decocolumn1>장식용 기둥</entityname.decocolumn1>
+<entityname.decobarrier1>보호용 장벽</entityname.decobarrier1>
+<entityname.opbg_jail>감옥 하얀 벽</entityname.opbg_jail>
+<entityname.opbg_rock>바위 배경</entityname.opbg_rock>
+<entityname.opdeco_prisonbed>감옥 침대</entityname.opdeco_prisonbed>
+<entityname.shop_decoration>상점 장식</entityname.shop_decoration>
+<entityname.op_circusposter.png>포스터</entityname.op_circusposter.png>
+<entityname.op_plaque.png>명판</entityname.op_plaque.png>
+<entityname.wreckdecal>잔해 데칼</entityname.wreckdecal>
+<entityname.engineerequipment>기술자 장비</entityname.engineerequipment>
+<entityname.Jaildoor>감옥문</entityname.Jaildoor>
+<entityname.shelf>선반</entityname.shelf>
+
+</infotexts>

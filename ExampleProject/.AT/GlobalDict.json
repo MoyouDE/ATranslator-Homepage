@@ -1,0 +1,10 @@
+{
+  "<missiondescription.gotoend1>あなたと乗組員たちは、エウロパの目の中心にある謎の重力異常のすぐ近くに到着した。\nソナーを見ると下に何かがいるようだ。</missiondescription.gotoend1><missionsuccess.gotoend1>重力が変化しているようで、強烈な方向感覚に襲われ、\nまばゆい光が潜水艦を包み込む。</missionsuccess.gotoend1><missionname.gotoend2>目</missionname.gotoend2>": "<missiondescription.gotoend1>你和船员们已经到达了木卫二眼睛中心那个神秘的重力异常。\n看声呐，下面好像有什么东西。</missiondescription.gotoend1><missionsuccess.gotoend1>重力好像发生了变化，强烈的方向感袭来，\n耀眼的光芒笼罩着潜水艇。</missionsuccess.gotoend1><missionname.gotoend2>目</missionname.gotoend2>",
+  "あなたと乗組員たちは、エウロパの目の中心にある謎の重力異常のすぐ近くに到着した。\nソナーを見ると下に何かがいるようだ。": "你和船员们已经到达了木卫二眼睛中心那个神秘的重力异常。\n看声呐，下面好像有什么东西。",
+  "重力が変化しているようで、強烈な方向感覚に襲われ、\nまばゆい光が潜水艦を包み込む。": "重力好像发生了变化，强烈的方向感袭来，\n耀眼的光芒笼罩着潜水艇。",
+  "目": "目",
+  "<loadingscreentip>You will not get paid for delivering cargo if any of the cargo goes missing or gets damaged during the transport.</loadingscreentip>": "<loadingscreentip>如果任何货物在运输过程中丢失或损坏，您将不会获得运送货物的报酬</loadingscreentip>",
+  "You will not get paid for delivering cargo if any of the cargo goes missing or gets damaged during the transport.": "如果任何货物在运输过程中丢失或损坏，您将不会获得运送货物的报酬",
+  "<loadingscreentip>Generating more power than the devices in the submarine are consuming may damage junction boxes or cause fires.</loadingscreentip>": "<loadingscreentip>>产生的电力超过潜艇中设备消耗的电力可能会损坏接线盒或引起火灾.</loadingscreentip>",
+  "Generating more power than the devices in the submarine are consuming may damage junction boxes or cause fires.": "产生的电力超过潜艇中设备消耗的电力可能会损坏接线盒或引起火灾."
+}

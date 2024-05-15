@@ -1,0 +1,129 @@
+﻿<?xml version="1.  0" encoding="utf-8"?>
+<infotexts language="Japanese" nowhitespace="true" translatedname="日本語">
+
+<!-- New values -->
+
+<missiondescription.gotoend1>あなたと乗組員たちは、エウロパの目の中心にある謎の重力異常のすぐ近くに到着した。
+ソナーを見ると下に何かがいるようだ。</missiondescription.gotoend1><missionsuccess.gotoend1>重力が変化しているようで、強烈な方向感覚に襲われ、
+まばゆい光が潜水艦を包み込む。</missionsuccess.gotoend1><missionname.gotoend2>目</missionname.gotoend2>
+<missiondescription.gotoend2>眩しい光はオレンジ色の光に変わり、海の音は雷のような低い音に変わる。周囲を探索すれば、何が起こっているのかがわかるかもしれない。</missiondescription.gotoend2>
+<missionsuccess.gotoend2>開いた扉から中に入ると、前方からかすかにメロディーのようなものが聞こえてくる。ドアが勢いよく閉まり、建物全体が震動する。</missionsuccess.gotoend2>
+<missionsonarlabel.gotoend2.logbook>緊急通信</missionsonarlabel.gotoend2.logbook>
+<missionsonarlabel.gotoend2.eva>船外活動ミッション</missionsonarlabel.gotoend2.eva>
+<missionsonarlabel.gotoend2.switch>スイッチ</missionsonarlabel.gotoend2.switch>
+<loadingscreentip>「エウロパの目」とその周辺の奇妙な重力現象は、エウロパへの最初の無人探査によって発見されて以来、科学者たちを困惑させてきた。エウロパに移住する人々にとって好都合なことに、衛星の他の場所では通常0.13Gの表面重力があるのに対し、「目」の周囲は地球とほぼ同じ重力なのだ。</loadingscreentip>
+<eyeofeuropa>エウロパの目</eyeofeuropa>
+<entityname.anomaly>異常現象</entityname.anomaly>
+<entityname.alienwriting>エイリアンの文字</entityname.alienwriting>
+<entityname.endruinheavydoor>重いエイリアンの扉</entityname.endruinheavydoor><entityname.endruinheavydoor>重いエイリアンの扉</entityname.endruinheavydoor><entityname.endruinheavydoor>重いエイリアンの扉</entityname.endruinheavydoor>
+<entityname.endruinheavydoorbackground>重いエイリアンの扉の背景</entityname.endruinheavydoorbackground>
+<entityname.ruindebris>遺跡の残骸</entityname.ruindebris>
+<entityname.ruinblock>遺跡のブロック</entityname.ruinblock>
+<entityname.pylon>パイロン</entityname.pylon>
+<entityname.alientranslator>???</entityname.alientranslator>
+<entitydescription.alientranslator>円形の石板に奇妙な記号が刻まれている。</entitydescription.alientranslator>
+<sonarlabel.alienpylon>パイロン</sonarlabel.alienpylon>
+<character.portalguardian>ポータルガーディアン</character.portalguardian>
+<character.jove>???</character.jove>
+<character.guardianrepairbot>ガーディアン修理ロボット</character.guardianrepairbot>
+<missionname.gotoend1>目</missionname.gotoend1>
+<missionsonarlabel.gotoend2.door>出ますか？</missionsonarlabel.gotoend2.door>
+<mission.gotoend2.logbooktext1>この広大な施設は、何マイルも続いているように見える。出口が見えないまま何日も航海している。巨大な扉が行く手を阻み、別の方向には洞窟がある。\n艦長は何か発見があるのではと近くの洞窟に探検隊を送り込んだが、まだ戻って来ていない。\n艦長も入口で起きたことを繰り返したくないんだろう。だから、ここで待っているしかないんだ。早く戻ってこないかな。</mission.gotoend2.logbooktext1>
+<mission.gotoend2.logbooktext2>[9:15] 壁ではなく、扉だ。隣に立つと奥から何かが聞こえるんだ。何か電気的な音？\n[10:42] その巨大な扉の制御盤は大きな部屋にある。前方へ進むしかないようだ。\n[10:51] ソナーに影が映っている。未知の世界に挑むしかない。</mission.gotoend2.logbooktext2>
+<welcomemsg.endcaptainslog1>艦長の日誌 その1\n\n私の性格上、何気ないことを詳しく書くことはできない。この氷の海のような不変の状況を記録することは、バケツ一杯の熱湯を浴びせて温めるのと同じくらいの有益さだと考えていた。しかし、残念なことに、私は日記をつけなかったことで義務を怠ったことに気づいた。これは、その間違いを正すための試みである。たとえ読者には遅すぎるとしても、この宇宙の果てでの最後の日々に私が見たものをどこかに記録しなければならない。私の話を理解するためには、最初から説明しなければならないことをご容赦いただきたい。\n\n私は幼い頃から、エウロパの中心にある「目」に惹かれるものを感じていた。私より重力の異常現象をよく観察している頭のいい人たちにはいささか当然のことを言っているかもしれないが、私の興味はもっと深いところにあると断言する。夜、ラプターベインの皮を剥ぐと、怪しげな炎のような眼が瞬きもせずじっとこちらを見ている夢をよく見た。同心円を描いた絵を見ながら、机の前で目を覚ますこともあったが、描いた覚えはない。\n\n好奇心を満たすため、そして寄生虫症を治すために、私は最初の偵察船に乗り込み、中心部へ向かったのだ。</welcomemsg.endcaptainslog1>
+<welcomemsg.endcaptainslog2>艦長の日誌 その2\n\n最初の航海で私は助手を務めた。正確には1週間だ。潜水艦の整備士が寄生虫で倒れたため、彼の代わりに整備士を努めたためだ。私は数ヶ月間、暑い機関室で汗水を流しながら技術を学んだ。肉体労働のせいなのか、それとも少しずつだが確実に目に近づいているせいなのか、夜は悪夢にうなされることもなく平穏だった。それがある夜、船が攻撃を受けて難破し、動かなくなった。私は他の生存者とともに、通りかかった別の船に救助され、最寄りのステーションに預けられた。それから間もなくして、再び悪夢に悩まされるようになった。\n\nこのまま「目」に向かうしかないと思った。しかし、ステーションは辺境にあるため、奥へ進む船はほとんどない。その機会を待つ間、私は船大工として働いた。何日経っても、中心部へ向かう潜水艦は現れなかった。\n\n何年か苦労して落ち着かない夜を過ごした後、私はかなりの蓄えを手にした。自分の潜水艦を買うには十分な額だ。もし、このままチャンスがなければ、自分の船を手に入れようと思っていた。</welcomemsg.endcaptainslog2>
+<welcomemsg.endcaptainslog3>艦長の日誌 その3\n\n乗組員を雇うのに少し苦労したが、金の約束さえあれば、それなりの船員を募ることができる。6人の乗組員とともに、改装されたばかりの連合軍の巡視艦で、私はついに自分の潜水艦の艦長となり、自分の運命を決められるようになった。私はセルミリク造船所から出航した。文明を見るのはこれが最後になるだろう。\n\n旅は当然のことながら危険と隣り合わせで、船は予想内と予想外の試練に苛まれた。文明が発達したエウロパでは見られない生物、海底火山や艦内にはびこる菌など、過酷な環境。リスクは外から来るものばかりではない。肉体的、精神的なストレスが乗組員を襲い、残念なことに体力がない者もいた。\n\nこの日誌を見た人は、きっと同じような経験をしたことがあるはずだ。長い航海の末、傷つき、戦い疲れた船と乗客が、「目」にたどり着いたというだけのことである。夢の中の目のように、灼熱の地獄に飲み込まれた。</welcomemsg.endcaptainslog3>
+<welcomemsg.endcaptainslog4>艦長の日誌 その4\n\n「目」についてわかっていることは、エウロパの中心付近にある重力異常であるということだけだ。これは研究され、科学的に証明された説だが、その異常の起源はまだ見つかっていない。私の考えでは、これはゲートウェイだと思う。どこへの入り口かはわからない。好奇心を満たすために「目」を追い求めたが、結局は何も得られずじまいだ。\n\n帰り道は塞がれた。どんな異常が私をここに送り込んだにせよ、もう存在しない。施設は遠くまで続いていて、壁はどんな武器も通さない。潜水艦が入れない隙間に2つのグループを潜らせたが、誰も戻って来なかった。</welcomemsg.endcaptainslog4>
+<welcomemsg.endlogbook1>何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。何度でも。</welcomemsg.endlogbook1>
+<missionmessage0.gotoend2.logbook1>緊急通信の発信元が判明した。日誌に有用な情報が記載されていないか確認せよ。</missionmessage0.gotoend2.logbook1>
+<missionname.end>終わり</missionname.end>
+<missiondescription.end>構造物の中の大きな空間に到着した。その空間の真ん中にある何かが、ソナーを妨害しているようだ。</missiondescription.end>
+<missiondescription.radiationescapee>氷の奥深くまで浸透している木星の放射線によって前哨基地が消滅すると考えている前哨基地居住者が、より深くにある前哨基地への輸送費を支払うと申し出ている。</missiondescription.radiationescapee>
+<missionsuccess.escortgeneric>輸送成功</missionsuccess.escortgeneric>
+<missionfailure.escortgeneric>乗客は目的地にたどり着けませんでした。</missionfailure.escortgeneric>
+<eventtext.radiationescapee.c1>苦しそうな人があなたの腕を掴んでいる。「なあ、おい！ さっき停泊した潜水艦の人だろ？ 助けてほしいんだ！ どこへ行くのか聞いてもいいかい？」</eventtext.radiationescapee.c1>
+<eventtext.radiationescapee.o1>「任務によって違ってきますよ。なぜですか？」</eventtext.radiationescapee.o1>
+<eventtext.radiationescapee.o1.c1>「ここから早く出たいんだ！ 実際、ここにいる者は皆ここを出る必要がある。みんな聞く耳持たずで、この前哨基地が木星の放射線によって長く持たないということを理解していないんだ。」</eventtext.radiationescapee.o1.c1>
+<eventtext.radiationescapee.o1.o1>「もっと多くの人に知ってもらいたいですね。」</eventtext.radiationescapee.o1.o1>
+<eventtext.radiationescapee.o1.o1.c1>「そうだろう？ だから危険から逃れるために深くへ向かうんだろう？ 頼むから俺を乗せてくれ、バレないようにおとなしくしてるから。次のステーションで降ろしてくれたら1000マルク払うよ！」</eventtext.radiationescapee.o1.o1.c1>
+<eventtext.radiationescapee.o1.o2>「いや、大丈夫でしょう。放射能は常に変動しているから、そのうちきっと治まりますよ。」</eventtext.radiationescapee.o1.o2>
+<eventtext.radiationescapee.o1.o2.c1>「でも、このままじゃその前に俺たちみんな死んでしまうよ。俺の言うことを信じるかどうかはともかく、もし深くへ行くのなら、俺を連れてってくれ。次のステーションで降ろしてくれたら1000マルク払うよ！」</eventtext.radiationescapee.o1.o2.c1>
+<eventtext.radiationescapee.great>「ありがとう、ありがとう！」と彼は叫ぶ。「命の恩人だ！」</eventtext.radiationescapee.great>
+<missiondescription.researcherescort>エウロパの目とその周辺の重力異常が、木星放射線の増加に関係していると考えている研究者が、近くの前哨基地までの移動に[reward]マルクを支払うと申し出ている。</missiondescription.researcherescort>
+<eventtext.researcherescort.c1>「失礼ですが、先ほど停泊した潜水艦の乗組員の方ではありませんか？ もしかして、深部へ行かれますか？」</eventtext.researcherescort.c1>
+<eventtext.researcherescort.o1>「任務によっては、ですが。どうしてですか？」</eventtext.researcherescort.o1>
+<eventtext.researcherescort.o1.c1>「ご存知の様に私と仲間達は エウロパの目の性質と、その周辺の重力異常を研究してきました。我々は最近の木星放射線の強さは、重力異常と関連があると結論付けています。」</eventtext.researcherescort.o1.c1>
+<eventtext.researcherescort.o1.o1>「重力異常…？」</eventtext.researcherescort.o1.o1>
+<eventtext.researcherescort.o1.o1.c1>「聞いたことあるでしょう？ 我々が研究のために「目」の周辺に移住することになった理由ですよ。0.13Gのはずの重力が、都合よく地球重力に近い地域のことです。」</eventtext.researcherescort.o1.o1.c1>
+<eventtext.researcherescort.o1.o1.o1>「ええ、心当たりがあります。それが私たち乗組員に何の関係があるんですか？」</eventtext.researcherescort.o1.o1.o1>
+<eventtext.researcherescort.o1.o1.o1.c1>「重力異常と木星放射線の関連性という仮説を検証するために、いくつかの実験を行いたいと思っています。しかし、その実験から有用なデータを得るためには、できるだけ震源地に近づく必要がある。だから、もしあなたがこの先に行くのなら、次の基地までの費用を払いますよ。」</eventtext.researcherescort.o1.o1.o1.c1>
+<eventtext.researcherescort.great>「ありがとうございます。あなたには分らないだろうが、私だけでなくエウロパ全体にとって重要なことなのです。」</eventtext.researcherescort.great>
+<EventText.returner.c1>ボロボロの服の男に腕をつかまれる。「どうかマルクを少し… ちょっと待て、さっきの乗組員かい？ 目の方に向かってるんじゃろ？」</EventText.returner.c1>
+<EventText.returner.o1>「目の方？ エウロパの目に向かってか？ そうかも知れんが、なぜ聞く？」</EventText.returner.o1>
+<EventText.returner.o1.c1>「愚か者めが！ そこでは救いは見つからん。いつも通り送り返されるだけじゃ。」</EventText.returner.o1.c1>
+<EventText.returner.o1.o1>「どういう意味だ？ 行ったことがあるのか？」</EventText.returner.o1.o1>
+<EventText.returner.o1.o1.c1>「行ったことがあるのか、これから行くのか？ わからん、全てが曖昧なんじゃ。夢だったのかもしれんし、わしが狂人なのかもしれん、それとも本当にあいつらがわしを送り返したんじゃろうか？」</EventText.returner.o1.o1.c1>
+<EventText.returner.o1.o1.o1>「『あいつら』って誰だ？」</EventText.returner.o1.o1.o1>
+<EventText.returner.o1.o1.o1.c1>「あそこに住んでる奴らじゃ。あいつらと、あいつらの飼ってる怪物。夢であってほしい。」</EventText.returner.o1.o1.o1.c1>
+<EventText.returner.o1.o1.o1.o1>「頼むよ、『目』の中で何を見たんだ？」</EventText.returner.o1.o1.o1.o1>
+<EventText.returner.o1.o1.o1.o1.c1>「話すべきじゃなかったわい。考えるだけで脳がねじれそうじゃ。もしお前さんがあそこに行くほど愚かなら、あいつらを相手する時にせめてわしより運がいいことを祈るよ。」</EventText.returner.o1.o1.o1.o1.c1>
+<terminalwelcomemsg.endgamelog1>[再生開始]\n「よし、何かのボタンを発見した。今それを押す。」\n「押したのか？ 音がしたぞ。」\n「みんな？ 置いてかないでくれ、俺はまだ…」\n[再生終了]</terminalwelcomemsg.endgamelog1>
+<terminalwelcomemsg.endgamelog2>調査日誌：装置？\nこの人工物の凹みは、通常とは異なる用途があることを示している。だが、一体何だろう？ この迷路から脱出する方法が見つかったら、研究のために持っていくことにしよう。\n追記：我々は絶望的だ。</terminalwelcomemsg.endgamelog2>
+<charactername.prophetofsierpinsk>アフ・グラン博士</charactername.prophetofsierpinsk>
+<EventText.prophetofsierpinsk.c1>みすぼらしく見える老人に出会った。あなたに気づいた彼は、驚いた様子だ。「誰… 何… どうしてここにいるんだ？ 何か理由があって来たんだろう。終わりを見たのか？」</EventText.prophetofsierpinsk.c1>
+<EventText.prophetofsierpinsk.o1>「すみませんが、何のことかわかりません。」</EventText.prophetofsierpinsk.o1>
+<EventText.prophetofsierpinsk.o1.c1>「私は見たんだ、そして我々に残された時間があまりないことも知っている。どんなに目を背けても、放射線は我々全員を焼き尽くそうとしているのだ。」</EventText.prophetofsierpinsk.o1.c1>
+<EventText.prophetofsierpinsk.o1.c1.c1>「それで… なぜここに来たんだ？『目』を研究するためではないのか？」</EventText.prophetofsierpinsk.o1.c1.c1>
+<EventText.prophetofsierpinsk.o1.c1.o1>「『目』の中心に何があるのか知りたいのです。」</EventText.prophetofsierpinsk.o1.c1.o1>
+<EventText.prophetofsierpinsk.o1.c1.o1.c1>「それなら正しい場所に来たことになる。だが、たとえ見たとしても、理解できるかは疑問だ。君がｎ次元トポロジーについて知ってるなら別だが。」</EventText.prophetofsierpinsk.o1.c1.o1.c1>
+<EventText.prophetofsierpinsk.o1.c1.o1.o1>「それは何ですか？」</EventText.prophetofsierpinsk.o1.c1.o1.o1>
+<EventText.prophetofsierpinsk.o1.c1.o2>「私たちは木星放射線の増加を止める方法を見つけたいと思っています。」</EventText.prophetofsierpinsk.o1.c1.o2>
+<EventText.prophetofsierpinsk.o1.c1.o2.c1>「それなら、正しい場所に来たことになるが、私が役に立てるとは思えんな。君がｎ次元トポロジーについて知ってるなら別だが。」</EventText.prophetofsierpinsk.o1.c1.o2.c1>
+<EventText.prophetofsierpinsk.o1.c1.o2.o1>「それは何ですか？」</EventText.prophetofsierpinsk.o1.c1.o2.o1>
+<EventText.prophetofsierpinsk.o1.c1.o2.c1.c1>「素人にはわからんよ。カラビ・ヤウ多様体というものが、木星の放射線帯を巨大な磁石のようにねじり曲げ、全てを吸い上げて我々に降り注いでいるようなものなのだ。」</EventText.prophetofsierpinsk.o1.c1.o2.c1.c1>
+<EventText.prophetofsierpinsk.o1.c1.o2.c1.c1.c1>「これ以上説明しても仕方がないだろう。でも、もし君が「目」の中に入っていくなら、君の幸運を祈ろう。次のループで会うこともあるだろう、その時君は少し賢くなってるはずだ。もう行ってくれ。仕事に戻らないと…」</EventText.prophetofsierpinsk.o1.c1.o2.c1.c1.c1>
+<EventText.prophetofsierpinsk.o2>「知ってますよ、それがどうしたんです？」</EventText.prophetofsierpinsk.o2>
+<EventText.prophetofsierpinsk.o2.c1>「それなら、我々に残された時間が少ないこともわかるだろう。私や戻ってきた者たちは、重力異常とその向こう側にあるものについての研究をしているんだ。記憶があいまいで頼れる資料もないが… 最近は少しずつ前進しているよ。」</EventText.prophetofsierpinsk.o2.c1>
+<EventText.prophetofsierpinsk.o2.o1>「異常現象の正体がわかったのですか？」</EventText.prophetofsierpinsk.o2.o1>
+<EventText.prophetofsierpinsk.o2.o1.c1>「まだだ。だが、放射線の増加に関係があると確信している。カラビ・ヤウ多様体は、巨大な磁石のように木星の放射線帯をねじり曲げ、全てを吸い上げて我々に降り注がせているのだ。目の向こう側、負のスカラー曲率、まばゆいばかりの光、最も明るい嵐。」</EventText.prophetofsierpinsk.o2.o1.c1>
+<EventText.prophetofsierpinsk.o2.o1.o1>「目の向こう側？」</EventText.prophetofsierpinsk.o2.o1.o1>
+<EventText.prophetofsierpinsk.o2.o1.o1.c1>「どうやって、さらに重要な『いつ』かはわからんが、私や君のように、それを見て、戻ってきた者たちがいるんだ。時空の最初の3次元だけでなく、すべての次元で『戻ってきた』のだ。」</EventText.prophetofsierpinsk.o2.o1.o1.c1>
+<EventText.prophetofsierpinsk.o2.o1.o1.o1>「何を言っているんです？ タイムトラベルのことですか？」</EventText.prophetofsierpinsk.o2.o1.o1.o1>
+<EventText.prophetofsierpinsk.o2.o1.o1.o1.c1>「本当のところはわからない。だが、分かっているのは、我々は実際に何が起こっているのか漠然とした手がかりを持っている数少ない一人であり、人類が絶滅するのを止めるために何かしなければならないということだ。」</EventText.prophetofsierpinsk.o2.o1.o1.o1.c1>
+<EventText.prophetofsierpinsk.o2.o1.o1.o1.o1>「私たちの乗組員をどうにかして助けることができるでしょうか。」</EventText.prophetofsierpinsk.o2.o1.o1.o1.o1>
+<EventText.prophetofsierpinsk.o2.o1.o1.o1.o1.c1>「それはまだわからない。『目』の先に答えがあるかもしれない。次のループで会うこともあるだろう、その時君は少し賢くなってるはずだ。幸運を祈る。だが今は仕事に戻らねば。このメタ物質の高次元格子は自分ではマッピングできないんだ。」</EventText.prophetofsierpinsk.o2.o1.o1.o1.o1.c1>
+<eventtext.buttonpressed1.c1>下の方から、石と石がぶつかるような低い音が聞こえてくる。</eventtext.buttonpressed1.c1>
+<eventtext.buttonpressed2.c1>どこか遠くから低い音が聞こえる。もしかしたら、進むべき道が開かれたのだろうか。</eventtext.buttonpressed2.c1>
+<eventtext.alienwriting.start>壁面に記号がつるのように張り巡らされ、時には枝分かれしている。持ち物の中にある謎の石板が静かな音を発している。</eventtext.alienwriting.start>
+<eventtext.alienwriting.start_alt>壁面に記号がつるのように張り巡らされ、時には枝分かれしている。</eventtext.alienwriting.start_alt>
+<eventtext.alienwriting.listen>聞く</eventtext.alienwriting.listen>
+<eventtext.alienwriting.dontlisten>聞かない</eventtext.alienwriting.dontlisten>
+<eventtext.alienwriting.writingstart>心の中にある考えが浮かぶ。明確な言葉やイメージではないが、それでも理解することができる。</eventtext.alienwriting.writingstart>
+<eventtext.alienwriting.1_1>歌い手が誕生し—観客が集い\n[翻訳不能？]が広まり—揺りかごからあふれ\n我が家を—守るために—砦が築かれん</eventtext.alienwriting.1_1>
+<eventtext.alienwriting.2_1>氷の下で生命が孵化し—意識が形成され\n知識が混ざり—文明が発展さる\n危険から隔離されん</eventtext.alienwriting.2_1>
+<eventtext.alienwriting.3_1>歌は続き—成長は停滞し\n星がないのは我が家のみ\n想いがないのは[翻訳不能？]のみ</eventtext.alienwriting.3_1>
+<EventText.ancientencounter.c1>目の端に何かが現れるのが見える。それは人の形をしているが、なんとなく完全にはそこにいないような気がする。その特徴は、理解が追いつくのと同じくらい速く変化する。\nそれはまるで柔らかい愛撫のように、頭の中に思考のツルを伸ばし、優しく包み込んでいくのだ。\n「侵入者よ、止まれ。お前は他人の聖地に足を踏み入れているのだ。ここには何もない。」</EventText.ancientencounter.c1>
+<EventText.ancientencounter.o1>「あなたは誰ですか？」</EventText.ancientencounter.o1>
+<EventText.ancientencounter.o1.c1>「我は我ではなく、我々でもない。そこには、ひたむきに歌われるヨーウェイの歌だけがある。その歌声に耳を傾け… そして夢を見るのだ。」</EventText.ancientencounter.o1.c1>
+<EventText.ancientencounter.o1.o1>「では、ひたむきな人々とは誰なんですか？」</EventText.ancientencounter.o1.o1>
+<EventText.ancientencounter.o1.o1.c1>黒い石の壁に囲まれた混雑した廊下が脳裏に浮かぶ。「建築家、探検家、発明家。しかし、彼らがかつて建設したものは、今、廃墟と化している。彼らが探検したものは、今は失われている。彼らが発明したものは、今、変質している。残るはヨーウェイの歌のみ。聴かぬ者は退散せよ。」</EventText.ancientencounter.o1.o1.c1>
+<EventText.ancientencounter.o1.o1.o1>「ヨーウェイとは？」</EventText.ancientencounter.o1.o1.o1>
+<EventText.ancientencounter.o1.o1.o1.c1>「それは歌うもの。彼らの欲望から生まれ、彼らの愚行から成長した。」</EventText.ancientencounter.o1.o1.o1.c1>
+<EventText.ancientencounter.o1.o1.o1.o1>「そしてあなたは… その歌を聴くのですか？」</EventText.ancientencounter.o1.o1.o1.o1>
+<EventText.ancientencounter.o1.o1.o1.o1.c1>「聴衆、崇拝者、囚人。彼らは永遠に耳を傾け、何時も沈黙を願ってきた。」</EventText.ancientencounter.o1.o1.o1.o1.c1>
+<EventText.ancientencounter.o1.o1.o1.o1.o1>「なぜ聴くことを止めないのですか？ 無視しているのですか？」</EventText.ancientencounter.o1.o1.o1.o1.o1>
+<EventText.ancientencounter.o1.o1.o1.o1.o1.c1>「歌うものと聴くものは繋がっている。一方は他方なしには存在し得ない。一方が他方のひたむきさを引き寄せるように、他方も一方の生命力を引き寄せるのだ。一方を黙らせることは、他方を終わらせることになる。」</EventText.ancientencounter.o1.o1.o1.o1.o1.c1>
+<EventText.ancientencounter.o1.o1.o1.o1.o1.o1>「そうあってほしいと思っているように聞こえますが。」</EventText.ancientencounter.o1.o1.o1.o1.o1.o1>
+<EventText.ancientencounter.o1.o1.o1.o1.o1.o1.c1>実体はすぐには答えない。「ひたむきな人々は、ヨーウェイを守るために殻を築いた。パイロンが立っている限り殻は割れない。殻が割れない限り、歌い手もそのままだ。わかるか？」その声には、ほんの少し、希望が感じられる。</EventText.ancientencounter.o1.o1.o1.o1.o1.o1.c1>
+<EventText.ancientencounter.o1.o1.o1.o1.o1.o1.o1>「わかります。」</EventText.ancientencounter.o1.o1.o1.o1.o1.o1.o1>
+<EventText.ancientencounter.o1.o1.o2>「聴きたいですね。」</EventText.ancientencounter.o1.o1.o2>
+<EventText.ancientencounter.o1.o1.o2.c1>突然の激痛にあなたはたじろぐ。「お前はだめだ。そうする者には破滅が訪れる。」</EventText.ancientencounter.o1.o1.o2.c1>
+<EventText.ancientencounterfinal>「我々の歌は歌われたが、お前の歌は何節あるかわからない。橋は崩壊しているが、まだ渡って帰ることができる。我々には星がなく、家しかない。しかし、お前には空がある。お前の犠牲を彼らは知る由もないが、我々は知っている。」</EventText.ancientencounterfinal>
+<campaignstart1>21世紀初頭、木星の衛星エウロパの氷と放射線に覆われた地表の下には、微生物が生息する広大な海があることが発見された。\n\nその後、初の有人宇宙飛行が行われ、微生物だけでなく、高度で危険な水中動物が生息していることが確認された。野生生物だけでなく、木星から放出される危険な放射線、エウロパの海の強烈な冷たさと高圧など、研究者たちは過酷な試練に直面した。</campaignstart1>
+<campaignstart2>それでも、地球人入植者たちは居住可能な前哨基地をいくつか建設し、そこで何十年にもわたって新しい生活様式を発展させていった。衛星で最も大きく、影響力のある都市の連合によって、新しい統治体制が形成された。\n\nその後、エウロパの社会はますます地球から切り離されていった。50年前、完全に連絡が途絶え、それ以来、補給船は到着していない。</campaignstart2>
+<campaignstart3>木星からの致命的な放射線を避けるため、人類はより深く潜り、新しい居住可能場所を探索した。生物の攻撃から市民を守り、ステーション間の供給ラインを確立するため、水中での移動手段と乗り物はこの新しい社会で重要な役割を担っている。\n\n潜水艦乗組員の生活は危険ではあるが、短時間で儲けることが可能だ。あなたはこの挑戦を受けて、自分自身の乗組員を作ることにした。買ったばかりの[submarine]を[location]に停泊させ、エウロパの海を探検し、コロニーの拡張に貢献し、この地を自分のものにするのだ。</campaignstart3>
+<campaignending1>重力崩壊、Tプラス 02:14:39\n\n「こちら地上観測所エコー5。またここで… 何かが… 起こったようだ。聞こえるか、どうぞ？」\n\n「地上観測所エコー5、こちらメリベール・リネア前哨基地。よく聞こえる、どうぞ。」</campaignending1>
+<campaignending2>「木星の大赤斑だ。何と表現すべきか、まるで静寂に包まれたようだ。放射線量は異常に低下した。そちらの様子はどうだ？ 何か新しい報告はあるか？ どうぞ。」\n\n「こちらも放射線量は低く、安定している。重力も同様だ。アフ・グラン博士と連絡を取ったが、我々同様この件について困惑しているようだった。博士は以前、基地を通って行った[submarine]の乗組員の話をしていたが、それが関係があるのかどうかはわからない、どうぞ。」</campaignending2>
+<campaignending3>「その乗組員とは連絡が取れないのか？ どうぞ。」\n\n「ああ、まだ取れていない。アフ・グラン博士は、この世界ではもう二度と出会えないと確信しているようだった。時空間超次元とかなんとか？ いつもの戯言だ。どうぞ。」\n\n「まあ、もし彼らの仕業なら、脱帽するよ。彼らが今航海している場所に、良い天気と穏やかな海を。通信終わり。」</campaignending3>
+
+</infotexts>
