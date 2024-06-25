@@ -107,7 +107,7 @@
   >
   > ![本地引擎](https://github.com/MoyouDE/ATranslator-Homepage/assets/44468640/48750c4d-1d5d-4646-bd65-44688c8eeb57)
   >
-  > 初始时只有一个 `原始模型` ，可以在 [训练模型](https://github.com/MoyouDE/ATranslator-Homepage/edit/main/README.md#4-%E5%85%B3%E4%BA%8E-%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83-%E7%9A%84%E8%AF%B4%E6%98%8E) 处 通过训练得到 新的 `微调模型`
+  > 初始时只有一个 `原始模型` ，可以在 [模型训练](https://github.com/MoyouDE/ATranslator-Homepage/tree/main?tab=readme-ov-file#4-%E5%85%B3%E4%BA%8E-%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83-%E7%9A%84%E8%AF%B4%E6%98%8E) 处 通过训练得到 新的 `微调模型`
   >
   >  </details> 
   
