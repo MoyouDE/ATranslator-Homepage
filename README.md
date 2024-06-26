@@ -1,5 +1,5 @@
 # ATranslator
- [点此下载最新版本启动器](https://github.com/MoyouDE/ATranslator-Homepage/releases/download/1.1.0/ATranslator_Launcher.zip)
+ [点此下载最新版本启动器](https://github.com/MoyouDE/ATranslator-Homepage/releases/download/1.1.0/ATranslator_Launcher_1.1.0.zip)
 
 ## 介绍
 这是一款专为游戏文本翻译设计的 ``免费Ai辅助CAT工具`` ，你也可以将其用于任意形式的文本翻译  
