@@ -117,7 +117,7 @@
   
     经过机器翻译的文本块 会被标记为`已翻译状态(黄色)`，以提示你需要进行二次确认，你可以通过 手动编辑译文 ，或者点击文本块右侧的 确认按钮 将其标记为 `确认状态(绿色)`
     > 批量翻译按钮只会对 `未修改状态(灰色)` 状态的文本进行翻译，不必担心覆盖已修正的文本内容
-    > 你还可以使用[对比翻译]()来同时获得多个引擎的翻译结果
+    > 你还可以使用[对比翻译](https://github.com/MoyouDE/ATranslator-Homepage/blob/main/README.md#6-%E5%85%B3%E4%BA%8E-%E5%AF%B9%E6%AF%94%E7%BF%BB%E8%AF%91-%E7%9A%84%E8%AF%B4%E6%98%8E)来同时获得多个引擎的翻译结果
     > 什么是[文本状态](https://github.com/MoyouDE/ATranslator-Homepage/tree/main?tab=readme-ov-file#3-%E5%85%B3%E4%BA%8E-%E6%96%87%E6%9C%AC%E7%8A%B6%E6%80%81-%E7%9A%84%E8%AF%B4%E6%98%8E)
   
 - #### 4 完成翻译工作后可通过 导出 功能获得翻译版本的文件
