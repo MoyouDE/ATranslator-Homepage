@@ -1,7 +1,7 @@
 # ATranslator
  [点此下载最新版本启动器](https://github.com/MoyouDE/ATranslator-Homepage/releases/download/1.2.1/Atranslator_Launch_1.2.1.zip)
 
-## 介绍
+## 介绍 :cat:
 这是一款专为游戏文本翻译设计的 ``免费Ai辅助CAT工具`` ，你也可以将其用于任意形式的文本翻译  
 
 此工具 ``集成多种翻译api`` 以及 ``直观的编辑界面`` ，即使外语小白也能轻松做到细致的翻译  
@@ -13,7 +13,13 @@
 >欢迎各位 游戏开发 / 汉化 团体与个人 使用。  
 >本软件目前处于测试阶段，如有任何 __Bug反馈__ 或 __建议__ 请提交于此仓库[Issues](https://github.com/MoyouDE/ATranslator-Homepage/issues)页面 :smile:
 
-## 使用教程
+## 投喂加速更新 :heart:
+<img src="https://github.com/user-attachments/assets/3b2c472d-0b14-4229-aae6-46c546c4856c" width="200" alt="二维码1"/>
+
+<img src="https://github.com/user-attachments/assets/d5be23c0-7027-4278-a3d4-59e85f12bf09" width="200" alt="二维码2"/>
+
+
+## 使用教程 :rocket:
 
 ## 1. 如何安装/更新
 - 你可以在此页面顶部找到最新版启动器的下载连接，直接点击下载  
